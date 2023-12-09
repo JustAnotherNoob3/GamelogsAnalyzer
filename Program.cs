@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Runtime.ExceptionServices;
+using System.Text.RegularExpressions;
 using System.Xml;
 using System.Linq;
 using System.Net;
@@ -11,7 +12,7 @@ class Program
     {
         Console.WriteLine("Gamelogs analyzer.");
         string name = "";
-        string rootdir = Path.GetDirectoryName( Assembly.GetEntryAssembly( ).Location);
+        string rootdir = Path.GetDirectoryName( Assembly.GetEntryAssembly( )!.Location!)!;
         string dir = "";
         initialize:
         Console.WriteLine("please write the name of the folder that contains all html. (Must be on the same folder as this program).");
@@ -25,13 +26,14 @@ class Program
         if(!File.Exists(csv)){
             Console.WriteLine($"Creating output.csv");
             File.Create(csv).Close();
-            File.WriteAllText(csv, "Date, # of admirers, # of amnes, # of seers, # of jailors, # of BGs, # of clerics, # of retris, # of invests, # of Mayors, # of tricksters, # of psychics, # of vets, # of Deputies, # of Prosecutors, # of sheriffs, # of LOs, # of vigis, # of crus, # of spies, # of monarchs, # of trackers, # of Coroners, Had Illu, Had CL, Had Enchanter, had poisoner, had conj, had dusa, had jinx, had VM, had HM, had witch, had wildling, had necro, had rit, had DW, had PM, # of WWs, # of shrouds, # of sks, # of jesters, # of exes, # of doomsayers, # of arsos, had pirate, had baker, had bers, had PB, had SC, # of jest wins, # of doomsayer wins, pirate won, # of exe wins, # of dcs, roles of dcs, roles alive at the end of the match, faction win, How they won");
+            File.WriteAllText(csv, "Date, # of admirers, # of amnes, # of seers, # of jailors, # of BGs, # of clerics, # of retris, # of invests, # of Mayors, # of tricksters, # of psychics, # of vets, # of Deputies, # of Prosecutors, # of sheriffs, # of LOs, # of vigis, # of crus, # of spies, # of monarchs, # of trackers, # of Coroners, Had Illu, Had CL, Had Enchanter, had poisoner, had conj, had dusa, had jinx, had VM, had HM, had witch, had wildling, had necro, had rit, had DW, had PM, # of WWs, # of shrouds, # of sks, # of arsos, # of jesters, # of exes, # of doomsayers, had pirate, had baker, had bers, had PB, had SC, # of jest wins, # of doomsayer wins, pirate won, # of exe wins, # of dcs, roles of dcs, roles alive at the end of the match, faction win, How they won");
         } else {
             Console.WriteLine($"output.csv already exists, do you want to erase all the data within?(you can create a copy if you want) type 'y' if yes.");
-            if(Console.ReadLine() == "y") File.WriteAllText(csv, "Date, # of admirers, # of amnes, # of seers, # of jailors, # of BGs, # of clerics, # of retris, # of invests, # of Mayors, # of tricksters, # of psychics, # of vets, # of Deputies, # of Prosecutors, # of sheriffs, # of LOs, # of vigis, # of crus, # of spies, # of monarchs, # of trackers, # of Coroners, Had Illu, Had CL, Had Enchanter, had poisoner, had conj, had dusa, had jinx, had VM, had HM, had witch, had wildling, had necro, had rit, had DW, had PM, # of WWs, # of shrouds, # of sks, # of jesters, # of exes, # of doomsayers, # of arsos, had pirate, had baker, had bers, had PB, had SC, # of jest wins, # of doomsayer wins, pirate won, # of exe wins, # of dcs, roles of dcs, roles alive at the end of the match, faction win, How they won");
+            if(Console.ReadLine() == "y") File.WriteAllText(csv, "Date, # of admirers, # of amnes, # of seers, # of jailors, # of BGs, # of clerics, # of retris, # of invests, # of Mayors, # of tricksters, # of psychics, # of vets, # of Deputies, # of Prosecutors, # of sheriffs, # of LOs, # of vigis, # of crus, # of spies, # of monarchs, # of trackers, # of Coroners, Had Illu, Had CL, Had Enchanter, had poisoner, had conj, had dusa, had jinx, had VM, had HM, had witch, had wildling, had necro, had rit, had DW, had PM, # of WWs, # of shrouds, # of sks, # of arsos, # of jesters, # of exes, # of doomsayers, had pirate, had baker, had bers, had PB, had SC, # of jest wins, # of doomsayer wins, pirate won, # of exe wins, # of dcs, roles of dcs, roles alive at the end of the match, faction win, How they won");
         }
         string gamelogs = "";
         string[] files = Directory.GetFiles(dir);
+        string corrup = "";
         foreach(string file in files){
             Game game = new();
             string fileName = Path.GetFileNameWithoutExtension(file);
@@ -64,23 +66,23 @@ class Program
                 Console.WriteLine($"Detected a transformed role, turning first {match.Groups[1].Value} into {match.Groups[2].Value}");
                 game.Roles[game.Roles.FirstOrDefault(x => x.Value == Enum.Parse<Game.Role>(match.Groups[1].Value.Replace(" ", "").ToUpper())).Key] = Enum.Parse<Game.Role>(match.Groups[2].Value.Replace(" ", "").ToUpper());
             }
-            matches = Regex.Matches(html, "<span style=\"background-color:#(?:FF0000|000000); color:#FFFFFF\"><br>(?:<style=Mention><font=\"Game SDF\" material=\"Game SDF - Mentions\"><link=\"\\d+\">(?:<sprite=\"[A-Za-z]+\" name=\"PlayerNumbers_\\d+\">)?<color=#[A-Za-z0-9]+>)?(?:<b>)?([A-Za-z0-9 ]+)(?:</b>)?(?:</color></link></font></style>)? died (?:last night|today)\\.(?:.+)?</span>");
+            matches = Regex.Matches(html, "<span style=\"background-color:#(?:FF0000|000000); color:#FFFFFF\"><br>(?:<style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"\\d+\">(?:<sprite=\"[A-Za-z]+\" name=\"PlayerNumbers_\\d+\">)?(?:<color=#[A-Za-z0-9]+>)?)?(?:<b>)?([A-Za-z0-9 ]+)(?:</b>)?(?:(?:</color>)?</link></font></style>)? died (?:last night|today)\\.(?:.+)?</span>");
            foreach (Match match in matches)
            {
                 Game.Role l = actualRoles[match.Groups[1].Value];
                 if((int)l > 100) l = (Game.Role)((int)l - 100);
                 game.playersAlive.Remove(l);
            }
-           MatchCollection jestWins = Regex.Matches(html, "<span style=\"background-color:#FF0000; color:#FFFFFF\"><br>The <style=Mention><font=\"Game SDF\" material=\"Game SDF - Mentions\"><link=\"r45\">(?:<sprite=\"RoleIcons\" name=\"Role45\">)?<b><color=#[A-Za-z0-9]+>Jester</color></b></link></font></style> will get their revenge from the grave!</span>");
-           MatchCollection exeWins = Regex.Matches(html, "<span style=\"background-color:#FF0000; color:#FFFFFF\"><br>The <style=Mention><font=\"Game SDF\" material=\"Game SDF - Mentions\"><link=\"r44\">(?:<sprite=\"RoleIcons\" name=\"Role44\">)?<b><color=#[A-Za-z0-9]+>Executioner</color></b></link></font></style> successfully got their target hanged!</span>");
+           MatchCollection jestWins = Regex.Matches(html, "<span style=\"background-color:#FF0000; color:#FFFFFF\"><br>The <style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?>(?:<sprite=\"RoleIcons\" name=\"Role45\">)?<b><color=#[A-Za-z0-9]+>Jester</color></b></link></font></style> will get their revenge from the grave!</span>");
+           MatchCollection exeWins = Regex.Matches(html, "<span style=\"background-color:#FF0000; color:#FFFFFF\"><br>The <style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"r44\">(?:<sprite=\"RoleIcons\" name=\"Role44\">)?<b><color=#[A-Za-z0-9]+>Executioner</color></b></link></font></style> successfully got their target hanged!</span>");
            for(int i = 0; i<exeWins.Count;i++){
             game.playersAlive.Remove(Game.Role.EXECUTIONER);
            }
-           MatchCollection doomWins = Regex.Matches(html, "<span style=\"background-color:#000000; color:#FF7F66\"><br><b>[A-Za-z0-9 ]+</b> accomplished their goal as <style=Mention><font=\"Game SDF\" material=\"Game SDF - Mentions\"><link=\"r43\">(?:<sprite=\"RoleIcons\" name=\"Role43\">)?<b><color=#[A-Za-z0-9]+>Doomsayer</color></b></link></font></style> and left town.</span>");
+           MatchCollection doomWins = Regex.Matches(html, "<span style=\"background-color:#000000; color:#FF7F66\"><br><b>[A-Za-z0-9 ]+</b> accomplished their goal as <style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"r43\">(?:<sprite=\"RoleIcons\" name=\"Role43\">)?<b><color=#[A-Za-z0-9]+>Doomsayer</color></b></link></font></style> and left town.</span>");
            for(int i = 0; i<doomWins.Count;i++){
             game.playersAlive.Remove(Game.Role.DOOMSAYER);
            }
-           MatchCollection pirateWins = Regex.Matches(html, "<span style=\"background-color:#000000; color:#FF7F66\"><br><b>[A-Za-z0-9 ]+</b> accomplished their goal as <style=Mention><font=\"Game SDF\" material=\"Game SDF - Mentions\"><link=\"r46\">(?:<sprite=\"RoleIcons\" name=\"Role46\">)?<b><color=#[A-Za-z0-9]+>Pirate</color></b></link></font></style> and left town.</span>");
+           MatchCollection pirateWins = Regex.Matches(html, "<span style=\"background-color:#000000; color:#FF7F66\"><br><b>[A-Za-z0-9 ]+</b> accomplished their goal as <style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"r46\">(?:<sprite=\"RoleIcons\" name=\"Role46\">)?<b><color=#[A-Za-z0-9]+>Pirate</color></b></link></font></style> and left town.</span>");
            for(int i = 0; i<pirateWins.Count;i++){
             game.playersAlive.Remove(Game.Role.PIRATE);
            }
@@ -96,14 +98,15 @@ class Program
            string winnedBy = "Killing opposing factions";
            Game.Faction factWin = game.playersAlive.GetWinningFaction();
            if(factWin == Game.Faction.Draw){
-            if(Regex.IsMatch(html, "<span style=\"background-color:#FF5500; color:#FFFFFF\"><br>(?:[A-Za-z0-9 ,.!-<=/>\"]+)?<style=Mention><font=\"Game SDF\" material=\"Game SDF - Mentions\"><link=\"r253\">(?:<sprite=\"RoleIcons\" name=\"Role253\">)?<b><color=#[A-Za-z0-9]+>Death</color></b></link></font></style>(?:[A-Za-z0-9 ,.!-<=/>\"]+)?</span>") && game.playersAlive.Contains(Game.Role.SOULCOLLECTOR)) {factWin = Game.Faction.Apocalypse; winnedBy = "Death Transformation";}
+            if(Regex.IsMatch(html, "<span style=\"background-color:#FF5500; color:#FFFFFF\"><br>(?:[A-Za-z0-9 ,.!-<=/>\"]+)?<style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"r253\">(?:<sprite=\"RoleIcons\" name=\"Role253\">)?<b><color=#[A-Za-z0-9]+>Death</color></b></link></font></style>(?:[A-Za-z0-9 ,.!-<=/>\"]+)?</span>") && game.playersAlive.Contains(Game.Role.SOULCOLLECTOR)) {factWin = Game.Faction.Apocalypse; winnedBy = "Death Transformation";}
             else if(game.playersAlive.Contains(Game.Role.HEXMASTER)) {factWin = Game.Faction.Coven;winnedBy = "Hex-Bomb";}
             else if(game.playersAlive.Contains(Game.Role.SERIALKILLER) && game.playersAlive.Contains(Game.Role.SHROUD) && game.playersAlive.Count == 2) {factWin = Game.Faction.Draw;winnedBy = "None";}
-            else if(game.playersAlive.Count(x => (int)x < 48) > 0) {factWin = Game.Faction.Likely_Draw;gamelogs+=$"{fileName}, "; winnedBy = "None";}
+            else if(game.playersAlive.Count(x => ((int)x < 48)) > 0 && game.playersAlive.Count < 15) {factWin = Game.Faction.Unknown;gamelogs+=$"{fileName}, "; winnedBy = "None";}
+            else if(game.playersAlive.Count == 15) {factWin = Game.Faction.Corrupted;corrup+=$"{fileName}, "; winnedBy = "None";}
             else winnedBy = "None";
            }
            Console.WriteLine($"Faction who won: {factWin} via {winnedBy}");
-           MatchCollection dcs = Regex.Matches(html, "<span style=\"background-color:#(?:FF0000|000000); color:#FFFFFF\"><br><b>([A-Za-z0-9 ]+)</b> died (?:last night|today)\\.</span>[\\S\\s]+<span style=\"background-color:#(FF0000|000000); color:#FFFFFF\"><br>(.+)?They (also )?disconnected from life\\.</span>");
+           MatchCollection dcs = Regex.Matches(html, "<span style=\"background-color:#(?:FF0000|000000); color:#FFFFFF\"><br>(?:<style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"\\d+\">(?:<sprite=\"[A-Za-z]+\" name=\"PlayerNumbers_\\d+\">)?(?:<color=#[A-Za-z0-9]+>)?)?(?:<b>)?([A-Za-z0-9 ]+)(?:</b>)?(?:(?:</color>)?</link></font></style>)? died (?:last night|today)\\.(?:.+)?</span>[\\S\\s]+<span style=\"background-color:#(FF0000|000000); color:#FFFFFF\"><br>(.+)?They (also )?disconnected from life\\.</span>");
            string nDcs = "";
            Console.WriteLine($"{dcs.Count} dc(s) detected.");
            if(dcs.Count != 0){
@@ -115,13 +118,18 @@ class Program
            }
            
            
-           File.AppendAllText(csv, $"\n{fileName}, {game.Roles.GetNumberOf(Game.Role.ADMIRER)}, {game.Roles.GetNumberOf(Game.Role.AMNESIAC)}, {game.Roles.GetNumberOf(Game.Role.SEER)}, {game.Roles.GetNumberOf(Game.Role.JAILOR)}, {game.Roles.GetNumberOf(Game.Role.BODYGUARD)}, {game.Roles.GetNumberOf(Game.Role.CLERIC)}, {game.Roles.GetNumberOf(Game.Role.RETRIBUTIONIST)}, {game.Roles.GetNumberOf(Game.Role.INVESTIGATOR)}, {game.Roles.GetNumberOf(Game.Role.MAYOR)}, {game.Roles.GetNumberOf(Game.Role.TRICKSTER)}, {game.Roles.GetNumberOf(Game.Role.PSYCHIC)}, {game.Roles.GetNumberOf(Game.Role.VETERAN)}, {game.Roles.GetNumberOf(Game.Role.DEPUTY)}, {game.Roles.GetNumberOf(Game.Role.PROSECUTOR)}, {game.Roles.GetNumberOf(Game.Role.SHERIFF)}, {game.Roles.GetNumberOf(Game.Role.LOOKOUT)}, {game.Roles.GetNumberOf(Game.Role.VIGILANTE)}, {game.Roles.GetNumberOf(Game.Role.CRUSADER)}, {game.Roles.GetNumberOf(Game.Role.SPY)}, {game.Roles.GetNumberOf(Game.Role.MONARCH)}, {game.Roles.GetNumberOf(Game.Role.TRACKER)}, {game.Roles.GetNumberOf(Game.Role.CORONER)}, {game.Roles.GetNumberOf(Game.Role.ILLUSIONIST)}, {game.Roles.GetNumberOf(Game.Role.COVENLEADER)}, {game.Roles.GetNumberOf(Game.Role.ENCHANTER)}, {game.Roles.GetNumberOf(Game.Role.POISONER)}, {game.Roles.GetNumberOf(Game.Role.CONJURER)}, {game.Roles.GetNumberOf(Game.Role.MEDUSA)}, {game.Roles.GetNumberOf(Game.Role.JINX)}, {game.Roles.GetNumberOf(Game.Role.VOODOOMASTER)}, {game.Roles.GetNumberOf(Game.Role.HEXMASTER)}, {game.Roles.GetNumberOf(Game.Role.WITCH)}, {game.Roles.GetNumberOf(Game.Role.WILDLING)}, {game.Roles.GetNumberOf(Game.Role.NECROMANCER)}, {game.Roles.GetNumberOf(Game.Role.RITUALIST)}, {game.Roles.GetNumberOf(Game.Role.DREAMWEAVER)}, {game.Roles.GetNumberOf(Game.Role.POTIONMASTER)}, {game.Roles.GetNumberOf(Game.Role.WEREWOLF)}, {game.Roles.GetNumberOf(Game.Role.SHROUD)}, {game.Roles.GetNumberOf(Game.Role.SERIALKILLER)}, {game.Roles.GetNumberOf(Game.Role.JESTER)}, {game.Roles.GetNumberOf(Game.Role.EXECUTIONER)}, {game.Roles.GetNumberOf(Game.Role.DOOMSAYER)}, {game.Roles.GetNumberOf(Game.Role.ARSONIST)}, {game.Roles.GetNumberOf(Game.Role.PIRATE)}, {game.Roles.GetNumberOf(Game.Role.BAKER)}, {game.Roles.GetNumberOf(Game.Role.BERSERKER)}, {game.Roles.GetNumberOf(Game.Role.PLAGUEBEARER)}, {game.Roles.GetNumberOf(Game.Role.SOULCOLLECTOR)}, {jestWins.Count}, {doomWins.Count}, {pirateWins.Count}, {exeWins.Count}, {dcs.Count}, {nDcs}, {aliveRoles}, {factWin.ToString().Replace("_", " ")}, {winnedBy}");
+           File.AppendAllText(csv, $"\n{fileName}, {game.Roles.GetNumberOf(Game.Role.ADMIRER)}, {game.Roles.GetNumberOf(Game.Role.AMNESIAC)}, {game.Roles.GetNumberOf(Game.Role.SEER)}, {game.Roles.GetNumberOf(Game.Role.JAILOR)}, {game.Roles.GetNumberOf(Game.Role.BODYGUARD)}, {game.Roles.GetNumberOf(Game.Role.CLERIC)}, {game.Roles.GetNumberOf(Game.Role.RETRIBUTIONIST)}, {game.Roles.GetNumberOf(Game.Role.INVESTIGATOR)}, {game.Roles.GetNumberOf(Game.Role.MAYOR)}, {game.Roles.GetNumberOf(Game.Role.TRICKSTER)}, {game.Roles.GetNumberOf(Game.Role.PSYCHIC)}, {game.Roles.GetNumberOf(Game.Role.VETERAN)}, {game.Roles.GetNumberOf(Game.Role.DEPUTY)}, {game.Roles.GetNumberOf(Game.Role.PROSECUTOR)}, {game.Roles.GetNumberOf(Game.Role.SHERIFF)}, {game.Roles.GetNumberOf(Game.Role.LOOKOUT)}, {game.Roles.GetNumberOf(Game.Role.VIGILANTE)}, {game.Roles.GetNumberOf(Game.Role.CRUSADER)}, {game.Roles.GetNumberOf(Game.Role.SPY)}, {game.Roles.GetNumberOf(Game.Role.MONARCH)}, {game.Roles.GetNumberOf(Game.Role.TRACKER)}, {game.Roles.GetNumberOf(Game.Role.CORONER)}, {game.Roles.GetNumberOf(Game.Role.ILLUSIONIST)}, {game.Roles.GetNumberOf(Game.Role.COVENLEADER)}, {game.Roles.GetNumberOf(Game.Role.ENCHANTER)}, {game.Roles.GetNumberOf(Game.Role.POISONER)}, {game.Roles.GetNumberOf(Game.Role.CONJURER)}, {game.Roles.GetNumberOf(Game.Role.MEDUSA)}, {game.Roles.GetNumberOf(Game.Role.JINX)}, {game.Roles.GetNumberOf(Game.Role.VOODOOMASTER)}, {game.Roles.GetNumberOf(Game.Role.HEXMASTER)}, {game.Roles.GetNumberOf(Game.Role.WITCH)}, {game.Roles.GetNumberOf(Game.Role.WILDLING)}, {game.Roles.GetNumberOf(Game.Role.NECROMANCER)}, {game.Roles.GetNumberOf(Game.Role.RITUALIST)}, {game.Roles.GetNumberOf(Game.Role.DREAMWEAVER)}, {game.Roles.GetNumberOf(Game.Role.POTIONMASTER)}, {game.Roles.GetNumberOf(Game.Role.WEREWOLF)}, {game.Roles.GetNumberOf(Game.Role.SHROUD)}, {game.Roles.GetNumberOf(Game.Role.SERIALKILLER)}, {game.Roles.GetNumberOf(Game.Role.ARSONIST)}, {game.Roles.GetNumberOf(Game.Role.JESTER)}, {game.Roles.GetNumberOf(Game.Role.EXECUTIONER)}, {game.Roles.GetNumberOf(Game.Role.DOOMSAYER)}, {game.Roles.GetNumberOf(Game.Role.PIRATE)}, {game.Roles.GetNumberOf(Game.Role.BAKER)}, {game.Roles.GetNumberOf(Game.Role.BERSERKER)}, {game.Roles.GetNumberOf(Game.Role.PLAGUEBEARER)}, {game.Roles.GetNumberOf(Game.Role.SOULCOLLECTOR)}, {jestWins.Count}, {doomWins.Count}, {pirateWins.Count}, {exeWins.Count}, {dcs.Count}, {nDcs}, {aliveRoles}, {factWin.ToString().Replace("_", " ")}, {winnedBy}");
         }
-        Console.WriteLine($"These are gamelogs that i cannot secure are a draw, you should go and manually check if they were (marked as \"Likely Draw\" in output.csv), they are usually auto-wins:");
+        if(gamelogs.Length > 0){
+        Console.WriteLine($"These are gamelogs that i cannot know who won, you should go and manually check if they were (marked as \"Unknown\" in output.csv), they are usually auto-wins:");
         Console.WriteLine(gamelogs.Remove(gamelogs.Length-2));
+        }
+        if(corrup.Length > 0){
+        Console.WriteLine("Corrupted Gamelogs: ");
+        Console.WriteLine(corrup.Remove(corrup.Length-2));
+        }
         Console.WriteLine($"output.csv saved in {csv}");
-        Console.WriteLine($"Press any key twice to close the program.");
-        Console.ReadKey();
+        Console.WriteLine($"Press any key to close the program.");
         Console.ReadKey();
     }
 }
@@ -229,7 +237,8 @@ class Game{
         Shrouds,
         Werewolves,
         Apocalypse,
-        Likely_Draw
+        Unknown,
+        Corrupted
     };
     public Dictionary<string,Role> Roles = new();
     public List<Role> playersAlive = new();
