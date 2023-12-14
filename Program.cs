@@ -73,18 +73,24 @@ class Program
                 if((int)l > 100) l = (Game.Role)((int)l - 100);
                 game.playersAlive.Remove(l);
            }
-           MatchCollection jestWins = Regex.Matches(html, "<span style=\"background-color:#FF0000; color:#FFFFFF\"><br>The <style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?>(?:<sprite=\"RoleIcons\" name=\"Role45\">)?<b><color=#[A-Za-z0-9]+>Jester</color></b></link></font></style> will get their revenge from the grave!</span>");
-           MatchCollection exeWins = Regex.Matches(html, "<span style=\"background-color:#FF0000; color:#FFFFFF\"><br>The <style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"r44\">(?:<sprite=\"RoleIcons\" name=\"Role44\">)?<b><color=#[A-Za-z0-9]+>Executioner</color></b></link></font></style> successfully got their target hanged!</span>");
+           MatchCollection jestWins = Regex.Matches(html, "<span style=\"background-color:#(?:FF0000|000000); color:#FFFFFF\"><br>The <style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?>(?:<link=\"r45\">)?(?:<sprite=\"RoleIcons\" name=\"Role45\">)?<b><color=#[A-Za-z0-9]+>Jester</color></b></link></font></style> will get their revenge from the grave!</span>");
+           MatchCollection exeWins = Regex.Matches(html, "<span style=\"background-color:#(?:FF0000|000000); color:#FFFFFF\"><br>The <style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?>(?:<link=\"r44\">)?(?:<sprite=\"RoleIcons\" name=\"Role44\">)?(?:<b>)?<color=#[A-Za-z0-9]+>Executioner</color></b></link></font></style> (has )?successfully got(ten)? their target hanged!</span>");
            for(int i = 0; i<exeWins.Count;i++){
-            game.playersAlive.Remove(Game.Role.EXECUTIONER);
+            Console.WriteLine("Removing winner Exe");
+            bool a = game.playersAlive.Remove(Game.Role.EXECUTIONER);
+            Console.WriteLine(a);
            }
-           MatchCollection doomWins = Regex.Matches(html, "<span style=\"background-color:#000000; color:#FF7F66\"><br><b>[A-Za-z0-9 ]+</b> accomplished their goal as <style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"r43\">(?:<sprite=\"RoleIcons\" name=\"Role43\">)?<b><color=#[A-Za-z0-9]+>Doomsayer</color></b></link></font></style> and left town.</span>");
+           MatchCollection doomWins = Regex.Matches(html, "<span style=\"background-color:#000000; color:#FF7F66\"><br>(?:<style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"\\d+\"><sprite=\"PlayerNumbers\" name=\"PlayerNumbers_\\d+\"><color=#[A-Za-z0-9]+>)?(?:<b>)?[A-Za-z0-9 ]+(?:</b>)?(</color></link></font></style>)? (?:has )?accomplished their goal as <style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"r43\">(?:<sprite=\"RoleIcons\" name=\"Role43\">)?<b><color=#[A-Za-z0-9]+>Doomsayer</color></b></link></font></style> and left town.</span>");
            for(int i = 0; i<doomWins.Count;i++){
-            game.playersAlive.Remove(Game.Role.DOOMSAYER);
+            Console.WriteLine("Removing winner Doomsayer");
+            bool a = game.playersAlive.Remove(Game.Role.DOOMSAYER);
+            Console.WriteLine($"successful? {a}");
            }
-           MatchCollection pirateWins = Regex.Matches(html, "<span style=\"background-color:#000000; color:#FF7F66\"><br><b>[A-Za-z0-9 ]+</b> accomplished their goal as <style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"r46\">(?:<sprite=\"RoleIcons\" name=\"Role46\">)?<b><color=#[A-Za-z0-9]+>Pirate</color></b></link></font></style> and left town.</span>");
+           MatchCollection pirateWins = Regex.Matches(html, "<span style=\"background-color:#000000; color:#FF7F66\"><br>(?:<style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"\\d+\"><sprite=\"PlayerNumbers\" name=\"PlayerNumbers_\\d+\"><color=#[A-Za-z0-9]+>)?(?:<b>)?[A-Za-z0-9 ]+(?:</b>)?(</color></link></font></style>)? (?:has )?accomplished their goal as <style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"r46\">(?:<sprite=\"RoleIcons\" name=\"Role46\">)?<b><color=#[A-Za-z0-9]+>Pirate</color></b></link></font></style> and left town.</span>");
            for(int i = 0; i<pirateWins.Count;i++){
-            game.playersAlive.Remove(Game.Role.PIRATE);
+            Console.WriteLine("Removing winner Pirate");
+            bool a = game.playersAlive.Remove(Game.Role.PIRATE);
+            Console.WriteLine($"successful? {a}");
            }
            string aliveRoles = "None";
            if(game.playersAlive.Count != 0){
@@ -106,7 +112,7 @@ class Program
             else winnedBy = "None";
            }
            Console.WriteLine($"Faction who won: {factWin} via {winnedBy}");
-           MatchCollection dcs = Regex.Matches(html, "<span style=\"background-color:#(?:FF0000|000000); color:#FFFFFF\"><br>(?:<style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"\\d+\">(?:<sprite=\"[A-Za-z]+\" name=\"PlayerNumbers_\\d+\">)?(?:<color=#[A-Za-z0-9]+>)?)?(?:<b>)?([A-Za-z0-9 ]+)(?:</b>)?(?:(?:</color>)?</link></font></style>)? died (?:last night|today)\\.(?:.+)?</span>[\\S\\s]+<span style=\"background-color:#(FF0000|000000); color:#FFFFFF\"><br>(.+)?They (also )?disconnected from life\\.</span>");
+           MatchCollection dcs = Regex.Matches(html, "<span style=\"background-color:#(?:FF0000|000000); color:#FFFFFF\"><br>(?:<style=Mention(?:Mono)?><font=\"(?:Game SDF|NotoSans SDF)\"(?: material=\"(?:Game SDF|NotoSans SDF) - Mentions\")?><link=\"\\d+\">(?:<sprite=\"[A-Za-z]+\" name=\"PlayerNumbers_\\d+\">)?(?:<color=#[A-Za-z0-9]+>)?)?(?:<b>)?([A-Za-z0-9 ]+)(?:</b>)?(?:(?:</color>)?</link></font></style>)? died (?:last night|today)\\.(?:.+)?</span>[\\S\\s]+?<span style=\"background-color:#(FF0000|000000); color:#FFFFFF\"><br>(.+)?They (also )?disconnected from life\\.</span>");
            string nDcs = "";
            Console.WriteLine($"{dcs.Count} dc(s) detected.");
            if(dcs.Count != 0){
@@ -115,6 +121,8 @@ class Program
            }
            nDcs = nDcs.Remove(nDcs.Length-3);
            Console.WriteLine($"Roles that dcd: {nDcs}");
+           } else {
+            nDcs = "None";
            }
            
            
