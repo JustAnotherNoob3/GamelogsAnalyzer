@@ -1,0 +1,802 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Rose Tyler - </span><span style="color:#00CC99"> Doomsayer </span>
+<span style="color:#a0a0a0"><i>(Username: OdetteAndOdile)</i></span>
+<style>span.Rose-Tyler{color: #00CC99;}</style>
+<span><br>[2] Calvin Hobbes - </span><span style="color:#06E00C"> Coroner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Coroner<br>N1: nobody dead<br>D2: Autopsy <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Gamethrower</color></link></font></style> (Enchanter)<br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Judge Judy</color></link></font></style> is not the killer<br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style> is not the killer<br>D4: autopsy <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Gamethrower</color></link></font></style> again<br>N4: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Rose Tyler</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Phisheh)</i></span>
+<style>span.Calvin-Hobbes{color: #06E00C;}</style>
+<span><br>[3] Betty Parris - </span><span style="color:#B545FF"> Enchanter </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Vet<br>n1-alert<br>n2-no<br>n3-alert<br>n4<br>n5</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Tranquilo)</i></span>
+<style>span.Betty-Parris{color: #B545FF;}</style>
+<span><br>[4] GuybrushThreepwood - </span><span style="color:#06E00C"> Investigator </span>
+<span style="color:#a0a0a0"><i>(Username: excuses)</i></span>
+<style>span.GuybrushThreepwood{color: #06E00C;}</style>
+<span><br>[5] man - </span><span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: emonte814)</i></span>
+<style>span.man{color: #06E00C;}</style>
+<span><br>[6] Joe - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Many men<br>Many, many, many, many men<br>Wish death 'pon me<br>Lord, I don't cry no more<br>Don't look to the sky no more<br>Have mercy on me<br><br>- Sun tzu, the art of war</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: B0Z0)</i></span>
+<style>span.Joe{color: #06E00C;}</style>
+<span><br>[7] Briarlight - </span><span style="color:#949797"> Executioner </span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Briarlight{color: #949797;}</style>
+<span><br>[8] Vaporeon - </span><span style="color:#06E00C"> Cleric </span>
+<span style="color:#a0a0a0"><i>(Username: TheCrumbGuzzler)</i></span>
+<style>span.Vaporeon{color: #06E00C;}</style>
+<span><br>[9] nuh uh - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: EgePlayer)</i></span>
+<style>span.nuh-uh{color: #06E00C;}</style>
+<span><br>[10] Judge Judy - </span><span style="color:#06E00C"> Psychic </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Judge Judy the Psychic<br>n1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Gamethrower</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>nuh uh</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style>) <br>n2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>man</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style>)<br>n3- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>GuybrushThreepwood</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Calvin Hobbes</color></link></font></style>)<br>n4- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Vaporeon</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Rose Tyler</color></link></font></style> )<br>n5- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sylveon</color></link></font></style> (</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: illamanati22345)</i></span>
+<style>span.Judge-Judy{color: #06E00C;}</style>
+<span><br>[11] Samuel Parris - </span><span style="color:#9D7038"> Werewolf </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Samuel-Parris{color: #9D7038;}</style>
+<span><br>[12] Sylveon - </span><span style="color:#B545FF"> Illusionist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Did you know that in terms of male human and female Pokemon breeding, Vaporeon is the most compatible Pokemon for humans? Not only are they in the field egg group, which is mostly comprised of mammals, Vaporeon are an average of 3"03' tall and 63.9 pounds, this means they're large enough to be able to handle human dicks, and with their impressive Base Stats for HP and access to Acid Armor, you can be rough with one. Due to their mostly water based biology, there's no doubt in my mind that an aroused Vaporeon would be incredibly wet, so wet that you could easily have sex with one for hours without getting sore. They can also learn the moves Attract, Baby-Doll Eyes, Captivate, Charm, and Tail Whip, along with not having fur to hide nipples, so it'd be incredibly easy for one to get you in the mood. With their abilities Water Absorb and Hydration, they can easily recover from fatigue</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TheArmedFoxxo)</i></span>
+<style>span.Sylveon{color: #B545FF;}</style>
+<span><br>[13] Leafeon - </span><span style="color:#06E00C"> Tracker </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span style="color:#a0a0a0"><i>(Username: AdamDazuum)</i></span>
+<style>span.Leafeon{color: #06E00C;}</style>
+<span><br>[14] El Enphoso - </span><span style="color:#B545FF"> Voodoo Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Veteran <br>N1 - No Alert <br>N2 - Rbed <br>N3 - No Alert</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Delusive)</i></span>
+<style>span.El-Enphoso{color: #B545FF;}</style>
+<span><br>[15] Gamethrower - </span><span style="color:#06E00C"> Tracker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> <br><br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Judge Judy</color></link></font></style> v Me!</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Gamethrower{color: #06E00C;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: Did you know</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: That in terms</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: i got a lot of typing</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: stop it</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: NOOOO</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: 8.</span>
+<span><br>[13]</span>
+<span class="Leafeon">Leafeon</span>
+<span>: of human companionship, Flareon is objectively the most huggable pokemon</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to make <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Vaporeon</color></link></font></style> your target.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Samuel Parris</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Samuel Parris</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Gamethrower</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Gamethrower</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Judge-Judy">Judge Judy</span>
+<span>: Judge Judy the Psychicn1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Gamethrower</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>nuh uh</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style>)</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed last night</span>
+<span><br>[6]</span>
+<span class="Joe">Joe</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k112"><b><color=#007AFF><b>Vote For Alignment</b></color></b></link></font></style></span>
+<span><br>[1]</span>
+<span class="Rose-Tyler">Rose Tyler</span>
+<span>: rb'd</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: tk</span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: TS</span>
+<span><br>[13]</span>
+<span class="Leafeon">Leafeon</span>
+<span>: how did 15 know 10 was visiting them</span>
+<span><br>[13]</span>
+<span class="Leafeon">Leafeon</span>
+<span>: wot</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Gamethrower</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>nuh uh</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style> claims</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: How is it every single time someone names themselves Vaporeon, they bring up that shit.</span>
+<span><br>[10]</span>
+<span class="Judge-Judy">Judge Judy</span>
+<span>: 15 is dead</span>
+<span><br>[13]</span>
+<span class="Leafeon">Leafeon</span>
+<span>: 15 died</span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: im TS</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: tk</span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: get 14</span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: ti (coro)</span>
+<span><br>[13]</span>
+<span class="Leafeon">Leafeon</span>
+<span>: we dont need to hang d2</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: I CAN'T COPY PASTE WITHOUT GETTING DC'D SO I HAVE TO TYPE THIS ALL OUT</span>
+<span><br>[13]</span>
+<span class="Leafeon">Leafeon</span>
+<span>: we can vfa</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: TS BTW</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>nuh uh</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Joe</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Betty Parris</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: im tk</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Rose Tyler</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: Dont need to hand VFA</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>nuh uh</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Vaporeon</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Rose Tyler</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Leafeon">Leafeon</span>
+<span>: lets vfa instead</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Vaporeon</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Rose-Tyler">Rose Tyler</span>
+<span>: tk</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Betty Parris</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Rose Tyler</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Calvin Hobbes</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Judge Judy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Vaporeon</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Calvin Hobbes</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Rose Tyler</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Calvin Hobbes</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Joe">Joe</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Betty Parris</color></link></font></style> claim</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Calvin Hobbes</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: TI</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Vaporeon</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Betty Parris</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: tk</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Judge Judy</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Calvin Hobbes</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: coro</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Joe</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>man</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>GuybrushThreepwood</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Vaporeon</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>man</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: wait can enchanter mess with psychic results?</span>
+<span><br>[13]</span>
+<span class="Leafeon">Leafeon</span>
+<span>: yes</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Yes</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Joe</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Joe</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sylveon</color></link></font></style>.</color></span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: D2: Autopsy <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Gamethrower</color></link></font></style> (Enchanter)N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Judge Judy</color></link></font></style> is not the killer</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: rbed</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>GuybrushThreepwood</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> ... <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Judge Judy</color></link></font></style> We all know she is the true criminal! <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style> N2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Judge Judy</color></link></font></style> I will get you this night!!</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>:  ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k111"><b><color=#007AFF><b>No Blood</b></color></b></link></font></style> )</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Morning</span>
+<span><br>[5]</span>
+<span class="man">man</span>
+<span>: silenced n1</span>
+<span><br>[5]</span>
+<span class="man">man</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#B545FF>Voodoo Master [9]</color></b></link></font></style> game</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: Cleric N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style></span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: im still typing</span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: Enchanter has book</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: fuck this shit</span>
+<span><br>[10]</span>
+<span class="Judge-Judy">Judge Judy</span>
+<span>: n2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>man</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style>)</span>
+<span><br>[13]</span>
+<span class="Leafeon">Leafeon</span>
+<span>: Leafeon - TrackerN2: 9 visited 14</span>
+<span><br>[13]</span>
+<span class="Leafeon">Leafeon</span>
+<span>: was amne n1</span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: yup</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: thats for good right</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: im tav rbed 14</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>man</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Vaporeon</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: can confirm</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Vaporeon</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Leafeon">Leafeon</span>
+<span>: vfa time</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Calvin Hobbes</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="man">man</span>
+<span>: tk</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: probably enchanter then</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Leafeon">Leafeon</span>
+<span>: 3 tk claims</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style></span>
+<span><br>[13]</span>
+<span class="Leafeon">Leafeon</span>
+<span>: holy</span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style> enchanter has book</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your voice seems to be lost! You can't speak.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><b><color=#FF004E>Soul Collector</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style> is not the killer</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>GuybrushThreepwood</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> ... <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Judge Judy</color></link></font></style> We all know she is the true criminal! <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style> N2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Judge Judy</color></link></font></style> I will get you this night!!</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>:  ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k111"><b><color=#007AFF><b>No Blood</b></color></b></link></font></style> ) N3- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style> No one likes Leaf Pokemon except Balba ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style> )</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: Any more leads?</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: i finally finished it <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leafeon</color></link></font></style></span>
+<span><br>[10]</span>
+<span class="Judge-Judy">Judge Judy</span>
+<span>: n3- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>GuybrushThreepwood</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Calvin Hobbes</color></link></font></style>)</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: soul collector got damn</span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: I'm coro</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style> probably</span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: 7 what's your role</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style> Role?</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: He claimed TS</span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: besides ts</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: my fingers hurt, i didn't get all of it, but i ran out of room in will</span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: exact claim please</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You cannot vote because you are Silenced.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Vaporeon</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Calvin Hobbes</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sylveon</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>nuh uh</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Rose Tyler</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Betty Parris</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style> was voted up to trial.</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>nuh uh</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sylveon</color></link></font></style>.</color></span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: Voodoo'd? i think we look somewhere else</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sylveon</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>nuh uh</color></link></font></style>.</color></span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: Inno for now</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: 9 and 14 still evil will n1</span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: Up them tomorrow though</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sylveon</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>nuh uh</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Rose Tyler</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Calvin Hobbes</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Betty Parris</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>GuybrushThreepwood</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>man</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Vaporeon</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>nuh uh</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Judge Judy</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sylveon</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>El Enphoso</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Briarlight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Briarlight</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <b>Briarlight</b> by a vote of <color=#66FF66><b>8</b></color> to <color=#FF0000><b>0</b></color>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You cannot vote because you are Silenced.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Sylveon</b> is whispering to <b>nuh uh</b>.</color></span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: 9 rbd 14 so if that's not poisoner, get 14</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vaporeon</b> voted against <b>El Enphoso</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>man</b> voted against <b>El Enphoso</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>nuh uh</b> voted against <b>El Enphoso</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Calvin Hobbes</b> voted against <b>El Enphoso</b>.</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: Veteran N1 - No Alert N2 - Rbed N3 - No Alert</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>GuybrushThreepwood</b> voted against <b>El Enphoso</b>.</span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: sus</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: could that have been the dead tav</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>man</b> has revealed themself as the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>El Enphoso</b> was voted up to trial.</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: Veteran N1 - No Alert N2 - Rbed N3 - No Alert</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: i got nothing else other than that</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: We guilty out of principle</span>
+<span><br>[14]</span>
+<span class="El-Enphoso">El Enphoso</span>
+<span>: 6 probably was the one that rbed me</span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k46"><b><color=#007AFF><b>Guilty</b></color></b></link></font></style></span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: 1f1 this and 9?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>El Enphoso</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: im legit tav</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: Yeah 1f1</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k46"><b><color=#007AFF><b>Guilty</b></color></b></link></font></style></span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: If this is inno then 9</span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: give me a number and i will rb</span>
+<span><br>[2]</span>
+<span class="Calvin-Hobbes">Calvin Hobbes</span>
+<span>: if not then 9s fine</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Rose Tyler</b> voted <b>El Enphoso</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Calvin Hobbes</b> voted <b>El Enphoso</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Betty Parris</b> <b><style="AbstainColor>abstained</style></b> on <b>El Enphoso</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>GuybrushThreepwood</b> voted <b>El Enphoso</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>man</b> voted <b>El Enphoso</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vaporeon</b> voted <b>El Enphoso</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>nuh uh</b> voted <b>El Enphoso</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Judge Judy</b> voted <b>El Enphoso</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sylveon</b> voted <b>El Enphoso</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>El Enphoso</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>El Enphoso</b> to death by a vote of <color=#FF0000><b>10</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: <b>Rose Tyler</b>?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>El Enphoso</b> died today.</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: rb 1 for voting innoing this</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>El Enphoso</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#B545FF>Voodoo Master [9]</color></b></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: aight</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>El Enphoso</b> left a last will.</span>
+<span><br>[1]</span>
+<span class="Rose-Tyler">Rose Tyler</span>
+<span>: misinput</span>
+<span><br>[5]</span>
+<span class="man">man</span>
+<span>: goodbye cruel world</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Calvin Hobbes</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Calvin Hobbes</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Judge-Judy">Judge Judy</span>
+<span>: n4- <b>Vaporeon</b> ( <b>Rose Tyler</b> )</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: <b>GuybrushThreepwood</b> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> ... <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1- <b>Judge Judy</b> We all know she is the true criminal! <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style> N2 - <b>Judge Judy</b> I will get you this night!!</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k111"><b><color=#007AFF><b>No Blood</b></color></b></link></font></style> ) N3- <b>Leafeon</b> No one likes Leaf Pokemon except Balba ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style> ) N4- <b>Betty Parris</b> because we all know there is only one</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: e real Betty... Betty White ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style> )</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Morning, I can speak again. I was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k25"><b><color=#007AFF><b>Silence</b></color></b></link></font></style>d yesterday.</span>
+<span><br>[5]</span>
+<span class="man">man</span>
+<span>: can you write a real will please</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: <b>Betty Parris</b> blood</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: Role?</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: <b>Betty Parris</b> <b>Sylveon</b> claims</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: <b>Vaporeon</b> is the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r28"><b><color=#B545FF>Enchanter [8]</color></b></link></font></style>. I proposed to them N2.</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: Cleric N1: <b>Leafeon</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> N2: <b>Leafeon</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> N3: Slow town, protecting myself <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> N4: <b>nuh uh</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> <b>Sylveon</b> silent and no</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>:  role</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: i claimed ts so long ago</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: <b>Betty Parris</b> Has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: Role <b>Betty Parris</b> ?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vaporeon</b> voted against <b>Betty Parris</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>man</b> voted against <b>Betty Parris</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>GuybrushThreepwood</b> voted against <b>Betty Parris</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Betty Parris</b> was voted up to trial.</span>
+<span><br>[5]</span>
+<span class="man">man</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k28"><b><color=#007AFF><b>Insane</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k50"><b><color=#007AFF><b>Defense</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <b>Betty Parris</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Rose Tyler</b> voted <b>Betty Parris</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>GuybrushThreepwood</b> voted <b>Betty Parris</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>man</b> <b><style="AbstainColor>abstained</style></b> on <b>Betty Parris</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vaporeon</b> voted <b>Betty Parris</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>nuh uh</b> voted <b>Betty Parris</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Judge Judy</b> <b><style="AbstainColor>abstained</style></b> on <b>Betty Parris</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sylveon</b> voted <b>Betty Parris</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Betty Parris</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Betty Parris</b> to death by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: bro you could at least claim trickster lol</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Betty Parris</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Betty Parris</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r28"><b><color=#B545FF>Enchanter [8]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Betty Parris</b> left a last will.</span>
+<span><br>[5]</span>
+<span class="man">man</span>
+<span>: invest confirmed nice</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Welp, I tried lol.</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: i been silent all game cause i was typing my will that i agreed to in pregame lobby</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Someone gave you a drink last night and you fell asleep! You were <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Judge Judy</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Judge Judy</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: T'was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed last night.</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: 4 7 2 from evil will means that 7 is guilty</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: <b>GuybrushThreepwood</b> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> ... <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1- <b>Judge Judy</b> We all know she is the true criminal! <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style> N2 - <b>Judge Judy</b> I will get you this night!!</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k111"><b><color=#007AFF><b>No Blood</b></color></b></link></font></style> ) N3- <b>Leafeon</b> No one likes Leaf Pokemon except Balba ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style> ) N4- <b>Betty Parris</b> because we all know there is only one</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: e real Betty... Betty White ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style> ) N5- <b>Sylveon</b> Write you godamn will already... ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style> )</span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> N1- <b>Rose Tyler</b> - not <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r107"><b><style="CovenColor">Coven </style><color=#1F51FF>Killing</color></b></link></font></style> N2- <b>El Enphoso</b> N3- <b>Leafeon</b> N4- <b>Rose Tyler</b> - not CK N5- <b>Briarlight</b> - not CK</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: <b>Vaporeon</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style></span>
+<span><br>[5]</span>
+<span class="man">man</span>
+<span>: indeed <b>Vaporeon</b></span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: Look at <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> will</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: 8 has blood?</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: Cleric N1: <b>Leafeon</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> N2: <b>Leafeon</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> N3: Slow town, protecting myself <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> N4: <b>nuh uh</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> n5: <b>nuh uh</b> <b>Briarlight</b> is</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>:  a liar, hang them if I die</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: ooop\</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: <b>Sylveon</b></span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: how u just go and change like that</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>nuh uh</b> voted against <b>Vaporeon</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vaporeon</b> voted against <b>Briarlight</b>.</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: <b>Sylveon</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>man</b> voted against <b>Briarlight</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Briarlight</b> was voted up to trial.</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Look, i'ma be real with y'all, I'm <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style></span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: That <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style> strat was a l;atch ditch attempt lol.</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: last*</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: <b>Briarlight</b> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style> // N1. Usually I let RNG decide, but fuck it, targetting <b>Vaporeon</b> // N2. Chillin' far away from <b>Vaporeon</b> // N3.</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Leafeon is my favorite pokemon. I do not like Vaporeon anymore since that... (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k25"><b><color=#007AFF><b>Silence</b></color></b></link></font></style>d) // N4. I don't have a fake <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style></span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: ] claim ready, so I might just be honest tomorrow. // N5. Tried to do a fake <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style> strat to lynch <b>Vaporeon</b>, but it failed, oh well.</span>
+<span><br>[4]</span>
+<span class="GuybrushThreepwood">GuybrushThreepwood</span>
+<span>: <b>Sylveon</b> Has blood kill them first</span>
+<span><br>[5]</span>
+<span class="man">man</span>
+<span>: innoing</span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: cleric why arent you on the mayor</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: Inno get 12 for <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Rose Tyler</b> voted <b>Briarlight</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>GuybrushThreepwood</b> voted <b>Briarlight</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>man</b> voted <b>Briarlight</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vaporeon</b> voted <b>Briarlight</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>nuh uh</b> voted <b>Briarlight</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sylveon</b> <b><style="AbstainColor>abstained</style></b> on <b>Briarlight</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Briarlight</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <b>Briarlight</b> by a vote of <color=#66FF66><b>6</b></color> to <color=#FF0000><b>1</b></color>.</span>
+<span><br>[5]</span>
+<span class="man">man</span>
+<span>: cleric doesnt work on mayor</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[5]</span>
+<span class="man">man</span>
+<span>: my def cant be higher than zero</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vaporeon</b> voted against <b>Sylveon</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>GuybrushThreepwood</b> voted against <b>Sylveon</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>nuh uh</b> voted against <b>Sylveon</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>man</b> voted against <b>Sylveon</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sylveon</b> was voted up to trial.</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: i spent all game typing my will, at least y'all will get to see it if you guilty</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: i said i'd do it <b>Leafeon</b></span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: Cleric can't be on mayor after reveal so I'm choosing to keep the Tavern Keeper safe</span>
+<span><br>[7]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: I have no stake in these votes, so I'ma just let y'all decide.</span>
+<span><br>[9]</span>
+<span class="nuh-uh">nuh uh</span>
+<span>: aight</span>
+<span><br>[8]</span>
+<span class="Vaporeon">Vaporeon</span>
+<span>: Guilty</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <b>Sylveon</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Rose Tyler</b> voted <b>Sylveon</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>GuybrushThreepwood</b> voted <b>Sylveon</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>man</b> voted <b>Sylveon</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vaporeon</b> voted <b>Sylveon</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>nuh uh</b> voted <b>Sylveon</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sylveon</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Sylveon</b> to death by a vote of <color=#FF0000><b>7</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[12]</span>
+<span class="Sylveon">Sylveon</span>
+<span>: my work gets shown to the world</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sylveon</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sylveon</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r30"><b><color=#B545FF>Illusionist [13]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Sylveon</b> left a last will.</span>
+</body>
+</html>

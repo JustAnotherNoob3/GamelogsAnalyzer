@@ -1,0 +1,986 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Mum - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Mum{color: #06E00C;}</style>
+<span><br>[2] Fenrisulfr - </span><span style="color:#9D7038"> Werewolf </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Fenrisulfr</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.<br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k63"><b><color=#007AFF><b>Track</b></color></b></link></font></style> Scent of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Mary Johnson</color></link></font></style> they visited nobody. I have been <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k25"><b><color=#007AFF><b>Silence</b></color></b></link></font></style>d.<br>N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k15"><b><color=#007AFF><b>Rampage</b></color></b></link></font></style> at home.<br>N3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k63"><b><color=#007AFF><b>Track</b></color></b></link></font></style> Scent of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>thedude</color></link></font></style> they visited ME and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Mary Johnson</color></link></font></style> visited <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Dude</color></link></font></style>.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: rookrooster)</i></span>
+<style>span.Fenrisulfr{color: #9D7038;}</style>
+<span><br>[3] Canadio - </span><span style="color:#06E00C"> Sheriff </span>
+<span style="color:#a0a0a0"><i>(Username: Canadioryan)</i></span>
+<style>span.Canadio{color: #06E00C;}</style>
+<span><br>[4] Eth - </span><span style="color:#06E00C"> Trickster </span>
+<span style="color:#a0a0a0"><i>(Username: EternalBlaze)</i></span>
+<style>span.Eth{color: #06E00C;}</style>
+<span><br>[5] Depression - </span><span style="color:#06E00C"> Vigilante </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> <br>n1: nothing<br>n2: nothing<br>n3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k68"><b><color=#007AFF><b>Shoot</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>thedude</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: krzysztof1222)</i></span>
+<style>span.Depression{color: #06E00C;}</style>
+<span><br>[6] Dude - </span><span style="color:#06E00C"> Spy </span>
+<span style="color:#a0a0a0"><i>(Username: Leetheonly)</i></span>
+<style>span.Dude{color: #06E00C;}</style>
+<span><br>[7] Mary Johnson - </span><span style="color:#06E00C"> Monarch </span>
+<span style="color:#a0a0a0"><i>(Username: PRAstro)</i></span>
+<style>span.Mary-Johnson{color: #06E00C;}</style>
+<span><br>[8] John Proctor - </span><span style="color:#B545FF"> Coven Leader </span>
+<span style="color:#a0a0a0"><i>(Username: InzainY)</i></span>
+<style>span.John-Proctor{color: #B545FF;}</style>
+<span><br>[9] BassProCop - </span><span style="color:#06E00C"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.BassProCop{color: #06E00C;}</style>
+<span><br>[10] Anxiety - </span><span style="color:#F5A6D4"> Jester </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style><br><br><br>// N1. Self <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k52"><b><color=#007AFF><b>Protect</b></color></b></link></font></style>, too scared of dying (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k49"><b><color=#007AFF><b>Attack</b></color></b></link></font></style>ed by Coven)<br><br>// N2. probably gonna die tonight, someone help me please!</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Anxiety{color: #F5A6D4;}</style>
+<span><br>[11] SamsclubBouncer - </span><span style="color:#FF004E"> Soul Collector </span>
+<span style="color:#a0a0a0"><i>(Username: UnknownKnight)</i></span>
+<style>span.SamsclubBouncer{color: #FF004E;}</style>
+<span><br>[12] Broddie - </span><span style="color:#DB7601"> Arsonist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Broddie</color></link></font></style> The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style> <br><br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>John Proctor</color></link></font></style> <br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: BXOGamesYT)</i></span>
+<style>span.Broddie{color: #DB7601;}</style>
+<span><br>[13] hello - </span><span style="color:#B545FF"> Ritualist </span>
+<span style="color:#a0a0a0"><i>(Username: JustinTony)</i></span>
+<style>span.hello{color: #B545FF;}</style>
+<span><br>[14] Jelly - </span><span style="color:#B545FF"> Voodoo Master </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Jelly{color: #B545FF;}</style>
+<span><br>[15] thedude - </span><span style="color:#B545FF"> Potion Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">seer the dude<br>n1 5 and 2 seems friends<br>n2; rb<br>n3; silenced</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: thedudebutcooler)</i></span>
+<style>span.thedude{color: #B545FF;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: ngl guys, i think i'm going to die.</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: i just have a feeling.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>hello</color></link></font></style> has disconnected from life.</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: BROWN and FUZZY <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> here</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: im scared</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decide to put on your armor tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>A <style="CovenColor">Coven</style> member attacked you, but your armor protected you!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>hello</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>hello</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Canadio">Canadio</span>
+<span>: n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>John Proctor</color></link></font></style> = inno</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: Bodyguard N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Fenrisulfr</color></link></font></style> Nothing N2 -</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: I knew it! I was Attacked by coven last night.,</span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Eth</color></link></font></style>, was Rbed N2-</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: oh mb</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: I knew I was gonna die.</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: how u alive then 10?</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: Self Protected.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[15]</span>
+<span class="thedude">thedude</span>
+<span>: selfing?</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: I just had a feeling I was gonna die.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Mum</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Dude</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="thedude">thedude</span>
+<span>: n1?</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: Yes</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Eth</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Dude</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Jelly</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Dude</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>thedude</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Dude</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: why the spy?</span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: I was Rbed</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Depression</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Dude</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Depression</color></link></font></style> cancelled their vote.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>thedude</color></link></font></style> cancelled their vote.</span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: claim?</span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Eth</color></link></font></style>, I was Rbed N2-</span>
+<span><br>[12]</span>
+<span class="Broddie">Broddie</span>
+<span>: just chill ig</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: Oh gosh, it's night time.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span><br>[3]</span>
+<span class="Canadio">Canadio</span>
+<span>: n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style> = Sus</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: Am i safe?</span>
+<span><br>[15]</span>
+<span class="thedude">thedude</span>
+<span>: seer the dude n1 5 and 2 seems friends n2; rb</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style> N1- building N2- Placing on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Dude</color></link></font></style> (triggered by <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style>)</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: i was silenced yesterday</span>
+<span><br>[12]</span>
+<span class="Broddie">Broddie</span>
+<span>: 2 claimed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style></span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Eth</color></link></font></style>, I was Rbed N2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>BassProCop</color></link></font></style> Nothing happened</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: Coven didn't attack me again, thank goodness.</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: 7 didnt visit</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style> game</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: 10 role and will</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: Anxiety the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> // N1. Self <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k52"><b><color=#007AFF><b>Protect</b></color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k49"><b><color=#007AFF><b>Attack</b></color></b></link></font></style>ed by Coven) // N2. Self <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k52"><b><color=#007AFF><b>Protect</b></color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: u was found sus</span>
+<span><br>[15]</span>
+<span class="thedude">thedude</span>
+<span>: 10 fr</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: You can self twice??</span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: oh no! Im doused!</span>
+<span><br>[15]</span>
+<span class="thedude">thedude</span>
+<span>: as bg yes</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: Yes, bodyguard gets 2 self protects.</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: bg can</span>
+<span><br>[3]</span>
+<span class="Canadio">Canadio</span>
+<span>: n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style> = Sus</span>
+<span><br>[15]</span>
+<span class="thedude">thedude</span>
+<span>: as cleric no</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>thedude</color></link></font></style> is fake</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: oh</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Canadio</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Broddie</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Jelly</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Mary Johnson</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Depression</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: i thought bg was once and cleric was twice</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>John Proctor</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>BassProCop</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>thedude</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: Anxiety the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> // N1. Self <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k52"><b><color=#007AFF><b>Protect</b></color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k49"><b><color=#007AFF><b>Attack</b></color></b></link></font></style>ed by Coven) // N2. Self <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k52"><b><color=#007AFF><b>Protect</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>BassProCop</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Eth</color></link></font></style>.</color></span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: Please, I didn't save myself from coven to die like this.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Eth</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>BassProCop</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>BassProCop</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Eth</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Fenrisulfr</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Jelly</color></link></font></style>.</color></span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: other way around 4</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: 1f1 this and 3</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: i didnt vote you off to inno</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: DIE</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>thedude</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Fenrisulfr</color></link></font></style>.</color></span>
+<span><br>[3]</span>
+<span class="Canadio">Canadio</span>
+<span>: If they are bodyguard then we can conf we have an enchanter</span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: this for sure jest tho</span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: but guilty ig</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: remeber the arso is around</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Fenrisulfr</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>thedude</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Jelly</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Fenrisulfr</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Mum</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Fenrisulfr</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Canadio</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Eth</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Depression</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Dude</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Mary Johnson</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>John Proctor</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>BassProCop</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>SamsclubBouncer</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Broddie</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Jelly</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>thedude</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Anxiety</color></link></font></style>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Anxiety</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Jelly</b> is whispering to <b>Fenrisulfr</b>.</color></span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: Okay, well I actually DID save myself to die like this.</span>
+<span><br>[10]</span>
+<span class="Anxiety">Anxiety</span>
+<span>: gg</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Jelly</b> is whispering to <b>Fenrisulfr</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>thedude</b> is whispering to <b>Fenrisulfr</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style> will get their revenge from the grave!</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Fenrisulfr</b> is whispering to <b>Jelly</b>.</color></span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: wow</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Anxiety</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="thedude">thedude</span>
+<span>: jest is a w role</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: nice play jest</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Fenrisulfr</b> is whispering to <b>Jelly</b>.</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Anxiety</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Jelly</b> is whispering to <b>Fenrisulfr</b>.</color></span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: We need to find <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Fenrisulfr</b> is whispering to <b>Jelly</b>.</color></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not select a target so <b>Broddie</b> was chosen at random.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Broddie</span>
+<span style="color:#689194">: noo jester</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Broddie</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were haunted by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: RNG picked you, sorry.</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Broddie</span>
+<span style="color:#689194">: I had ck doused</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Broddie</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Eth</b> is whispering to <b>Dude</b>.</color></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Broddie</span>
+<span style="color:#689194">: I have 4 people doused</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Mary Johnson</b> is whispering to <b>Dude</b>.</color></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Rip</i></span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style>ed <b>Dude</b>.</span>
+<span><br>[3]</span>
+<span class="Canadio">Canadio</span>
+<span>: I searched 12 last night so I got no info</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: so 15 why did ya visit me and only me</span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> N1- <b>Eth</b>, I was Rbed N2- <b>BassProCop</b> nothing N3- <b>SamsclubBouncer</b> they are doused in gas N4-</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: W jester!</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Hopefully another <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style> is around.</i></span>
+<span><br>[11]</span>
+<span class="SamsclubBouncer">SamsclubBouncer</span>
+<span>: soab</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: 15 is fake</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: is arso inno or sus 3?</span>
+<span><br>[3]</span>
+<span class="Canadio">Canadio</span>
+<span>: Arso is inno</span>
+<span><br>[5]</span>
+<span class="Depression">Depression</span>
+<span>: inno</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: inno</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: oh</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: ok</span>
+<span><br>[3]</span>
+<span class="Canadio">Canadio</span>
+<span>: Most neutrals are inno</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: <b>Eth</b> all nks are inno to sheriff</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: ok</span>
+<span><br>[3]</span>
+<span class="Canadio">Canadio</span>
+<span>: So sheriff is really bad in all any</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Broddie</span>
+<span style="color:#689194">: WHY DID I GET 2 ACHVEMNTS XD</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Broddie</span>
+<span style="color:#689194">: SO DELAYED</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Which ones?</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Broddie</span>
+<span style="color:#689194">: 1st bg win and 50 wins</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: only <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r113"><b><style="NeutralColor">Neutral </style><color=#1F51FF>Evil</color></b></link></font></style> shows as sus</span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: vfa</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Oh, those are from matches you left early.</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Fenrisulfr</b> voted against <b>thedude</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mary Johnson</b> voted against <b>Mum</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Eth</b> voted against <b>Mum</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mum</b> voted against <b>Jelly</b>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Broddie</span>
+<span style="color:#689194">: no</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: They must've just ended.</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Depression</b> voted against <b>Mum</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>BassProCop</b> voted against <b>Mum</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dude</b> voted against <b>Mum</b>.</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: 15 is confirmed fake seer</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jelly</b> voted against <b>Mum</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mum</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Broddie</span>
+<span style="color:#689194">: I finsihed that match</i></span>
+<span><br>[1]</span>
+<span class="Mum">Mum</span>
+<span>: Tavern keeper</span>
+<span><br>[1]</span>
+<span class="Mum">Mum</span>
+<span>: Tavern Keeper n16 n2 15 n3 14</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: If you mean the steam notifications for it, then that's just steam being steam.</i></span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: I was roleblocked last night so this is probably inno</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: 6 15 14 conf this'?</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: also 7 visited 6 last night</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: If it's in-game notifications, it's from a match you left while dead.</i></span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: Inno this</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Broddie</span>
+<span style="color:#689194">: both</i></span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: I was n1</span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: inno</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Fenrisulfr</b> voted <b>Mum</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Canadio</b> voted <b>Mum</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Eth</b> voted <b>Mum</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Depression</b> voted <b>Mum</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dude</b> voted <b>Mum</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mary Johnson</b> voted <b>Mum</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>John Proctor</b> voted <b>Mum</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>BassProCop</b> voted <b>Mum</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>SamsclubBouncer</b> voted <b>Mum</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jelly</b> voted <b>Mum</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>thedude</b> <b><style="AbstainColor>abstained</style></b> on <b>Mum</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mum</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jelly</b> voted against <b>Fenrisulfr</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mary Johnson</b> voted against <b>Eth</b>.</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: tk</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mum</b> voted against <b>Fenrisulfr</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Depression</b> voted against <b>Fenrisulfr</b>.</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: 2 is ww</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Fenrisulfr</b> voted against <b>thedude</b>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: In-game notifications aren't delayed. Those are from your last match.</i></span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: btw</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Eth</b> voted against <b>Fenrisulfr</b>.</span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: 2 is tracker</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>BassProCop</b> voted against <b>Fenrisulfr</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dude</b> voted against <b>Fenrisulfr</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Fenrisulfr</b> was voted up to trial.</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: BRUH im helping town</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: 15 is fake as fuck</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: i legit said what i was D1</span>
+<span><br>[5]</span>
+<span class="Depression">Depression</span>
+<span>: u can be last evil</span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: Kill dat were wolf</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: He literally claimed ww to me in whispers, but I dont know if we want to keep him alive or not</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: i say guilty</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: get 15 tmr</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: who cares if ur helpful or nah</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mum</b> <b><style="AbstainColor>abstained</style></b> on <b>Fenrisulfr</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Canadio</b> voted <b>Fenrisulfr</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Eth</b> voted <b>Fenrisulfr</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Depression</b> voted <b>Fenrisulfr</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dude</b> voted <b>Fenrisulfr</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mary Johnson</b> <b><style="AbstainColor>abstained</style></b> on <b>Fenrisulfr</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>John Proctor</b> voted <b>Fenrisulfr</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>BassProCop</b> voted <b>Fenrisulfr</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>SamsclubBouncer</b> <b><style="AbstainColor>abstained</style></b> on <b>Fenrisulfr</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jelly</b> voted <b>Fenrisulfr</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>thedude</b> voted <b>Fenrisulfr</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Fenrisulfr</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: 15 is fake they visit just me last night</span>
+<span><br>[2]</span>
+<span class="Fenrisulfr">Fenrisulfr</span>
+<span>: and 7 visited 6</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Tempted to leave, but I do kinda want this match replay and gamelogs.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Fenrisulfr</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Fenrisulfr</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Fenrisulfr</b> left a last will.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Very colorful graveyard btw.</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Dude</b> is whispering to <b>Mary Johnson</b>.</color></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Fenrisulfr</span>
+<span style="color:#689194">: the whole town must be evil if they voted out the town dog despite how fake 15 was</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: I mean, all I know is that coven hit me N1.</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Broddie</span>
+<span style="color:#689194">: PLEASE 2nd ARSO</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: That's about it.</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Broddie</span>
+<span style="color:#689194">: CK Attacked me</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Depression</b> died last night.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">thedude</span>
+<span style="color:#689194">: k</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Depression</b> left a last will.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Day 5, coven finally gets a kill lol.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Broddie</span>
+<span style="color:#689194">: <b>Canadio</b> <b>Dude</b> <b>John Proctor</b> and <b>BassProCop</b> would burn</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>thedude</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>thedude</b> left a last will.</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Fenrisulfr</span>
+<span style="color:#689194">: i called it</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: And 15 was immediately shot lol.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Fenrisulfr</span>
+<span style="color:#689194">: seee</i></span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: LETS GO DEPRESSION IS FINALLY GONE, THIS IS A GREAT DAY FOR EARTH</span>
+<span><br>[3]</span>
+<span class="Canadio">Canadio</span>
+<span>: n4: roleblocked</span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: 4 8 11 14 claim</span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> N1- <b>Eth</b>, I was Rbed N2- <b>BassProCop</b> nothing N3- <b>SamsclubBouncer</b> they are doused In gas N4- <b>John Proctor</b> they are doused In gas N5-</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">thedude</span>
+<span style="color:#689194">: btw 5 u were revealed n1 as soon as rit de'ced</i></span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Fenrisulfr</span>
+<span style="color:#689194">: aight i leave now</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Depression</span>
+<span style="color:#689194">: nice</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">thedude</span>
+<span style="color:#689194">: k</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Did coven Reveal me or no?</i></span>
+<span><br>[11]</span>
+<span class="SamsclubBouncer">SamsclubBouncer</span>
+<span>: is there a chance theres a second arso? or is it just carrying over from the 1st arso?</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">thedude</span>
+<span style="color:#689194">: have a nice day 2</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Cya 2</i></span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: IDK</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: either are possible</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">thedude</span>
+<span style="color:#689194">: cant remeber</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jelly</b> voted against <b>Eth</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mary Johnson</b> voted against <b>Eth</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mum</b> voted against <b>Eth</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>John Proctor</b> voted against <b>Eth</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dude</b> voted against <b>Eth</b>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Ah, alrighty.</i></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Eth</b> was voted up to trial.</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: I know y'all hit me N1, which was unfortunate luck for y'all.</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">thedude</span>
+<span style="color:#689194">: 8 and 14 is cov btw</i></span>
+<span><br>[1]</span>
+<span class="Mum">Mum</span>
+<span>: Amazing def</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: 10/10</span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: the tre dot def</span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: inno for now</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: they claimed tk</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Oh yeah, 12 told me that CK was doused.</i></span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: get more claims</span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: classic</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: inno</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">thedude</span>
+<span style="color:#689194">: cl and vm</i></span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: 8 claim?</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Figured 8 was probably CL.</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mum</b> voted <b>Eth</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Canadio</b> voted <b>Eth</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dude</b> voted <b>Eth</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mary Johnson</b> voted <b>Eth</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>John Proctor</b> <b><style="AbstainColor>abstained</style></b> on <b>Eth</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>BassProCop</b> voted <b>Eth</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>SamsclubBouncer</b> <b><style="AbstainColor>abstained</style></b> on <b>Eth</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jelly</b> voted <b>Eth</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Eth</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <b>Eth</b> by a vote of <color=#66FF66><b>7</b></color> to <color=#FF0000><b>0</b></color>.</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: <b>John Proctor</b> claim</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>BassProCop</b> voted against <b>John Proctor</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dude</b> voted against <b>John Proctor</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jelly</b> voted against <b>John Proctor</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mary Johnson</b> voted against <b>John Proctor</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>John Proctor</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Rip CL</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">thedude</span>
+<span style="color:#689194">: fun fact: no one was sislenced d3 so i faked silenced</i></span>
+<span><br>[1]</span>
+<span class="Mum">Mum</span>
+<span>: Guilty I wanna see head fall off</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: guilty</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>John Proctor</b> has disconnected from life.</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: nvm inno</span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: inn</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Honestly, don't really blame them here for just not talking after hitting immunes 3 nights in a row.</i></span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: inno they dced</span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: Cool beans</span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: 11 14 claim?</span>
+<span><br>[11]</span>
+<span class="SamsclubBouncer">SamsclubBouncer</span>
+<span>: <b>Mum</b> Was thinking the same thing</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mum</b> voted <b>John Proctor</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Canadio</b> voted <b>John Proctor</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Eth</b> <b><style="AbstainColor>abstained</style></b> on <b>John Proctor</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dude</b> voted <b>John Proctor</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mary Johnson</b> voted <b>John Proctor</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>BassProCop</b> voted <b>John Proctor</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>SamsclubBouncer</b> voted <b>John Proctor</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jelly</b> voted <b>John Proctor</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>John Proctor</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <b>John Proctor</b> by a vote of <color=#66FF66><b>8</b></color> to <color=#FF0000><b>0</b></color>.</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: 14 claimed</span>
+<span><br>[11]</span>
+<span class="SamsclubBouncer">SamsclubBouncer</span>
+<span>: Tk</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: I do blame them for leaving though.</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There is 1 possible trial remaining today.</span>
+<span><br>[9]</span>
+<span class="BassProCop">BassProCop</span>
+<span>: 14 is bg</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: yeah</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mum</b> voted against <b>BassProCop</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mum</b> cancelled their vote.</span>
+<span><br>[11]</span>
+<span class="SamsclubBouncer">SamsclubBouncer</span>
+<span>: we ballin</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mum</b> voted against <b>Jelly</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mum</b> cancelled their vote.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Worst thing for the CL was that basically every immune they hit has already died too, so they can't use those for a claim.</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>John Proctor</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>John Proctor</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r26"><b><color=#B545FF>Coven Leader</color></b></link></font></style>.</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>Now <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><b><color=#FF004E>Soul Collector</color></b></link></font></style> has become <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF004E>Death</color></b></link></font></style>, Destroyer of Worlds and Horseman of the Apocalypse!</span>
+<span><br>[3]</span>
+<span class="Canadio">Canadio</span>
+<span>: n4 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <b>Jelly</b> = sus</span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> N1- <b>Eth</b>, I was Rbed N2- <b>BassProCop</b> nothing N3- <b>SamsclubBouncer</b> they are doused In gas N4- <b>John Proctor</b> they are doused In gas N5-</span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>:  <b>Canadio</b> also doused, there is another <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style> N6-</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Oh hi <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF004E>Death</color></b></link></font></style></i></span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: 4 claim</span>
+<span><br>[3]</span>
+<span class="Canadio">Canadio</span>
+<span>: n4 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <b>Jelly</b> = sus</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: i aint sus</span>
+<span><br>[3]</span>
+<span class="Canadio">Canadio</span>
+<span>: Yes you are</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">thedude</span>
+<span style="color:#689194">: hidden death fr</i></span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: maybe enchanter</span>
+<span><br>[1]</span>
+<span class="Mum">Mum</span>
+<span>: 14 bg</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Eth</b> is whispering to <b>Dude</b>.</color></span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: rbd btw</span>
+<span><br>[7]</span>
+<span class="Mary-Johnson">Mary Johnson</span>
+<span>: 4 claim</span>
+<span><br>[11]</span>
+<span class="SamsclubBouncer">SamsclubBouncer</span>
+<span>: would soul collector come up as sus?</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: ive been bg</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Dude</b> is whispering to <b>Eth</b>.</color></span>
+<span><br>[1]</span>
+<span class="Mum">Mum</span>
+<span>: 4 claim</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: 4??</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: trick</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: Watch 6 be <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF004E>Death</color></b></link></font></style> or something.</i></span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: TricksterN1 - No oneN2 - Tricking 15N3 - Tricking 11 N4 - Tricking 14 - SilencedN5 - Tricking 3</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Canadio</b> voted against <b>Jelly</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jelly</b> voted against <b>Eth</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mum</b> voted against <b>Eth</b>.</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: can i trick as many times as i want?</span>
+<span><br>[14]</span>
+<span class="Jelly">Jelly</span>
+<span>: idk</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">thedude</span>
+<span style="color:#689194">: deadly deathly death</i></span>
+<span><br>[6]</span>
+<span class="Dude">Dude</span>
+<span>: yes</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: thought it was limited to 3</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Eth</b> voted against <b>Jelly</b>.</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: find death</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Anxiety</span>
+<span style="color:#689194">: gg death</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mary Johnson</b> voted against <b>Eth</b>.</span>
+<span><br>[4]</span>
+<span class="Eth">Eth</span>
+<span>: or we die</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Broddie</span>
+<span style="color:#689194">: gg</i></span>
+</body>
+</html>

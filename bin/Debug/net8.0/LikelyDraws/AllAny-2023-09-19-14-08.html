@@ -1,0 +1,981 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Mistress - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br><br>Night 1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style>(Blood)<br>Night 2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lesbian Shroud</color></link></font></style> (NB)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Zonz)</i></span>
+<style>span.Mistress{color: #06E00C;}</style>
+<span><br>[2] The Gunslinger - </span><span style="color:#B545FF"> Dreamweaver </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">WHY IS HE SPOUTING THE BIBLE, HELP</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: BamboooTastesGood)</i></span>
+<style>span.The-Gunslinger{color: #B545FF;}</style>
+<span><br>[3] Dracula - </span><span style="color:#6699FF"> Shroud </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">hi</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ztivokartep)</i></span>
+<style>span.Dracula{color: #6699FF;}</style>
+<span><br>[4] Mimsy - </span><span style="color:#FF004E"> Soul Collector </span>
+<span style="color:#a0a0a0"><i>(Username: Deeve1)</i></span>
+<style>span.Mimsy{color: #FF004E;}</style>
+<span><br>[5] Petra - </span><span style="color:#B545FF"> Enchanter </span>
+<span style="color:#a0a0a0"><i>(Username: SfGothams)</i></span>
+<style>span.Petra{color: #B545FF;}</style>
+<span><br>[6] typical retro - </span><span style="color:#ECC23E"> Pirate </span>
+<span style="color:#a0a0a0"><i>(Username: CrimsonXtra)</i></span>
+<style>span.typical-retro{color: #ECC23E;}</style>
+<span><br>[7] Blood in ur mouth - </span><span style="color:#06E00C"> Psychic </span>
+<span style="color:#a0a0a0"><i>(Username: Tox1)</i></span>
+<style>span.Blood-in-ur-mouth{color: #06E00C;}</style>
+<span><br>[8] i hate chatgpt - </span><span style="color:#06E00C"> Veteran </span>
+<span style="color:#a0a0a0"><i>(Username: hououinkyouma)</i></span>
+<style>span.i-hate-chatgpt{color: #06E00C;}</style>
+<span><br>[9] Poland - </span><span style="color:#B545FF"> Voodoo Master </span>
+<span style="color:#a0a0a0"><i>(Username: Ajgor)</i></span>
+<style>span.Poland{color: #B545FF;}</style>
+<span><br>[10] Birb - </span><span style="color:#06E00C"> Mayor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">U want sum fuk?</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Grimaras)</i></span>
+<style>span.Birb{color: #06E00C;}</style>
+<span><br>[11] HaiHo - </span><span style="color:#06E00C"> Sheriff </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">HaiHo the sheriff<br>N1 EVIL CLOWN- is Suspicios</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: SweetDreamSWE)</i></span>
+<style>span.HaiHo{color: #06E00C;}</style>
+<span><br>[12] evil clown - </span><span style="color:#F5A6D4"> Jester </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.evil-clown{color: #F5A6D4;}</style>
+<span><br>[13] Lesbian Shroud - </span><span style="color:#F5A6D4"> Jester </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">jester<br><br><br>n1. jester (jailed)<br><br>n2. jester<br><br>n3. jester <br><br>n4. jester (self protect)<br><br>n5. jester</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Lesbian-Shroud{color: #F5A6D4;}</style>
+<span><br>[14] Cheese - </span><span style="color:#06E00C"> Coroner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> <br><br>D1: Useless tomfoolery<br>N1: Useless tomfoolery<br>D2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k51"><b><color=#007AFF><b>Autopsy</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Birb</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: PeteZapsEternity)</i></span>
+<style>span.Cheese{color: #06E00C;}</style>
+<span><br>[15] potato salad - </span><span style="color:#06E00C"> Jailor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style> <br><br>N1. ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lesbian Shroud</color></link></font></style> ) claims <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style> <br>N2. <br>N3. ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>The Gunslinger</color></link></font></style> ) exe</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: abeyants)</i></span>
+<style>span.potato-salad{color: #06E00C;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: pirate claim D1</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: nice 6</span>
+<span><br>[14]</span>
+<span class="Cheese">Cheese</span>
+<span>: Time to carry this town as <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: jester</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: but you died N0</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: to vet</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: nice</span>
+<span><br>[2]</span>
+<span class="The-Gunslinger">The Gunslinger</span>
+<span>: I am talking so as not to die N1</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="i-hate-chatgpt">i hate chatgpt</span>
+<span>: donald trump</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: I cc jester</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: we all did</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: we cant talk</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="i-hate-chatgpt">i hate chatgpt</span>
+<span>: şs a good öan</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><color=#FFCD00FF>You were hauled off to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>!</color></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>role</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: jester</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>ok</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>?</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: jester</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>ok</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>good luck with that</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Birb</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>. They were also killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Birb</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mimsy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lesbian Shroud</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mimsy</color></link></font></style>: you were jailed huh?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lesbian Shroud</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mimsy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mimsy</color></link></font></style>: jester</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mimsy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lesbian Shroud</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mimsy</color></link></font></style>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1: 13 target jailed</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: N1 - pirating 13 (jailed)</span>
+<span><br>[1]</span>
+<span class="Mistress">Mistress</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> Night 1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style>(FOUND BLOOD)</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1: 13 target jailed</span>
+<span><br>[14]</span>
+<span class="Cheese">Cheese</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> D1: Useless tomfoolery N1: Useless tomfoolery D2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k51"><b><color=#007AFF><b>Autopsy</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Birb</color></link></font></style></span>
+<span><br>[3]</span>
+<span class="Dracula">Dracula</span>
+<span>: rip mayor</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lesbian Shroud</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style>: John 3 11</span>
+<span><br>[2]</span>
+<span class="The-Gunslinger">The Gunslinger</span>
+<span>: 11 role</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: enchanted??</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: there is a jaila</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lesbian Shroud</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style>: Amen, amen, I say to you, we speak of what we know and we testify to what we have seen, but you people do not accept our testimony.g</span>
+<span><br>[11]</span>
+<span class="HaiHo">HaiHo</span>
+<span>: Wait im Sheriff</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lesbian Shroud</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style>: If I tell you about earthly things and you do not believe, how will you believe if I tell you about heavenly things?h</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lesbian Shroud</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style>: No one has gone up to heaven except the one who has come down from heaven, the Son of Man.i</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: 11 might be on their period fyi</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lesbian Shroud</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style>: And just as Moses lifted up* the serpent in the desert, so must the Son of Man be lifted up,j</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: don't judge</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lesbian Shroud</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style>: * so that everyone who believes in him may have eternal life.”</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lesbian Shroud</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style>: amen.</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: 11 claims sheriff with no will</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: huh</span>
+<span><br>[1]</span>
+<span class="Mistress">Mistress</span>
+<span>: Well it did say it looked like blood</span>
+<span><br>[2]</span>
+<span class="The-Gunslinger">The Gunslinger</span>
+<span>: Sher who hasnt posted</span>
+<span><br>[1]</span>
+<span class="Mistress">Mistress</span>
+<span>: Not that it WAS blood</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: trueee</span>
+<span><br>[11]</span>
+<span class="HaiHo">HaiHo</span>
+<span>: HaiHo the sheriffN1 EVIL CLOWN- is Suspicios</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: if there's a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r38"><b><color=#B545FF>Wildling</color></b></link></font></style>, i'm sorry about 15.</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: hmm.. do they have access to tampons?</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: brother no</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: jester</span>
+<span><br>[1]</span>
+<span class="Mistress">Mistress</span>
+<span>: Could be ketchup</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Mistress</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>evil clown</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Poland</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Petra</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>evil clown</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>The Gunslinger</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mimsy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>evil clown</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>typical retro</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>evil clown</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>evil clown</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="HaiHo">HaiHo</span>
+<span>: take evil clown</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>evil clown</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="HaiHo">HaiHo</span>
+<span>: hes evil</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>evil clown</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>evil clown</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>evil clown</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="HaiHo">HaiHo</span>
+<span>: EVIL ill tell you</span>
+<span><br>[2]</span>
+<span class="The-Gunslinger">The Gunslinger</span>
+<span>: If this is inno get 12 ig</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: 11... you've been found with strawberry jam smeared on the walls of your house... for this crime we punish you with death!!!</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: nah</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: this is guilty</span>
+<span><br>[11]</span>
+<span class="HaiHo">HaiHo</span>
+<span>: im not sorry</span>
+<span><br>[14]</span>
+<span class="Cheese">Cheese</span>
+<span>: Prithee send thyself to tarnation</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Mistress</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>The Gunslinger</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Dracula</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mimsy</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Petra</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>typical retro</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Blood in ur mouth</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>i hate chatgpt</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Poland</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>evil clown</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cheese</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>potato salad</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>HaiHo</color></link></font></style>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>HaiHo</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>HaiHo</b> to death by a vote of <color=#FF0000><b>10</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[11]</span>
+<span class="HaiHo">HaiHo</span>
+<span>: jam i s delicuos</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: mmhmm</span>
+<span><br>[11]</span>
+<span class="HaiHo">HaiHo</span>
+<span>: take clow down</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: what's your issue</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>HaiHo</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>HaiHo</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: oh snap</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: oh wait</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>HaiHo</b> left a last will.</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: huh</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: exe?\</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: tk on 12</span>
+<span><br>[14]</span>
+<span class="Cheese">Cheese</span>
+<span>: ggs 4</span>
+<span><br>[1]</span>
+<span class="Mistress">Mistress</span>
+<span>: Well, that's awkward</span>
+<span><br>[14]</span>
+<span class="Cheese">Cheese</span>
+<span>: TP ON THE CORO!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Cheese</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>. They were also killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Cheese</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Poland</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Poland</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Poland</b>.</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r107"><b><style="CovenColor">Coven </style><color=#1F51FF>Killing</color></b></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style> the same person</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: N2 - dueling 12 (lost)</span>
+<span><br>[1]</span>
+<span class="Mistress">Mistress</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> Night 1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <b>HaiHo</b>(Blood) Night 2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <b>Lesbian Shroud</b> (NB)</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1: (11) 1 3 (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k25"><b><color=#007AFF><b>Silence</b></color></b></link></font></style>d)N2: (6) 14</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Poland</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Poland</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Poland</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Poland</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Poland</b> is whispering to <b>potato salad</b>.</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: enchanter game confirmed</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: I'm tp legit</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: pirated last night</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: jester</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: so if 1 is real</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: what is 3</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>i hate chatgpt</b> voted against <b>evil clown</b>.</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: 11 was enchanted or the invest is fake</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: since they evil in psy will</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1: (11) 1 3 (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k25"><b><color=#007AFF><b>Silence</b></color></b></link></font></style>d)N2: (6) 14</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>typical retro</b> voted against <b>evil clown</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Blood in ur mouth</b> voted against <b>Dracula</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>The Gunslinger</b> voted against <b>evil clown</b>.</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: finally someone with sense</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Petra</b> voted against <b>Dracula</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>evil clown</b> voted against <b>Dracula</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Poland</b> voted against <b>Dracula</b>.</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: get 3 up</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mistress</b> voted against <b>Dracula</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>The Gunslinger</b> changed their vote to <b>Dracula</b>.</span>
+<span><br>[3]</span>
+<span class="Dracula">Dracula</span>
+<span>: I'm just gonna come clean, I;m srhoud and ive shourded 2 both nights hes coven</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>typical retro</b> changed their vote to <b>Dracula</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Dracula</b> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="Dracula">Dracula</span>
+<span>: I'll help town if you let me live</span>
+<span><br>[3]</span>
+<span class="Dracula">Dracula</span>
+<span>: just tell me who to kill</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>i hate chatgpt</b>.</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: wait 1 said 11 had blood?</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: guilty this and jailor exe 2</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>i hate chatgpt</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>i hate chatgpt</b>.</span>
+<span><br>[8]</span>
+<span class="i-hate-chatgpt">i hate chatgpt</span>
+<span>: im pros ill prosecute 2 tomorrow</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: 11 might have been enchanted</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <b>Dracula</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mistress</b> voted <b>Dracula</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>The Gunslinger</b> voted <b>Dracula</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mimsy</b> voted <b>Dracula</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Petra</b> voted <b>Dracula</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>typical retro</b> <b><style="AbstainColor>abstained</style></b> on <b>Dracula</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Blood in ur mouth</b> voted <b>Dracula</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>i hate chatgpt</b> voted <b>Dracula</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Poland</b> <b><style="AbstainColor>abstained</style></b> on <b>Dracula</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>evil clown</b> voted <b>Dracula</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>potato salad</b> <b><style="AbstainColor>abstained</style></b> on <b>Dracula</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Dracula</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Dracula</b> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[15]</span>
+<span class="potato-salad">potato salad</span>
+<span>: No one has gone up to heaven except the one who has come down from heaven, the Son of Man.i</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>i hate chatgpt</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>i hate chatgpt</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>i hate chatgpt</b>.</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: oh it's definitely an enchanter game I called it yesterday</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>i hate chatgpt</b>.</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: Also if 11 was Enchanted, that means 12 is Suspicious</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Dracula</b> died today.</span>
+<span><br>[8]</span>
+<span class="i-hate-chatgpt">i hate chatgpt</span>
+<span>: im pros</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Dracula</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: jailor on 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Dracula</b> left a last will.</span>
+<span><br>[8]</span>
+<span class="i-hate-chatgpt">i hate chatgpt</span>
+<span>: prosin 2</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: 12 is sus</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: I'm tp</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decide to put on your armor tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to remove your armor tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mistress</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Mistress</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Blood in ur mouth</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>evil clown</b> is whispering to <b>Lesbian Shroud</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <b>evil clown</b>: are you really jester?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Blood in ur mouth</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Lesbian Shroud</b> is whispering to <b>evil clown</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <b>evil clown</b>: jester</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>The Gunslinger</b> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Blood in ur mouth</b> is whispering to <b>potato salad</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Blood in ur mouth</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were executed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>The Gunslinger</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Blood in ur mouth</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Blood in ur mouth</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Blood in ur mouth</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#B545FF>Dreamweaver</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>potato salad</b> is whispering to <b>Blood in ur mouth</b>.</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: I just got a snail next to my blueberries</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: N3 - dueling 1 (WON)</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1: <b>Lesbian Shroud</b> target jailed N2: <b>Mistress</b> no blood i was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k25"><b><color=#007AFF><b>Silence</b></color></b></link></font></style>d N3: <b>The Gunslinger</b> target jailed</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: N3: (15) 2 6</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: 15 you good man</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: there is a v oodoo</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: ok</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: 15 wtf did u just whisper me</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: 15 is on some mushrooms</span>
+<span><br>[15]</span>
+<span class="potato-salad">potato salad</span>
+<span>: John 3 11-15.</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: or just religious</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: no flummery i was silinced n1</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: is that a psy will</span>
+<span><br>[15]</span>
+<span class="potato-salad">potato salad</span>
+<span>: may god lift us up to heaven</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: jester</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: John 14-12 eat potato salad and you shall be saved</span>
+<span><br>[15]</span>
+<span class="potato-salad">potato salad</span>
+<span>: and may we follow him there</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: okay what we do with dead sheriffs will</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Blood in ur mouth</b> voted against <b>evil clown</b>.</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: we hang 13</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Poland</b> voted against <b>evil clown</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>evil clown</b> voted against <b>Lesbian Shroud</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>i hate chatgpt</b> voted against <b>evil clown</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>typical retro</b> voted against <b>evil clown</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mimsy</b> voted against <b>evil clown</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>evil clown</b> was voted up to trial.</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: guys it's enchanter</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: I'm tp</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: cleric</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: n1 self</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: n2 pirated</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: n3 15</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: But Enchanter was on 11 since 1 was real</span>
+<span><br>[8]</span>
+<span class="i-hate-chatgpt">i hate chatgpt</span>
+<span>: nahhhhhhhhhhhhhhhhhhhhhhhhhhhh</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: yeah <b>HaiHo</b> was enchanted</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: 12 you were seen with strawberry jam smeared on your walls... how do you plead?</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: nah TP's that self N1 should die</span>
+<span><br>[12]</span>
+<span class="evil-clown">evil clown</span>
+<span>: pros help me</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: also u just typed that will</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <b>evil clown</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mimsy</b> voted <b>evil clown</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Petra</b> voted <b>evil clown</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>typical retro</b> voted <b>evil clown</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Blood in ur mouth</b> voted <b>evil clown</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>i hate chatgpt</b> voted <b>evil clown</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Poland</b> voted <b>evil clown</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>potato salad</b> <b><style="AbstainColor>abstained</style></b> on <b>evil clown</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>evil clown</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>evil clown</b> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style> will get their revenge from the grave!</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: jester</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: W</span>
+<span><br>[15]</span>
+<span class="potato-salad">potato salad</span>
+<span>: may god lay waste to your sins</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>evil clown</b> died today.</span>
+<span><br>[15]</span>
+<span class="potato-salad">potato salad</span>
+<span>: hehe~</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>evil clown</b> was convicted and executed.</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: well then</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>evil clown</b> did not leave a last will.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decide to put on your armor tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>potato salad</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were haunted by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>potato salad</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: N4 - dueling 5 (Jailed)</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1: <b>Lesbian Shroud</b> target jailed N2: <b>Mistress</b> no blood i was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k25"><b><color=#007AFF><b>Silence</b></color></b></link></font></style>d N3: <b>The Gunslinger</b> target jailed N4: <b>potato salad</b> no blood</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: there is still a voodoo and enchanter left at least</span>
+<span><br>[8]</span>
+<span class="i-hate-chatgpt">i hate chatgpt</span>
+<span>: pirate</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: yes</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: we lose majority tonight</span>
+<span><br>[8]</span>
+<span class="i-hate-chatgpt">i hate chatgpt</span>
+<span>: who you play with</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: ?</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: do you side with town or Coven?</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: who are we voting?</span>
+<span><br>[8]</span>
+<span class="i-hate-chatgpt">i hate chatgpt</span>
+<span>: town?</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: you mean who will i vote with</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: jester</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: hes asking if you align with town or coven</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: we gotta vote someone</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>i hate chatgpt</b> voted against <b>Poland</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Poland</b> voted against <b>Mimsy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mimsy</b> voted against <b>Poland</b>.</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: oi</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: why me mr poland</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: ill vote with whoever will let me live</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: I will let you live</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: vote with me</span>
+<span><br>[8]</span>
+<span class="i-hate-chatgpt">i hate chatgpt</span>
+<span>: live</span>
+<span><br>[8]</span>
+<span class="i-hate-chatgpt">i hate chatgpt</span>
+<span>: 6</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>typical retro</b> voted against <b>Poland</b>.</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: 1 more</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: if there is 3 coven and VM (someone silenced) we cant vote anyone up</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: slow on 9</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>i hate chatgpt</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>i hate chatgpt</b> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Poland</b> is whispering to <b>typical retro</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>Now <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><b><color=#FF004E>Soul Collector</color></b></link></font></style> has become <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF004E>Death</color></b></link></font></style>, Destroyer of Worlds and Horseman of the Apocalypse!</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>typical retro</b> is whispering to <b>Poland</b>.</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: uh oh</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: oh fuck</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: oh bruh</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: shiet</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: jester</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: real claims guy</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: coven come out</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: im pirate</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: 5 ck 9 coven 13 jest and idk rest</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: im going to be real im CK</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: jester</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: 6?</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: 13 faking jester?</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: 13 might be <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><b><color=#FF004E>Soul Collector</color></b></link></font></style> fake claiming jest tbh</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: is pirate</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: 6 pirate</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1: (11) 1 3 (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k25"><b><color=#007AFF><b>Silence</b></color></b></link></font></style>d) N2: (6) 14 N3: (15) 2 6 N4: (6) 15 (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k25"><b><color=#007AFF><b>Silence</b></color></b></link></font></style>d) N5: (4) 13 5 5 coven killing, 9 coven, 13 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style></span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: im confirmed pirate</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: 4 7 13</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: 6 is pirate yo</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: one of them</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: he got no ccs</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: also tarnation u coven</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Blood in ur mouth</b> voted against <b>Lesbian Shroud</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mimsy</b> voted against <b>Lesbian Shroud</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Petra</b> voted against <b>Lesbian Shroud</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>typical retro</b> voted against <b>Lesbian Shroud</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Lesbian Shroud</b> was voted up to trial.</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: jester</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: how dare u <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k25"><b><color=#007AFF><b>Silence</b></color></b></link></font></style> me twice, i did nothing</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: I call your bluff</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: 4 and 13 are the most sus</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: jester</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: inno</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: i call bluff also</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: i think 4 is death</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mimsy</b> voted <b>Lesbian Shroud</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Petra</b> <b><style="AbstainColor>abstained</style></b> on <b>Lesbian Shroud</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>typical retro</b> <b><style="AbstainColor>abstained</style></b> on <b>Lesbian Shroud</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Blood in ur mouth</b> voted <b>Lesbian Shroud</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Poland</b> voted <b>Lesbian Shroud</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Lesbian Shroud</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Lesbian Shroud</b> to death by a vote of <color=#FF0000><b>3</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[13]</span>
+<span class="Lesbian-Shroud">Lesbian Shroud</span>
+<span>: jester</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: or not lmao</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: you were right 6</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style> will get their revenge from the grave!</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: i knew it</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: fuck i knew it</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: fuck</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: lmao atleast coven dosnt win</span>
+<span><br>[9]</span>
+<span class="Poland">Poland</span>
+<span>: shiet</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: dang</span>
+<span><br>[4]</span>
+<span class="Mimsy">Mimsy</span>
+<span>: so close</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Lesbian Shroud</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were convicted and executed.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Lesbian-Shroud</span>
+<span style="color:#689194">: jester</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: i was last town</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: xd</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: <b>Blood in ur mouth</b> 3 man coven</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Lesbian Shroud</b> left a last will.</span>
+<span><br>[6]</span>
+<span class="typical-retro">typical retro</span>
+<span>: goddamit</span>
+<span><br>[5]</span>
+<span class="Petra">Petra</span>
+<span>: shush</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: wait no i wasnt</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: 1 last town</span>
+<span><br>[7]</span>
+<span class="Blood-in-ur-mouth">Blood in ur mouth</span>
+<span>: xd</span>
+</body>
+</html>

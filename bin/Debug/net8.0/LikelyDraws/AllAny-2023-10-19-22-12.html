@@ -1,0 +1,674 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Trickster - </span><span style="color:#B545FF"> Jinx </span>
+<span style="color:#a0a0a0"><i>(Username: dalcer)</i></span>
+<style>span.Trickster{color: #B545FF;}</style>
+<span><br>[2] Mash - </span><span style="color:#06E00C"> Sheriff </span>
+<span style="color:#a0a0a0"><i>(Username: CallMeNothing)</i></span>
+<style>span.Mash{color: #06E00C;}</style>
+<span><br>[3] PeNoS - </span><span style="color:#00CC99"> Doomsayer </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.PeNoS{color: #00CC99;}</style>
+<span><br>[4] Sky - </span><span style="color:#06E00C"> Bodyguard </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Sky the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> <br><br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Barbeque Sauce</color></link></font></style> <br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: mbyouknow)</i></span>
+<style>span.Sky{color: #06E00C;}</style>
+<span><br>[5] Sammy Salsa - </span><span style="color:#B545FF"> Wildling </span>
+<span style="color:#a0a0a0"><i>(Username: NotASnake)</i></span>
+<style>span.Sammy-Salsa{color: #B545FF;}</style>
+<span><br>[6] Two Serial Killer - </span><span style="color:#FF004E"> Berserker </span>
+<span style="color:#a0a0a0"><i>(Username: Zeboz)</i></span>
+<style>span.Two-Serial-Killer{color: #FF004E;}</style>
+<span><br>[7] glitter clitter - </span><span style="color:#06E00C"> Investigator </span>
+<span style="color:#a0a0a0"><i>(Username: usedpad)</i></span>
+<style>span.glitter-clitter{color: #06E00C;}</style>
+<span><br>[8] Bread - </span><span style="color:#06E00C"> Veteran </span>
+<span style="color:#a0a0a0"><i>(Username: xhangsevenx)</i></span>
+<style>span.Bread{color: #06E00C;}</style>
+<span><br>[9] Jonathan Corwin - </span><span style="color:#06E00C"> Cleric </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br>n1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style> (im coming for that bread)<br>n2- <br>n3- <br><br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8 baker<br>10<br>11<br>12<br>13<br>14<br>15</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">And there was general Wockington</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Jonathan-Corwin{color: #06E00C;}</style>
+<span><br>[10] Barbeque Sauce - </span><span style="color:#FF004E"> Soul Collector </span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Barbeque-Sauce{color: #FF004E;}</style>
+<span><br>[11] hehehaha grrrrrrrrrr - </span><span style="color:#06E00C"> Seer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">6 IS EVIL I AM SEER</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Shartman)</i></span>
+<style>span.hehehaha-grrrrrrrrrr{color: #06E00C;}</style>
+<span><br>[12] Igor - </span><span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: reagentapple)</i></span>
+<style>span.Igor{color: #06E00C;}</style>
+<span><br>[13] Headless Pumpkin - </span><span style="color:#B545FF"> Dreamweaver </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">TP-<br>n1- 12</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: IROOONS)</i></span>
+<style>span.Headless-Pumpkin{color: #B545FF;}</style>
+<span><br>[14] Witch One - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style> turned <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>n1 nothing<br>n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sammy Salsa</color></link></font></style> [blood]</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Pandapig)</i></span>
+<style>span.Witch-One{color: #06E00C;}</style>
+<span><br>[15] bards to feed - </span><span style="color:#06E00C"> Lookout </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> <br><br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style> (vb <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Jonathan Corwin</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>hehehaha grrrrrrrrrr</color></link></font></style> ) <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k89"><b><color=#007AFF><b>Dreamweave</b></color></b></link></font></style>'d! <br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style> (vb no one) SAVED!<br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style> <br><br><br><br><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mash</color></link></font></style> is real town.<br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style> not Coven.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: helpfulDeathgod)</i></span>
+<style>span.bards-to-feed{color: #06E00C;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> gaming let's goo</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: who wants <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style> ?</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: Morning</span>
+<span><br>[9]</span>
+<span class="Jonathan-Corwin">Jonathan Corwin</span>
+<span>: i want bread</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Igor</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Trickster</color></link></font></style>.</color></span>
+<span><br>[15]</span>
+<span class="bards-to-feed">bards to feed</span>
+<span>: I need <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style></span>
+<span><br>[15]</span>
+<span class="bards-to-feed">bards to feed</span>
+<span>: I have 15 bards to feed</span>
+<span><br>[15]</span>
+<span class="bards-to-feed">bards to feed</span>
+<span>: :(</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: come and get yer bread</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: not you <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist [14]</color></b></link></font></style></span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: fuck you</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: I see we're working together again lol.</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: Idk what this role does</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You will attempt to collect the soul of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Jonathan Corwin</color></link></font></style> tonight.</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: It's basically WW, but you power up every kill.</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: I see</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>glitter clitter</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You have passively collected a soul from the Underworld.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You successfully collected a soul.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>glitter clitter</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>glitter clitter</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Jonathan Corwin</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>. They were also shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Jonathan Corwin</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>hehehaha grrrrrrrrrr</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>hehehaha grrrrrrrrrr</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Igor">Igor</span>
+<span>: Apon a great stallion</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: Rip <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>. They both visited a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="bards-to-feed">bards to feed</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style> (vb <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Jonathan Corwin</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>hehehaha grrrrrrrrrr</color></link></font></style> ) <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k89"><b><color=#007AFF><b>Dreamweave</b></color></b></link></font></style>'d!</span>
+<span><br>[2]</span>
+<span class="Mash">Mash</span>
+<span>: Sheriff N1- 14 INNO</span>
+<span><br>[15]</span>
+<span class="bards-to-feed">bards to feed</span>
+<span>: Please help me</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: rip indeed</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: Yeah, I wonder who the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style> is lol.</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: oh fuck off lol</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: .-.</span>
+<span><br>[1]</span>
+<span class="Trickster">Trickster</span>
+<span>: 6 is evil obvi, seer said so</span>
+<span><br>[12]</span>
+<span class="Igor">Igor</span>
+<span>: Idk lets go find out</span>
+<span><br>[15]</span>
+<span class="bards-to-feed">bards to feed</span>
+<span>: cleric had it in their will though.</span>
+<span><br>[13]</span>
+<span class="Headless-Pumpkin">Headless Pumpkin</span>
+<span>: yea 6 should claim</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: imagine if 14 is coven]</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Headless Pumpkin</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Headless Pumpkin</color></link></font></style> cancelled their vote.</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: seer died and wasnt able to get any info hello</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Igor</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: ???</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Headless Pumpkin</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Headless-Pumpkin">Headless Pumpkin</span>
+<span>: slow</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: just claim 6</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: claim you wanker</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style> N1 : forgor</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: lies</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You cancelled your vote.</span>
+<span><br>[1]</span>
+<span class="Trickster">Trickster</span>
+<span>: when a meme gets someone killed</span>
+<span><br>[15]</span>
+<span class="bards-to-feed">bards to feed</span>
+<span>: ok what are you now then?</span>
+<span><br>[12]</span>
+<span class="Igor">Igor</span>
+<span>: so what are you now?</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: What'd you remember?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style> cancelled their vote.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: slow vote</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sammy Salsa</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style>.</color></span>
+<span><br>[13]</span>
+<span class="Headless-Pumpkin">Headless Pumpkin</span>
+<span>: slow on 6</span>
+<span><br>[13]</span>
+<span class="Headless-Pumpkin">Headless Pumpkin</span>
+<span>: tbh</span>
+<span><br>[1]</span>
+<span class="Trickster">Trickster</span>
+<span>: 15 rit baiting</span>
+<span><br>[15]</span>
+<span class="bards-to-feed">bards to feed</span>
+<span>: please visit me!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: Got 2 souls, nice.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You will attempt to collect the soul of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Sky</color></link></font></style> tonight.</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: You can kill tonight btw.</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: You should do that.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style> decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Headless Pumpkin</color></link></font></style> tonight.</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: Or else you won't be able to kill until N4.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead will attempt to collect the soul of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Headless Pumpkin</color></link></font></style> tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You have passively collected a soul from the Underworld.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You successfully collected a soul.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Sky</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx [15]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Sky</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Headless Pumpkin</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Headless Pumpkin</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#B545FF>Dreamweaver [7]</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Mash">Mash</span>
+<span>: Sheriff N1- 14 INNO N2- 15 INNO</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: // N2. [<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>] Checking <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Sky</color></link></font></style> (No Blood)</span>
+<span><br>[15]</span>
+<span class="bards-to-feed">bards to feed</span>
+<span>: N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style> (vb no one) SAVED! Someone visited me but also thanks Bers!</span>
+<span><br>[14]</span>
+<span class="Witch-One">Witch One</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style> turned <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> n1 nothing n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sammy Salsa</color></link></font></style> [blood]</span>
+<span><br>[14]</span>
+<span class="Witch-One">Witch One</span>
+<span>: get 5</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style> N1 : forgor D1 : <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1 : <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Sky</color></link></font></style> no blood N2 :</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: dreamweaver died lol</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: Well 6 is confirmed not coven since <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx [15]</color></b></link></font></style> was on them.</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: Damn lol.</span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> ffs claimed to 8 d1</span>
+<span><br>[1]</span>
+<span class="Trickster">Trickster</span>
+<span>: did bg think 6 would get attacked?</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: yea 5 claimed Tpow</span>
+<span><br>[14]</span>
+<span class="Witch-One">Witch One</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style> turned <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> n1 nothing n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sammy Salsa</color></link></font></style> [blood]</span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: couldnt knight him cuz its a fuckin vet</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mash</color></link></font></style>.</color></span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: 14 fake</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: Maybe 1? Either way, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx [15]</color></b></link></font></style> was on 6, so we know 6 ain't coven.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sammy Salsa</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sammy Salsa</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Igor</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mash</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mash</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mash</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style>.</color></span>
+<span><br>[14]</span>
+<span class="Witch-One">Witch One</span>
+<span>: i was amne turned invest</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mash</color></link></font></style>.</color></span>
+<span><br>[14]</span>
+<span class="Witch-One">Witch One</span>
+<span>: I got the achievement for finding blood and everything</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mash</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style>.</color></span>
+<span><br>[14]</span>
+<span class="Witch-One">Witch One</span>
+<span>: inno</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: Well what are you now if that's what you were?</span>
+<span><br>[2]</span>
+<span class="Mash">Mash</span>
+<span>: i found this inno n1</span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: im monarch claimed to vet</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mash</color></link></font></style>.</color></span>
+<span><br>[2]</span>
+<span class="Mash">Mash</span>
+<span>: Sheriff N1- 14 INNO N2- 15 INNO</span>
+<span><br>[1]</span>
+<span class="Trickster">Trickster</span>
+<span>: i love when the one on the stand says inno</span>
+<span><br>[12]</span>
+<span class="Igor">Igor</span>
+<span>: he said invest</span>
+<span><br>[14]</span>
+<span class="Witch-One">Witch One</span>
+<span>: im invest</span>
+<span><br>[14]</span>
+<span class="Witch-One">Witch One</span>
+<span>: inno</span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: prob an exe</span>
+<span><br>[1]</span>
+<span class="Trickster">Trickster</span>
+<span>: makes me wanna guilty even more</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Trickster</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mash</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>PeNoS</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sammy Salsa</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Two Serial Killer</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Igor</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bards to feed</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Witch One</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Witch One</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Witch One</b> to death by a vote of <color=#FF0000><b>3</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[14]</span>
+<span class="Witch-One">Witch One</span>
+<span>: whyyyyyyyyy</span>
+<span><br>[14]</span>
+<span class="Witch-One">Witch One</span>
+<span>: bad townn</span>
+<span><br>[14]</span>
+<span class="Witch-One">Witch One</span>
+<span>: gg</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: 5 claimed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style></span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: gg</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Witch One</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Witch One</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="bards-to-feed">bards to feed</span>
+<span>: Well</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: Oh. Fuck.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Witch One</b> left a last will.</span>
+<span><br>[2]</span>
+<span class="Mash">Mash</span>
+<span>: I FOUND THIS INNO N1 BROSKIS</span>
+<span><br>[15]</span>
+<span class="bards-to-feed">bards to feed</span>
+<span>: would you look at that</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r28"><b><color=#B545FF>Enchanter [8]</color></b></link></font></style>?</span>
+<span><br>[15]</span>
+<span class="bards-to-feed">bards to feed</span>
+<span>: I'm the only one who believed</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: yes</span>
+<span><br>[15]</span>
+<span class="bards-to-feed">bards to feed</span>
+<span>: Enchanter doesn't do that</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Two Serial Killer</b> decided to attack <b>bards to feed</b> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You will attempt to collect the soul of <b>bards to feed</b> tonight.</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: I should transform tomorrow if all goes well.</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: most excellent</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: as long as they are sus of me and want me gone</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You have passively collected a soul from the Underworld.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You successfully collected a soul.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>bards to feed</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>bards to feed</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style>.</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>Now <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><b><color=#FF004E>Soul Collector</color></b></link></font></style> has become <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF004E>Death</color></b></link></font></style>, Destroyer of Worlds and Horseman of the Apocalypse!</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: // N3. [<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>] Checking <b>Trickster</b> (No Blood)</span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: ok im obv fake</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: Oh fuck</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF004E>Death</color></b></link></font></style> moment</span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: 2 and 3 have defense</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style> N1 : forgor D1 : <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1 : <b>Sky</b> no blood N2 : <b>Sammy Salsa</b> blood N3 :</span>
+<span><br>[1]</span>
+<span class="Trickster">Trickster</span>
+<span>: its 3</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: 5 BLOOD</span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: yes 2 and 3 have defense</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: oh ok</span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: you have to get them both</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: 2 and 3 roles?</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: how do you know they ahve defense</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: 5 coven?</span>
+<span><br>[12]</span>
+<span class="Igor">Igor</span>
+<span>: well if we choose wrong we lose</span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: i tried to kill them both</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: 6, because 5 attacked them.</span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: yes im coven</span>
+<span><br>[1]</span>
+<span class="Trickster">Trickster</span>
+<span>: 5 is ck obv</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: how many coven?</span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: death is bigger problem</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: ya'll can resolve that death thing on you r own</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Trickster</b> voted against <b>PeNoS</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Two Serial Killer</b> voted against <b>PeNoS</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Igor</b> voted against <b>PeNoS</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>PeNoS</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sammy Salsa</b> voted against <b>PeNoS</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>PeNoS</b> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="PeNoS">PeNoS</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><style="TownColor">Town </style><color=#1F51FF>Killing</color></b></link></font></style></span>
+<span><br>[3]</span>
+<span class="PeNoS">PeNoS</span>
+<span>: <b>Two Serial Killer</b> is a killer</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: There's a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF004E>Death</color></b></link></font></style> 3, we need a full claim or bust.</span>
+<span><br>[2]</span>
+<span class="Mash">Mash</span>
+<span>: full will no rit or doom at this point 6 is confirmed??</span>
+<span><br>[1]</span>
+<span class="Trickster">Trickster</span>
+<span>: o hold up this may be bers</span>
+<span><br>[5]</span>
+<span class="Sammy-Salsa">Sammy Salsa</span>
+<span>: you had defense cant risk it</span>
+<span><br>[3]</span>
+<span class="PeNoS">PeNoS</span>
+<span>: kill me if you want but kill <b>Two Serial Killer</b> after</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>PeNoS</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Trickster</b> <b><style="AbstainColor>abstained</style></b> on <b>PeNoS</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mash</b> voted <b>PeNoS</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sammy Salsa</b> voted <b>PeNoS</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Two Serial Killer</b> voted <b>PeNoS</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bread</b> <b><style="AbstainColor>abstained</style></b> on <b>PeNoS</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Igor</b> voted <b>PeNoS</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>PeNoS</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>PeNoS</b> to death by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: 3, there's a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF004E>Death</color></b></link></font></style></span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: gg</span>
+<span><br>[1]</span>
+<span class="Trickster">Trickster</span>
+<span>: this is bers</span>
+<span><br>[3]</span>
+<span class="PeNoS">PeNoS</span>
+<span>: is 6</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: it ain't <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style> lol.</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: it's not "there's a death, it's there's <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF004E>Death</color></b></link></font></style>"</span>
+<span><br>[10]</span>
+<span class="Barbeque-Sauce">Barbeque Sauce</span>
+<span>: 6 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>, I'm <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF004E>Death</color></b></link></font></style> lol.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>PeNoS</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>PeNoS</b> was convicted and executed.</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: LOL</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r43"><b><color=#00CC99>Doomsayer</color></b></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: L Coven</span>
+<span><br>[6]</span>
+<span class="Two-Serial-Killer">Two Serial Killer</span>
+<span>: xd</span>
+<span><br>[12]</span>
+<span class="Igor">Igor</span>
+<span>: wtf</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>PeNoS</b> did not leave a last will.</span>
+<span><br>[8]</span>
+<span class="Bread">Bread</span>
+<span>: once again</span>
+<span><br>[1]</span>
+<span class="Trickster">Trickster</span>
+<span>: all defense</span>
+</body>
+</html>

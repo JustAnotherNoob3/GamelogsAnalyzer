@@ -1,0 +1,974 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Christine - </span><span style="color:#B545FF"> Poisoner </span>
+<span style="color:#a0a0a0"><i>(Username: LittleSprite)</i></span>
+<style>span.Christine{color: #B545FF;}</style>
+<span><br>[2] Big Randy - </span><span style="color:#FF004E"> Plaguebearer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">N1: Stole 3s booty<br>N2: Stole 6s booty</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TheNightmanCometh)</i></span>
+<style>span.Big-Randy{color: #FF004E;}</style>
+<span><br>[3] bop - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">n1 5<br>n2 10<br>n3 1<br>n4 6<br><br><br>DEAD</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: zimmydowhat)</i></span>
+<style>span.bop{color: #06E00C;}</style>
+<span><br>[4] Trans eGirl - </span><span style="color:#06E00C"> Coroner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> <br><br><br><br><br><br>why on earth would you kill a coroner d1 claim wtf?</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: UnendingReign)</i></span>
+<style>span.Trans-eGirl{color: #06E00C;}</style>
+<span><br>[5] Trans Girl - </span><span style="color:#B545FF"> Dreamweaver </span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Trans-Girl{color: #B545FF;}</style>
+<span><br>[6] Edgar - </span><span style="color:#B545FF"> Medusa </span>
+<span style="color:#a0a0a0"><i>(Username: SnekSounds)</i></span>
+<style>span.Edgar{color: #B545FF;}</style>
+<span><br>[7] Strawberry Milk - </span><span style="color:#FF004E"> Berserker </span>
+<span style="color:#a0a0a0"><i>(Username: imbent)</i></span>
+<style>span.Strawberry-Milk{color: #FF004E;}</style>
+<span><br>[8] ChumStain - </span><span style="color:#06E00C"> Seer </span>
+<span style="color:#a0a0a0"><i>(Username: bigBean)</i></span>
+<style>span.ChumStain{color: #06E00C;}</style>
+<span><br>[9] Mister milker - </span><span style="color:#06E00C"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: mistermilker)</i></span>
+<style>span.Mister-milker{color: #06E00C;}</style>
+<span><br>[10] BouncingBoobers - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Trickster<br><br>N1: 13<br>N2: 7</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">wham bam thank you mam</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: pizzaboy4)</i></span>
+<style>span.BouncingBoobers{color: #06E00C;}</style>
+<span><br>[11] John Proctor - </span><span style="color:#06E00C"> Investigator </span>
+<span style="color:#a0a0a0"><i>(Username: Unsp0kenG0d)</i></span>
+<style>span.John-Proctor{color: #06E00C;}</style>
+<span><br>[12] dddddddddddddddddddd - </span><span style="color:#B545FF"> Hex Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> <br>N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>SourChum</color></link></font></style> jailed .-.<br>N2-Jailed</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ObeyTheMafia)</i></span>
+<style>span.dddddddddddddddddddd{color: #B545FF;}</style>
+<span><br>[13] dickenbaus - </span><span style="color:#06E00C"> Jailor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Dickenbaus the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style> <br><br>N1- jail <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>SourChum</color></link></font></style> - claims lookout</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: BuggysWrld)</i></span>
+<style>span.dickenbaus{color: #06E00C;}</style>
+<span><br>[14] SourChum - </span><span style="color:#FF004E"> Baker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">n1- jailed<br>n2- watched 12, no visit<br>n3- rbed, couldnt use role<br>n4- watched 1, no visit</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: LaneyTheLazy)</i></span>
+<style>span.SourChum{color: #FF004E;}</style>
+<span><br>[15] eggie - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Tarvner Keeper <br><br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>bop</color></link></font></style> <br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>BouncingBoobers</color></link></font></style> <br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Trans Girl</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>ed</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: bufffy)</i></span>
+<style>span.eggie{color: #06E00C;}</style>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edgar</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: Coroner D1 claim</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Morning</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: bet</span>
+<span><br>[11]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: d1 invest</span>
+<span><br>[12]</span>
+<span class="dddddddddddddddddddd">dddddddddddddddddddd</span>
+<span>: 4 you dead ass?</span>
+<span><br>[11]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: ggs</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: Autopsy on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Big Randy</color></link></font></style> tonight</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: ;)</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edgar</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>John Proctor</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>dddddddddddddddddddd</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k19"><b><color=#007AFF><b>Hex</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>SourChum</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Christine</color></link></font></style> decided to celebrate with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Mister milker</color></link></font></style> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to invade the dreams of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>eggie</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Someone gave you a drink last night and you fell asleep! You were <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>John Proctor</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>John Proctor</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>).</span>
+<span><br>[8]</span>
+<span class="ChumStain">ChumStain</span>
+<span>: N1| <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>dddddddddddddddddddd</color></link></font></style> enemies</span>
+<span><br>[12]</span>
+<span class="dddddddddddddddddddd">dddddddddddddddddddd</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>SourChum</color></link></font></style> jailed .-.</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: ok</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Someone gave me a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k73"><b><color=#007AFF><b>Drink</b></color></b></link></font></style> last night.</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: n1- jailed</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: get <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>dddddddddddddddddddd</color></link></font></style> and we can 1v1?</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: i was also rbed</span>
+<span><br>[9]</span>
+<span class="Mister-milker">Mister milker</span>
+<span>: i got drugged</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: could also be enchant game</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: i drank w/3</span>
+<span><br>[8]</span>
+<span class="ChumStain">ChumStain</span>
+<span>: nah</span>
+<span><br>[8]</span>
+<span class="ChumStain">ChumStain</span>
+<span>: die <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style></span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: or</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: kill 4</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: let me corono atleast once smh</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: you coven</span>
+<span><br>[10]</span>
+<span class="BouncingBoobers">BouncingBoobers</span>
+<span>: No</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: watch</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>ChumStain</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: i have a dead body to examine now</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>bop</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>BouncingBoobers</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: smh</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>dddddddddddddddddddd</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>dickenbaus</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edgar</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>SourChum</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Christine</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style> was voted up to trial.</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: man thats rlly no fun coro is my favorite ti :(</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: you have bad opinions</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I mean, it's a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r32"><b><color=#B545FF>Medusa [3]</color></b></link></font></style> game. You can't <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k51"><b><color=#007AFF><b>Autopsy</b></color></b></link></font></style> 11 anyways.</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: inno and get more info?</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: 15 coven</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: im ti smh</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Also damn, you really like the worst TI?</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: only one it seems</span>
+<span><br>[8]</span>
+<span class="ChumStain">ChumStain</span>
+<span>: nah</span>
+<span><br>[8]</span>
+<span class="ChumStain">ChumStain</span>
+<span>: guilty</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Christine</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Big Randy</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>bop</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edgar</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Strawberry Milk</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>ChumStain</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Mister milker</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>BouncingBoobers</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>dddddddddddddddddddd</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>dickenbaus</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>SourChum</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>eggie</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans eGirl</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Trans eGirl</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: no bro i hate it but im stil town and i wanna win</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: man yall crazy</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: gl town</span>
+<span><br>[4]</span>
+<span class="Trans-eGirl">Trans eGirl</span>
+<span>: hope you can win</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Trans eGirl</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Trans eGirl</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: gasp</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Coroner, rip.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Trans eGirl</b> left a last will.</span>
+<span><br>[8]</span>
+<span class="ChumStain">ChumStain</span>
+<span>: nvm get 12 then</span>
+<span><br>[12]</span>
+<span class="dddddddddddddddddddd">dddddddddddddddddddd</span>
+<span>: Welp if jailor exe me im sorry</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: u right</span>
+<span><br>[12]</span>
+<span class="dddddddddddddddddddd">dddddddddddddddddddd</span>
+<span>: Im tarv</span>
+<span><br>[12]</span>
+<span class="dddddddddddddddddddd">dddddddddddddddddddd</span>
+<span>: :c</span>
+<span><br>[8]</span>
+<span class="ChumStain">ChumStain</span>
+<span>: N1| <b>Trans eGirl</b> <b>dddddddddddddddddddd</b> enemies</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Tarv</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: TARV</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>dddddddddddddddddddd</b> was hauled off to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Christine</b> decided to celebrate with <b>dickenbaus</b> tonight.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Rip our Tarvner Keeper.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Edgar</b> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <b>Strawberry Milk</b> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to invade the dreams of <b>BouncingBoobers</b> tonight.</span>
+<span><br>[1]</span>
+<span class="Christine">Christine</span>
+<span>: 12 is hex</span>
+<span><br>[1]</span>
+<span class="Christine">Christine</span>
+<span>: lol</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: But yeah, I was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed last night.</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: ok</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Christine</b> decided to use their <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k36"><b><color=#007AFF><b>Poison</b></color></b></link></font></style> tonight.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I dunno if 15 is immune to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k89"><b><color=#007AFF><b>Dreamweave</b></color></b></link></font></style> or not lol.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Probs not</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Strawberry Milk</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Strawberry Milk</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>).</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>BouncingBoobers</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>BouncingBoobers</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: 7 was zerk</span>
+<span><br>[8]</span>
+<span class="ChumStain">ChumStain</span>
+<span>: N2| <b>Trans Girl</b> <b>eggie</b> enemies</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> N1: <b>bop</b> N2: <b>BouncingBoobers</b></span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I'm <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: why is 12 alive</span>
+<span><br>[8]</span>
+<span class="ChumStain">ChumStain</span>
+<span>: we lynch 12 tn anyways</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: hmm</span>
+<span><br>[12]</span>
+<span class="dddddddddddddddddddd">dddddddddddddddddddd</span>
+<span>: Once im hang kill the seer</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: oh wait he was jailed n1</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: 10's name is still funny to me lol.</span>
+<span><br>[8]</span>
+<span class="ChumStain">ChumStain</span>
+<span>: 14 was jailed n1</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>ChumStain</b> voted against <b>dddddddddddddddddddd</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>bop</b> voted against <b>dddddddddddddddddddd</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>dddddddddddddddddddd</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>eggie</b> voted against <b>dddddddddddddddddddd</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>SourChum</b> voted against <b>dddddddddddddddddddd</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Big Randy</b> voted against <b>dddddddddddddddddddd</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>dddddddddddddddddddd</b> was voted up to trial.</span>
+<span><br>[12]</span>
+<span class="dddddddddddddddddddd">dddddddddddddddddddd</span>
+<span>: Seer is trusted to much</span>
+<span><br>[12]</span>
+<span class="dddddddddddddddddddd">dddddddddddddddddddd</span>
+<span>: In all any</span>
+<span><br>[12]</span>
+<span class="dddddddddddddddddddd">dddddddddddddddddddd</span>
+<span>: Ty jailor you didn't lose exe for that</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: was anyone jailed last night</span>
+<span><br>[12]</span>
+<span class="dddddddddddddddddddd">dddddddddddddddddddd</span>
+<span>: Me</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Is the Seer wrong though?</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: oh</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>dddddddddddddddddddd</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[8]</span>
+<span class="ChumStain">ChumStain</span>
+<span>: could be enchanter</span>
+<span><br>[8]</span>
+<span class="ChumStain">ChumStain</span>
+<span>: if there is this proves it lol</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Christine</b> <b><style="AbstainColor>abstained</style></b> on <b>dddddddddddddddddddd</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Big Randy</b> voted <b>dddddddddddddddddddd</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>bop</b> voted <b>dddddddddddddddddddd</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edgar</b> voted <b>dddddddddddddddddddd</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>ChumStain</b> voted <b>dddddddddddddddddddd</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mister milker</b> voted <b>dddddddddddddddddddd</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>dickenbaus</b> voted <b>dddddddddddddddddddd</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>SourChum</b> voted <b>dddddddddddddddddddd</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>eggie</b> voted <b>dddddddddddddddddddd</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>dddddddddddddddddddd</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[12]</span>
+<span class="dddddddddddddddddddd">dddddddddddddddddddd</span>
+<span>: Fuck.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>dddddddddddddddddddd</b> has disconnected from life.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: It sounds like the Seer was right lol.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>dddddddddddddddddddd</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>dddddddddddddddddddd</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r29"><b><color=#B545FF>Hex Master [10]</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: thats not tarven man</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r29"><b><color=#B545FF>Hex Master [10]</color></b></link></font></style>, nice.</span>
+<span><br>[8]</span>
+<span class="ChumStain">ChumStain</span>
+<span>: jailor go after 5</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>dddddddddddddddddddd</b> left a last will.</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: no tarv</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: Mister Milker voted inno</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: yeah fuck 5</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: They aren't the Tarvner Keeper.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><color=#FFCD00FF>You were hauled off to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>!</color></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Trans Girl the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> // N1. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style>ing <b>BouncingBoobers</b> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed) // N2. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style>ing <b>ChumStain</b></span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Edgar</b> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <b>ChumStain</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Christine</b> decided to celebrate with <b>ChumStain</b> tonight.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I'm just a BG.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Christine</b> instead decided to celebrate with <b>SourChum</b> tonight.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: 15 could be a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#B545FF>Poisoner [4]</color></b></link></font></style> since <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r32"><b><color=#B545FF>Medusa [3]</color></b></link></font></style> seems to have the book.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>ur all good</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Alrighty</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>ChumStain</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>ChumStain</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>).</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>dickenbaus</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#B545FF>Poisoner [4]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>dickenbaus</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>ed last night.</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: Tarvner Keeper N1: <b>bop</b> N2: <b>BouncingBoobers</b> N3: <b>Trans Girl</b> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>ed</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: 15 is poisoner</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Wait, 13 was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k36"><b><color=#007AFF><b>Poison</b></color></b></link></font></style>ed?</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: i am not</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I didn't know they were Poisoned when I was jailed.</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: i'm tarvner keeper</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: thats what a poisoner would say</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: .</span>
+<span><br>[9]</span>
+<span class="Mister-milker">Mister milker</span>
+<span>: who have you drank with</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: The last Tarvner Keeper was a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r29"><b><color=#B545FF>Hex Master [10]</color></b></link></font></style>, so...</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: Tarvner Keeper N1: <b>bop</b> N2: <b>BouncingBoobers</b> N3: <b>Trans Girl</b> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>ed</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>bop</b> voted against <b>eggie</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>eggie</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Christine</b> voted against <b>eggie</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edgar</b> voted against <b>eggie</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mister milker</b> voted against <b>eggie</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>eggie</b> was voted up to trial.</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: i'm tarv</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: but if you have enough townies, get 5 after me</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: stop lying to the masses poiosner</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Kind of a weird coincidence that 10 was a RB Immune <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> that died N2?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>eggie</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: am not poiosner</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: That was the same night 13 was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k36"><b><color=#007AFF><b>Poison</b></color></b></link></font></style>ed.</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: who did you rb last night</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Christine</b> voted <b>eggie</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Big Randy</b> voted <b>eggie</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>bop</b> voted <b>eggie</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edgar</b> voted <b>eggie</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mister milker</b> <b><style="AbstainColor>abstained</style></b> on <b>eggie</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>SourChum</b> voted <b>eggie</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>eggie</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: Tarvner Keeper N1: <b>bop</b> N2: <b>BouncingBoobers</b> N3: <b>Trans Girl</b> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>ed</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: no one</span>
+<span><br>[15]</span>
+<span class="eggie">eggie</span>
+<span>: bc jail</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>eggie</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>eggie</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: gdi</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Oh shit?</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>eggie</b> left a last will.</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: im so sad</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Wait, who's the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#B545FF>Poisoner [4]</color></b></link></font></style> then?</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: i was rbed last nite</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I mean, not like they're going to tell us</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: i need to kill a townie who is most likely town</span>
+<span><br>[1]</span>
+<span class="Christine">Christine</span>
+<span>: they gave me a drink but im immune ? its not even in their will</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Edgar</b> decided to attack <b>Mister milker</b> tonight.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: There's another Tav it seems.</span>
+<span><br>[1]</span>
+<span class="Christine">Christine</span>
+<span>: mhm</span>
+<span><br>[1]</span>
+<span class="Christine">Christine</span>
+<span>: ah</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to invade the dreams of <b>Big Randy</b> tonight.</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: oh btw 7 was berserker</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Maybe some day I'll get off a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k89"><b><color=#007AFF><b>Dreamweave</b></color></b></link></font></style> lol.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: We knw</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>A <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k9"><b><color=#007AFF><b>Plague</b></color></b></link></font></style> has consumed the Town, transforming the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><b><color=#FF004E>Plaguebearer</color></b></link></font></style> into <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r252"><b><color=#FF004E>Pestilence</color></b></link></font></style>, Horseman of the Apocalypse!</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Uh oh</span>
+<span><br>[1]</span>
+<span class="Christine">Christine</span>
+<span>: oof</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: ruh roh</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: 6 smells lets vote him</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: ok so thats new</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: 3 is pest</span>
+<span><br>[2]</span>
+<span class="Big-Randy">Big Randy</span>
+<span>: 3</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Who hasn't claimed yet?</span>
+<span><br>[9]</span>
+<span class="Mister-milker">Mister milker</span>
+<span>: me</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: they pushed town</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: im tavern keeper 6 is dusa</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Oh hi 2, you haven't spoke yet.</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: im ti, lookout</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>bop</b> voted against <b>Edgar</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Big Randy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>SourChum</b> voted against <b>Edgar</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Christine</b> voted against <b>Big Randy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Big Randy</b> voted against <b>Edgar</b>.</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: n1- jailed n2- watched 12, no visit n3- rbed, couldnt use role n4- watched 1, no visit</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: there are 3 tav claims</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: town vote 6</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mister milker</b> voted against <b>Big Randy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edgar</b> voted against <b>Big Randy</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Big Randy</b> was voted up to trial.</span>
+<span><br>[2]</span>
+<span class="Big-Randy">Big Randy</span>
+<span>: :(</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: town inno this, this isnt coven</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I feel like <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r252"><b><color=#FF004E>Pestilence</color></b></link></font></style> is kinda more important right now.</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: 5 6 is coven</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: We can get 6 tomorrow.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Big Randy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: you inno now</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Christine</b> voted <b>Big Randy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>bop</b> voted <b>Big Randy</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edgar</b> voted <b>Big Randy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mister milker</b> voted <b>Big Randy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>SourChum</b> <b><style="AbstainColor>abstained</style></b> on <b>Big Randy</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Big Randy</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: welp coven won</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: its over</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: flip</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Big Randy</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Big Randy</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r252"><b><color=#FF004E>Pestilence</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="bop">bop</span>
+<span>: no one listens</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r252"><b><color=#FF004E>Pestilence</color></b></link></font></style>, nice.</span>
+<span><br>[1]</span>
+<span class="Christine">Christine</span>
+<span>: nice!!!!!!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Big Randy</b> left a last will.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Can't you keep roleblocking 6 3?</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Edgar</b> decided to attack <b>bop</b> tonight.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: My <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k89"><b><color=#007AFF><b>Dreamweave</b></color></b></link></font></style> helped for once lol.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to invade the dreams of <b>SourChum</b> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decided to invade the dreams of <b>Mister milker</b> tonight.</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: 9 might be neutral</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I'll check if 9 is neutral</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Someone gave you a drink last night and you fell asleep! You were <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>Edgar</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>Edgar</b>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>bop</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>bop</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Edgar</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>Edgar</b>: i took care of the problem</color></span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Morning</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: so get 9 then 14?</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: sure</span>
+<span><br>[9]</span>
+<span class="Mister-milker">Mister milker</span>
+<span>: y</span>
+<span><br>[9]</span>
+<span class="Mister-milker">Mister milker</span>
+<span>: mean</span>
+<span><br>[1]</span>
+<span class="Christine">Christine</span>
+<span>: facts</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: yes</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: im not sure of what you are</span>
+<span><br>[9]</span>
+<span class="Mister-milker">Mister milker</span>
+<span>: i protected trans girl</span>
+<span><br>[9]</span>
+<span class="Mister-milker">Mister milker</span>
+<span>: with a trap</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Cute</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Mister milker</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edgar</b> voted against <b>Mister milker</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>SourChum</b> voted against <b>Mister milker</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mister milker</b> was voted up to trial.</span>
+<span><br>[9]</span>
+<span class="Mister-milker">Mister milker</span>
+<span>: :(</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: i hope 14 is exe and 9 is their target</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: If you were really a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>, you'd know I was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed by 3 last night.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Mister milker</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[9]</span>
+<span class="Mister-milker">Mister milker</span>
+<span>: trans girl is playing really well or realllyyy bad</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Christine</b> voted <b>Mister milker</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edgar</b> voted <b>Mister milker</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>SourChum</b> voted <b>Mister milker</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mister milker</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Mister milker</b> to death by a vote of <color=#FF0000><b>4</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I'm the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#B545FF>Dreamweaver [7]</color></b></link></font></style> silly.</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: really well</span>
+<span><br>[9]</span>
+<span class="Mister-milker">Mister milker</span>
+<span>: didnt say when i RBd</span>
+<span><br>[1]</span>
+<span class="Christine">Christine</span>
+<span>: 5 is playing the best game</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mister milker</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mister milker</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Mister milker</b> did not leave a last will.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 6</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: nobody visit we hang tomorrow</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: we play it safe</span>
+<span><br>[1]</span>
+<span class="Christine">Christine</span>
+<span>: ya</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: We have 3 of us, I can visit lol.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to invade the dreams of <b>SourChum</b> tonight.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: If they're a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style> and I die, oh well right?</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: if i get hit or 1 and you somehow die we lose</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You have spread pestilence to the player you visited.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 7</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> has transformed into <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r250"><b><color=#FF004E>Famine</color></b></link></font></style>, Horseman of the Apocalypse! A famine has begun!</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Ah, hi <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r250"><b><color=#FF004E>Famine</color></b></link></font></style></span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: what is famine</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Why did you claim <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> of all things?</span>
+<span><br>[1]</span>
+<span class="Christine">Christine</span>
+<span>: aw a baker</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: you were playing with fire</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: well</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: 14, drop the act. We're all coven lol.</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: i know the role the best</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: i got 3 bread off</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: which sucks</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: please</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: That you did.</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: i just wanna see the cut scene</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: But unfortunately you gave it all to coven.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Christine</b> voted against <b>SourChum</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>SourChum</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edgar</b> voted against <b>SourChum</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>SourChum</b> was voted up to trial.</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: i just wanted my first apoc win</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: There's no cutscene unless you win, which we unfortunately cannot allow.</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: idk how the other 2 apoc lost tho</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: 3 apoc and 4 coven is not a good time for town</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>SourChum</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Christine</b> voted <b>SourChum</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edgar</b> voted <b>SourChum</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>SourChum</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>SourChum</b> to death by a vote of <color=#FF0000><b>3</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: i was really hoping they would of been more helpful but when bers when down it was blown</span>
+<span><br>[14]</span>
+<span class="SourChum">SourChum</span>
+<span>: rippp</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> got <b>Strawberry Milk</b>, and I tried to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k89"><b><color=#007AFF><b>Dreamweave</b></color></b></link></font></style> 2, so I knew they were probably <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r252"><b><color=#FF004E>Pestilence</color></b></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Edgar">Edgar</span>
+<span>: yeah trickster is mvp for that</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>SourChum</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>SourChum</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r250"><b><color=#FF004E>Famine</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>SourChum</b> left a last will.</span>
+<span><br>[5]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Surprisingly the only one I actually <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k89"><b><color=#007AFF><b>Dreamweave</b></color></b></link></font></style>d the whole game was 10, when they died.</span>
+</body>
+</html>

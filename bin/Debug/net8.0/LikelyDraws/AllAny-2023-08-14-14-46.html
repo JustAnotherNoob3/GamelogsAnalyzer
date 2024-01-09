@@ -1,0 +1,822 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Cumsock - </span>
+<span style="color:#B545FF"> Conjurer </span>
+<span style="color:#a0a0a0"><i>(Username: TouchFlax)</i></span>
+<style>span.Cumsock{color: #B545FF;}</style>
+<span><br>[2] ButterFrog - </span>
+<span style="color:#06E00C"> Cleric </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Honest</color></link></font></style> <br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dont Worry</color></link></font></style> <br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Pants on Fire</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k49"><b><color=#007AFF><b>Attack</b></color></b></link></font></style>ed<br>N4: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Honest</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: GreenFrogg)</i></span>
+<style>span.ButterFrog{color: #06E00C;}</style>
+<span><br>[3] lad - </span>
+<span style="color:#6699FF"> Shroud </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style> <br><br>n1 jailed<br>n2 building</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: s7eamy)</i></span>
+<style>span.lad{color: #6699FF;}</style>
+<span><br>[4] Glasses - </span>
+<span style="color:#B545FF"> Wildling </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Glasses</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> <br><br><br>N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>BountyHunter</color></link></font></style> VISIGT <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cumsock</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Dum)</i></span>
+<style>span.Glasses{color: #B545FF;}</style>
+<span><br>[5] Dont Worry - </span>
+<span style="color:#06E00C"> Deputy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Green <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#B545FF>Conjurer</color></b></link></font></style> <br><br><br><br>Tbf 2 went on a pros dying to jest.<br><br>idk and 2 was less confirmed.<br><br>sure 11 was also not... tricky business here.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TheWarlock8)</i></span>
+<style>span.Dont-Worry{color: #06E00C;}</style>
+<span><br>[6] Pants on Fire - </span>
+<span style="color:#06E00C"> Prosecutor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r105"><b><color=#06E00C>Town </color><color=#1F51FF>Power</color></b></link></font></style> gamiiing!<br><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Honest</color></link></font></style> claim TPOW aswell</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.Pants-on-Fire{color: #06E00C;}</style>
+<span><br>[7] poop sock - </span>
+<span style="color:#06E00C"> Psychic </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <br>N1- (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cumsock</color></link></font></style>) @ @ evil<br>N2- <br><br>1<br>2<br>3<br>4<br>5<br>6<br>7- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> (me) <br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ForkliftCertified)</i></span>
+<style>span.poop-sock{color: #06E00C;}</style>
+<span><br>[8] BountyHunter - </span>
+<span style="color:#06E00C"> Sheriff </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>BountyHunter</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style><br>n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cumsock</color></link></font></style>  - sus !<br>n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Mothwing</color></link></font></style> -</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.BountyHunter{color: #06E00C;}</style>
+<span><br>[9] Mary Eastey - </span>
+<span style="color:#949797"> Executioner </span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.Mary-Eastey{color: #949797;}</style>
+<span><br>[10] Honest - </span>
+<span style="color:#06E00C"> Jailor </span>
+<span style="color:#a0a0a0"><i>(Username: Patches)</i></span>
+<style>span.Honest{color: #06E00C;}</style>
+<span><br>[11] Vlad - </span>
+<span style="color:#B545FF"> Coven Leader </span>
+<span style="color:#a0a0a0"><i>(Username: Wraistle)</i></span>
+<style>span.Vlad{color: #B545FF;}</style>
+<span><br>[12] RareFactor - </span>
+<span style="color:#06E00C"> Vigilante </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> <br> <br>n1- nothing <br><br>n2- was playing rainbow six</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: RareFactor)</i></span>
+<style>span.RareFactor{color: #06E00C;}</style>
+<span><br>[13] Preston - </span>
+<span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Preston</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br><br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k92"><b><color=#007AFF><b>Taunt</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>ButterFrog</color></link></font></style> <br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k92"><b><color=#007AFF><b>Taunt</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>lad</color></link></font></style></span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">13 is immune</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TheCliquer)</i></span>
+<style>span.Preston{color: #06E00C;}</style>
+<span><br>[14] Liar Liar - </span>
+<span style="color:#06E00C"> Cleric </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">oh shit there was a tp/lo claim!! I shall protec<br><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br><br>N1: on 10<br><br>N2: I AM ON MY DEP!!!!! (5)<br><br>N3: screw this i am on 10 (they were attacked)<br><br>N4: hmmmm on 5? it is a 50/50</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Fishy086)</i></span>
+<style>span.Liar-Liar{color: #06E00C;}</style>
+<span><br>[15] Mothwing - </span>
+<span style="color:#F5A6D4"> Jester </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Mothwing</color></link></font></style> the Silent <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style><br><br><br>// N1. No <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k52"><b><color=#007AFF><b>Protect</b></color></b></link></font></style> <br><br>// N2. Self <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k52"><b><color=#007AFF><b>Protect</b></color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Mothwing{color: #F5A6D4;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: tp/lo on me</span>
+<span><br>[7]</span>
+<span class="poop-sock">poop sock</span>
+<span>: no leavers?</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: hello</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span><br>[8]</span>
+<span class="BountyHunter">BountyHunter</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>BountyHunter</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cumsock</color></link></font></style> - sus !</span>
+<span><br>[7]</span>
+<span class="poop-sock">poop sock</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1- (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cumsock</color></link></font></style>) <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>RareFactor</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>ButterFrog</color></link></font></style> evilN2-</span>
+<span><br>[3]</span>
+<span class="lad">lad</span>
+<span>: jailed</span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: Im tp</span>
+<span><br>[3]</span>
+<span class="lad">lad</span>
+<span>: tp</span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: on 10</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: 10 why did you need tp/lo?</span>
+<span><br>[6]</span>
+<span class="Pants-on-Fire">Pants on Fire</span>
+<span>: get 1</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: tpow</span>
+<span><br>[4]</span>
+<span class="Glasses">Glasses</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Glasses</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>BountyHunter</color></link></font></style> VISIGT <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cumsock</color></link></font></style></span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: ok</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>poop sock</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>poop sock</color></link></font></style> was killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#B545FF>Conjurer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>poop sock</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>poop sock</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: ok 1 is on the list and was found sus.... so get them?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cumsock</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cumsock</color></link></font></style> was shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cumsock</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cumsock</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#B545FF>Conjurer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Pants on Fire</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Honest</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: lol... lmao even</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: thank u dep</span>
+<span><br>[3]</span>
+<span class="lad">lad</span>
+<span>: woah</span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: Nice</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: Lamo</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>poop sock</color></link></font></style> has disconnected from life.</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: I shouldve instga shto that</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: that was a waste 5, we would have voted them anyway</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: psy wouldve lived</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: nah</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: still it was funny</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: It wasnt</span>
+<span><br>[8]</span>
+<span class="BountyHunter">BountyHunter</span>
+<span>: u had my claim</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: I got an achioeve</span>
+<span><br>[8]</span>
+<span class="BountyHunter">BountyHunter</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>BountyHunter</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cumsock</color></link></font></style> - sus !</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: I got achieve for shooting conj</span>
+<span><br>[3]</span>
+<span class="lad">lad</span>
+<span>: 8 is conf</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: congrats then 5</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: 5 is also confirmed</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: if anyone didnt know</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: damn</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: No im green Conj</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: he's not wrong</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decide to put on your armor tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cumsock</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>lad</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>lad</color></link></font></style> was killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>lad</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>lad</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>BountyHunter</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>BountyHunter</color></link></font></style> was killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>BountyHunter</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>BountyHunter</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Preston</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Honest</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dont Worry</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Preston</color></link></font></style> was killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Preston</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dont Worry</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Honest</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Honest</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dont Worry</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Preston</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Glasses</color></link></font></style> has disconnected from life.</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: Vlad the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><color=#06E00C>Town </color><color=#1F51FF>Support</color></b></link></font></style> 1. nothing 2. using <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Honest</color></link></font></style> or <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>lad</color></link></font></style></span>
+<span><br>[6]</span>
+<span class="Pants-on-Fire">Pants on Fire</span>
+<span>: Quiet ppl D2 is kinda sus - YOLOOOOOOOOOOOOOOO</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: see ya 4</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: 10 is confirmed then</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: 6 uhhh what? i am confused</span>
+<span><br>[6]</span>
+<span class="Pants-on-Fire">Pants on Fire</span>
+<span>: yeye wait</span>
+<span><br>[6]</span>
+<span class="Pants-on-Fire">Pants on Fire</span>
+<span>: slow af day</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Pants on Fire</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Honest</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Pants on Fire</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Mothwing</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mothwing</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mothwing</b> has been judged <b><style="GuiltyColor">guilty</style></b> and will be put to death.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Honest</b> is whispering to <b>Pants on Fire</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style> will get their revenge from the grave!</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: OMG no....</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: Nevermind</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: L</i></span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: RF TO PROS</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: unlucky man</span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: RANDOM IT JEST</span>
+<span><br>[6]</span>
+<span class="Pants-on-Fire">Pants on Fire</span>
+<span>: yea ggegegegeeeee</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mothwing</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mothwing</b> was Prosecuted to death.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mothwing</b>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: JEST KILL ME</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Oh, I got lynched, nice.</i></span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: RANDOM IT!!!!!!!!!!!!</span>
+<span><br>[6]</span>
+<span class="Pants-on-Fire">Pants on Fire</span>
+<span>: why jest quiet</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: 6 this makes no sense....you will pay the bill only yourself</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Mothwing</b> left a last will.</span>
+<span><br>[6]</span>
+<span class="Pants-on-Fire">Pants on Fire</span>
+<span>: NOOOO</span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">BountyHunter</span>
+<span style="color:#689194">: xDDDDDDDD</i></span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: Jest only kills pros</span>
+<span><br>[6]</span>
+<span class="Pants-on-Fire">Pants on Fire</span>
+<span>: CYAAA</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: pros was only one who voted</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: tk needs to be more careful</span>
+<span><br>[6]</span>
+<span class="Pants-on-Fire">Pants on Fire</span>
+<span>: LOVED TO BE A PART OF U</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: I was busy chatting on discord.</i></span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: RANDOM IT JEST</span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: WOOO</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not select a target so <b>Pants on Fire</b> was chosen at random.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">RareFactor</span>
+<span style="color:#689194">: wtf why</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Glasses</b> died last night.</span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">BountyHunter</span>
+<span style="color:#689194">: baby bye bye bye</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Glasses</b> disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Glasses</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Liar Liar</b> is whispering to <b>Honest</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Honest</b> is whispering to <b>Liar Liar</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Glasses</b>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r38"><b><color=#B545FF>Wildling</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Honest</b> is whispering to <b>Liar Liar</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Pants on Fire</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Pants on Fire</b> was haunted by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Honest</b> is whispering to <b>Liar Liar</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Liar Liar</b> is whispering to <b>Honest</b>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Pants on Fire</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Pants on Fire</b>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>RareFactor</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>RareFactor</b> was executed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>RareFactor</b> left a last will.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: Because you were playing rainbow six</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>RareFactor</b>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: my bad</span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: N3: <b>Pants on Fire</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k49"><b><color=#007AFF><b>Attack</b></color></b></link></font></style>ed welp nothing I could do :(</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: 9 what are you?</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: 3. using <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> on <b>Mary Eastey</b></span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: that's on me</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: also I was attacked</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: saved by cleric</span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">BountyHunter</span>
+<span style="color:#689194">: I know that I can't take no moreIt ain't no lieI want to see you out that doorBaby bye bye bye</i></span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: 9 nand 14 claims</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: 14 claims cleric</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: 9 is no killing role yet</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: i think my claim is fine</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: DONT</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: ugh</span>
+<span><br>[9]</span>
+<span class="Mary-Eastey">Mary Eastey</span>
+<span>: i claimed to jailor</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: 9 claism invest</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: ok i am cleric i saved the jailor</span>
+<span><br>[9]</span>
+<span class="Mary-Eastey">Mary Eastey</span>
+<span>: Investigator N1: 13 no blood N2: jailed N3: 12 no blood</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: Didnt post</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">RareFactor</span>
+<span style="color:#689194">: i told the jailer the truth and he killed anyway fuck this game man</i></span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: didn't post d2</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: get 9</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: I said that</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dont Worry</b> voted against <b>Mary Eastey</b>.</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: i mean the trickster shows up with blood when they trick</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>ButterFrog</b> voted against <b>Mary Eastey</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Honest</b> voted against <b>Mary Eastey</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Liar Liar</b> voted against <b>Mary Eastey</b>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: If the truth was (I was playing another game)</i></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mary Eastey</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: Then you deserve that</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: lol</i></span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">BountyHunter</span>
+<span style="color:#689194">: is 9 cov?</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: they smell evil</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: Probably</i></span>
+<span><br>[9]</span>
+<span class="Mary-Eastey">Mary Eastey</span>
+<span>: i dont understand</span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: 9 hasn't posted at all, but today</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: oh wait ok they dont show up with blood.... but still an invest not posting?</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: This never posted a single day. if this is Invest it's throwing honestlyt</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: also 12 was in jail</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">lad</span>
+<span style="color:#689194">: 9 is exe probs</i></span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: vig was jailed anyway, thats fake</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: it is just fake</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: 12 was in jail</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>ButterFrog</b> voted <b>Mary Eastey</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dont Worry</b> voted <b>Mary Eastey</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Honest</b> voted <b>Mary Eastey</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vlad</b> voted <b>Mary Eastey</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Liar Liar</b> voted <b>Mary Eastey</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mary Eastey</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Mary Eastey</b> to death by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: i'm useless anyway I killed a townie</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: I'm sorry my friend :(</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: 2 is an unconfirmed tp</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mary Eastey</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mary Eastey</b> was convicted and executed.</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: you are still useful as a townie</span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">BountyHunter</span>
+<span style="color:#689194">: he iant ur friend</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mary Eastey</b>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">BountyHunter</span>
+<span style="color:#689194">: murdere !</i></span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: OH WHAT</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Mary Eastey</b> did not leave a last will.</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: 2 or 11</span>
+<span><br>[14]</span>
+<span class="Liar-Liar">Liar Liar</span>
+<span>: 11 use something on 2</span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: Its not me</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Boop</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mary Eastey</b> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>lad</b> has disconnected from life.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: boop</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Liar Liar</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Liar Liar</b> was killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>ButterFrog</b> is whispering to <b>Honest</b>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Liar Liar</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Dont Worry</b> is whispering to <b>Vlad</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Liar Liar</b>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Liar-Liar</span>
+<span style="color:#689194">: well we are screwed</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Liar-Liar</span>
+<span style="color:#689194">: damnit</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Dont Worry</b> is whispering to <b>ButterFrog</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>ButterFrog</b> is whispering to <b>Honest</b>.</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: Vlad the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><color=#06E00C>Town </color><color=#1F51FF>Support</color></b></link></font></style> 1. nothing 2. using <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <b>Honest</b> or <b>lad</b> 3. using <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> on <b>Mary Eastey</b> 4. using <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> on <b>ButterFrog</b> -</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>:  defense</span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> N1: <b>Honest</b> N2: <b>Dont Worry</b> N3: <b>Pants on Fire</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k49"><b><color=#007AFF><b>Attack</b></color></b></link></font></style>ed N4: <b>Honest</b></span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: why are you on me</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: <b>ButterFrog</b> claims he was on me</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: its 1v2v1</i></span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: I can't jail anyone</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: should have used trickster again, my bad</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: 1 apoc 2 town 1 coven</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Liar-Liar</span>
+<span style="color:#689194">: ah</i></span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: I was on 10</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Liar-Liar</span>
+<span style="color:#689194">: i was gonna say kinda shocked that 2 and 11 are on different teams</i></span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: and will stay on 10 unless ten says to go to someone else</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: why</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: 11 is necro probably</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vlad</b> voted against <b>ButterFrog</b>.</span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: You the jailor</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: Vlad the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><color=#06E00C>Town </color><color=#1F51FF>Support</color></b></link></font></style> 1. nothing 2. using <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <b>Honest</b> or <b>lad</b> 3. using <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> on <b>Mary Eastey</b> 4. using <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> on <b>ButterFrog</b> -</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>:  defense</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: u should've gone on the cleric</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: 2 has defense</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Honest</b> voted against <b>ButterFrog</b>.</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: eh</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dont Worry</b> voted against <b>ButterFrog</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>ButterFrog</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Dont Worry</b> is whispering to <b>Honest</b>.</span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: 11 is fake then 1f1 me with them</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Honest</b> is whispering to <b>Dont Worry</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Honest</b> is whispering to <b>Dont Worry</b>.</span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: I was also in phy will</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: and it was no self as they were on 10</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Dont Worry</b> is whispering to <b>Honest</b>.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Liar-Liar</span>
+<span style="color:#689194">: 11 is the safer hag but still</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: yeah</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Liar-Liar</span>
+<span style="color:#689194">: hang*</i></span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: inno</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dont Worry</b> voted <b>ButterFrog</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Honest</b> voted <b>ButterFrog</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vlad</b> voted <b>ButterFrog</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>ButterFrog</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>ButterFrog</b> to death by a vote of <color=#FF0000><b>2</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[2]</span>
+<span class="ButterFrog">ButterFrog</span>
+<span>: And I knew 6 was killed my jest</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: I think it's CL</span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: sorry 10</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>ButterFrog</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>ButterFrog</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>ButterFrog</b>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Preston</span>
+<span style="color:#689194">: or that</i></span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: bro</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: ggs</span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: it wasnt cl</span>
+<span><br>[10]</span>
+<span class="Honest">Honest</span>
+<span>: wp 11</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>ButterFrog</b> left a last will.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Liar-Liar</span>
+<span style="color:#689194">: 2 YOU WERE REAL</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Rip</i></span>
+<span><br>[11]</span>
+<span class="Vlad">Vlad</span>
+<span>: i am cl</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">ButterFrog</span>
+<span style="color:#689194">: YES</i></span>
+<span><br>[5]</span>
+<span class="Dont-Worry">Dont Worry</span>
+<span>: bro</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Preston</b> has disconnected from life.</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">ButterFrog</span>
+<span style="color:#689194">: I KNEW 6 WAS KILLED BY jest XD</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Liar-Liar</span>
+<span style="color:#689194">: everyone did what?</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Honestly, I got distracted by talking on Discord after N1 lol.</i></span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">ButterFrog</span>
+<span style="color:#689194">: Before</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Liar-Liar</span>
+<span style="color:#689194">: the pros used it on the jest they are the only ones that could die to them</i></span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">ButterFrog</span>
+<span style="color:#689194">: I was on them</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Liar-Liar</span>
+<span style="color:#689194">: wdym?</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Liar-Liar</span>
+<span style="color:#689194">: omg</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Liar Liar</b> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Dont Worry</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Dont Worry</b> was killed by the <style="CovenColor">Coven</style>.</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Dont-Worry</span>
+<span style="color:#689194">: Tricky</i></span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">ButterFrog</span>
+<span style="color:#689194">: welcome 5</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Dont Worry</b> left a last will.</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Dont-Worry</span>
+<span style="color:#689194">: tbf</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Dont-Worry</span>
+<span style="color:#689194">: i shouldve been like wait he instas voted</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Dont Worry</b>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Dont-Worry</span>
+<span style="color:#689194">: get that flummery</i></span>
+</body>
+</html>

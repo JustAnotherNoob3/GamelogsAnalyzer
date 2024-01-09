@@ -1,0 +1,937 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Gup - </span><span style="color:#06E00C"> Seer </span>
+<span style="color:#a0a0a0"><i>(Username: TaqoCat)</i></span>
+<style>span.Gup{color: #06E00C;}</style>
+<span><br>[2] Above average joe - </span><span style="color:#06E00C"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Above-average-joe{color: #06E00C;}</style>
+<span><br>[3] BuRn It DoWn - </span><span style="color:#B545FF"> Illusionist </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">Hello sk brothers</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Helper2010)</i></span>
+<style>span.BuRn-It-DoWn{color: #B545FF;}</style>
+<span><br>[4] PressurePlate - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: oofman)</i></span>
+<style>span.PressurePlate{color: #06E00C;}</style>
+<span><br>[5] the - </span><span style="color:#FF004E"> Berserker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">alligator</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: invadeintel)</i></span>
+<style>span.the{color: #FF004E;}</style>
+<span><br>[6] Average Joe - </span><span style="color:#B545FF"> Coven Leader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">retri<br>n1 - boring<br>n2 - nothing I can use<br>n3 -</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TreBecca)</i></span>
+<style>span.Average-Joe{color: #B545FF;}</style>
+<span><br>[7] Sunflora - </span><span style="color:#06E00C"> Cleric </span>
+<span style="color:#a0a0a0"><i>(Username: MysticMismagius)</i></span>
+<style>span.Sunflora{color: #06E00C;}</style>
+<span><br>[8] gojo - </span><span style="color:#06E00C"> Investigator </span>
+<span style="color:#a0a0a0"><i>(Username: BOCCHIPINK)</i></span>
+<style>span.gojo{color: #06E00C;}</style>
+<span><br>[9] Ann Sears - </span><span style="color:#06E00C"> Veteran </span>
+<span style="color:#a0a0a0"><i>(Username: chonkychoochoo)</i></span>
+<style>span.Ann-Sears{color: #06E00C;}</style>
+<span><br>[10] Ghost of Babel - </span><span style="color:#F5A6D4"> Jester </span>
+<span style="color:#a0a0a0"><i>(Username: hououinkyouma)</i></span>
+<style>span.Ghost-of-Babel{color: #F5A6D4;}</style>
+<span><br>[11] Samuel Parris - </span><span style="color:#B545FF"> Voodoo Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Vigilante<br>N1: reloading (rbd)<br>N2: no reason to shoot</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Countdratula)</i></span>
+<style>span.Samuel-Parris{color: #B545FF;}</style>
+<span><br>[12] squirtle - </span><span style="color:#06E00C"> Prosecutor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r13"><sprite="RoleIcons" name="Role13"><b><color=#06E00C>Prosecutor</color></b></link></font></style> <br>N1 nothing<br>D2</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: LucyGoosie)</i></span>
+<style>span.squirtle{color: #06E00C;}</style>
+<span><br>[13] Trapper - </span><span style="color:#1D4DFC"> Serial Killer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r21"><sprite="RoleIcons" name="Role21"><b><color=#06E00C>Trapper</color></b></link></font></style> the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r24"><sprite="RoleIcons" name="Role24"><b><color=#06E00C>Vigilante</color></b></link></font></style> <br>N1 - Loading a gun</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Lukas470)</i></span>
+<style>span.Trapper{color: #1D4DFC;}</style>
+<span><br>[14] goth lesbian mommy - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Trickster<br>N1: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Rowan)</i></span>
+<style>span.goth-lesbian-mommy{color: #06E00C;}</style>
+<span><br>[15] Sad Emo Girl - </span><span style="color:#B545FF"> Conjurer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style>  Tracker N1 RBed N2  <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Samuel Parris</color></link></font></style> went to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ann Sears</color></link></font></style><br>N3 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Above average joe</color></link></font></style><br>N4 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sunflora</color></link></font></style> went to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>PressurePlate</color></link></font></style><br>N5 RBed</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: cutepuppy)</i></span>
+<style>span.Sad-Emo-Girl{color: #B545FF;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: Such role is unfitting to me</span>
+<span><br>[14]</span>
+<span class="goth-lesbian-mommy">goth lesbian mommy</span>
+<span>: this role sucks lol</span>
+<span><br>[6]</span>
+<span class="Average-Joe">Average Joe</span>
+<span>: morning firends</span>
+<span><br>[9]</span>
+<span class="Ann-Sears">Ann Sears</span>
+<span>: what up</span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: Coven, I invite you to my home tonight</span>
+<span><br>[14]</span>
+<span class="goth-lesbian-mommy">goth lesbian mommy</span>
+<span>: morning fiends</span>
+<span><br>[8]</span>
+<span class="gojo">gojo</span>
+<span>: same here 14</span>
+<span><br>[9]</span>
+<span class="Ann-Sears">Ann Sears</span>
+<span>: anyone like the kardashians?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style>.</color></span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: good morning</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to cast a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>the</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>BuRn It DoWn</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r48"><sprite="RoleIcons" name="Role48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>BuRn It DoWn</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r30"><sprite="RoleIcons" name="Role30"><b><color=#B545FF>Illusionist [13]</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Trapper</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Trapper</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r48"><sprite="RoleIcons" name="Role48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: Hi <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r26"><sprite="RoleIcons" name="Role26"><b><color=#B545FF>Coven Leader [1]</color></b></link></font></style>!</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r16"><sprite="RoleIcons" name="Role16"><b><color=#06E00C>Seer</color></b></link></font></style> N1. <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>BuRn It DoWn</color></link></font></style> & <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>PressurePlate</color></link></font></style> (Opposing)</span>
+<span><br>[2]</span>
+<span class="Above-average-joe">Above average joe</span>
+<span>: lol coven got revenge fast</span>
+<span><br>[11]</span>
+<span class="Samuel-Parris">Samuel Parris</span>
+<span>: rbd</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: hw did coven kill sk?</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: lookin good</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style> Tracker N1 RBed</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ann Sears</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style>.</color></span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: cl jumpscare</span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Gup</color></link></font></style> v <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>PressurePlate</color></link></font></style></span>
+<span><br>[6]</span>
+<span class="Average-Joe">Average Joe</span>
+<span>: spicy we have a CL</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: 1 thanks man</span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Gup</color></link></font></style> is executioner</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ann Sears</color></link></font></style>.</color></span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: just 4</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: just 4?</span>
+<span><br>[8]</span>
+<span class="gojo">gojo</span>
+<span>: kill me</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: 3 was coven</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style>.</color></span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: that's a fake</span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: yeah</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style>.</color></span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: just 4</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: oooh</span>
+<span><br>[12]</span>
+<span class="squirtle">squirtle</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r13"><sprite="RoleIcons" name="Role13"><b><color=#06E00C>Prosecutor</color></b></link></font></style> N1 nothing D2</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: i see</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: 10 and 1 1v1</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: 10's my exe</span>
+<span style="background-color:#000000; color:#02FF4D"><br><color=#B545FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>squirtle</color></link></font></style> faces an untimely end!</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>squirtle</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were obliterated by the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r25"><sprite="RoleIcons" name="Role25"><b><color=#B545FF>Conjurer [2]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>squirtle</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r13"><sprite="RoleIcons" name="Role13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style>.</color></span>
+<span><br>[9]</span>
+<span class="Ann-Sears">Ann Sears</span>
+<span>: what the fucccccckkkkk i have never seen that shit before.</span>
+<span><br>[2]</span>
+<span class="Above-average-joe">Above average joe</span>
+<span>: oof</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: 10 says 1 is fake</span>
+<span><br>[11]</span>
+<span class="Samuel-Parris">Samuel Parris</span>
+<span>: 3 was coven so 4 cant be coven, could still be neutral</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: riddle me this, 10, why would i have my exe target in opposition to a coven member?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style>.</color></span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: look at 10s will</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[6]</span>
+<span class="Average-Joe">Average Joe</span>
+<span>: welp that happens when you claim tpower publicly</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Gup</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: you will never catch me faking seer as exe</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: im not that kinda guy</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Above average joe</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ann Sears</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>the</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: not to win</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: we don't know that</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>PressurePlate</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: 1 for 1</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: to add insult</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Gup</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: dawg?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Average Joe</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Gup</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Samuel Parris</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You changed your vote to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: who the fuck knwos what kind of guy you are <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Gup</color></link></font></style></span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: 1f1 between 10 and 1</span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: nobody cares</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Average Joe</color></link></font></style> changed their vote to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style>.</color></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>the</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ann Sears</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ann Sears</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>the</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>the</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ann Sears</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sunflora</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Above average joe</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Above average joe</color></link></font></style>: claim please?</color></span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: i refuse to claim such a town my role</span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Gup</color></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Above average joe</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sunflora</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>From <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Above average joe</color></link></font></style>: tp</color></span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: nobody cares what kinda guy you are</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sunflora</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Above average joe</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Above average joe</color></link></font></style>: ok</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>the</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ann Sears</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ann Sears</color></link></font></style>.</color></span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: i do, and you have to take my word for it</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[11]</span>
+<span class="Samuel-Parris">Samuel Parris</span>
+<span>: you literally claimed already mate</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sunflora</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>the</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>the</color></link></font></style>: claim please?</color></span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: if this is real 1 could be arsonist or something</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ann Sears</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Gup</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Above average joe</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>PressurePlate</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>the</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Average Joe</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>gojo</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ann Sears</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Samuel Parris</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>goth lesbian mommy</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Sad Emo Girl</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Ghost of Babel</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Ghost of Babel</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: i get his method</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: if he were to be real</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: if this is real we kill 1</span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: i think i did a really bad play</span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: <b>Gup</b> be assured</span>
+<span><br>[10]</span>
+<span class="Ghost-of-Babel">Ghost of Babel</span>
+<span>: youre safe</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#F5A6D4>Jester</color></b></link></font></style> will get their revenge from the grave!</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: oh oof</span>
+<span><br>[11]</span>
+<span class="Samuel-Parris">Samuel Parris</span>
+<span>: oh boy</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: oh i know</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: i read it</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>the</b> is whispering to <b>Sunflora</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>From <b>the</b>: ts</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Ghost of Babel</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Ghost of Babel</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: oh shoot</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: that's why i inno'd</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Ghost of Babel</b> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sunflora</b> is whispering to <b>Gup</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Gup</b>: 2 claimed tp to me</color></span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: anyways tp on me</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sunflora</b> is whispering to <b>Gup</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Gup</b>: 5 claimed ts</color></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to cast a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> on <b>Gup</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You protected your target from an attack!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sunflora</b> is whispering to <b>Gup</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Gup</b>: I love you</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Average Joe</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were ensnared by a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r21"><sprite="RoleIcons" name="Role21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>the</b> is whispering to <b>Sunflora</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>From <b>the</b>: opp!</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Gup</b> is whispering to <b>Sunflora</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>From <b>Gup</b>: what</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Average Joe</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>the</b> is whispering to <b>Sunflora</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>From <b>the</b>: why did you rb me!!!</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Above average joe</b> is whispering to <b>Gup</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sunflora</b> is whispering to <b>Gup</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Gup</b>: I saved you ^^</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r26"><sprite="RoleIcons" name="Role26"><b><color=#B545FF>Coven Leader [1]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sunflora</b> is whispering to <b>the</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>the</b>: I am not even tav home slice</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Samuel Parris</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They walked into a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r23"><sprite="RoleIcons" name="Role23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Gup</b> is whispering to <b>Sunflora</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>From <b>Gup</b>: i didn't see your message, a trap saved me</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>the</b> is whispering to <b>Sunflora</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>From <b>the</b>: oh</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Samuel Parris</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sad Emo Girl</b> is whispering to <b>Ann Sears</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sunflora</b> is whispering to <b>Gup</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Gup</b>: oh, sorry</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>the</b> is whispering to <b>Sunflora</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>From <b>the</b>: close enough</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>PressurePlate</b> is whispering to <b>Gup</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r37"><sprite="RoleIcons" name="Role37"><b><color=#B545FF>Voodoo Master [9]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sunflora</b> is whispering to <b>Gup</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Gup</b>: I am <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r4"><sprite="RoleIcons" name="Role4"><b><color=#06E00C>Cleric</color></b></link></font></style></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>the</b> is whispering to <b>Ann Sears</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sunflora</b> is whispering to <b>Gup</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Gup</b>: I will stay on you</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>goth lesbian mommy</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were possessed by a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>goth lesbian mommy</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sad Emo Girl</b> is whispering to <b>Sunflora</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>From <b>Sad Emo Girl</b>: <b>Sad Emo Girl</b> N2 <b>Samuel Parris</b> went to <b>Ann Sears</b></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sad Emo Girl</b> is whispering to <b>Gup</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sunflora</b> is whispering to <b>Sad Emo Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Sad Emo Girl</b>: nice</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r22"><sprite="RoleIcons" name="Role22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: N2. Attacked by <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r26"><sprite="RoleIcons" name="Role26"><b><color=#B545FF>Coven Leader [1]</color></b></link></font></style>, Saved by trap | i pressed intuit twice so i didnt get results</span>
+<span><br>[2]</span>
+<span class="Above-average-joe">Above average joe</span>
+<span>: tp here btw</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: <b>Sad Emo Girl</b> N2 <b>Samuel Parris</b> went to <b>Ann Sears</b></span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: 9 townie</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: well okay</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: RBSD</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: RBD</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: can we have role call</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: i am missing claims from 4 and 8</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: I am TP</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: i am ts</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: maybe plague</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: what ts</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: 15 why you on me for this</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: you havent claimed</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>gojo</b>.</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: uh</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: i have</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Above average joe</b> voted against <b>gojo</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>the</b> voted against <b>gojo</b>.</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: im tracker</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: oh</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sad Emo Girl</b> voted against <b>gojo</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Gup</b> voted against <b>gojo</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>gojo</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sunflora</b> is whispering to <b>Above average joe</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Above average joe</b>: are you the trapper?</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>the</b> is whispering to <b>PressurePlate</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>the</b> is whispering to <b>PressurePlate</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>PressurePlate</b> is whispering to <b>the</b>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>gojo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: 4 i think ur evil now cause i claim since d2</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Above average joe</b> is whispering to <b>Sunflora</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>From <b>Above average joe</b>: yes</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Sunflora</b> is whispering to <b>Above average joe</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Above average joe</b>: bet</color></span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: You said one word d1 okay</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: anyway probably plague</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: 4 isn't an opp i think</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: how was i supposed to see that</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: no i didnt</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: ?</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: i said more</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Gup</b> voted <b>gojo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Above average joe</b> voted <b>gojo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>PressurePlate</b> voted <b>gojo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>the</b> <b><style="AbstainColor>abstained</style></b> on <b>gojo</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ann Sears</b> <b><style="AbstainColor>abstained</style></b> on <b>gojo</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sad Emo Girl</b> voted <b>gojo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>gojo</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: <b>PressurePlate</b> you can filter people's messages</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>gojo</b> disconnected from life.</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: so you see what they say on other days</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: i know i can</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: 4 what are u</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: I am tavern keeper okay</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>gojo</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>gojo</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: bruh</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: 4 rbd me cause they stink</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: the cats out of the bag now</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>gojo</b> did not leave a last will.</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: DAWG</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: wow</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: im rbing</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: throwers</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: tp on me</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: rit on everybody</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: 2</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: ever</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to cast a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> on <b>Above average joe</b> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: N3. <b>Above average joe</b> & <b>the</b> (Opposing)</span>
+<span><br>[2]</span>
+<span class="Above-average-joe">Above average joe</span>
+<span>: n3-rbd but jokes on them, i was building again</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: I rbed 2</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: Yeah thought so</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: bye 5</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: it was between the ts claims</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: what</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: everyone else is at least semi confirmed</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: wait i thought 7 was the trapper</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: nope.</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: 2 is</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: then what are you</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: I am a different tp</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: i am <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r2"><sprite="RoleIcons" name="Role2"><b><color=#06E00C>Amnesiac</color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: also 15 claims rbed</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Above average joe</b> voted against <b>the</b>.</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: I THink its 7 amd 5</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: ok</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: pros 15</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>the</b>.</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: then</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ann Sears</b> voted against <b>the</b>.</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: i remembered <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r22"><sprite="RoleIcons" name="Role22"><b><color=#06E00C>Trickster</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ann Sears</b> cancelled their vote.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ann Sears</b> voted against <b>the</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Gup</b> voted against <b>the</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>the</b> was voted up to trial.</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: sir i cannot prosecute if i remember trickster</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: pros died first but i remembered trickster</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r105"><sprite="RoleIcons" name="Role105"><b><style="TownColor">Town </style><color=#1F51FF>Power</color></b></link></font></style> has priority how did you become trickster</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: tpow has priority for remember</span>
+<span><br>[2]</span>
+<span class="Above-average-joe">Above average joe</span>
+<span>: what, shouldnt you have remembered pros?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>the</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: no</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: i didn't</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: ?</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: i think 15 might be fake</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Gup</b> voted <b>the</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Above average joe</b> voted <b>the</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>PressurePlate</b> voted <b>the</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ann Sears</b> voted <b>the</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sad Emo Girl</b> voted <b>the</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>the</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: well shucks</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: solo bers is kind of lame</span>
+<span><br>[5]</span>
+<span class="the">the</span>
+<span>: see you later</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: Also <b>Sad Emo Girl</b>, I saw a message for 1 being attacked on N2, which is why I whispered them right away. But I am not the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r21"><sprite="RoleIcons" name="Role21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: damn bro got rb'd n2</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: 7 who are you</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>the</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>the</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r42"><sprite="RoleIcons" name="Role42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: A different TP</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>the</b> left a last will.</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: then be on me</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: nope.</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: :)</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: on 2</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: no</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: on me</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to cast a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> on <b>Above average joe</b> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: N4. <b>Above average joe</b> & <b>Sad Emo Girl</b> (Ops)</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: i was rbed</span>
+<span><br>[2]</span>
+<span class="Above-average-joe">Above average joe</span>
+<span>: n4-oh wait, the rb actually stopped me from building, curse you tav!!</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: seer speak up</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: bruh</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: i rbed 15 last night</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: btw</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: nice</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: wildling moment?</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: yeah but no kills yesterday too</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: 15 claims rbed n1</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: N4. <b>Above average joe</b> & <b>Sad Emo Girl</b> (Opposing)</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: no tavs other than me</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: so</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: READ</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: yes i read</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Sad Emo Girl</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Gup</b> voted against <b>Sad Emo Girl</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Above average joe</b> voted against <b>Sad Emo Girl</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sad Emo Girl</b> voted against <b>Gup</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>PressurePlate</b> voted against <b>Sad Emo Girl</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sad Emo Girl</b> was voted up to trial.</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: 1 cd very well be nk</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: N5 RBed</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: who dud u rb n4</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: 2</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: N4 <b>Sunflora</b> went to <b>PressurePlate</b>N5 RBed</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: the trapper</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Sad Emo Girl</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: N5 rbed?</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: 2's hard conf</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: 4's hard conf</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: we not on n5</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: 9's hard conf</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: 7 knew i was attacked</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: i was rbed</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Gup</b> voted <b>Sad Emo Girl</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Above average joe</b> voted <b>Sad Emo Girl</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>PressurePlate</b> voted <b>Sad Emo Girl</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ann Sears</b> voted <b>Sad Emo Girl</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sad Emo Girl</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Sad Emo Girl</b> to death by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[15]</span>
+<span class="Sad-Emo-Girl">Sad Emo Girl</span>
+<span>: sooo sad gg</span>
+<span><br>[4]</span>
+<span class="PressurePlate">PressurePlate</span>
+<span>: arsonist?</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: easiest arsonist win of my life yall really be bindly following</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: yea</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: lol</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sad Emo Girl</b> died today.</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: 9 will live</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sad Emo Girl</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r25"><sprite="RoleIcons" name="Role25"><b><color=#B545FF>Conjurer [2]</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: but i can handle that</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Sad Emo Girl</b> left a last will.</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: can you?</span>
+<span><br>[1]</span>
+<span class="Gup">Gup</span>
+<span>: yea</span>
+<span><br>[7]</span>
+<span class="Sunflora">Sunflora</span>
+<span>: Also L Conj</span>
+</body>
+</html>

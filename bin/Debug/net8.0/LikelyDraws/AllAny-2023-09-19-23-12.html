@@ -1,0 +1,794 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Edward Bishop - </span><span style="color:#06E00C"> Spy </span>
+<span style="color:#a0a0a0"><i>(Username: Asterius)</i></span>
+<style>span.Edward-Bishop{color: #06E00C;}</style>
+<span><br>[2] Destuch - </span><span style="color:#06E00C"> Admirer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Ich bin die Bewunderer<br><br>Nacht eins: Nichts<br><br>Nacht zwei: Leibe 15 (Nein)<br><br>Nacht drei: Leibe 9 ()</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: RebelliousAhmish)</i></span>
+<style>span.Destuch{color: #06E00C;}</style>
+<span><br>[3] Maja - </span><span style="color:#B545FF"> Coven Leader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style> de <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> <br><br>N1- <br><br>D2/N2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k51"><b><color=#007AFF><b>Autopsy</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Giles Corey</color></link></font></style> [K:</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: moomoocowgirl)</i></span>
+<style>span.Maja{color: #B545FF;}</style>
+<span><br>[4] Ann Sears - </span><span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: Twixmess)</i></span>
+<style>span.Ann-Sears{color: #06E00C;}</style>
+<span><br>[5] Butterscotch - </span><span style="color:#06E00C"> Vigilante </span>
+<span style="color:#a0a0a0"><i>(Username: Houi)</i></span>
+<style>span.Butterscotch{color: #06E00C;}</style>
+<span><br>[6] ItzRawJerky - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span style="color:#a0a0a0"><i>(Username: Americano)</i></span>
+<style>span.ItzRawJerky{color: #06E00C;}</style>
+<span><br>[7] jake from statefarm - </span><span style="color:#06E00C"> Seer </span>
+<span style="color:#a0a0a0"><i>(Username: platypuss)</i></span>
+<style>span.jake-from-statefarm{color: #06E00C;}</style>
+<span><br>[8] Giles Corey - </span><span style="color:#FF004E"> Baker </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Giles-Corey{color: #FF004E;}</style>
+<span><br>[9] OpiumMonster - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Investigator<br>n1-3 - BLOOD<br>n2-7 - NO blood<br>n3-PIRATE<br><br><br><br><br><br>1,2,4,7,15 abstained CL<br><br>14 n 15 ENEMIES</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">You don't tell me what to do.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: HammerHammer)</i></span>
+<style>span.OpiumMonster{color: #06E00C;}</style>
+<span><br>[10] Kitten - </span><span style="color:#FF004E"> Soul Collector </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style> <br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Squirrelflight</color></link></font></style> <br>n3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>ItzRawJerky</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: hearts4days)</i></span>
+<style>span.Kitten{color: #FF004E;}</style>
+<span><br>[11] Squawk - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Tavern Keeper<br>N1: 12</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Squawk{color: #06E00C;}</style>
+<span><br>[12] Holt - </span><span style="color:#B545FF"> Poisoner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Holt</color></link></font></style> the Trapper<br><br>N1 - Roleblocked<br>N2 - Building</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: vaczi)</i></span>
+<style>span.Holt{color: #B545FF;}</style>
+<span><br>[13] Oh Death - </span><span style="color:#06E00C"> Seer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> <br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>kitty</color></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Squirrelflight</color></link></font></style>; ENEMIES!<br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Butterscotch</color></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Kitten</color></link></font></style>;</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Death)</i></span>
+<style>span.Oh-Death{color: #06E00C;}</style>
+<span><br>[14] kitty - </span><span style="color:#B545FF"> Hex Master </span>
+<span style="color:#a0a0a0"><i>(Username: brainzzdg)</i></span>
+<style>span.kitty{color: #B545FF;}</style>
+<span><br>[15] Squirrelflight - </span><span style="color:#ECC23E"> Pirate </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Squirrelflight</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style><br><br><br>// N1. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>ing <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Butterscotch</color></link></font></style> (Rapier)<br><br>// N2. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>ing <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Ann Sears</color></link></font></style> (Rapier) & Rejected <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Destuch</color></link></font></style>'s <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k37"><b><color=#007AFF><b>Proposal</b></color></b></link></font></style> <br><br>// N3. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>ing <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>OpiumMonster</color></link></font></style> (Rapier)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Squirrelflight{color: #ECC23E;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[15]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Give me a number</span>
+<span><br>[4]</span>
+<span class="Ann-Sears">Ann Sears</span>
+<span>: 4</span>
+<span><br>[5]</span>
+<span class="Butterscotch">Butterscotch</span>
+<span>: 12</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: 5</span>
+<span><br>[15]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Those are great numbers, thank you.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Ann Sears</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Edward Bishop</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Edward Bishop</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Ann Sears</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Edward Bishop</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Ann Sears</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Butterscotch</color></link></font></style> tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Butterscotch</color></link></font></style> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Scimitar!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Rapier!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Shiver me timbers! Th' scallywag sidestepped yer rapier. Ye lost th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Giles Corey</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Oh Death</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>kitty</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Giles Corey</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Edward Bishop</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Ann Sears</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Oh Death</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Squirrelflight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Oh Death</color></link></font></style>: N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>kitty</color></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Squirrelflight</color></link></font></style>; ENEMIES!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Butterscotch">Butterscotch</span>
+<span>: Pirated last night</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Ann Sears</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Edward Bishop</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Holt">Holt</span>
+<span>: roleblocked</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Squirrelflight</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Oh Death</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Oh Death</color></link></font></style>: Yeah, we tend to do that.</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: Investigator n1-3 - BLOOD</span>
+<span><br>[13]</span>
+<span class="Oh-Death">Oh Death</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>kitty</color></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Squirrelflight</color></link></font></style>; ENEMIES!</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> buggin nothing happen</span>
+<span><br>[2]</span>
+<span class="Destuch">Destuch</span>
+<span>: Ich bin die Bewunderer Nacht eins: Nichts</span>
+<span><br>[7]</span>
+<span class="jake-from-statefarm">jake from statefarm</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> n1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Holt</color></link></font></style>-friends</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: HANG 3</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: HANG 3</span>
+<span><br>[15]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Morning</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: HOT DIGGIDY TGOD</span>
+<span><br>[3]</span>
+<span class="Maja">Maja</span>
+<span>: this</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: TP on me</span>
+<span><br>[2]</span>
+<span class="Destuch">Destuch</span>
+<span>: Coven leistung agrefeild</span>
+<span><br>[3]</span>
+<span class="Maja">Maja</span>
+<span>: these are untrue lies and falsities to my name</span>
+<span><br>[14]</span>
+<span class="kitty">kitty</span>
+<span>: me ts</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Edward Bishop</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Ann Sears</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Maja">Maja</span>
+<span>: i am the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style></span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: i just realised i look like exe but still</span>
+<span><br>[3]</span>
+<span class="Maja">Maja</span>
+<span>: and this is a heavy heavy push</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: yeah sure bro</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Ann Sears</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Edward Bishop</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: what did 3 do</span>
+<span><br>[11]</span>
+<span class="Squawk">Squawk</span>
+<span>: they have blood</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: Investigator n1-3 - BLOOD</span>
+<span><br>[15]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: I'm just chillin'</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: yeah ill get 3 buddy boy</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: up me if im wrong</span>
+<span><br>[13]</span>
+<span class="Oh-Death">Oh Death</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>kitty</color></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Squirrelflight</color></link></font></style>; ENEMIES!</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: 1for1 it</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: vote 3</span>
+<span><br>[3]</span>
+<span class="Maja">Maja</span>
+<span>: then 1f1 it</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: yeah</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: get 3</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>ItzRawJerky</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>OpiumMonster</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Yeah, we tend to do that 13.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Squawk</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Butterscotch</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Edward Bishop</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Oh Death</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Holt</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Destuch</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="Maja">Maja</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style> de <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> N1- D2/N2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k51"><b><color=#007AFF><b>Autopsy</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Giles Corey</color></link></font></style> [K:</span>
+<span><br>[3]</span>
+<span class="Maja">Maja</span>
+<span>: not another d2 exe win</span>
+<span><br>[3]</span>
+<span class="Maja">Maja</span>
+<span>: please i unironically like this role</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: Investigator n1-3 - BLOOD</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: so just FYI, there be a enchanter</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: guilty and then TP on me</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: we do have 14 and 15 do 1f1 as well</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: cause like cov cant kill baker</span>
+<span><br>[3]</span>
+<span class="Maja">Maja</span>
+<span>: if the accuser is confi they should be 1f1 first no?</span>
+<span><br>[15]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: I kinda wanna guilty since you like the role.</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: but guilty</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: TP ON ME TONIGHT PLEASE FFS</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Edward Bishop</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Destuch</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Ann Sears</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Butterscotch</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>ItzRawJerky</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>jake from statefarm</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>OpiumMonster</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Kitten</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Squawk</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Holt</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Oh Death</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>kitty</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Maja</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Maja</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[5]</span>
+<span class="Butterscotch">Butterscotch</span>
+<span>: they can with a coven leader</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: TP ON ME</span>
+<span><br>[3]</span>
+<span class="Maja">Maja</span>
+<span>: oh well</span>
+<span><br>[13]</span>
+<span class="Oh-Death">Oh Death</span>
+<span>: TP, like spongebob and water II NEEEEEED IIIIIIT</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <b>Ann Sears</b> tonight.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>ItzRawJerky</b> is whispering to <b>Butterscotch</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Maja</b> died today.</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: tadaaaaaaaaaah</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Maja</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r26"><b><color=#B545FF>Coven Leader</color></b></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: told yall</span>
+<span><br>[11]</span>
+<span class="Squawk">Squawk</span>
+<span>: GET 12</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: HOT DIGGIGYT ZGoD</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: wait</span>
+<span><br>[5]</span>
+<span class="Butterscotch">Butterscotch</span>
+<span>: noice</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Maja</b> left a last will.</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: TP ON ME</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: wow 9 good job</span>
+<span><br>[13]</span>
+<span class="Oh-Death">Oh Death</span>
+<span>: tp on me please</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: TP ON ME TP ON ME</span>
+<span><br>[15]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Yeah, never trust a coroner who claims to like the role.</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: cl dont show blood tho</span>
+<span><br>[12]</span>
+<span class="Holt">Holt</span>
+<span>: they had book</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: right</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: TP ON ME</span>
+<span><br>[13]</span>
+<span class="Oh-Death">Oh Death</span>
+<span>: me please</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <b>Ann Sears</b> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Scimitar!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Squawk</b> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You rejected <b>Destuch</b>'s <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k37"><b><color=#007AFF><b>Proposal</b></color></b></link></font></style>!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Rapier!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Shiver me timbers! Th' scallywag sidestepped yer rapier. Ye lost th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Squawk</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Squawk</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Squirrelflight</b> is whispering to <b>Destuch</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <b>Destuch</b>: I don't wanna waste your Proposals, so I'll just tell you I'm the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Edward Bishop</b> is whispering to <b>Ann Sears</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Destuch</b> is whispering to <b>Squirrelflight</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <b>Destuch</b>: ja</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Holt</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Holt</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Ann Sears</b> is whispering to <b>Edward Bishop</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#B545FF>Poisoner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Edward Bishop</b> is whispering to <b>Ann Sears</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Oh Death</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Oh Death</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: vigi W</span>
+<span><br>[7]</span>
+<span class="jake-from-statefarm">jake from statefarm</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> n1- <b>Maja</b> and <b>Holt</b>-friends n2- <b>Holt</b> and <b>OpiumMonster</b>-enemies</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: get 14</span>
+<span><br>[15]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Rip Seer</span>
+<span><br>[5]</span>
+<span class="Butterscotch">Butterscotch</span>
+<span>: no TP then?</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: so 14 and 15</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: DUZb CITY</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: get 14</span>
+<span><br>[2]</span>
+<span class="Destuch">Destuch</span>
+<span>: 15 Pirat</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: 14 and 15 enemies, 15 ABSTAINED on CL</span>
+<span><br>[4]</span>
+<span class="Ann-Sears">Ann Sears</span>
+<span>: i was pirated</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: 14 innod coven leader</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: vote up 15 and get them to claim</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: oh 15 is pirate?</span>
+<span><br>[2]</span>
+<span class="Destuch">Destuch</span>
+<span>: Ja</span>
+<span><br>[15]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Yeah, I'm the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style></span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: 14 innod coven leader</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: tarnation pirate get em out</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: btw</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: vote up pirate</span>
+<span><br>[5]</span>
+<span class="Butterscotch">Butterscotch</span>
+<span>: get 14 then?</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: 14 u sussy baka</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: 14 innod coven leader</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: pirate is fine imo</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: make him claim</span>
+<span><br>[15]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Both 5 and 4 Sidestepped me.</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: has anyone been pirated</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: 4 did</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edward Bishop</b> voted against <b>kitty</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>OpiumMonster</b> voted against <b>kitty</b>.</span>
+<span><br>[5]</span>
+<span class="Butterscotch">Butterscotch</span>
+<span>: i was n1</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>ItzRawJerky</b> voted against <b>kitty</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Butterscotch</b> voted against <b>kitty</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Destuch</b> voted against <b>kitty</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>jake from statefarm</b> voted against <b>kitty</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>kitty</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>ItzRawJerky</b> is whispering to <b>Squirrelflight</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <b>ItzRawJerky</b>: am i next big boy</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Squirrelflight</b> is whispering to <b>ItzRawJerky</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <b>ItzRawJerky</b>: I don't know who's next. I haven't thought about it yet.</span>
+<span><br>[7]</span>
+<span class="jake-from-statefarm">jake from statefarm</span>
+<span>: nothing</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: this claimed TS earlier</span>
+<span><br>[7]</span>
+<span class="jake-from-statefarm">jake from statefarm</span>
+<span>: hes stone cold</span>
+<span><br>[15]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Eh, I have no stake here.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>OpiumMonster</b> is whispering to <b>Squirrelflight</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <b>OpiumMonster</b>: duel 2 tmrw</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <b>kitty</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edward Bishop</b> voted <b>kitty</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Destuch</b> <b><style="AbstainColor>abstained</style></b> on <b>kitty</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ann Sears</b> <b><style="AbstainColor>abstained</style></b> on <b>kitty</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Butterscotch</b> voted <b>kitty</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>ItzRawJerky</b> voted <b>kitty</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>jake from statefarm</b> <b><style="AbstainColor>abstained</style></b> on <b>kitty</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>OpiumMonster</b> <b><style="AbstainColor>abstained</style></b> on <b>kitty</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kitten</b> voted <b>kitty</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>kitty</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>kitty</b> to death by a vote of <color=#FF0000><b>4</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>kitty</b> died today.</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: hes stoning</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>kitty</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r29"><b><color=#B545FF>Hex Master</color></b></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="OpiumMonster">OpiumMonster</span>
+<span>: yay</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: HOT DIGGITY DOG</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>kitty</b> did not leave a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <b>OpiumMonster</b> tonight.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Butterscotch</b> is whispering to <b>OpiumMonster</b>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <b>OpiumMonster</b> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Scimitar!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Rapier!</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ahoy! Yer rapier skewered th' scurvy dog's chainmail. Ye won th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">OpiumMonster</span>
+<span style="color:#689194">: THIS IS WHY U VOTE STUPID PIRATE</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">OpiumMonster</span>
+<span style="color:#689194">: FFS</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Destuch</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died of a <style="LoverColor">broken heart</style>.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Squirrelflight</span>
+<span style="color:#689194">: You don't tell me what to do :)</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Destuch</b> left a last will.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">OpiumMonster</span>
+<span style="color:#689194">: UR NOT EVEN THE PIRATE</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">OpiumMonster</span>
+<span style="color:#689194">: PROBS</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">OpiumMonster</span>
+<span style="color:#689194">: AND KILL URSELF</i></span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Destuch</span>
+<span style="color:#689194">: THE GERMAN ADMIRER DIES AGAIN!</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>OpiumMonster</b> died last night.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">OpiumMonster</span>
+<span style="color:#689194">: ruined the whole game</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>OpiumMonster</b> left a last will.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Squirrelflight</span>
+<span style="color:#689194">: Sheesh, do you need to take a nap?</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Oh-Death</span>
+<span style="color:#689194">: 9</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Oh-Death</span>
+<span style="color:#689194">: you need to uninstall</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Oh-Death</span>
+<span style="color:#689194">: k thanks</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Squirrelflight</b> died last night.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">OpiumMonster</span>
+<span style="color:#689194">: umm ur still here?</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Squirrelflight</span>
+<span style="color:#689194">: Ironic, you told me to kill 2, and you accepted 2's proposal.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">OpiumMonster</span>
+<span style="color:#689194">: go to the next game bro</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Squirrelflight</b> left a last will.</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Destuch</span>
+<span style="color:#689194">: why me?</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Oh-Death</span>
+<span style="color:#689194">: nah ill wait</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">OpiumMonster</span>
+<span style="color:#689194">: L pirate</i></span>
+<span><br>[7]</span>
+<span class="jake-from-statefarm">jake from statefarm</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> n1- <b>Maja</b> and <b>Holt</b>-friends n2- <b>Holt</b> and <b>OpiumMonster</b>-enemies n3- <b>Ann Sears</b> and <b>OpiumMonster</b>-friends</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: the pirate was nice i thought</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: n3 b 6 (target hexed)</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: god damn</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">OpiumMonster</span>
+<span style="color:#689194">: uninstall because im too good smh</i></span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: thanks babe</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: wait</span>
+<span><br>[5]</span>
+<span class="Butterscotch">Butterscotch</span>
+<span>: 6 or 10 evil then?</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: necro?</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Destuch</span>
+<span style="color:#689194">: can pirate block admirer/jailor?</i></span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Destuch</span>
+<span style="color:#689194">: things that happen in the day</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Oh-Death</span>
+<span style="color:#689194">: begging for tp as <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> youre such a god bro</i></span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: u were hexed before doesnt have to be necro</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: i am TK</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: 10 which tk</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: but</span>
+<span><br>[5]</span>
+<span class="Butterscotch">Butterscotch</span>
+<span>: which one 10</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: im ts</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: amne turned</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Squirrelflight</span>
+<span style="color:#689194">: 9, I think you forgot a "C" at the start of your name.</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edward Bishop</b> voted against <b>Kitten</b>.</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: i am <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> if you must know</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Butterscotch</b> voted against <b>Kitten</b>.</span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: i rbed 2 last night</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: i doubt a doom at this point</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edward Bishop</b> cancelled their vote.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>ItzRawJerky</b> voted against <b>Kitten</b>.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Squirrelflight</span>
+<span style="color:#689194">: Ah, they left. oh well.</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edward Bishop</b> voted against <b>Kitten</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>jake from statefarm</b> voted against <b>Kitten</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Kitten</b> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> n1: <b>Maja</b> n2: <b>Squirrelflight</b> n3: <b>ItzRawJerky</b></span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: this is what i got</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>ItzRawJerky</b> is whispering to <b>jake from statefarm</b>.</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: that is all</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: you would have killed coven leader guilty lol</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>jake from statefarm</b> is whispering to <b>ItzRawJerky</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Ann Sears</b> is whispering to <b>Edward Bishop</b>.</span>
+<span><br>[5]</span>
+<span class="Butterscotch">Butterscotch</span>
+<span>: lol</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: how would i have killed CL?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>ItzRawJerky</b> is whispering to <b>Butterscotch</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>ItzRawJerky</b> is whispering to <b>Edward Bishop</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Edward Bishop</b> voted <b>Kitten</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ann Sears</b> <b><style="AbstainColor>abstained</style></b> on <b>Kitten</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Butterscotch</b> voted <b>Kitten</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>ItzRawJerky</b> voted <b>Kitten</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>jake from statefarm</b> <b><style="AbstainColor>abstained</style></b> on <b>Kitten</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Kitten</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Kitten</b> to death by a vote of <color=#FF0000><b>3</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Butterscotch</b> is whispering to <b>ItzRawJerky</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Edward Bishop</b> is whispering to <b>ItzRawJerky</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>ItzRawJerky</b> is whispering to <b>Butterscotch</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Edward Bishop</b> is whispering to <b>ItzRawJerky</b>.</span>
+<span><br>[10]</span>
+<span class="Kitten">Kitten</span>
+<span>: hold up i actually would like to know that</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Kitten</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Kitten</b> was convicted and executed.</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: read what trickster does</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><b><color=#FF004E>Soul Collector</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Kitten</b> left a last will.</span>
+<span><br>[1]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: and u will know why</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Squirrelflight</span>
+<span style="color:#689194">: SC, neat</i></span>
+<span><br>[6]</span>
+<span class="ItzRawJerky">ItzRawJerky</span>
+<span>: 4 you silent baka</span>
+</body>
+</html>

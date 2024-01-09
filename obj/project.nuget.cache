@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "gBGquHRJgci+8/yjCZKo4gxU9b2gcM+Fh5kDpYHac2HMUbVIen3A3Kewf4yK5LgwbjnxdKbvajLFIIFDTCyxbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eze\\Documents\\GitHub\\GamelogsAnalyzer\\HtmlAnalyzer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eze\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.0\\microsoft.net.illink.tasks.8.0.0.nupkg.sha512",
+    "C:\\Users\\Eze\\.nuget\\packages\\microsoft.netcore.app.runtime.osx-x64\\8.0.0\\microsoft.netcore.app.runtime.osx-x64.8.0.0.nupkg.sha512",
+    "C:\\Users\\Eze\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.osx-x64\\8.0.0\\microsoft.aspnetcore.app.runtime.osx-x64.8.0.0.nupkg.sha512",
+    "C:\\Users\\Eze\\.nuget\\packages\\microsoft.netcore.app.host.osx-x64\\8.0.0\\microsoft.netcore.app.host.osx-x64.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,786 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Sarah Bishop - </span><span style="color:#FF004E"> Plaguebearer </span>
+<span style="color:#a0a0a0"><i>(Username: Zaptheshark)</i></span>
+<style>span.Sarah-Bishop{color: #FF004E;}</style>
+<span><br>[2] Bald Man Bad - </span><span style="color:#06E00C"> Prosecutor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Why is bald man like this?</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Bald-Man-Bad{color: #06E00C;}</style>
+<span><br>[3] crazy - </span><span style="color:#FF004E"> Soul Collector </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r104"><sprite="RoleIcons" name="Role104"><b><style="TownColor">Town </style><color=#255900>Support</color></b></link></font></style> <br>n1 nothing<br>n2 no body<br>n3 pirated</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">just want to get me booty and leave please</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Nuyuu)</i></span>
+<style>span.crazy{color: #FF004E;}</style>
+<span><br>[4] Vigilante - </span><span style="color:#FF004E"> Berserker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r18"><sprite="RoleIcons" name="Role18"><b><color=#06E00C>Spy</color></b></link></font></style> <br>N1 - <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k62"><b><color=#007AFF><b>Bug</b></color></b></link></font></style> <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Tick</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Boredd)</i></span>
+<style>span.Vigilante{color: #FF004E;}</style>
+<span><br>[5] Red fish - </span><span style="color:#ECC23E"> Pirate </span>
+<span style="color:#a0a0a0"><i>(Username: Abonasnow)</i></span>
+<style>span.Red-fish{color: #ECC23E;}</style>
+<span><br>[6] Snake Lady - </span><span style="color:#06E00C"> Vigilante </span>
+<span style="color:#a0a0a0"><i>(Username: Manethon)</i></span>
+<style>span.Snake-Lady{color: #06E00C;}</style>
+<span><br>[7] D boi - </span><span style="color:#9D7038"> Werewolf </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>N1- 12(no blood)<br>N2- 10(no blood)<br>N3- 5(no blood)<br><br>5- <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r46"><sprite="RoleIcons" name="Role46"><b><color=#ECC23E>Pirate</color></b></link></font></style> <br>12- <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>13- <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r24"><sprite="RoleIcons" name="Role24"><b><color=#06E00C>Vigilante</color></b></link></font></style>  <br>15- <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r26"><sprite="RoleIcons" name="Role26"><b><color=#B545FF>Coven Leader [1]</color></b></link></font></style> <br>Known Roles: <br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style></span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">thanksies everyone</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Evilerskull88)</i></span>
+<style>span.D-boi{color: #9D7038;}</style>
+<span><br>[8] Ira - </span><span style="color:#06E00C"> Psychic </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Ira the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r14"><sprite="RoleIcons" name="Role14"><b><color=#06E00C>Psychic</color></b></link></font></style> <br><br>N1 15 / 9, 14, 15 (E)<br>N2 Pirated - Sidestep<br>Fair. <br><br><br><br>3<br>5 Pirate<br>6<br>7 Invest 12 NB<br>10 Admirer Claim (If they are silenced, kill them)<br>11 Seer Claim<br>12 Invest 13 NB<br>13 TK Claim<br>14 Spy Claim<br>15 Coroner Claim</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Of2Hiro)</i></span>
+<style>span.Ira{color: #06E00C;}</style>
+<span><br>[9] Basket Case - </span><span style="color:#B545FF"> Conjurer </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Basket-Case{color: #B545FF;}</style>
+<span><br>[10] Horny Bird - </span><span style="color:#06E00C"> Admirer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">15 declined my proposal??? Hang em.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TigerLicker)</i></span>
+<style>span.Horny-Bird{color: #06E00C;}</style>
+<span><br>[11] days sober - </span><span style="color:#06E00C"> Seer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r16"><sprite="RoleIcons" name="Role16"><b><color=#06E00C>Seer</color></b></link></font></style> <br>n1 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r46"><sprite="RoleIcons" name="Role46"><b><color=#ECC23E>Pirate</color></b></link></font></style> <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> - Backpedal on that b*tch<br>n2 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style> and <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Unfathomable Fate</color></link></font></style> are</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ljstreet)</i></span>
+<style>span.days-sober{color: #06E00C;}</style>
+<span><br>[12] Meloetta - </span><span style="color:#B545FF"> Potion Master </span>
+<span style="color:#a0a0a0"><i>(Username: MysticMismagius)</i></span>
+<style>span.Meloetta{color: #B545FF;}</style>
+<span><br>[13] Unfathomable Fate - </span><span style="color:#B545FF"> Necromancer </span>
+<span style="color:#a0a0a0"><i>(Username: Mettya)</i></span>
+<style>span.Unfathomable-Fate{color: #B545FF;}</style>
+<span><br>[14] bond - </span><span style="color:#06E00C"> Spy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Bond the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r18"><sprite="RoleIcons" name="Role18"><b><color=#06E00C>Spy</color></b></link></font></style> <br>n1 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Basket Case</color></link></font></style> <br>n2 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Tick</color></link></font></style> <br>n3 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>D boi</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Lewisamac)</i></span>
+<style>span.bond{color: #06E00C;}</style>
+<span><br>[15] Tick - </span><span style="color:#B545FF"> Coven Leader </span>
+<span style="color:#a0a0a0"><i>(Username: Poopypants29345)</i></span>
+<style>span.Tick{color: #B545FF;}</style>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Tick</color></link></font></style> possesses the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: tavern keepers on 11. that streak dies tonight</span>
+<span><br>[6]</span>
+<span class="Snake-Lady">Snake Lady</span>
+<span>: Tk, kay</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: kay?</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Tick</color></link></font></style> decided to empower their offence.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to use your Protection potion tonight.</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: this is a cool tema</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: team</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Tick</color></link></font></style>.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Tick</color></link></font></style> instead decided to attack <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bald Man Bad</color></link></font></style> tonight.</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: fax</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: yeah pretty good</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to use your Reveal potion tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Vigilante</color></link></font></style>.</span>
+<span style="background-color:#0000FF; color:#FFFFFF"><br>Your target is a fan of JRPGs. They must be the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r42"><sprite="RoleIcons" name="Role42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bald Man Bad</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bald Man Bad</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r13"><sprite="RoleIcons" name="Role13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: Claiming coroner btw</span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: Ira the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r14"><sprite="RoleIcons" name="Role14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1 15 / 9, 14, 15 (E)</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: Meloetta the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> |N1- <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Unfathomable Fate</color></link></font></style>, no blood|</span>
+<span><br>[11]</span>
+<span class="days-sober">days sober</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r16"><sprite="RoleIcons" name="Role16"><b><color=#06E00C>Seer</color></b></link></font></style> n1 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r46"><sprite="RoleIcons" name="Role46"><b><color=#ECC23E>Pirate</color></b></link></font></style> <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> - Backpedal on that b*tch</span>
+<span><br>[7]</span>
+<span class="D-boi">D boi</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1- 12(no blood)</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: coroner</span>
+<span><br>[14]</span>
+<span class="bond">bond</span>
+<span>: i'm spy</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: tk claim</span>
+<span><br>[4]</span>
+<span class="Vigilante">Vigilante</span>
+<span>: hey <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Ira</color></link></font></style> do @'s</span>
+<span><br>[3]</span>
+<span class="crazy">crazy</span>
+<span>: 6 tis cool</span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: the will gets too long if I do</span>
+<span><br>[4]</span>
+<span class="Vigilante">Vigilante</span>
+<span>: make it easier for us will ya?</span>
+<span><br>[11]</span>
+<span class="days-sober">days sober</span>
+<span>: also I wasn't rbed</span>
+<span><br>[4]</span>
+<span class="Vigilante">Vigilante</span>
+<span>: am spy btw</span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: you can read</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: 4 is fake.</span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: and if you arent reading, you are evil</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: Source: I guessed</span>
+<span><br>[4]</span>
+<span class="Vigilante">Vigilante</span>
+<span>: Bro we get pingged</span>
+<span><br>[3]</span>
+<span class="crazy">crazy</span>
+<span>: 7 tis</span>
+<span><br>[4]</span>
+<span class="Vigilante">Vigilante</span>
+<span>: helps alot guy</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Basket Case</color></link></font></style> decided to conjure a meteor targetting <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Vigilante</color></link></font></style> today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><color=#B545FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Vigilante</color></link></font></style> faces an untimely end!</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Vigilante</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were obliterated by the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r25"><sprite="RoleIcons" name="Role25"><b><color=#B545FF>Conjurer [2]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Vigilante</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r42"><sprite="RoleIcons" name="Role42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: thanks conjurer, told u he was fake</span>
+<span><br>[7]</span>
+<span class="D-boi">D boi</span>
+<span>: 10 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r25"><sprite="RoleIcons" name="Role25"><b><color=#B545FF>Conjurer [2]</color></b></link></font></style> then</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style>...?</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style> ?</span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: 9 claim?</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: W conj</span>
+<span><br>[6]</span>
+<span class="Snake-Lady">Snake Lady</span>
+<span>: 9 is on thin ice if 15 is coroner</span>
+<span><br>[3]</span>
+<span class="crazy">crazy</span>
+<span>: class conj, class</span>
+<span><br>[5]</span>
+<span class="Red-fish">Red fish</span>
+<span>: nice shot cov</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: Conjurer helping town</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Unfathomable Fate</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>D boi</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Basket Case</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Tick</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: insane</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Ira</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You changed your vote to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>days sober</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>crazy</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: Ill propose tonight</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: lol</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: anyone</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: pick</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Sarah Bishop</color></link></font></style> disconnected from life.</span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: 9 needs to claim for psychic info</span>
+<span><br>[9]</span>
+<span class="Basket-Case">Basket Case</span>
+<span>: me</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: this is what every evil does but inno anyways</span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: not 9</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: I can take it</span>
+<span><br>[7]</span>
+<span class="D-boi">D boi</span>
+<span>: why do I not believe this</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: propose ot me</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: go for 15</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: i don't either 7</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: ok</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style>!</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: 15</span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: ih</span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: 9 up</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Sarah Bishop</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>crazy</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Red fish</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Snake Lady</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>D boi</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Ira</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Basket Case</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>days sober</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Unfathomable Fate</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>bond</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Tick</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Horny Bird</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Horny Bird</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: If im silent tomorrow, theyre evil</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: Im proposing to 15</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ira</b> voted against <b>Basket Case</b>.</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: sus guilties</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Snake Lady</b> voted against <b>Basket Case</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Basket Case</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>crazy</b> voted against <b>Basket Case</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Horny Bird</b> voted against <b>Basket Case</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>days sober</b> voted against <b>Basket Case</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Unfathomable Fate</b> voted against <b>Basket Case</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Basket Case</b> was voted up to trial.</span>
+<span><br>[9]</span>
+<span class="Basket-Case">Basket Case</span>
+<span>: Oh, I was meant to claim?</span>
+<span><br>[9]</span>
+<span class="Basket-Case">Basket Case</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r104"><sprite="RoleIcons" name="Role104"><b><style="TownColor">Town </style><color=#255900>Support</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>Meloetta</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>From <b>D boi</b>: u wanna check 10 or should I</color></color></span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: N1 15 / 9, 14, 15 (E) yes.</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: you were is psy will</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: yes you are on a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r14"><sprite="RoleIcons" name="Role14"><b><color=#06E00C>Psychic</color></b></link></font></style> vision homeboy</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Basket Case</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: Ful claim now</span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: that took way too long</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Meloetta</b> is whispering to <b>D boi</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>To <b>D boi</b>: you do it please</color></color></span>
+<span><br>[9]</span>
+<span class="Basket-Case">Basket Case</span>
+<span>: Conj could kill me</span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: conj already did</span>
+<span><br>[6]</span>
+<span class="Snake-Lady">Snake Lady</span>
+<span>: No</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sarah Bishop</b> <b><style="AbstainColor>abstained</style></b> on <b>Basket Case</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>crazy</b> voted <b>Basket Case</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Red fish</b> voted <b>Basket Case</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Snake Lady</b> voted <b>Basket Case</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>D boi</b> <b><style="AbstainColor>abstained</style></b> on <b>Basket Case</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ira</b> voted <b>Basket Case</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Horny Bird</b> <b><style="AbstainColor>abstained</style></b> on <b>Basket Case</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>days sober</b> voted <b>Basket Case</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Unfathomable Fate</b> <b><style="AbstainColor>abstained</style></b> on <b>Basket Case</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>bond</b> <b><style="AbstainColor>abstained</style></b> on <b>Basket Case</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tick</b> voted <b>Basket Case</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Basket Case</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>Meloetta</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>From <b>D boi</b>: wish me luck</color></color></span>
+<span><br>[9]</span>
+<span class="Basket-Case">Basket Case</span>
+<span>: Yes., I killed myself, lol</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Meloetta</b> is whispering to <b>D boi</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>To <b>D boi</b>: good luck my love</color></color></span>
+<span><br>[8]</span>
+<span class="Ira">Ira</span>
+<span>: btw, whos the pirate so i can use them for good vision?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Basket Case</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Basket Case</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r25"><sprite="RoleIcons" name="Role25"><b><color=#B545FF>Conjurer [2]</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Red-fish">Red fish</span>
+<span>: me</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Basket Case</b> did not leave a last will.</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: IM PROPOSING TO 15 TONIGHT, REMEMBER IF IM QUIET TOMORROW THEYRE EVIL</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> decided to reanimate <b>Vigilante</b> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to use your Reveal potion tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> <b>crazy</b>.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> will make their zombie target <b>Ira</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Tick</b> instead decided to attack <b>Snake Lady</b> tonight.</span>
+<span style="background-color:#0000FF; color:#FFFFFF"><br>Your target is giving off the presence of multiple people. They must be the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r50"><sprite="RoleIcons" name="Role50"><b><color=#FF004E>Soul Collector</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sarah Bishop</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Sarah Bishop</b> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>Meloetta</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>From <b>D boi</b>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1- 12(no blood)N2- 10(no blood)</color></color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r47"><sprite="RoleIcons" name="Role47"><b><color=#FF004E>Plaguebearer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Meloetta</b> is whispering to <b>D boi</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>To <b>D boi</b>: N2- <b>crazy</b>, no blood|</color></color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Snake Lady</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Snake Lady</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r24"><sprite="RoleIcons" name="Role24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>Meloetta</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>From <b>D boi</b>: does 5 have a claim?</color></color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Ira</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were torn apart by the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r42"><sprite="RoleIcons" name="Role42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>bond</b>.</color></color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Ira</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Meloetta</b> is whispering to <b>D boi</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>To <b>D boi</b>: i think they claimed pirate</color></color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r14"><sprite="RoleIcons" name="Role14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>days sober</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>days sober</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>bond</b> is whispering to <b>D boi</b>.</color></color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r16"><sprite="RoleIcons" name="Role16"><b><color=#06E00C>Seer</color></b></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: N2- <b>crazy</b>, no blood|</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: N2- Killer is <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r26"><sprite="RoleIcons" name="Role26"><b><color=#B545FF>Coven Leader [1]</color></b></link></font></style> - <b>bond</b> is not the Killer I WAS NOT PROPOSED TO GET 10</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>bond</b>.</color></color></span>
+<span><br>[3]</span>
+<span class="crazy">crazy</span>
+<span>: ty :)</span>
+<span><br>[7]</span>
+<span class="D-boi">D boi</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1- 12(no blood)N2- 10(no blood)</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: 10 is fake if there was no proposal</span>
+<span><br>[7]</span>
+<span class="D-boi">D boi</span>
+<span>: 10 isnt ww or CL then</span>
+<span><br>[7]</span>
+<span class="D-boi">D boi</span>
+<span>: but their likely fake</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: mmm</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: yea</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: might be non killing cov</span>
+<span><br>[3]</span>
+<span class="crazy">crazy</span>
+<span>: didnt 10 say hes on 15?</span>
+<span><br>[14]</span>
+<span class="bond">bond</span>
+<span>: question does proposal show up to spy?</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: no</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: it doesn't</span>
+<span><br>[7]</span>
+<span class="D-boi">D boi</span>
+<span>: 10 was supposed to porpose to 15</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: are you <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r18"><sprite="RoleIcons" name="Role18"><b><color=#06E00C>Spy</color></b></link></font></style></span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: He didnt</span>
+<span><br>[14]</span>
+<span class="bond">bond</span>
+<span>: yeah already claimed spy</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>D boi</b> voted against <b>Horny Bird</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Horny Bird</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Unfathomable Fate</b> voted against <b>Horny Bird</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tick</b> voted against <b>Horny Bird</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Red fish</b> voted against <b>Horny Bird</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Horny Bird</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Unfathomable Fate</b> is whispering to <b>Tick</b>.</color></color></span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Tick</b> is whispering to <b>Unfathomable Fate</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>Meloetta</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>From <b>D boi</b>: if this is inno im checking 15</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Unfathomable Fate</b> is whispering to <b>Tick</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Meloetta</b> is whispering to <b>D boi</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>To <b>D boi</b>: don;t bother just hang them</color></color></span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: Man is fkaing silenced <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Horny Bird</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[3]</span>
+<span class="crazy">crazy</span>
+<span>: 1000iq?</span>
+<span><br>[3]</span>
+<span class="crazy">crazy</span>
+<span>: inno up 15?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Meloetta</b> is whispering to <b>D boi</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>To <b>D boi</b>: actually fuck it do it</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>Meloetta</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>From <b>D boi</b>: alrighty lol</color></color></span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: fake</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: he didnt porpose</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>crazy</b> voted <b>Horny Bird</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Red fish</b> voted <b>Horny Bird</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>D boi</b> voted <b>Horny Bird</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Unfathomable Fate</b> voted <b>Horny Bird</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>bond</b> <b><style="AbstainColor>abstained</style></b> on <b>Horny Bird</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tick</b> voted <b>Horny Bird</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Horny Bird</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: 15 declined my proposal</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: but coven maj</span>
+<span><br>[10]</span>
+<span class="Horny-Bird">Horny Bird</span>
+<span>: Rip</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: uhhhhhhhhh</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: how were you able to talk there</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: wtf</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: up 15 next</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Horny Bird</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Horny Bird</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r1"><sprite="RoleIcons" name="Role1"><b><color=#06E00C>Admirer</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="crazy">crazy</span>
+<span>: told you</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: get that idiot</span>
+<span><br>[3]</span>
+<span class="crazy">crazy</span>
+<span>: stupid town</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Horny Bird</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>Meloetta</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>From <b>D boi</b>: 15 evil 100%</color></color></span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: He didnt even propose</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Meloetta</b> is whispering to <b>D boi</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>To <b>D boi</b>: yea obv</color></color></span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: the heck?</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: up 15</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> decided to reanimate <b>Basket Case</b> tonight.</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: whos the ww</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: well</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> instead decided to reanimate <b>Sarah Bishop</b> tonight.</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: you know?</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> instead decided not to reanimate anyone tonight.</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: 5 claims pirate</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: meaning</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: it is either 7 or 14</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> decided to reanimate <b>Horny Bird</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> instead decided to reanimate <b>days sober</b> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to use your Reveal potion tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> instead decided to reanimate <b>Basket Case</b> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> <b>bond</b>.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> instead decided to reanimate <b>Ira</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Tick</b> instead decided to attack <b>D boi</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> instead decided to reanimate <b>Snake Lady</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> will make their zombie target <b>D boi</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Tick</b> instead decided to attack <b>bond</b> tonight.</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: you get 7</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> <b>D boi</b>.</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: sure</span>
+<span style="background-color:#0000FF; color:#FFFFFF"><br>Your target watches the moon. They must be a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>crazy</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r46"><sprite="RoleIcons" name="Role46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>crazy</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Meloetta</b> is whispering to <b>D boi</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>To <b>D boi</b>: you had me fooled, dog</color></color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r50"><sprite="RoleIcons" name="Role50"><b><color=#FF004E>Soul Collector</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>Meloetta</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>From <b>D boi</b>: not ww night leave m,e</color></color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>bond</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>bond</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>Tick</b>.</color></color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r18"><sprite="RoleIcons" name="Role18"><b><color=#06E00C>Spy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>Tick</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>Tick</b>.</color></color></span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: well then!</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: ok just end this now</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: its cov maj 7</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: Im the cl</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: take the L doggo <b>D boi</b></span>
+<span><br>[7]</span>
+<span class="D-boi">D boi</span>
+<span>: whos coven then</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: woof woof</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: just let the pirate win</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: can you 7?</span>
+<span><br>[7]</span>
+<span class="D-boi">D boi</span>
+<span>: hmm we shall see</span>
+<span><br>[5]</span>
+<span class="Red-fish">Red fish</span>
+<span>: if it's cov maj can I get my Pirate 2nd kill on the townie please?</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: Yes</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>Red fish</b>.</color></color></span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: do it</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: on 7</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: no townie left</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: 7 ios the last one</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[7]</span>
+<span class="D-boi">D boi</span>
+<span>: what u picking 5</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>D boi</b> is whispering to <b>Red fish</b>.</color></color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Unfathomable Fate</b> voted against <b>Tick</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Unfathomable Fate</b> changed their vote to <b>D boi</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Unfathomable Fate</b> changed their vote to <b>Red fish</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Unfathomable Fate</b> changed their vote to <b>Meloetta</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tick</b> voted against <b>D boi</b>.</span>
+<span><br>[5]</span>
+<span class="Red-fish">Red fish</span>
+<span>: I'mma go for 7 I guess if it's cov maj I just wanna win</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: phew!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to use your Protection potion tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Tick</b> instead decided to attack <b>D boi</b> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> <b>Tick</b>.</span>
+<span><br>[13]</span>
+<span class="Unfathomable-Fate">Unfathomable Fate</span>
+<span>: this combo was just too broken</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: good prot me</span>
+<span><br>[12]</span>
+<span class="Meloetta">Meloetta</span>
+<span>: real</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> decided to reanimate <b>crazy</b> tonight.</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: good good</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> instead decided not to reanimate anyone tonight.</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: ggs</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> decided to reanimate <b>Basket Case</b> tonight.</span>
+<span><br>[15]</span>
+<span class="Tick">Tick</span>
+<span>: ez</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> instead decided to reanimate <b>Sarah Bishop</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> will make their zombie target <b>Red fish</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> instead decided to reanimate <b>Bald Man Bad</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> instead decided to reanimate <b>Sarah Bishop</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> will instead make their zombie target <b>D boi</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Unfathomable Fate</b> will instead make their zombie target <b>Red fish</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You protected your target from an attack!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>D boi</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>. They also lost a duel with a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r46"><sprite="RoleIcons" name="Role46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>D boi</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>Red fish</b> accomplished their goal as <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r46"><sprite="RoleIcons" name="Role46"><b><color=#ECC23E>Pirate</color></b></link></font></style> and left town.</span>
+</body>
+</html>

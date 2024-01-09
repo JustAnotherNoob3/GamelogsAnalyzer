@@ -1,0 +1,892 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] MayorMayorDuck - </span><span style="color:#F700F8"> Voodoo Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style> has armor...<br>You guys were right<br><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><sprite="RoleIcons" name="Role37"><b><color=#F700F8>Voodoo Master</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Kroketje)</i></span>
+<style>span.MayorMayorDuck{color: #F700F8;}</style>
+<span><br>[2] Genocide - </span><span style="color:#F700F8"> Illusionist </span>
+<span style="color:#a0a0a0"><i>(Username: kraszmotor)</i></span>
+<style>span.Genocide{color: #F700F8;}</style>
+<span><br>[3] Cotten Eye Joe - </span><span style="color:#FF2134"> Berserker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">N1 i forgor<br><br>N2 i forgor</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: someguy9598)</i></span>
+<style>span.Cotten-Eye-Joe{color: #FF2134;}</style>
+<span><br>[4] Alexander Hamilton - </span><span style="color:#23AA23"> Shroud </span>
+<span style="color:#a0a0a0"><i>(Username: Artemis267)</i></span>
+<style>span.Alexander-Hamilton{color: #23AA23;}</style>
+<span><br>[5] Town Licked - </span><span style="color:#9D7038"> Werewolf </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#E1D247>Investigator</color></b></link></font></style> <br><br>n1 - 6 NB</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Desgralexs)</i></span>
+<style>span.Town-Licked{color: #9D7038;}</style>
+<span><br>[6] Daisy - </span><span style="color:#FF2134"> Soul Collector </span>
+<span style="color:#a0a0a0"><i>(Username: CCTinsley)</i></span>
+<style>span.Daisy{color: #FF2134;}</style>
+<span><br>[7] Vlad Dracula - </span><span style="color:#0000FF"> Serial Killer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><sprite="RoleIcons" name="Role102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><sprite="RoleIcons" name="Role21"><b><color=#E1D247>Trapper</color></b></link></font></style> <br><br>N1 Build</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: alicaptain)</i></span>
+<style>span.Vlad-Dracula{color: #0000FF;}</style>
+<span><br>[8] Aspen - </span><span style="color:#E1D247"> Admirer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">TS<br>n1- nothing<br>n2- rejected by 6 :(<br>n3- accepted by 2, im in a toxic relationship :(</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: aspxnisgxne)</i></span>
+<style>span.Aspen{color: #E1D247;}</style>
+<span><br>[9] ysiaD - </span><span style="color:#E1D247"> Sheriff </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">ffirehS: (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#E1D247>Sheriff</color></b></link></font></style>)<br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Alexander Hamilton</color></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k42"><b><color=#007AFF><b>Not Sus</b></color></b></link></font></style>)<br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Trickster</color></link></font></style> ()</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Hitmontop)</i></span>
+<style>span.ysiaD{color: #E1D247;}</style>
+<span><br>[10] Dorothy Good - </span><span style="color:#E1D247"> Amnesiac </span>
+<span style="color:#a0a0a0"><i>(Username: warriorsquid)</i></span>
+<style>span.Dorothy-Good{color: #E1D247;}</style>
+<span><br>[11] Poison me - </span><span style="color:#F700F8"> Necromancer </span>
+<span style="color:#a0a0a0"><i>(Username: Devaneio)</i></span>
+<style>span.Poison-me{color: #F700F8;}</style>
+<span><br>[12] Trickster - </span><span style="color:#E1D247"> Lookout </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><sprite="RoleIcons" name="Role10"><b><color=#E1D247>Lookout</color></b></link></font></style> <br>n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style> vb [ <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>MayorMayorDuck</color></link></font></style> ]<br>n2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style> vb<br><br><br><br><br><br>1 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><sprite="RoleIcons" name="Role37"><b><color=#F700F8>Voodoo Master</color></b></link></font></style> <br>5 fake<br><br>1 whispered 9 (likely also coven)<br><br>14 cov for voting me</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ganibattlebear)</i></span>
+<style>span.Trickster{color: #E1D247;}</style>
+<span><br>[13] Calippo - </span><span style="color:#FF2134"> Plaguebearer </span>
+<span style="color:#a0a0a0"><i>(Username: Minimaester)</i></span>
+<style>span.Calippo{color: #FF2134;}</style>
+<span><br>[14] DuckDuckMayor - </span><span style="color:#E1D247"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: IanWookie)</i></span>
+<style>span.DuckDuckMayor{color: #E1D247;}</style>
+<span><br>[15] Curran - </span><span style="color:#E1D247"> Cleric </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Cleric<br>N1-12<br>N2-13<br>N3-</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: darkwolf817)</i></span>
+<style>span.Curran{color: #E1D247;}</style>
+<span><br>[15]</span>
+<span class="Curran">Curran</span>
+<span>: morning</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: TPLO</span>
+<span><br>[9]</span>
+<span class="ysiaD">ysiaD</span>
+<span>: fH ,lG</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: Hi I'm Daisy!</span>
+<span><br>[11]</span>
+<span class="Poison-me">Poison me</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k36"><b><color=#007AFF><b>Poison</b></color></b></link></font></style> me</span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: I hope I die n1</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: I'm the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><sprite="RoleIcons" name="Role40"><b><color=#FF9933>Arsonist</color></b></link></font></style></span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: TPLO</span>
+<span><br>[14]</span>
+<span class="DuckDuckMayor">DuckDuckMayor</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>MayorMayorDuck</color></link></font></style></span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: garbage role</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: bosom</span>
+<span><br>[1]</span>
+<span class="MayorMayorDuck">MayorMayorDuck</span>
+<span>: last time i was ingame with daisy, thats all he said</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Alexander Hamilton</color></link></font></style>'s house tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You cannot find evidence of wrongdoing. Your target seems innocent.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dorothy Good</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><sprite="RoleIcons" name="Role49"><b><color=#23AA23>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dorothy Good</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Trickster</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><sprite="RoleIcons" name="Role2"><b><color=#E1D247>Amnesiac</color></b></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="ysiaD">ysiaD</span>
+<span>: ffirehS: (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#E1D247>Sheriff</color></b></link></font></style>) N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Alexander Hamilton</color></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k42"><b><color=#007AFF><b>Not Sus</b></color></b></link></font></style>)</span>
+<span><br>[3]</span>
+<span class="Cotten-Eye-Joe">Cotten Eye Joe</span>
+<span>: im t\</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: No coven kills?</span>
+<span><br>[3]</span>
+<span class="Cotten-Eye-Joe">Cotten Eye Joe</span>
+<span>: ts</span>
+<span><br>[5]</span>
+<span class="Town-Licked">Town Licked</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#E1D247>Investigator</color></b></link></font></style> n1 - 6 NB</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: anyone roleblocked?</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#E1D247>Investigator</color></b></link></font></style> n1 - 15 (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k111"><b><color=#007AFF><b>No Blood</b></color></b></link></font></style>)</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><sprite="RoleIcons" name="Role10"><b><color=#E1D247>Lookout</color></b></link></font></style> n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style> vb [ <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>MayorMayorDuck</color></link></font></style> ]</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: oh wait wrong will sorry</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: this is the right one</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><sprite="RoleIcons" name="Role10"><b><color=#E1D247>Lookout</color></b></link></font></style> n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style> vb [ <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>MayorMayorDuck</color></link></font></style> ]</span>
+<span><br>[8]</span>
+<span class="Aspen">Aspen</span>
+<span>: LOL</span>
+<span><br>[9]</span>
+<span class="ysiaD">ysiaD</span>
+<span>: PFFFFFFFFFFFFFFT</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: 5 is fake</span>
+<span><br>[11]</span>
+<span class="Poison-me">Poison me</span>
+<span>: moment</span>
+<span><br>[3]</span>
+<span class="Cotten-Eye-Joe">Cotten Eye Joe</span>
+<span>: 12 is jes</span>
+<span><br>[9]</span>
+<span class="ysiaD">ysiaD</span>
+<span>: So uh</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: 5 didnt visit 6</span>
+<span><br>[3]</span>
+<span class="Cotten-Eye-Joe">Cotten Eye Joe</span>
+<span>: jest</span>
+<span><br>[8]</span>
+<span class="Aspen">Aspen</span>
+<span>: SUS asf fr</span>
+<span><br>[9]</span>
+<span class="ysiaD">ysiaD</span>
+<span>: One of the moments of all time</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Trickster</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Genocide</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>MayorMayorDuck</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Poison me</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>DuckDuckMayor</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><sprite="RoleIcons" name="Role10"><b><color=#E1D247>Lookout</color></b></link></font></style> n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style> vb [ <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>MayorMayorDuck</color></link></font></style> ]</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Vlad Dracula</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Aspen</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Cotten Eye Joe</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style> was voted up to trial.</span>
+<span><br>[5]</span>
+<span class="Town-Licked">Town Licked</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#E1D247>Investigator</color></b></link></font></style> n1 - 6 NB</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>ysiaD</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>MayorMayorDuck</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>MayorMayorDuck</color></link></font></style>: Did you actually visit <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style>?</span>
+<span><br>[5]</span>
+<span class="Town-Licked">Town Licked</span>
+<span>: bro had two wills</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>MayorMayorDuck</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>ysiaD</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>MayorMayorDuck</color></link></font></style>: yes</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: you didn't visit 6. also 1 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><sprite="RoleIcons" name="Role37"><b><color=#F700F8>Voodoo Master</color></b></link></font></style> likely</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: 12 has 2 wills, we inno this</span>
+<span><br>[14]</span>
+<span class="DuckDuckMayor">DuckDuckMayor</span>
+<span>: get 12</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><sprite="RoleIcons" name="Role10"><b><color=#E1D247>Lookout</color></b></link></font></style> n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style> vb [ <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>MayorMayorDuck</color></link></font></style> ]</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: 12 is jest</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: THIS IS MHY IWLL</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: GUILTY</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>MayorMayorDuck</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Genocide</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Cotten Eye Joe</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Alexander Hamilton</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Vlad Dracula</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Aspen</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Poison me</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Trickster</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Calippo</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>DuckDuckMayor</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Curran</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Town Licked</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Town Licked</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: what was the first will then?</span>
+<span><br>[3]</span>
+<span class="Cotten-Eye-Joe">Cotten Eye Joe</span>
+<span>: yea 12 is juest</span>
+<span><br>[3]</span>
+<span class="Cotten-Eye-Joe">Cotten Eye Joe</span>
+<span>: jest</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: this guy is evil</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: that was a mistake.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>DuckDuckMayor</b> voted against <b>Trickster</b>.</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: vfa</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Trickster</b> voted against <b>Daisy</b>.</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: leave 12</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Aspen</b> voted against <b>Trickster</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Town Licked</b> voted against <b>Trickster</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Poison me</b> voted against <b>Trickster</b>.</span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: both wills are the same no?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>MayorMayorDuck</b> voted against <b>Daisy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vlad Dracula</b> voted against <b>Trickster</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Alexander Hamilton</b> voted against <b>Trickster</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>MayorMayorDuck</b> changed their vote to <b>Trickster</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Cotten Eye Joe</b> voted against <b>Trickster</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Trickster</b> was voted up to trial.</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: Ok. just because i made a simple mistake which i then corected you guys are going to up me.</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><sprite="RoleIcons" name="Role10"><b><color=#E1D247>Lookout</color></b></link></font></style> n1 - <b>Daisy</b> vb [ <b>MayorMayorDuck</b> ]</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: 6 is probably silecned too.</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: 1 is voodoo</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: 5 is fake</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: and 1 whispered 9</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: This is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#6699FF>Jester</color></b></link></font></style>, TK should be on this</span>
+<span><br>[14]</span>
+<span class="DuckDuckMayor">DuckDuckMayor</span>
+<span>: claimed invest then lookout just guilty</span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: oh wait nvm I see it now</span>
+<span><br>[3]</span>
+<span class="Cotten-Eye-Joe">Cotten Eye Joe</span>
+<span>: inno this. this is jest</span>
+<span><br>[9]</span>
+<span class="ysiaD">ysiaD</span>
+<span>: It could be a wacky copy/paste disaster. But also, if you think this is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#6699FF>Jester</color></b></link></font></style> why vote it?</span>
+<span><br>[5]</span>
+<span class="Town-Licked">Town Licked</span>
+<span>: wtf you on</span>
+<span><br>[8]</span>
+<span class="Aspen">Aspen</span>
+<span>: why did you have two wills</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: inno this</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Trickster</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: inno</span>
+<span><br>[1]</span>
+<span class="MayorMayorDuck">MayorMayorDuck</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#6699FF>Jester</color></b></link></font></style> W</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: im innoing</span>
+<span><br>[1]</span>
+<span class="MayorMayorDuck">MayorMayorDuck</span>
+<span>: guilt this</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>MayorMayorDuck</b> voted <b>Trickster</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Genocide</b> <b><style="AbstainColor>abstained</style></b> on <b>Trickster</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Cotten Eye Joe</b> voted <b>Trickster</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Alexander Hamilton</b> <b><style="AbstainColor>abstained</style></b> on <b>Trickster</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Town Licked</b> voted <b>Trickster</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Daisy</b> voted <b>Trickster</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vlad Dracula</b> <b><style="AbstainColor>abstained</style></b> on <b>Trickster</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Aspen</b> voted <b>Trickster</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Poison me</b> <b><style="AbstainColor>abstained</style></b> on <b>Trickster</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Calippo</b> voted <b>Trickster</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>DuckDuckMayor</b> voted <b>Trickster</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Curran</b> voted <b>Trickster</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Trickster</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: u p1</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There is 1 possible trial remaining today.</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: 12 is wasting our time</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: up 1, 6 is silenced</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: get claims</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: im tp</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Trickster</b> voted against <b>MayorMayorDuck</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>DuckDuckMayor</b> voted against <b>Trickster</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Aspen</b> voted against <b>MayorMayorDuck</b>.</span>
+<span><br>[9]</span>
+<span class="ysiaD">ysiaD</span>
+<span>: <b>MayorMayorDuck</b> you literally said you visited <b>Daisy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Calippo</b> voted against <b>MayorMayorDuck</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>MayorMayorDuck</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>DuckDuckMayor</b> changed their vote to <b>MayorMayorDuck</b>.</span>
+<span><br>[1]</span>
+<span class="MayorMayorDuck">MayorMayorDuck</span>
+<span>: ik did</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Genocide</b> voted against <b>MayorMayorDuck</b>.</span>
+<span><br>[1]</span>
+<span class="MayorMayorDuck">MayorMayorDuck</span>
+<span>: i did</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Cotten Eye Joe</b> voted against <b>MayorMayorDuck</b>.</span>
+<span><br>[1]</span>
+<span class="MayorMayorDuck">MayorMayorDuck</span>
+<span>: i never denied it</span>
+<span><br>[12]</span>
+<span class="Trickster">Trickster</span>
+<span>: 6 is silenced</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <b>Trickster</b>'s house tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You cannot find evidence of wrongdoing. Your target seems innocent.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style>!</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: HOLY</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: LMAO</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Cotten-Eye-Joe</span>
+<span style="color:#689194">: omg</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: EVERYONE DIED XD</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Curran</span>
+<span style="color:#689194">: freaking shroud</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>MayorMayorDuck</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">MayorMayorDuck</span>
+<span style="color:#689194">: big werewolf</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>MayorMayorDuck</b> left a last will.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Cotten-Eye-Joe</span>
+<span style="color:#689194">: are there two</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Daisy</b> is whispering to <b>Aspen</b>.</span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">MayorMayorDuck</span>
+<span style="color:#689194">: 6 is werewolf</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><sprite="RoleIcons" name="Role37"><b><color=#F700F8>Voodoo Master</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">MayorMayorDuck</span>
+<span style="color:#689194">: pretty sure</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">ysiaD</span>
+<span style="color:#689194">: I visited <b>Trickster</b> and died.</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Daisy</b> is whispering to <b>Aspen</b>.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Cotten-Eye-Joe</span>
+<span style="color:#689194">: 6 is soul</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">ysiaD</span>
+<span style="color:#689194">: to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Cotten Eye Joe</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">MayorMayorDuck</span>
+<span style="color:#689194">: i attacked 12</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Cotten Eye Joe</b> left a last will.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Cotten-Eye-Joe</span>
+<span style="color:#689194">: i went to 12</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: 5 is fake too</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Curran</span>
+<span style="color:#689194">: so 12 was really</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><sprite="RoleIcons" name="Role42"><b><color=#FF2134>Berserker</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Curran</span>
+<span style="color:#689194">: real</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: yeah i just messed up</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: town was just too evil</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Vlad Dracula</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Vlad Dracula</b> left a last will.</span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">MayorMayorDuck</span>
+<span style="color:#689194">: rainbow graveyard</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: lmao</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><sprite="RoleIcons" name="Role48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Aspen</b> is whispering to <b>Daisy</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>ysiaD</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Curran</span>
+<span style="color:#689194">: how do you mess up you posted two seprate wills</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>ysiaD</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Aspen</b> is whispering to <b>Daisy</b>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: i had one copied from an earlier game</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">ysiaD</span>
+<span style="color:#689194">: Copy/Paste leftover from last game</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Daisy</b> is whispering to <b>Aspen</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#E1D247>Sheriff</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: smh</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Trickster</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><sprite="RoleIcons" name="Role48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>. They were also mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style>. They were also destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><sprite="RoleIcons" name="Role42"><b><color=#FF2134>Berserker</color></b></link></font></style>. They were also killed by the <style="CovenColor">Coven</style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: holy crap</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Trickster</b> left a last will.</span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">MayorMayorDuck</span>
+<span style="color:#689194">: gee golly</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: im screenshotting that lmao</i></span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">MayorMayorDuck</span>
+<span style="color:#689194">: 12 was an epicentre</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Cotten-Eye-Joe</span>
+<span style="color:#689194">: you were hated</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><sprite="RoleIcons" name="Role10"><b><color=#E1D247>Lookout</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">ysiaD</span>
+<span style="color:#689194">: I whispered</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Curran</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><sprite="RoleIcons" name="Role49"><b><color=#23AA23>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Curran</b> left a last will.</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Vlad-Dracula</span>
+<span style="color:#689194">: gang bang on lookout</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">ysiaD</span>
+<span style="color:#689194">: <b>MayorMayorDuck</b> to ask if they really visited <b>Daisy</b>.</i></span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">MayorMayorDuck</span>
+<span style="color:#689194">: only shroud missed out</i></span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">MayorMayorDuck</span>
+<span style="color:#689194">: ofcourse</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><sprite="RoleIcons" name="Role4"><b><color=#E1D247>Cleric</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">MayorMayorDuck</span>
+<span style="color:#689194">: i never denied it <b>ysiaD</b></i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">ysiaD</span>
+<span style="color:#689194">: Did <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><sprite="RoleIcons" name="Role49"><b><color=#23AA23>Shroud</color></b></link></font></style> miss out if they didn't die?</i></span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">MayorMayorDuck</span>
+<span style="color:#689194">: i was gonna claim trick</i></span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: I'm confused about <b>Trickster</b>. He said he didn't send the right will but they were both the same?</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: lol 12 got demolished</span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: 12 was not popular it seems</span>
+<span><br>[11]</span>
+<span class="Poison-me">Poison me</span>
+<span>: shroud why didnt you go on 12, wouldve been even funnier lmao</span>
+<span><br>[8]</span>
+<span class="Aspen">Aspen</span>
+<span>: so many dead</span>
+<span><br>[14]</span>
+<span class="DuckDuckMayor">DuckDuckMayor</span>
+<span>: That ws sure a night</span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: <b>Daisy</b> above it</span>
+<span><br>[11]</span>
+<span class="Poison-me">Poison me</span>
+<span>: 5 is confirmed fake now btw</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: 12 sent a invest will first</span>
+<span><br>[11]</span>
+<span class="Poison-me">Poison me</span>
+<span>: lookout didnt see 5 on 6</span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: <b>Daisy</b> there is an invest will</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: Oh right</span>
+<span><br>[5]</span>
+<span class="Town-Licked">Town Licked</span>
+<span>: <b>Calippo</b> exactly, ithought it wass sk framing me, i was attcked n1</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: but yeah 5 is fake</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Genocide</b> voted against <b>Town Licked</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>DuckDuckMayor</b> voted against <b>Town Licked</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Poison me</b> voted against <b>Town Licked</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Daisy</b> voted against <b>Town Licked</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Calippo</b> voted against <b>Town Licked</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Town Licked</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Cotten-Eye-Joe</span>
+<span style="color:#689194">: 13 and 6 are apoc</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: i think 14 is coven</i></span>
+<span><br>[5]</span>
+<span class="Town-Licked">Town Licked</span>
+<span>: wonder how town gonna throw now</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: 12 will was real</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: guilty</span>
+<span><br>[14]</span>
+<span class="DuckDuckMayor">DuckDuckMayor</span>
+<span>: yep</span>
+<span><br>[5]</span>
+<span class="Town-Licked">Town Licked</span>
+<span>: ok shroud</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">ysiaD</span>
+<span style="color:#689194">: 3 apoc games go hard</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Genocide</b> voted <b>Town Licked</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Alexander Hamilton</b> <b><style="AbstainColor>abstained</style></b> on <b>Town Licked</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Daisy</b> voted <b>Town Licked</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Aspen</b> voted <b>Town Licked</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Poison me</b> voted <b>Town Licked</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Calippo</b> voted <b>Town Licked</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>DuckDuckMayor</b> voted <b>Town Licked</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Town Licked</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[14]</span>
+<span class="DuckDuckMayor">DuckDuckMayor</span>
+<span>: 4 dfidnt vote this</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: 4 why abstain?</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: Not everyone can vote. Relax <b>DuckDuckMayor</b></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: half of the town is evil rn</i></span>
+<span><br>[4]</span>
+<span class="Alexander-Hamilton">Alexander Hamilton</span>
+<span>: i was distracted by a snapchat</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Town Licked</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Town Licked</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Aspen">Aspen</span>
+<span>: nice</span>
+<span><br>[4]</span>
+<span class="Alexander-Hamilton">Alexander Hamilton</span>
+<span>: but I am not in the wws team lol</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Town Licked</b> left a last will.</span>
+<span><br>[14]</span>
+<span class="DuckDuckMayor">DuckDuckMayor</span>
+<span>: aye</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Cotten-Eye-Joe</span>
+<span style="color:#689194">: pest is not going to win</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">ysiaD</span>
+<span style="color:#689194">: I swear to god that <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><sprite="RoleIcons" name="Role50"><b><color=#FF2134>Soul Collector</color></b></link></font></style> gets the ultimate power boost when they have an alive teammate.</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Cotten-Eye-Joe</span>
+<span style="color:#689194">: 4 is the only one thay is infected</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">ysiaD</span>
+<span style="color:#689194">: Did everyone else just tarnation die?</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">ysiaD</span>
+<span style="color:#689194">: In the massacre of '87</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Aspen</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><sprite="RoleIcons" name="Role49"><b><color=#23AA23>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Aspen</b> left a last will.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: 1 shroud 2-3 cov, 2 apoc</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Cotten-Eye-Joe</span>
+<span style="color:#689194">: 2 is the only one that is not infacted</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><sprite="RoleIcons" name="Role1"><b><color=#E1D247>Admirer</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Trickster</span>
+<span style="color:#689194">: they are all evil</i></span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: So 2 is evil</span>
+<span><br>[14]</span>
+<span class="DuckDuckMayor">DuckDuckMayor</span>
+<span>: so we get 2</span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: ah tarnation</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: Hi I'm Daisy!</span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: 6 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><sprite="RoleIcons" name="Role49"><b><color=#23AA23>Shroud</color></b></link></font></style></span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: he had defense</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: we get coven first</span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><sprite="RoleIcons" name="Role37"><b><color=#F700F8>Voodoo Master</color></b></link></font></style> had the book</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: shroud is less scary</span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: wdym want from me</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: Who is coven</span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r30"><sprite="RoleIcons" name="Role30"><b><color=#F700F8>Illusionist</color></b></link></font></style></span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: 2</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>DuckDuckMayor</b> voted against <b>Genocide</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Daisy</b> voted against <b>Genocide</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Calippo</b> voted against <b>Genocide</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Poison me</b> voted against <b>Genocide</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Genocide</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">ysiaD</span>
+<span style="color:#689194">: Immediate coven dogpile</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">ysiaD</span>
+<span style="color:#689194">: You love to see it</i></span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: tbh im happy Im gonna die</span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: I hate this pillion role</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: illu is fun</span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: for who?</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: 2 is a lamo</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: when you get the right targets</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Alexander Hamilton</b> voted <b>Genocide</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Daisy</b> voted <b>Genocide</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Poison me</b> voted <b>Genocide</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Calippo</b> voted <b>Genocide</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>DuckDuckMayor</b> voted <b>Genocide</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Genocide</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[2]</span>
+<span class="Genocide">Genocide</span>
+<span>: you madman</span>
+<span><br>[11]</span>
+<span class="Poison-me">Poison me</span>
+<span>: i will give shroud the win if i have to choose</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Genocide</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Genocide</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r30"><sprite="RoleIcons" name="Role30"><b><color=#F700F8>Illusionist</color></b></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: You don't get a choice.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Genocide</b> did not leave a last will.</span>
+<span><br>[11]</span>
+<span class="Poison-me">Poison me</span>
+<span>: D:</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>A <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k9"><b><color=#007AFF><b>Plague</b></color></b></link></font></style> has consumed the Town, transforming the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><sprite="RoleIcons" name="Role47"><b><color=#FF2134>Plaguebearer</color></b></link></font></style> into <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r252"><sprite="RoleIcons" name="Role252"><b><color=#FF2134>Pestilence</color></b></link></font></style>, Horseman of the Apocalypse!</span>
+<span><br>[14]</span>
+<span class="DuckDuckMayor">DuckDuckMayor</span>
+<span>: what is 4</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: BOOOM!</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: ow</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Alexander Hamilton</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They succumbed to a pestilence.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Alexander Hamilton</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><sprite="RoleIcons" name="Role49"><b><color=#23AA23>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>Now <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><sprite="RoleIcons" name="Role50"><b><color=#FF2134>Soul Collector</color></b></link></font></style> has become <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><sprite="RoleIcons" name="Role253"><b><color=#FF2134>Death</color></b></link></font></style>, Destroyer of Worlds and Horseman of the Apocalypse!</span>
+<span><br>[11]</span>
+<span class="Poison-me">Poison me</span>
+<span>: ....</span>
+<span><br>[14]</span>
+<span class="DuckDuckMayor">DuckDuckMayor</span>
+<span>: ...</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Cotten-Eye-Joe</span>
+<span style="color:#689194">: lol</i></span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: Hi I'm Daisy!</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style></span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: It's gametime!</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: gg</span>
+<span><br>[14]</span>
+<span class="DuckDuckMayor">DuckDuckMayor</span>
+<span>: welp im worst TP ever, gg</span>
+<span><br>[13]</span>
+<span class="Calippo">Calippo</span>
+<span>: was it a 2 coven game?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>DuckDuckMayor</b> voted against <b>Poison me</b>.</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: It seems like it.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">ysiaD</span>
+<span style="color:#689194">: Tangent: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><sprite="RoleIcons" name="Role50"><b><color=#FF2134>Soul Collector</color></b></link></font></style> is the glue of multi- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r114"><sprite="RoleIcons" name="Role114"><b><style="NeutralColor">Neutral </style><color=#1F51FF>Apocalypse</color></b></link></font></style>.</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Cotten-Eye-Joe</span>
+<span style="color:#689194">: yea</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Cotten-Eye-Joe</span>
+<span style="color:#689194">: 6 is death and 13 is pest</i></span>
+</body>
+</html>

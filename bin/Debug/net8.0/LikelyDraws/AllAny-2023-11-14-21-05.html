@@ -1,0 +1,873 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Scott cawthon - </span><span style="color:#06E00C"> Sheriff </span>
+<span style="color:#a0a0a0"><i>(Username: vsimposterfan)</i></span>
+<style>span.Scott-cawthon{color: #06E00C;}</style>
+<span><br>[2] Frankie - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Frankie the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br><br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>love</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: frankiefurter)</i></span>
+<style>span.Frankie{color: #06E00C;}</style>
+<span><br>[3] Kurapika - </span><span style="color:#06E00C"> Trickster </span>
+<span style="color:#a0a0a0"><i>(Username: EdwardRichtofen)</i></span>
+<style>span.Kurapika{color: #06E00C;}</style>
+<span><br>[4] Blue Sheriff - </span><span style="color:#B545FF"> Wildling </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style> The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> / / <br><br>N1 - @</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: joebobby1412)</i></span>
+<style>span.Blue-Sheriff{color: #B545FF;}</style>
+<span><br>[5] James Bayley - </span><span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: ProbablyGlow)</i></span>
+<style>span.James-Bayley{color: #06E00C;}</style>
+<span><br>[6] Six is Sus - </span><span style="color:#06E00C"> Admirer </span>
+<span style="color:#a0a0a0"><i>(Username: kjova001)</i></span>
+<style>span.Six-is-Sus{color: #06E00C;}</style>
+<span><br>[7] Trans Girl - </span><span style="color:#06E00C"> Crusader </span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Trans-Girl{color: #06E00C;}</style>
+<span><br>[8] Vet Bait - </span><span style="color:#06E00C"> Cleric </span>
+<span style="color:#a0a0a0"><i>(Username: HawkInvoker)</i></span>
+<style>span.Vet-Bait{color: #06E00C;}</style>
+<span><br>[9] love - </span><span style="color:#B545FF"> Necromancer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Ret gaming<br>n1 none<br>n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style> )<br>n3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> roleblock</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Boritos)</i></span>
+<style>span.love{color: #B545FF;}</style>
+<span><br>[10] Bathtub - </span><span style="color:#ECC23E"> Pirate </span>
+<span style="color:#a0a0a0"><i>(Username: Frozenfactor)</i></span>
+<style>span.Bathtub{color: #ECC23E;}</style>
+<span><br>[11] Mars - </span><span style="color:#B545FF"> Potion Master </span>
+<span style="color:#a0a0a0"><i>(Username: Maubrandt)</i></span>
+<style>span.Mars{color: #B545FF;}</style>
+<span><br>[12] Baker is Bad - </span><span style="color:#00CC99"> Doomsayer </span>
+<span style="color:#a0a0a0"><i>(Username: TheMurderer)</i></span>
+<style>span.Baker-is-Bad{color: #00CC99;}</style>
+<span><br>[13] Name - </span><span style="color:#B545FF"> Poisoner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br>N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Frankie</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Axo)</i></span>
+<style>span.Name{color: #B545FF;}</style>
+<span><br>[14] Brioche - </span><span style="color:#06E00C"> Lookout </span>
+<span style="color:#a0a0a0"><i>(Username: Ignit)</i></span>
+<style>span.Brioche{color: #06E00C;}</style>
+<span><br>[15] Jonathan Corwin - </span><span style="color:#06E00C"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: HappySlug)</i></span>
+<style>span.Jonathan-Corwin{color: #06E00C;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: i am indeed super sus</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Morning</span>
+<span><br>[2]</span>
+<span class="Frankie">Frankie</span>
+<span>: butthole</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: baker</span>
+<span><br>[8]</span>
+<span class="Vet-Bait">Vet Bait</span>
+<span>: i am vet bait</span>
+<span><br>[13]</span>
+<span class="Name">Name</span>
+<span>: NO</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: shoot</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: is</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: shit</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: get</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I see 15 just gave up this time.</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: it</span>
+<span><br>[8]</span>
+<span class="Vet-Bait">Vet Bait</span>
+<span>: master baiter</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: to</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: be</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: attack me tn</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: better</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k66"><b><color=#007AFF><b>Fortify</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You attacked someone visiting your target.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Frankie</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Scott cawthon</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Six is Sus</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Frankie</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Scott cawthon</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Six is Sus</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Six is Sus</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Scott cawthon</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Six is Sus</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Scott cawthon</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mars</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Six is Sus</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mars</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master [12]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Six is Sus</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Jonathan Corwin</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Jonathan Corwin</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Trans Girl</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style>: What are you?</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Six is Sus</color></link></font></style>.</color></span>
+<span><br>[14]</span>
+<span class="Brioche">Brioche</span>
+<span>: Brioche the Lookout N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k57"><b><color=#007AFF><b>Watch</b></color></b></link></font></style><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style>(No Visits)</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: 4 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r38"><b><color=#B545FF>Wildling [6]</color></b></link></font></style></span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Morning</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: why everyone whisperin</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: i told 1 i was pirated</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Nice hit <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>!</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: he responded</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: 4 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r38"><b><color=#B545FF>Wildling [6]</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Trans Girl</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style>: yellow</color></span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: So 4 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r38"><b><color=#B545FF>Wildling [6]</color></b></link></font></style>?</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: yes</span>
+<span><br>[3]</span>
+<span class="Kurapika">Kurapika</span>
+<span>: oof rip 4</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: evidence?</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: look at whisp</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Name</color></link></font></style> has disconnected from life.</span>
+<span><br>[4]</span>
+<span class="Blue-Sheriff">Blue Sheriff</span>
+<span>: ???</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: i was chatting with 1</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: ah</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: 4 responded</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Oops lol</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: umm</span>
+<span><br>[8]</span>
+<span class="Vet-Bait">Vet Bait</span>
+<span>: happens</span>
+<span><br>[1]</span>
+<span class="Scott-cawthon">Scott cawthon</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Six is Sus</color></link></font></style> NS/BOOK</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: LOL</span>
+<span><br>[3]</span>
+<span class="Kurapika">Kurapika</span>
+<span>: 4</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Six is Sus</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Vet Bait</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Kurapika</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Brioche</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Trans Girl</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style>: What does "yellow" mean?</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Trans Girl</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style>: yellow</color></span>
+<span><br>[4]</span>
+<span class="Blue-Sheriff">Blue Sheriff</span>
+<span>: 6 rude. ruder than pirate</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Trans Girl</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style>: Fair enough.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Trans Girl</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style>: Also hi 4</color></span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: im sorry 4.. im town i had to</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: you seem like a chill dude tho</span>
+<span><br>[4]</span>
+<span class="Blue-Sheriff">Blue Sheriff</span>
+<span>: liar apoc</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: i bet ill die soon and join u</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: lol</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Boop</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Scott cawthon</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Kurapika</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>James Bayley</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Six is Sus</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Vet Bait</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>love</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bathtub</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Baker is Bad</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Name</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Brioche</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Blue Sheriff</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Blue Sheriff</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Blue Sheriff</b> to death by a vote of <color=#FF0000><b>7</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: love u</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: not the pirate tho</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: can we do vfa tommorow</span>
+<span><br>[4]</span>
+<span class="Blue-Sheriff">Blue Sheriff</span>
+<span>: ggwp</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: he rude</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Blue Sheriff</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Blue Sheriff</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r38"><b><color=#B545FF>Wildling [6]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Blue Sheriff</b> left a last will.</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: i was afk how did we know 4 was wildling</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>Bathtub</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>Bathtub</b>: Now that the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r38"><b><color=#B545FF>Wildling [6]</color></b></link></font></style> is dead, what are you actually? I know PM visited you last night.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You are being <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>ed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>! You are roleblocked!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to defend by Sidestepping!</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You sidestepped out of the Pirate's pistol shot. You won the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Name</b> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>love</b> is whispering to <b>Bathtub</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>love</b> is whispering to <b>Bathtub</b>.</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Name</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Baker is Bad</b> is whispering to <b>Six is Sus</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Six is Sus</b> is whispering to <b>love</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>Bathtub</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>Bathtub</b>: Buddy, why me and not the disconnect?</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Six is Sus</b> is whispering to <b>Baker is Bad</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Baker is Bad</b> is whispering to <b>Six is Sus</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Brioche</b> is whispering to <b>Six is Sus</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#B545FF>Poisoner [4]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Bathtub</b> is whispering to <b>love</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>Bathtub</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>Bathtub</b>: I killed the PM on you last night.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Baker is Bad</b> is whispering to <b>Six is Sus</b>.</color></span>
+<span><br>[14]</span>
+<span class="Brioche">Brioche</span>
+<span>: Brioche the Lookout N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k57"><b><color=#007AFF><b>Watch</b></color></b></link></font></style><b>Blue Sheriff</b>(No Visits) N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k57"><b><color=#007AFF><b>Watch</b></color></b></link></font></style><b>Six is Sus</b>(No Visits)</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> on <b>Bathtub</b> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style> )</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Six is Sus</b> is whispering to <b>Baker is Bad</b>.</color></span>
+<span><br>[1]</span>
+<span class="Scott-cawthon">Scott cawthon</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1: <b>Six is Sus</b> NS/BOOK N2: <b>Kurapika</b> SUS/ENCHANTED</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>ed last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Bathtub</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>Bathtub</b>: i wasnt paying attention</color></span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: whats happening</span>
+<span><br>[1]</span>
+<span class="Scott-cawthon">Scott cawthon</span>
+<span>: get 3</span>
+<span><br>[8]</span>
+<span class="Vet-Bait">Vet Bait</span>
+<span>: 9 thats not how invest works</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: 9?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Bathtub</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>Bathtub</b>: my duel rate is like 2%</color></span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: sad not to have any tp on me since i got a acoven out</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: <b>love</b>, how could <b>Bathtub</b> have blood when they lost the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>?</span>
+<span><br>[1]</span>
+<span class="Scott-cawthon">Scott cawthon</span>
+<span>: GET 3</span>
+<span><br>[8]</span>
+<span class="Vet-Bait">Vet Bait</span>
+<span>: invest shows blood not sus</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>love</b> is whispering to <b>Six is Sus</b>.</color></span>
+<span><br>[3]</span>
+<span class="Kurapika">Kurapika</span>
+<span>: yeah im townie</span>
+<span><br>[1]</span>
+<span class="Scott-cawthon">Scott cawthon</span>
+<span>: 3 FIRST</span>
+<span><br>[1]</span>
+<span class="Scott-cawthon">Scott cawthon</span>
+<span>: 10 TMMR</span>
+<span><br>[3]</span>
+<span class="Kurapika">Kurapika</span>
+<span>: not revealing this ealry</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>love</b> is whispering to <b>Six is Sus</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Six is Sus</b> is whispering to <b>love</b>.</color></span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: 3</span>
+<span><br>[14]</span>
+<span class="Brioche">Brioche</span>
+<span>: Honestly I trust 6 most, so I'd like to get 10.</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: 10 is the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> y'all...</span>
+<span><br>[10]</span>
+<span class="Bathtub">Bathtub</span>
+<span>: i am yellow</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Scott cawthon</b> voted against <b>Kurapika</b>.</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: sus, not blood</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kurapika</b> voted against <b>Bathtub</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Brioche</b> voted against <b>Kurapika</b>.</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: shoot the evil man</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>love</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Six is Sus</b> is whispering to <b>love</b>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vet Bait</b> voted against <b>Kurapika</b>.</span>
+<span><br>[14]</span>
+<span class="Brioche">Brioche</span>
+<span>: nvm</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Six is Sus</b> voted against <b>Kurapika</b>.</span>
+<span><br>[14]</span>
+<span class="Brioche">Brioche</span>
+<span>: didnt realise 10 was pirate</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Baker is Bad</b> voted against <b>Kurapika</b>.</span>
+<span><br>[3]</span>
+<span class="Kurapika">Kurapika</span>
+<span>: coven pushing</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Baker is Bad</b> cancelled their vote.</span>
+<span><br>[3]</span>
+<span class="Kurapika">Kurapika</span>
+<span>: me</span>
+<span><br>[14]</span>
+<span class="Brioche">Brioche</span>
+<span>: up 3</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Six is Sus</b> cancelled their vote.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>love</b> voted against <b>Kurapika</b>.</span>
+<span><br>[1]</span>
+<span class="Scott-cawthon">Scott cawthon</span>
+<span>: up 3</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>James Bayley</b> voted against <b>Kurapika</b>.</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: 10 wouldn't have blood. They lost the duel.</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: i think coven is very dead</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Six is Sus</b> voted against <b>Kurapika</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Kurapika</b> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="Kurapika">Kurapika</span>
+<span>: im trickster</span>
+<span><br>[3]</span>
+<span class="Kurapika">Kurapika</span>
+<span>: but i guess u will all learn that the hard way</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Vet Bait</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>Vet Bait</b>: is 10 crus who proted you n1</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>Bathtub</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>Bathtub</b>: I'll keep being on you to give you a chance. Plus, it will prevent coven from being able to kill ou.</color></span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: yeah.. wdym coven pushing.. also you would have claimed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> right away..</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Bathtub</b> is whispering to <b>Six is Sus</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Vet Bait</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>Vet Bait</b>: im cleric</color></span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: i believe im</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: but</span>
+<span><br>[3]</span>
+<span class="Kurapika">Kurapika</span>
+<span>: im trickster budi</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: ill abstain, im not sure yet</span>
+<span><br>[3]</span>
+<span class="Kurapika">Kurapika</span>
+<span>: dont know what else to say</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Six is Sus</b> is whispering to <b>Bathtub</b>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Kurapika</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Bathtub</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>Bathtub</b>: :)</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Scott cawthon</b> voted <b>Kurapika</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>James Bayley</b> <b><style="AbstainColor>abstained</style></b> on <b>Kurapika</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Six is Sus</b> voted <b>Kurapika</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vet Bait</b> voted <b>Kurapika</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>love</b> voted <b>Kurapika</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bathtub</b> <b><style="AbstainColor>abstained</style></b> on <b>Kurapika</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Baker is Bad</b> <b><style="AbstainColor>abstained</style></b> on <b>Kurapika</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Brioche</b> <b><style="AbstainColor>abstained</style></b> on <b>Kurapika</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Kurapika</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Kurapika</b> to death by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Six is Sus</b> is whispering to <b>Bathtub</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>Vet Bait</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>Vet Bait</b>: I was never protected by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</color></span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: 5 6 7 claim</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Kurapika</b> died today.</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Kurapika</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Bathtub</b> is whispering to <b>Six is Sus</b>.</color></span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: ts</span>
+<span><br>[1]</span>
+<span class="Scott-cawthon">Scott cawthon</span>
+<span>: 6 is good</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Vet Bait</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>Vet Bait</b>: i assumed cause d2 wisps</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Kurapika</b> did not leave a last will.</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: i got coven</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: im good</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k66"><b><color=#007AFF><b>Fortify</b></color></b></link></font></style> <b>Bathtub</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your target was attacked last night!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span><br>[1]</span>
+<span class="Scott-cawthon">Scott cawthon</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1: <b>Six is Sus</b> NS/BOOK N2: <b>Kurapika</b> SUS/ENCHANTED N3: <b>Brioche</b> NS/BOOK</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: ok</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: pirate</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Interesting</span>
+<span><br>[14]</span>
+<span class="Brioche">Brioche</span>
+<span>: Brioche the Lookout N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k57"><b><color=#007AFF><b>Watch</b></color></b></link></font></style><b>Blue Sheriff</b>(No Visits) N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k57"><b><color=#007AFF><b>Watch</b></color></b></link></font></style><b>Six is Sus</b>(No Visits) N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k57"><b><color=#007AFF><b>Watch</b></color></b></link></font></style> <b>Six is Sus</b>(No Visits)</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: theres an apoc here</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: wtf just happened</span>
+<span><br>[10]</span>
+<span class="Bathtub">Bathtub</span>
+<span>: i won the duel but</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: or somethin</span>
+<span><br>[10]</span>
+<span class="Bathtub">Bathtub</span>
+<span>: no dead</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: im trapped</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: ummm</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: who did u duel</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: who</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: me</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Bathtub</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>Bathtub</b>: i love you</color></span>
+<span><br>[10]</span>
+<span class="Bathtub">Bathtub</span>
+<span>: 9</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: how are u alive lol xD</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: trapper placed trap on me</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>Bathtub</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>Bathtub</b>: No problem lol.</color></span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: oh</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: LOL</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: saved me from unstoppable attack</span>
+<span><br>[10]</span>
+<span class="Bathtub">Bathtub</span>
+<span>: can we do over?</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: 5 claim</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: how is pirate alive, im super confused lol</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: doesnt make sense</span>
+<span><br>[10]</span>
+<span class="Bathtub">Bathtub</span>
+<span>: no vote</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style>s don't save from <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k3"><b><color=#007AFF><b>Unstoppable Attack</b></color></b></link></font></style>s.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>love</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Six is Sus</b> voted against <b>James Bayley</b>.</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: probs solo apoc</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Brioche</b> voted against <b>James Bayley</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Scott cawthon</b> voted against <b>James Bayley</b>.</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: they rb</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Baker is Bad</b> voted against <b>James Bayley</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>love</b> voted against <b>James Bayley</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>James Bayley</b> was voted up to trial.</span>
+<span><br>[5]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: it might seem crazy what im bouta say</span>
+<span><br>[5]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Bathtub</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>Bathtub</b>: who do i duel, your wish is my command</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>Bathtub</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>Bathtub</b>: Up to you tbh.</color></span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: <b>love</b> also said <b>Bathtub</b> had <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style> N2 when they very much didn't.</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: i claim tk.</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: tpow claims :/</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: sooo</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: ill inno</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>James Bayley</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: inno and reveal</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: but i dont trust this</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: i say get 9</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: id be willing to wager cov is dead</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Scott cawthon</b> <b><style="AbstainColor>abstained</style></b> on <b>James Bayley</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Six is Sus</b> voted <b>James Bayley</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vet Bait</b> voted <b>James Bayley</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>love</b> voted <b>James Bayley</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bathtub</b> voted <b>James Bayley</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Baker is Bad</b> voted <b>James Bayley</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Brioche</b> voted <b>James Bayley</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>James Bayley</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <b>James Bayley</b> by a vote of <color=#66FF66><b>7</b></color> to <color=#FF0000><b>0</b></color>.</span>
+<span><br>[6]</span>
+<span class="Six-is-Sus">Six is Sus</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> would kill pirate</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: coven is dead</span>
+<span><br>[5]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: you don't trust this</span>
+<span><br>[5]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: hmm</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: not yet</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Brioche</b> voted against <b>love</b>.</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>James Bayley</b> has revealed themself as the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Six is Sus</b> voted against <b>love</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>love</b>.</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: now i do</span>
+<span><br>[5]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: now you do</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Brioche</b> voted against <b>love</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Scott cawthon</b> voted against <b>love</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bathtub</b> voted against <b>love</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>love</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Six is Sus</b> is whispering to <b>James Bayley</b>.</color></span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: Ret gaming n1 none n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> on <b>Bathtub</b> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style> ) n3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> roleblock</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>James Bayley</b> is whispering to <b>Six is Sus</b>.</color></span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: i thought it was sheriff</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: text was red either way</span>
+<span><br>[10]</span>
+<span class="Bathtub">Bathtub</span>
+<span>: he a baddie</span>
+<span><br>[8]</span>
+<span class="Vet-Bait">Vet Bait</span>
+<span>: how long does blood last?</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> doesn't have <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style> when they don't kill that night.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>love</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: clood or its an enchanter game</span>
+<span><br>[5]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: 3 nights i think</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: im ret tho</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Also <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> doesn't find <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style> lol.</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: imma</span>
+<span><br>[5]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: maybe</span>
+<span><br>[8]</span>
+<span class="Vet-Bait">Vet Bait</span>
+<span>: inno</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Scott cawthon</b> <b><style="AbstainColor>abstained</style></b> on <b>love</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>James Bayley</b> <b><style="AbstainColor>abstained</style></b> on <b>love</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Six is Sus</b> voted <b>love</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Vet Bait</b> voted <b>love</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bathtub</b> voted <b>love</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Baker is Bad</b> voted <b>love</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Brioche</b> voted <b>love</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>love</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>love</b> to death by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: yeah</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: wpwp</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: gg</span>
+<span><br>[9]</span>
+<span class="love">love</span>
+<span>: lets ee if apoc</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: guilty was the right decision, i believe.</span>
+<span><br>[10]</span>
+<span class="Bathtub">Bathtub</span>
+<span>: can i keep dueling pls</span>
+<span><br>[1]</span>
+<span class="Scott-cawthon">Scott cawthon</span>
+<span>: 6 i need some caring</span>
+<span><br>[10]</span>
+<span class="Bathtub">Bathtub</span>
+<span>: need first win</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>love</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>love</b> was convicted and executed.</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: oh</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r33"><b><color=#B545FF>Necromancer [11]</color></b></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: no</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: If there's more evils, sure 10</span>
+<span><br>[5]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: not even apoc</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: game is end</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>love</b> left a last will.</span>
+<span><br>[8]</span>
+<span class="Vet-Bait">Vet Bait</span>
+<span>: i thought this was ret tbh cause 10 seemed like crus</span>
+<span><br>[5]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: just necro</span>
+<span><br>[12]</span>
+<span class="Baker-is-Bad">Baker is Bad</span>
+<span>: fuck</span>
+<span><br>[7]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Ah, so the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r33"><b><color=#B545FF>Necromancer [11]</color></b></link></font></style> attacked 10 last night?</span>
+</body>
+</html>

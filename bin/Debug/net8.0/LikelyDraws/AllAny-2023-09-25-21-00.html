@@ -1,0 +1,954 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Forklift Certified - </span><span style="color:#DB7601"> Arsonist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">7 the baker</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Reltic)</i></span>
+<style>span.Forklift-Certified{color: #DB7601;}</style>
+<span><br>[2] Quick Revive - </span><span style="color:#B545FF"> Ritualist </span>
+<span style="color:#a0a0a0"><i>(Username: G4Mbit)</i></span>
+<style>span.Quick-Revive{color: #B545FF;}</style>
+<span><br>[3] ruler of everything - </span><span style="color:#06E00C"> Tracker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">im the BIG dead the BIG BIG BIG dead the REALLY big dead the BIG dead the BIG BIG BIG dead</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: goober69)</i></span>
+<style>span.ruler-of-everything{color: #06E00C;}</style>
+<span><br>[4] Grapes - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">If all the world’s a stage
+Then I shall play my part
+You may say it’s cliché
+But I say it’s an art
+Every deck needs a knave
+To come and stack the cards
+The world may be yours to save
+But it’s mine to tear apart
+One button’s all it takes
+To set the earth a-quaking
+Or is the world afraid
+And the planet started shaking?
+You’d need tectonic plates
+To serve the schemes I’m baking
+And the menu for today
+Is some world domination</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: viridiandragoon)</i></span>
+<style>span.Grapes{color: #06E00C;}</style>
+<span><br>[5] Pheonix Wight - </span><span style="color:#B545FF"> Conjurer </span>
+<span style="color:#a0a0a0"><i>(Username: Masterpig997)</i></span>
+<style>span.Pheonix-Wight{color: #B545FF;}</style>
+<span><br>[6] Squirrelflight - </span><span style="color:#949797"> Executioner </span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Squirrelflight{color: #949797;}</style>
+<span><br>[7] Aldose - </span><span style="color:#B545FF"> Potion Master </span>
+<span style="color:#a0a0a0"><i>(Username: Spanguin)</i></span>
+<style>span.Aldose{color: #B545FF;}</style>
+<span><br>[8] Bread Enjoyer - </span><span style="color:#06E00C"> Crusader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Crusader<br><br><br>n1 got jailed<br><br>whelp neeed to protect mayor <br><br>on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>ruler of everything</color></link></font></style> now</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Smooples)</i></span>
+<style>span.Bread-Enjoyer{color: #06E00C;}</style>
+<span><br>[9] Marybeth dumpling - </span><span style="color:#06E00C"> Mayor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Marybeth Dumpling the mayor<br>n1 nothing<br>n2</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: AcePlaysGames78)</i></span>
+<style>span.Marybeth-dumpling{color: #06E00C;}</style>
+<span><br>[10] Jester - </span><span style="color:#FF004E"> Baker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">NOOOOOOOOOOOOOOOOOOOOOOOOOOO</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: WirelessWarlock)</i></span>
+<style>span.Jester{color: #FF004E;}</style>
+<span><br>[11] millsbury - </span><span style="color:#06E00C"> Jailor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>millsbury</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>  <br><br>n1 jail <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread Enjoyer</color></link></font></style>, claims tp <br>n2 jail <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Marybeth dumpling</color></link></font></style> for safe keeping <br>n3</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">If all the world’s a stage
+Then I shall play my part
+You may say it’s cliché
+But I say it’s an art
+Every deck needs a knave
+To come and stack the cards
+The world may be yours to save
+But it’s mine to tear apart
+One button’s all it takes
+To set the earth a-quaking
+Or is the world afraid
+And the planet started shaking?
+You’d need tectonic plates
+To serve the schemes I’m baking
+And the menu for today
+Is some world domination</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: rfrey221)</i></span>
+<style>span.millsbury{color: #06E00C;}</style>
+<span><br>[12] Dumpling - </span><span style="color:#06E00C"> Veteran </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Dumpling</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><style="TownColor">Town </style><color=#1F51FF>Killing</color></b></link></font></style> <br>N1: Nope<br>N2: Alert now - maybe gonna kill<br><br><br><br>also wtf is 3 claiming with that BS will?</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Bumby)</i></span>
+<style>span.Dumpling{color: #06E00C;}</style>
+<span><br>[13] Pucci Louboutin - </span><span style="color:#B545FF"> Voodoo Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>pranice</color></link></font></style> ns/book<br>N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>millsbury</color></link></font></style> ns/book...<br>N3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread Enjoyer</color></link></font></style> ns</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Michooy)</i></span>
+<style>span.Pucci-Louboutin{color: #B545FF;}</style>
+<span><br>[14] John Hathorne - </span><span style="color:#06E00C"> Bodyguard </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">n1- 12<br>n2- 9 (jailed<br>N3-9</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: PickleTime)</i></span>
+<style>span.John-Hathorne{color: #06E00C;}</style>
+<span><br>[15] pranice - </span><span style="color:#ECC23E"> Pirate </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><style="TownColor">Town </style><color=#1F51FF>Killing</color></b></link></font></style> <br>N1 not on alert<br>N2 not on alert SILENCED<br>N3 on alert</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: How2Survival)</i></span>
+<style>span.pranice{color: #ECC23E;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Squirrelflight</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style>: You have <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style> scrolls on, don't you? lol.</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: tp on me pls</span>
+<span><br>[5]</span>
+<span class="Pheonix-Wight">Pheonix Wight</span>
+<span>: noooooooooo I spelt it wrong</span>
+<span><br>[14]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: revoke 1s certs</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Morning</span>
+<span><br>[15]</span>
+<span class="pranice">pranice</span>
+<span>: Hello</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread Enjoyer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Squirrelflight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread Enjoyer</color></link></font></style>: i like <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style></span>
+<span><br>[9]</span>
+<span class="Marybeth-dumpling">Marybeth dumpling</span>
+<span>: protect me plz</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: i got you homie</span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: how about no</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Squirrelflight</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread Enjoyer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread Enjoyer</color></link></font></style>: Thanks 8.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not select a target so <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Quick Revive</color></link></font></style> was chosen at random.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Grapes</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Aldose</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Dumpling</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Grapes</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Dumpling</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Aldose</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Aldose</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Dumpling</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: track 8 visited the jailor</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Morning</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>pranice</color></link></font></style> ns/book</span>
+<span style="background-color:#000000; color:#FF7F66"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Marybeth dumpling</color></link></font></style> has revealed themself as the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>!</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Aldose</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Dumpling</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: ok</span>
+<span><br>[2]</span>
+<span class="Quick-Revive">Quick Revive</span>
+<span>: TK claim</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: How tf do you know who the Jailor is 3?</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: wait 3</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread Enjoyer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Marybeth dumpling</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Jester">Jester</span>
+<span>: TK CLAIM</span>
+<span><br>[5]</span>
+<span class="Pheonix-Wight">Pheonix Wight</span>
+<span>: 14 is not a killing role</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: how do you know jailro</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: LMFAO</span>
+<span><br>[15]</span>
+<span class="pranice">pranice</span>
+<span>: TK</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: TP</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: because 8 was in jail</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: meaning</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: he visited the jailor</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: then say that</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: in jail</span>
+<span><br>[11]</span>
+<span class="millsbury">millsbury</span>
+<span>: if we have tp that'd be nice</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: lol</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: basically said target jailed</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Marybeth dumpling</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread Enjoyer</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: I guess. Weird way to word it though lol.</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: but thats unfunny</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: im tp but i cant help 9</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: im not going to make my will easier to reada</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread Enjoyer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Marybeth dumpling</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Pheonix-Wight">Pheonix Wight</span>
+<span>: you are saying 8 was jailed?</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: 5 claim</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: 8 was jailed</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Dumpling</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Pheonix-Wight">Pheonix Wight</span>
+<span>: tk</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Aldose</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Marybeth dumpling</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Marybeth dumpling</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>pranice</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Bread-Enjoyer">Bread Enjoyer</span>
+<span>: i was</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Forklift Certified</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Jester</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: 6</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>millsbury</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style> was voted up to trial.</span>
+<span><br>[5]</span>
+<span class="Pheonix-Wight">Pheonix Wight</span>
+<span>: im trickster</span>
+<span><br>[5]</span>
+<span class="Pheonix-Wight">Pheonix Wight</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>John Hathorne</color></link></font></style> nothing</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: they did say 14 is not a killing tole</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: I'm <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style></span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: dont claim role outright but continue vfa</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: 1 never claimed, 1 claim or I shoot you</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: inno</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: 1 claim</span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: tk</span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: :3</span>
+<span><br>[2]</span>
+<span class="Quick-Revive">Quick Revive</span>
+<span>: 13 right just alignement note role</span>
+<span><br>[15]</span>
+<span class="pranice">pranice</span>
+<span>: abstaining for more info</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Forklift Certified</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Quick Revive</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>ruler of everything</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Aldose</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bread Enjoyer</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Marybeth dumpling</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Jester</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>millsbury</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Dumpling</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pucci Louboutin</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>John Hathorne</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>pranice</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Pheonix Wight</color></link></font></style>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Pheonix Wight</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[2]</span>
+<span class="Quick-Revive">Quick Revive</span>
+<span>: not *</span>
+<span><br>[5]</span>
+<span class="Pheonix-Wight">Pheonix Wight</span>
+<span>: I said tk but you still upped me</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style></span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: 1 claim</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Okay, so 1, 2, 3, and 5 all claim TK?</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: now</span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: i claimed</span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: look up</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dumpling</b> voted against <b>Forklift Certified</b>.</span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: lol</span>
+<span><br>[15]</span>
+<span class="pranice">pranice</span>
+<span>: late claim bit you <b>Pheonix Wight</b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Marybeth dumpling</b> voted against <b>millsbury</b>.</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: i did not claim tk</span>
+<span><br>[10]</span>
+<span class="Jester">Jester</span>
+<span>: i claim tk</span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: im not repeating myself bucko</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: shooting 1</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: HOW MANY TKS</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Ah, alrighty 3, apologies.</span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: <b>Dumpling</b> read chat</span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: lol</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>millsbury</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>millsbury</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: yo guys i found him</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Hey 9, did you claim your role to 11? lol.</span>
+<span><br>[14]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: I WAS SILENCED.</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: N2 <b>millsbury</b> ns/book...</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: track 8 visited the jailor 5 visited 11</span>
+<span><br>[2]</span>
+<span class="Quick-Revive">Quick Revive</span>
+<span>: What's 3 if he is not jailor ?</span>
+<span><br>[9]</span>
+<span class="Marybeth-dumpling">Marybeth dumpling</span>
+<span>: noooooo curse you damn coven</span>
+<span><br>[5]</span>
+<span class="Pheonix-Wight">Pheonix Wight</span>
+<span>: 8 is not a killing role</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: 5 is coven killing</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: vm game</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: 8 claim?</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: if 14 was silenced</span>
+<span><br>[10]</span>
+<span class="Jester">Jester</span>
+<span>: 8 claim now</span>
+<span><br>[14]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: gonna say it again i was silenced</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: track 8 visited the jailor 5 visited 11</span>
+<span><br>[8]</span>
+<span class="Bread-Enjoyer">Bread Enjoyer</span>
+<span>: look jailor will</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: 5 is book guy</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: 5 is the book guy</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: I love book guy</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: track 8 visited the jailor 5 visited 11</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: book guy lmfao</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: he visited 11</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>ruler of everything</b> voted against <b>Pheonix Wight</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Marybeth dumpling</b> voted against <b>Pheonix Wight</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jester</b> voted against <b>Pheonix Wight</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Pheonix Wight</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bread Enjoyer</b> voted against <b>Pheonix Wight</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Pheonix Wight</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Forklift Certified</b> is whispering to <b>Dumpling</b>.</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k7"><b><color=#007AFF><b>Invincible Defense</b></color></b></link></font></style> tbh</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: Too many TK claims, one of them has to be fake</span>
+<span><br>[2]</span>
+<span class="Quick-Revive">Quick Revive</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k7"><b><color=#007AFF><b>Invincible Defense</b></color></b></link></font></style></span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: I guess I'll ask this again now. 5, are you running <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style> scrolls for that name?</span>
+<span><br>[5]</span>
+<span class="Pheonix-Wight">Pheonix Wight</span>
+<span>: 3 isnt confirmed as a tracker</span>
+<span><br>[5]</span>
+<span class="Pheonix-Wight">Pheonix Wight</span>
+<span>: yeah</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Pheonix Wight</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: <b>Dumpling</b> its all any</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Dumpling</b> is whispering to <b>Forklift Certified</b>.</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: inno in case of exe</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Forklift Certified</b> <b><style="AbstainColor>abstained</style></b> on <b>Pheonix Wight</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Quick Revive</b> <b><style="AbstainColor>abstained</style></b> on <b>Pheonix Wight</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>ruler of everything</b> voted <b>Pheonix Wight</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Aldose</b> voted <b>Pheonix Wight</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bread Enjoyer</b> voted <b>Pheonix Wight</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Marybeth dumpling</b> voted <b>Pheonix Wight</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jester</b> voted <b>Pheonix Wight</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dumpling</b> <b><style="AbstainColor>abstained</style></b> on <b>Pheonix Wight</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Pucci Louboutin</b> <b><style="AbstainColor>abstained</style></b> on <b>Pheonix Wight</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>John Hathorne</b> <b><style="AbstainColor>abstained</style></b> on <b>Pheonix Wight</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>pranice</b> voted <b>Pheonix Wight</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Pheonix Wight</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Forklift Certified</b> is whispering to <b>Dumpling</b>.</span>
+<span><br>[5]</span>
+<span class="Pheonix-Wight">Pheonix Wight</span>
+<span>: wah</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: noice</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Cya Waluigi</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: i can do better exe plays</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Pheonix Wight</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Pheonix Wight</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#B545FF>Conjurer</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: guys im confirmed now</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Bread Enjoyer</b> is whispering to <b>Forklift Certified</b>.</span>
+<span><br>[14]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: 7?</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: deadass</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: shooting rando</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Pheonix Wight</b> did not leave a last will.</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: you guys should give me tp now</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Forklift Certified</b> is whispering to <b>Bread Enjoyer</b>.</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Dang, didn't Conjure either.</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: right</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: gotta prove</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Marybeth dumpling</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Marybeth dumpling</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>pranice</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>. They were also killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>pranice</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> has transformed into <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r250"><b><color=#FF004E>Famine</color></b></link></font></style>, Horseman of the Apocalypse! A famine has begun!</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: Why did rit not get mayor n2?</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: N3 <b>Bread Enjoyer</b> ns</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: idk why <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style> kept <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style> alive yesterday, but they did.</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: track 8 visited the jailor 5 visited 11 15 visit the</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Uh oh.</span>
+<span><br>[14]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: bg claim</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: bruh</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: all TP claims</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: didnt finish the will</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: oops</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: are sus</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: for baker</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Forklift Certified</b> is whispering to <b>Bread Enjoyer</b>.</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: 14</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: whos the crus</span>
+<span><br>[14]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: i claim bg</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: crus come out</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: 14 claimed TP</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: is silent</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: 14</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Bread Enjoyer</b> is whispering to <b>Forklift Certified</b>.</span>
+<span><br>[10]</span>
+<span class="Jester">Jester</span>
+<span>: one of the coven claim trickster that why rit didnt kill</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Forklift Certified</b> is whispering to <b>Bread Enjoyer</b>.</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: 14 is baker</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Bread Enjoyer</b> is whispering to <b>Forklift Certified</b>.</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: could be other apoc wanting hang</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: imagine its 12</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: we get 14?</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: but up anyway</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: track 8 visited the jailor 5 visited 11 15 visit the 9</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: How do we know 14 is baker?</span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: <b>Dumpling</b> hasnt shot</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dumpling</b> voted against <b>John Hathorne</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Aldose</b> voted against <b>John Hathorne</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Bread Enjoyer</b> is whispering to <b>Forklift Certified</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jester</b> voted against <b>John Hathorne</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Pucci Louboutin</b> voted against <b>John Hathorne</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>John Hathorne</b>.</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: i fix my will</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Forklift Certified</b> voted against <b>Dumpling</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bread Enjoyer</b> voted against <b>John Hathorne</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>John Hathorne</b> was voted up to trial.</span>
+<span><br>[14]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: n1- 12|n2- 9 (jailed|N3-9</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: wait no this is confirmed</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: What is that a will for?</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: kinda hard to shoot if there is nobody to shoot 1</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: bring him down</span>
+<span><br>[14]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: cant rlly do much and 12 hasnt shot</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: hes the crus</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: he wasnt jailed</span>
+<span><br>[10]</span>
+<span class="Jester">Jester</span>
+<span>: inno</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: put him down</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: according to jailor will</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>John Hathorne</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: HE WASNT JAILED N2</span>
+<span><br>[14]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: im the bg not crus</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: this isnt crus</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <b>John Hathorne</b>!</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: ACCORDING TO JAILOR</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: 9 was jailed n2</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>John Hathorne</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: this is the "bg"</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Forklift Certified</b> voted <b>John Hathorne</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Quick Revive</b> <b><style="AbstainColor>abstained</style></b> on <b>John Hathorne</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>ruler of everything</b> voted <b>John Hathorne</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Aldose</b> voted <b>John Hathorne</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bread Enjoyer</b> voted <b>John Hathorne</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jester</b> voted <b>John Hathorne</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dumpling</b> voted <b>John Hathorne</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Pucci Louboutin</b> voted <b>John Hathorne</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>John Hathorne</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: baker wouldnt transform if he hit jailed target</span>
+<span><br>[14]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: lol goodluck town</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: ffs</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: but 9 being jailed is known info</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>John Hathorne</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>John Hathorne</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: why even push that</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: god</span>
+<span><br>[13]</span>
+<span class="Pucci-Louboutin">Pucci Louboutin</span>
+<span>: bruh wtf</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Oof</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: right</span>
+<span><br>[1]</span>
+<span class="Forklift-Certified">Forklift Certified</span>
+<span>: 12?</span>
+<span><br>[3]</span>
+<span class="ruler-of-everything">ruler of everything</span>
+<span>: you guys are stupid</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>John Hathorne</b> left a last will.</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: thx 3</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Stupid is my middle name.</span>
+<span><br>[12]</span>
+<span class="Dumpling">Dumpling</span>
+<span>: 3 baker?</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Forklift Certified</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Forklift Certified</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Quick Revive</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Quick Revive</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>ruler of everything</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>ruler of everything</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Bread Enjoyer</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Bread Enjoyer</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Dumpling</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Dumpling</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Pucci Louboutin</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Pucci Louboutin</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#B545FF>Voodoo Master</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: 6 which TS are you?</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: 10 which TK are you?</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Uh, none of them.</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: are you the baker?</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: This is a weird spot.</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Nah, I'm the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style> lol.</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: ok cool</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: 2 was my target.</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: 10 is silenced</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: lets get 10</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: even if you are the baker</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: lets get us a dubski</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: What are you 7?</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: potion master</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Aldose</b> voted against <b>Jester</b>.</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: either way</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Jester</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Jester</b> was voted up to trial.</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: I won't get to win, but oh well.</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: i mean</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Jester</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: even if youre lying</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: i cant hang you</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: since 10 is silenced</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: this is my only way</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: My target is dead lol.</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: ggs</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Aldose</b> voted <b>Jester</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Jester</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Jester</b> to death by a vote of <color=#FF0000><b>2</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: And I can't hang you.</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: ah ok</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Baker kills one of us if I don't lynch, so no point in drawing it out.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Jester</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Jester</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r250"><b><color=#FF004E>Famine</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: nice</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: ty</span>
+<span><br>[6]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Sorry, I mean <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r250"><b><color=#FF004E>Famine</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Jester</b> left a last will.</span>
+<span><br>[7]</span>
+<span class="Aldose">Aldose</span>
+<span>: for being compliant</span>
+</body>
+</html>

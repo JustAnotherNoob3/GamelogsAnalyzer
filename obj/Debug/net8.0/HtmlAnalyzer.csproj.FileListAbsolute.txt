@@ -1,0 +1,15 @@
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\bin\Debug\net8.0\HtmlAnalyzer.exe
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\bin\Debug\net8.0\HtmlAnalyzer.deps.json
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\bin\Debug\net8.0\HtmlAnalyzer.runtimeconfig.json
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\bin\Debug\net8.0\HtmlAnalyzer.dll
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\bin\Debug\net8.0\HtmlAnalyzer.pdb
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\obj\Debug\net8.0\HtmlAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\obj\Debug\net8.0\HtmlAnalyzer.AssemblyInfoInputs.cache
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\obj\Debug\net8.0\HtmlAnalyzer.AssemblyInfo.cs
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\obj\Debug\net8.0\HtmlAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\obj\Debug\net8.0\HtmlAnalyzer.sourcelink.json
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\obj\Debug\net8.0\HtmlAnalyzer.dll
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\obj\Debug\net8.0\refint\HtmlAnalyzer.dll
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\obj\Debug\net8.0\HtmlAnalyzer.pdb
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\obj\Debug\net8.0\HtmlAnalyzer.genruntimeconfig.cache
+C:\Users\Eze\Documents\GitHub\GamelogsAnalyzer\obj\Debug\net8.0\ref\HtmlAnalyzer.dll

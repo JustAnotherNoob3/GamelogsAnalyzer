@@ -1,0 +1,557 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] In Your Walls - </span><span style="color:#06E00C"> Lookout </span>
+<span style="color:#a0a0a0"><i>(Username: Whirlpool)</i></span>
+<style>span.In-Your-Walls{color: #06E00C;}</style>
+<span><br>[2] Squirrelflight - </span><span style="color:#ECC23E"> Pirate </span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Squirrelflight{color: #ECC23E;}</style>
+<span><br>[3] Lubecruz Moris - </span><span style="color:#06E00C"> Jailor </span>
+<span style="color:#a0a0a0"><i>(Username: LubecruzMoris)</i></span>
+<style>span.Lubecruz-Moris{color: #06E00C;}</style>
+<span><br>[4] John Hathorne - </span><span style="color:#9D7038"> Werewolf </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>John Hathorne</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>n1:rbd-pirated</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: darkestruin)</i></span>
+<style>span.John-Hathorne{color: #9D7038;}</style>
+<span><br>[5] Mick Lovett - </span><span style="color:#B545FF"> Poisoner </span>
+<span style="color:#a0a0a0"><i>(Username: cowww)</i></span>
+<style>span.Mick-Lovett{color: #B545FF;}</style>
+<span><br>[6] Yoshi - </span><span style="color:#FF004E"> Plaguebearer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Cleric<br>n1 9<br>n2 9</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: tself55)</i></span>
+<style>span.Yoshi{color: #FF004E;}</style>
+<span><br>[7] Lydia Dustin - </span><span style="color:#F5A6D4"> Jester </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Lydia-Dustin{color: #F5A6D4;}</style>
+<span><br>[8] Morshu - </span><span style="color:#B545FF"> Ritualist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Morshu The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style> <br><br>N1 cant do jack.<br>N2 using the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>  on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Merchant</color></link></font></style> corpse missing.<br>N3 not useing vigi yet.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MysticYoshi97)</i></span>
+<style>span.Morshu{color: #B545FF;}</style>
+<span><br>[9] potato salad - </span><span style="color:#06E00C"> Vigilante </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: abeyants)</i></span>
+<style>span.potato-salad{color: #06E00C;}</style>
+<span><br>[10] Jake - </span><span style="color:#06E00C"> Deputy </span>
+<span style="color:#a0a0a0"><i>(Username: Campell53)</i></span>
+<style>span.Jake{color: #06E00C;}</style>
+<span><br>[11] goose - </span><span style="color:#06E00C"> Bodyguard </span>
+<span style="color:#a0a0a0"><i>(Username: snorlexx)</i></span>
+<style>span.goose{color: #06E00C;}</style>
+<span><br>[12] Magecabre - </span><span style="color:#1D4DFC"> Serial Killer </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">Uno</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Magecabre)</i></span>
+<style>span.Magecabre{color: #1D4DFC;}</style>
+<span><br>[13] blueavocado - </span><span style="color:#B545FF"> Illusionist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">psy<br>n1- e: 14,6,15<br>n2- g: 10,8<br>n3- e: 5,14, 2<br>n4- pirated</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">You knew this was coming, so I expected the Sidestep!</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: blueavocado4)</i></span>
+<style>span.blueavocado{color: #B545FF;}</style>
+<span><br>[14] Merchant - </span><span style="color:#06E00C"> Retributionist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style> <br><br>n1 no dead<br>n2 using <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>goose</color></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>In Your Walls</color></link></font></style> (target attacked)<br>n2 using <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>potato salad</color></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Mick Lovett</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Soulish)</i></span>
+<style>span.Merchant{color: #06E00C;}</style>
+<span><br>[15] duck - </span><span style="color:#1D4DFC"> Serial Killer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">N1 veteran alert</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: catcute7371)</i></span>
+<style>span.duck{color: #1D4DFC;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Morning</span>
+<span><br>[9]</span>
+<span class="potato-salad">potato salad</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>John Hathorne</color></link></font></style> tonight.</span>
+<span><br>[7]</span>
+<span class="Lydia-Dustin">Lydia Dustin</span>
+<span>: Mornarch?</span>
+<span><br>[14]</span>
+<span class="Merchant">Merchant</span>
+<span>: 9 mon?</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>John Hathorne</color></link></font></style> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Scimitar!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Pistol!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Blow me down! The sorry seadog's chainmail stopped yer shot. Ye lost th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lubecruz Moris</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They visited a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lubecruz Moris</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lydia Dustin</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lydia Dustin</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>In Your Walls</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>potato salad</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>In Your Walls</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>goose</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died while defending their target.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>In Your Walls</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>In Your Walls</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>goose</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>In Your Walls</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>potato salad</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>duck</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>duck</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>potato salad</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>In Your Walls</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Morshu">Morshu</span>
+<span>: wp bg rip that jailor tho.</span>
+<span><br>[4]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: n1:rbd-pirated</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Alright, so we have another <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style> then. Anyone see who was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>ed?</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>In Your Walls</color></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>potato salad</color></link></font></style> vb <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Yoshi</color></link></font></style></span>
+<span><br>[13]</span>
+<span class="blueavocado">blueavocado</span>
+<span>: psy n1- e: 14,6,15</span>
+<span><br>[6]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: im TP</span>
+<span><br>[8]</span>
+<span class="Morshu">Morshu</span>
+<span>: ts herer</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: That can be the SK that was jailed btw</span>
+<span><br>[6]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: on the mon claim</span>
+<span><br>[4]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: i am an investigator</span>
+<span><br>[4]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: that got pirated n1</span>
+<span><br>[14]</span>
+<span class="Merchant">Merchant</span>
+<span>: ts</span>
+<span><br>[13]</span>
+<span class="blueavocado">blueavocado</span>
+<span>: sk in jail cant attack</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: It attacks the jailor</span>
+<span><br>[8]</span>
+<span class="Morshu">Morshu</span>
+<span>: jailor jailed that sk.</span>
+<span><br>[13]</span>
+<span class="blueavocado">blueavocado</span>
+<span>: yes</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: SK in jail attacks the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Merchant">Merchant</span>
+<span>: 13 who did you visit</span>
+<span><br>[14]</span>
+<span class="Merchant">Merchant</span>
+<span>: you miss that</span>
+<span><br>[14]</span>
+<span class="Merchant">Merchant</span>
+<span>: part</span>
+<span><br>[5]</span>
+<span class="Mick-Lovett">Mick Lovett</span>
+<span>: Jail</span>
+<span><br>[13]</span>
+<span class="blueavocado">blueavocado</span>
+<span>: 14</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: So if we know who was Jailed, we'd know who the SK is.</span>
+<span><br>[14]</span>
+<span class="Merchant">Merchant</span>
+<span>: sounds exe like</span>
+<span><br>[14]</span>
+<span class="Merchant">Merchant</span>
+<span>: but fine</span>
+<span><br>[6]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: the SK is dead 2</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: did 5 just claim jailed?</span>
+<span><br>[8]</span>
+<span class="Morshu">Morshu</span>
+<span>: 15 is dead</span>
+<span><br>[5]</span>
+<span class="Mick-Lovett">Mick Lovett</span>
+<span>: No</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: There's another one 6.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Magecabre</color></link></font></style> tonight.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>blueavocado</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>In Your Walls</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Merchant">Merchant</span>
+<span>: vfa time</span>
+<span><br>[10]</span>
+<span class="Jake">Jake</span>
+<span>: Two sk kills</span>
+<span><br>[14]</span>
+<span class="Merchant">Merchant</span>
+<span>: 1 claimed</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Magecabre</color></link></font></style> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Scimitar!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Rapier!</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ahoy! Yer rapier skewered th' scurvy dog's chainmail. Ye won th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>John Hathorne</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>John Hathorne</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Yoshi</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Yoshi</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><b><color=#FF004E>Plaguebearer</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>potato salad</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>potato salad</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Magecabre</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Magecabre</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Morshu">Morshu</span>
+<span>: wp pirate!</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Yoshi</color></link></font></style> vb nobody, ty 6</span>
+<span><br>[13]</span>
+<span class="blueavocado">blueavocado</span>
+<span>: n2- g: 10,8 first number is who i visited</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Morning</span>
+<span><br>[5]</span>
+<span class="Mick-Lovett">Mick Lovett</span>
+<span>: there's so many evils</span>
+<span><br>[10]</span>
+<span class="Jake">Jake</span>
+<span>: yeah</span>
+<span><br>[14]</span>
+<span class="Merchant">Merchant</span>
+<span>: why ty <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Yoshi</color></link></font></style> ?</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: 3 evils dead in one night, nice hit <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: because 6 saved me?</span>
+<span><br>[5]</span>
+<span class="Mick-Lovett">Mick Lovett</span>
+<span>: how come pirate can kill sk?</span>
+<span><br>[8]</span>
+<span class="Morshu">Morshu</span>
+<span>: if they win</span>
+<span><br>[13]</span>
+<span class="blueavocado">blueavocado</span>
+<span>: 6 was pb?</span>
+<span><br>[8]</span>
+<span class="Morshu">Morshu</span>
+<span>: they lose they die</span>
+<span><br>[14]</span>
+<span class="Merchant">Merchant</span>
+<span>: 6 is pb i doubt they can</span>
+<span><br>[14]</span>
+<span class="Merchant">Merchant</span>
+<span>: xD</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: If they did, yeah.</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: win*</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: wait who tf was it then</span>
+<span><br>[13]</span>
+<span class="blueavocado">blueavocado</span>
+<span>: lo is astral</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: oh ret</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Yeah, Ret used BG.</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Killed Goose again</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: ty ret</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Merchant</color></link></font></style> tonight.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>blueavocado</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Squirrelflight</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: that corpse not looking good</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Merchant</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Squirrelflight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Merchant</color></link></font></style> cancelled their vote.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>In Your Walls</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Squirrelflight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Jake</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Squirrelflight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Merchant</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Squirrelflight</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Squirrelflight</color></link></font></style> was voted up to trial.</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: I'm the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style></span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Ain't going for town.</span>
+<span><br>[8]</span>
+<span class="Morshu">Morshu</span>
+<span>: ah the yarg man. let him down!</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: let em live, pirate is based</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: what's 5</span>
+<span><br>[13]</span>
+<span class="blueavocado">blueavocado</span>
+<span>: inno</span>
+<span><br>[5]</span>
+<span class="Mick-Lovett">Mick Lovett</span>
+<span>: i sam crusader</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to plunder <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Jake</color></link></font></style> tonight.</span>
+<span><br>[5]</span>
+<span class="Mick-Lovett">Mick Lovett</span>
+<span>: am</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>In Your Walls</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Squirrelflight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Mick Lovett</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Squirrelflight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Morshu</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Squirrelflight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Jake</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Squirrelflight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>blueavocado</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Squirrelflight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Merchant</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Squirrelflight</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Squirrelflight</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: will</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>In Your Walls</b> voted against <b>Mick Lovett</b>.</span>
+<span><br>[5]</span>
+<span class="Mick-Lovett">Mick Lovett</span>
+<span>: Crusader N1: 4 N2: 8</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>In Your Walls</b> cancelled their vote.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <b>Jake</b> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Scimitar!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Pistol!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Blow me down! The sorry seadog's chainmail stopped yer shot. Ye lost th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mick Lovett</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Mick Lovett</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#B545FF>Poisoner</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Merchant</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Merchant</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="blueavocado">blueavocado</span>
+<span>: n3- e: 5,14, 2 first number is who i visited</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: N3: <b>Morshu</b> vb nobody</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Morning</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><color=#1133FF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Jake</color></link></font></style> revealed as a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style> and shot <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Morshu</color></link></font></style>!</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Morshu</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Morshu</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>In Your Walls</b> is whispering to <b>Jake</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="blueavocado">blueavocado</span>
+<span>: gee golly dep came in clutch</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Ah, apologies for dueling you 10. Didn't know you were a Silent Deputy.</span>
+<span><br>[10]</span>
+<span class="Jake">Jake</span>
+<span>: No worries</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: so should we let pirate deal with 13 or hang them</span>
+<span><br>[10]</span>
+<span class="Jake">Jake</span>
+<span>: just trying to figure out who is who</span>
+<span><br>[13]</span>
+<span class="blueavocado">blueavocado</span>
+<span>: or we should get 1</span>
+<span><br>[13]</span>
+<span class="blueavocado">blueavocado</span>
+<span>: lmao</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: why would we get the conf lo over the psy</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: i wonder</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: I'll let 10 decide who i pirate.</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: anyway not voting</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[1]</span>
+<span class="In-Your-Walls">In Your Walls</span>
+<span>: pirate won't so there's no point</span>
+<span><br>[10]</span>
+<span class="Jake">Jake</span>
+<span>: Pirate 13 and if I die then we know</span>
+<span><br>[2]</span>
+<span class="Squirrelflight">Squirrelflight</span>
+<span>: Alrighty</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <b>blueavocado</b> tonight.</span>
+<span><br>[10]</span>
+<span class="Jake">Jake</span>
+<span>: you scurvy dog</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <b>blueavocado</b> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Scimitar!</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Yer scimitar's slash could nah be sidestepped by th' landlubber. Ye won th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>blueavocado</b> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>In Your Walls</b> is whispering to <b>Squirrelflight</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <b>In Your Walls</b>: huge</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>blueavocado</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Squirrelflight</b> is whispering to <b>In Your Walls</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <b>In Your Walls</b>: gg</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>In Your Walls</b> is whispering to <b>Squirrelflight</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <b>In Your Walls</b>: gg pirate</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Squirrelflight</b> is whispering to <b>Jake</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <b>Jake</b>: gg</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Jake</b> is whispering to <b>Squirrelflight</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <b>Jake</b>: gg</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>In Your Walls</b> is whispering to <b>Squirrelflight</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <b>In Your Walls</b>: i'm shroud</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>In Your Walls</b> is whispering to <b>Squirrelflight</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <b>In Your Walls</b>: jkjk</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r30"><b><color=#B545FF>Illusionist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>Squirrelflight</b> has accomplished their goal as <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> and left town.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Merchant</span>
+<span style="color:#689194">: 13 i was sus of you</i></span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">Morshu</span>
+<span style="color:#689194">: i dont liek riting pirates</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Merchant</span>
+<span style="color:#689194">: cause of missing visit</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">blueavocado</span>
+<span style="color:#689194">: yeah i forgot about that lmao</i></span>
+</body>
+</html>

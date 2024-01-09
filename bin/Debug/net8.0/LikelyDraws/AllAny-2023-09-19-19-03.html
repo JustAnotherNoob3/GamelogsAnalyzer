@@ -1,0 +1,968 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Mike Hunt - </span><span style="color:#B545FF"> Poisoner </span>
+<span style="color:#a0a0a0"><i>(Username: Heydj)</i></span>
+<style>span.Mike-Hunt{color: #B545FF;}</style>
+<span><br>[2] Solo Mafioso - </span><span style="color:#06E00C"> Deputy </span>
+<span style="color:#a0a0a0"><i>(Username: rocket10)</i></span>
+<style>span.Solo-Mafioso{color: #06E00C;}</style>
+<span><br>[3] cereal killer - </span><span style="color:#06E00C"> Psychic </span>
+<span style="color:#a0a0a0"><i>(Username: Jeraldio)</i></span>
+<style>span.cereal-killer{color: #06E00C;}</style>
+<span><br>[4] goblin - </span><span style="color:#06E00C"> Deputy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">if you killed me you are goblin deez nuts<br><br><br>GOTTEM</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: WearerofHats)</i></span>
+<style>span.goblin{color: #06E00C;}</style>
+<span><br>[5] chip - </span><span style="color:#00CC99"> Doomsayer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><sprite="RoleIcons" name="Role4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br>n1: self<br>n2: 2</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Chipthunk)</i></span>
+<style>span.chip{color: #00CC99;}</style>
+<span><br>[6] nag - </span><span style="color:#FF004E"> Soul Collector </span>
+<span style="color:#a0a0a0"><i>(Username: MilfHunter)</i></span>
+<style>span.nag{color: #FF004E;}</style>
+<span><br>[7] John Willard - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Investigator <br>N1 Kobold innocent<br>N2 cereal killer innocent</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Qu1)</i></span>
+<style>span.John-Willard{color: #06E00C;}</style>
+<span><br>[8] Sam Wardwell - </span><span style="color:#B545FF"> Jinx </span>
+<span style="color:#a0a0a0"><i>(Username: Pactwel)</i></span>
+<style>span.Sam-Wardwell{color: #B545FF;}</style>
+<span><br>[9] boofs - </span><span style="color:#06E00C"> Crusader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">boofs the crusader<br>n1-protecting cereal killer</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Tylerb33J)</i></span>
+<style>span.boofs{color: #06E00C;}</style>
+<span><br>[10] Republic - </span><span style="color:#06E00C"> Deputy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Republic - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><sprite="RoleIcons" name="Role7"><b><color=#06E00C>Deputy</color></b></link></font></style> <br><br><br><br>TRASSH INVESTIGATOR<br><br><br>TRAAASH REPORT REPORT REPORT<br><br><br>:(</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Leolardo)</i></span>
+<style>span.Republic{color: #06E00C;}</style>
+<span><br>[11] Boof - </span><span style="color:#06E00C"> Sheriff </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Boof the sheriff<br><br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>boofs</color></link></font></style> -  seems inno<br><br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>chip</color></link></font></style> - SEEMS SUS (thank you 4)<br><br>n3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thomas Danforth</color></link></font></style> - seems inno<br><br>n4: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cereal killer</color></link></font></style> -</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: thunderbolt)</i></span>
+<style>span.Boof{color: #06E00C;}</style>
+<span><br>[12] Kobold - </span><span style="color:#06E00C"> Coroner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Kobold the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><sprite="RoleIcons" name="Role5"><b><color=#06E00C>Coroner</color></b></link></font></style> <br><br>N1 - Vibing<br>D2 - Nothing worth Autopsying<br>N2 - Vibing<br>D2 - Nothing worth Autopsying<br>N3 - Vibing</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: StarSaintMark)</i></span>
+<style>span.Kobold{color: #06E00C;}</style>
+<span><br>[13] Thomas Danforth - </span><span style="color:#DB7601"> Arsonist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">n1: alert nothing happened<br>n2: no alert nothing again<br>n3: no alert dead game<br>n4: alert no one visited</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TieSix)</i></span>
+<style>span.Thomas-Danforth{color: #DB7601;}</style>
+<span><br>[14] Solo Medium - </span><span style="color:#06E00C"> Crusader </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><sprite="RoleIcons" name="Role2"><b><color=#06E00C>Amnesiac</color></b></link></font></style>  <br><br>n1 - nobody dead<br><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><sprite="RoleIcons" name="Role6"><b><color=#06E00C>Crusader</color></b></link></font></style> <br><br>n2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Kobold</color></link></font></style> bc i dont wanna kill tp<br>n3 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>goblin</color></link></font></style> <br>n4 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Solo Mafioso</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Rocknut)</i></span>
+<style>span.Solo-Medium{color: #06E00C;}</style>
+<span><br>[15] Cambodge Mofo - </span><span style="color:#B545FF"> Wildling </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Tracker<br>N1 4 didnt visit</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Bilboul)</i></span>
+<style>span.Cambodge-Mofo{color: #B545FF;}</style>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: uh oh</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Hell yeah! After all these games, I finally got it</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: I am the most powerful role in ALL of ToS2!</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: party at the dankforth</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: MWHAHAHA</span>
+<span><br>[6]</span>
+<span class="nag">nag</span>
+<span>: bruh</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Mike Hunt</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Mike Hunt</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Mike Hunt</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><sprite="RoleIcons" name="Role34"><b><color=#B545FF>Poisoner</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Sam Wardwell</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><sprite="RoleIcons" name="Role6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Sam Wardwell</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><sprite="RoleIcons" name="Role31"><b><color=#B545FF>Jinx</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>boofs</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><sprite="RoleIcons" name="Role31"><b><color=#B545FF>Jinx</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>boofs</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><sprite="RoleIcons" name="Role6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="chip">chip</span>
+<span>: poor coven</span>
+<span><br>[6]</span>
+<span class="nag">nag</span>
+<span>: coven lmao</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: ahem</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: With great power come great responsibility</span>
+<span><br>[7]</span>
+<span class="John-Willard">John Willard</span>
+<span>: coven l</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: TI?</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: W night</span>
+<span><br>[11]</span>
+<span class="Boof">Boof</span>
+<span>: Boof the sheriff n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>boofs</color></link></font></style> - seems inno</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: I promise to be a merciful god</span>
+<span><br>[3]</span>
+<span class="cereal-killer">cereal killer</span>
+<span>: psychicN1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Mike Hunt</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Willard</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Cambodge Mofo</color></link></font></style></span>
+<span><br>[6]</span>
+<span class="nag">nag</span>
+<span>: tarnation i hope this teacher doesnt walk over here again so i have to log off</span>
+<span style="background-color:#000000; color:#02FF4D"><br><color=#1133FF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Solo Mafioso</color></link></font></style> revealed as a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><sprite="RoleIcons" name="Role7"><b><color=#06E00C>Deputy</color></b></link></font></style> and shot <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Cambodge Mofo</color></link></font></style>!</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Cambodge Mofo</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><sprite="RoleIcons" name="Role7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Cambodge Mofo</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r38"><sprite="RoleIcons" name="Role38"><b><color=#B545FF>Wildling</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: Dah, screw it! I say!</span>
+<span><br>[7]</span>
+<span class="John-Willard">John Willard</span>
+<span>: good job</span>
+<span><br>[6]</span>
+<span class="nag">nag</span>
+<span>: HAHAHA W DEP</span>
+<span><br>[10]</span>
+<span class="Republic">Republic</span>
+<span>: thats crazy</span>
+<span><br>[5]</span>
+<span class="chip">chip</span>
+<span>: omfg coven is RUINED</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Ok, Dep, gotta ask. Was that random or was there a reason for that great shot?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thomas Danforth</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Solo Mafioso</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: 12 let me shoot</span>
+<span><br>[4]</span>
+<span class="goblin">goblin</span>
+<span>: 3 who did you visit</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: how i want to shoot.</span>
+<span><br>[11]</span>
+<span class="Boof">Boof</span>
+<span>: coven punching the air rn</span>
+<span><br>[6]</span>
+<span class="nag">nag</span>
+<span>: psy was prolly reason</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>nag</color></link></font></style> has disconnected from life.</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: That tracks</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: i wanted to shoot the psy.</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: shhhh</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: hes that different</span>
+<span><br>[10]</span>
+<span class="Republic">Republic</span>
+<span>: 6 last cov</span>
+<span><br>[10]</span>
+<span class="Republic">Republic</span>
+<span>: LOL</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>goblin</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cereal killer</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Coven Ragequit LOL</span>
+<span><br>[14]</span>
+<span class="Solo-Medium">Solo Medium</span>
+<span>: i was afk</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: errr TPLO ON ME</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: YES?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Republic</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cereal killer</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: is it gg right here?</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: TP on 2</span>
+<span><br>[4]</span>
+<span class="goblin">goblin</span>
+<span>: 3 who did you visit</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Or else</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>nag</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>nag</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><sprite="RoleIcons" name="Role50"><b><color=#FF004E>Soul Collector</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: town win?</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: nope</span>
+<span><br>[11]</span>
+<span class="Boof">Boof</span>
+<span>: Boof the sheriff n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>boofs</color></link></font></style> - seems inno n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>chip</color></link></font></style> - SEEMS SUS</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Alright then</span>
+<span><br>[5]</span>
+<span class="chip">chip</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><sprite="RoleIcons" name="Role4"><b><color=#06E00C>Cleric</color></b></link></font></style> n1: self n2: 2</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: EVERYBODY CLAIM</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: RN</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: maybe enchanted</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: So we likely have NA/NE</span>
+<span><br>[3]</span>
+<span class="cereal-killer">cereal killer</span>
+<span>: psychic</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: cant be enchanter game</span>
+<span><br>[10]</span>
+<span class="Republic">Republic</span>
+<span>: hmmm</span>
+<span><br>[10]</span>
+<span class="Republic">Republic</span>
+<span>: 5 selfed n1</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: wildling exists</span>
+<span><br>[10]</span>
+<span class="Republic">Republic</span>
+<span>: thats hella sus</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: The Most Powerful TI*</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: i mean</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: well if it wasnt obvious iam TK</span>
+<span><br>[5]</span>
+<span class="chip">chip</span>
+<span>: i always self n1</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: you can self n1 if you want</span>
+<span><br>[11]</span>
+<span class="Boof">Boof</span>
+<span>: 5 seems sus based on my sheriff</span>
+<span><br>[4]</span>
+<span class="goblin">goblin</span>
+<span>: bye</span>
+<span><br>[5]</span>
+<span class="chip">chip</span>
+<span>: i hate dying first night</span>
+<span style="background-color:#000000; color:#02FF4D"><br><color=#1133FF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>goblin</color></link></font></style> revealed as a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><sprite="RoleIcons" name="Role7"><b><color=#06E00C>Deputy</color></b></link></font></style> and shot <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>chip</color></link></font></style>!</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>chip</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><sprite="RoleIcons" name="Role7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>chip</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Solo Mafioso</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>goblin</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>goblin</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Solo Mafioso</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thomas Danforth</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>goblin</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r43"><sprite="RoleIcons" name="Role43"><b><color=#00CC99>Doomsayer</color></b></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="Boof">Boof</span>
+<span>: LFGGGGGGGGGGGG good work 5</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: YEAAAAAAAAAAAAAAAAAAAAAAAAAAA</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Ok, 2 Dep Ws in the same game? I better go buy friggen Lotto. This never happens</span>
+<span><br>[7]</span>
+<span class="John-Willard">John Willard</span>
+<span>: town w</span>
+<span><br>[10]</span>
+<span class="Republic">Republic</span>
+<span>: 7 11 12 13 14</span>
+<span><br>[3]</span>
+<span class="cereal-killer">cereal killer</span>
+<span>: thats crazy</span>
+<span><br>[10]</span>
+<span class="Republic">Republic</span>
+<span>: claim</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: now i see why no one visited me</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: ABSOLUTE TOWN ANNIHILATION</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: I MEAN</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: I did claim</span>
+<span><br>[14]</span>
+<span class="Solo-Medium">Solo Medium</span>
+<span>: tp</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: EVIL</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: i am TK</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: I am the most powerful TI*</span>
+<span><br>[10]</span>
+<span class="Republic">Republic</span>
+<span>: 12 is coro</span>
+<span><br>[10]</span>
+<span class="Republic">Republic</span>
+<span>: ok</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: VFA</span>
+<span><br>[10]</span>
+<span class="Republic">Republic</span>
+<span>: 7?</span>
+<span><br>[4]</span>
+<span class="goblin">goblin</span>
+<span>: 3 will</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: who hasnt claimed</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Republic</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Solo Mafioso</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Shhhh 10</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: ty for killing doom tho</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: vfa</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>goblin</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thomas Danforth</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Solo-Medium">Solo Medium</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><sprite="RoleIcons" name="Role102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: You're ruining my fun</span>
+<span><br>[3]</span>
+<span class="cereal-killer">cereal killer</span>
+<span>: psychicN1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Mike Hunt</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Willard</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Cambodge Mofo</color></link></font></style> N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Solo Medium</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>chip</color></link></font></style></span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: any towns left?</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><color=#1133FF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Republic</color></link></font></style> revealed as a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><sprite="RoleIcons" name="Role7"><b><color=#06E00C>Deputy</color></b></link></font></style> and shot <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Willard</color></link></font></style>!</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Willard</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><sprite="RoleIcons" name="Role7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Willard</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Solo Mafioso</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Republic</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Solo Mafioso</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Republic</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Republic</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>For crimes against the town, the hangman has executed them.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><sprite="RoleIcons" name="Role7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Republic</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Ok, THERE is the Dep L. Whew. Thought the universe was about the explode</span>
+<span><br>[4]</span>
+<span class="goblin">goblin</span>
+<span>: don't bye a lotto anymore</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: NEXT <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><sprite="RoleIcons" name="Role13"><b><color=#06E00C>Prosecutor</color></b></link></font></style> WILL tarnation APPEAR I SWEAR ON IT BRU</span>
+<span><br>[11]</span>
+<span class="Boof">Boof</span>
+<span>: what in the hell is happening</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thomas Danforth</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>goblin</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: up for time</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: aww</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: what a day lol</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: vfa 14</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: tmrw</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span><br>[11]</span>
+<span class="Boof">Boof</span>
+<span>: Boof the sheriff n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>boofs</color></link></font></style> - seems inno n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>chip</color></link></font></style> - SEEMS SUS (thank you 4) n3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thomas Danforth</color></link></font></style> - seems inno</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Yip</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: hmmmmm</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: i knew it</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: 11 is legit</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: has 14 claimed</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: ?</span>
+<span><br>[14]</span>
+<span class="Solo-Medium">Solo Medium</span>
+<span>: i said tp</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Wait</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: errr</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Doom ain't sus</span>
+<span><br>[14]</span>
+<span class="Solo-Medium">Solo Medium</span>
+<span>: i claimed 3 times now</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: what kind of tp</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Doom appears Inno</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: wait</span>
+<span><br>[14]</span>
+<span class="Solo-Medium">Solo Medium</span>
+<span>: crus</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: doom is sus</span>
+<span><br>[4]</span>
+<span class="goblin">goblin</span>
+<span>: wait</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: HMMMMMMMMMMMMMM</span>
+<span><br>[4]</span>
+<span class="goblin">goblin</span>
+<span>: wiat</span>
+<span><br>[4]</span>
+<span class="goblin">goblin</span>
+<span>: wait</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Doom is not sus</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: 11 EXPLAIN</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: oh me yeah i am vet</span>
+<span><br>[11]</span>
+<span class="Boof">Boof</span>
+<span>: Boof the sheriff n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>boofs</color></link></font></style> - seems inno n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>chip</color></link></font></style> - SEEMS SUS (thank you 4) n3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thomas Danforth</color></link></font></style> - seems inno</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: n1: alert nothing happened n2: no alert nothing again n3: no alert dead game</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: COVEN IS WIPED</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: 11 EXPLAIN</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: no one came n1</span>
+<span><br>[11]</span>
+<span class="Boof">Boof</span>
+<span>: tf you mean?</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Only killing roles can appear Sus</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Solo Mafioso</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>goblin</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="Boof">Boof</span>
+<span>: just vote me and feel dumb</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: vote 11</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Arso cannot kill so it appears Inno</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Solo Medium</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Doom is the same</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: VOTE 11</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style> was voted up to trial.</span>
+<span><br>[11]</span>
+<span class="Boof">Boof</span>
+<span>: please kill me and make yourselves look very dumb</span>
+<span><br>[4]</span>
+<span class="goblin">goblin</span>
+<span>: 3 can you please say who you visited in will it is so useful</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: doom appears sus to sheriff</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: INNO</span>
+<span><br>[3]</span>
+<span class="cereal-killer">cereal killer</span>
+<span>: psychicN1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Mike Hunt</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Willard</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Cambodge Mofo</color></link></font></style> N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Solo Medium</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>chip</color></link></font></style> N3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Kobold</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thomas Danforth</color></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Solo Mafioso</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cereal killer</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>goblin</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thomas Danforth</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Solo Medium</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Boof</color></link></font></style>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Boof</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: or i'll inno</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: lol</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: get 12</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Solo Mafioso</b> voted against <b>Kobold</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>cereal killer</b> voted against <b>Kobold</b>.</span>
+<span><br>[11]</span>
+<span class="Boof">Boof</span>
+<span>: i love you 2</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: good cvote</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: I'm a safe lynch</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Thomas Danforth</b> voted against <b>Kobold</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Boof</b> voted against <b>Kobold</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Kobold</b> was voted up to trial.</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Kobold the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><sprite="RoleIcons" name="Role5"><b><color=#06E00C>Coroner</color></b></link></font></style> N1 - Vibing D2 - Nothing worth Autopsying N2 - Vibing D2 - Nothing worth Autopsying N3 - Vibing</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: I legit serve no purpose in this game</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: So i'm a safe lynch</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: errrr you could i dont know atleast do your role and confirm yourself?</span>
+<span><br>[4]</span>
+<span class="goblin">goblin</span>
+<span>: 3 that doesn't answer it</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: wait</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Doom does not appear sus though</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: we can let them run into me</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: doom does</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: That's just a fact</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: im guiltying</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: screw this</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: to confirm myself</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: 3 too</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Solo Mafioso</b> voted <b>Kobold</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>cereal killer</b> <b><style="AbstainColor>abstained</style></b> on <b>Kobold</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>goblin</b> <b><style="AbstainColor>abstained</style></b> on <b>Kobold</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Boof</b> voted <b>Kobold</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Thomas Danforth</b> voted <b>Kobold</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Solo Medium</b> <b><style="AbstainColor>abstained</style></b> on <b>Kobold</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Kobold</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[4]</span>
+<span class="goblin">goblin</span>
+<span>: doom is sus</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: i dont believe a psy ever</span>
+<span><br>[12]</span>
+<span class="Kobold">Kobold</span>
+<span>: Yip</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: i am alerting</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Kobold</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><sprite="RoleIcons" name="Role5"><b><color=#06E00C>Coroner</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: wtf was his logic</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">boofs</span>
+<span style="color:#689194">: dooom appears sus are you a tarnation idiot kobold</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Kobold</b> left a last will.</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: get 14 tmrw</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: or just lynch em</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Republic</span>
+<span style="color:#689194">: all NEs appear sus yeah</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">boofs</span>
+<span style="color:#689194">: dooom appears sus 12</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Kobold</span>
+<span style="color:#689194">: Then I stand corrected</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">boofs</span>
+<span style="color:#689194">: doom is killing what</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Kobold</span>
+<span style="color:#689194">: 'cause Arso appears Inno</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Kobold</span>
+<span style="color:#689194">: to Sheriff</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Republic</span>
+<span style="color:#689194">: logic 100</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">boofs</span>
+<span style="color:#689194">: arso is unique in that set</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Republic</span>
+<span style="color:#689194">: arso is nk</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Republic</span>
+<span style="color:#689194">: arso isnt ne</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>goblin</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were torched by an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><sprite="RoleIcons" name="Role40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Kobold</span>
+<span style="color:#689194">: I had it backwards is all</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>goblin</b> left a last will.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Kobold</span>
+<span style="color:#689194">: I thought NE appears Inno and NK appeared sus</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Kobold</span>
+<span style="color:#689194">: It's backwards</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">goblin</span>
+<span style="color:#689194">: bro that is so targeted</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><sprite="RoleIcons" name="Role7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Kobold</span>
+<span style="color:#689194">: NE appears us and NK does not</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Kobold</span>
+<span style="color:#689194">: sus*</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Boof</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were torched by an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><sprite="RoleIcons" name="Role40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Boof</b> left a last will.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Kobold</span>
+<span style="color:#689194">: That's MB admittedly. I got the two mixed u p</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#06E00C>Sheriff</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Solo Medium</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were torched by an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><sprite="RoleIcons" name="Role40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Solo Medium</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><sprite="RoleIcons" name="Role6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: ah flummery bru</span>
+<span><br>[3]</span>
+<span class="cereal-killer">cereal killer</span>
+<span>: 13</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: n1: alert nothing happened n2: no alert nothing again n3: no alert dead game n4: alert no one visited</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: all i have to say is 3 is fake</span>
+<span><br>[3]</span>
+<span class="cereal-killer">cereal killer</span>
+<span>: psychicN1 <b>Mike Hunt</b> <b>John Willard</b> <b>Cambodge Mofo</b> N2 <b>Solo Medium</b> <b>chip</b> N3 <b>Boof</b> <b>Kobold</b> <b>Thomas Danforth</b>N4 <b>Boof</b> <b>Thomas Danforth</b></span>
+<span><br>[3]</span>
+<span class="cereal-killer">cereal killer</span>
+<span>: trust get 13</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: no one visited me</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Solo-Medium</span>
+<span style="color:#689194">: 3's will is confusing</i></span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: oh no</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: its up to you tho 2</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">boofs</span>
+<span style="color:#689194">: 3 looks fake</i></span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: i failed my duty as vet</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">goblin</span>
+<span style="color:#689194">: so who to trust a vet with no kills or a psy with no shown visits</i></span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: OH NO</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: and didnt kill anyone</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: 3 hasnt said much</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: but 13 hasnt killed anyone as vet</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Thomas Danforth</b> voted against <b>cereal killer</b>.</span>
+<span><br>[3]</span>
+<span class="cereal-killer">cereal killer</span>
+<span>: Trust please</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>cereal killer</b> voted against <b>Thomas Danforth</b>.</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: OH NO</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">goblin</span>
+<span style="color:#689194">: psy is worse</i></span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: uhhhh</span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: T UY4R3</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">boofs</span>
+<span style="color:#689194">: go 3</i></span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: UHHHHH</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: haha what</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Solo Mafioso</b> voted against <b>Thomas Danforth</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Thomas Danforth</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">boofs</span>
+<span style="color:#689194">: no</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Solo-Medium</span>
+<span style="color:#689194">: ???</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">goblin</span>
+<span style="color:#689194">: no</i></span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: T UY4R3</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Solo-Medium</span>
+<span style="color:#689194">: what did bro type</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">John-Willard</span>
+<span style="color:#689194">: no way</i></span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: that one made me laugh</span>
+<span><br>[13]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: what does that mean</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Solo Mafioso</b> voted <b>Thomas Danforth</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>cereal killer</b> <b><style="AbstainColor>abstained</style></b> on <b>Thomas Danforth</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Thomas Danforth</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: i lost didnt I.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">boofs</span>
+<span style="color:#689194">: rip arso win</i></span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: gee golly it.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">goblin</span>
+<span style="color:#689194">: arso wins</i></span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: i should have voted 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Thomas Danforth</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Thomas Danforth</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><sprite="RoleIcons" name="Role40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Thomas-Danforth</span>
+<span style="color:#689194">: gg</i></span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: WHAT</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">goblin</span>
+<span style="color:#689194">: what</i></span>
+<span><br>[2]</span>
+<span class="Solo-Mafioso">Solo Mafioso</span>
+<span>: I GOT IT RIGHT</span>
+<span><br>[3]</span>
+<span class="cereal-killer">cereal killer</span>
+<span>: lets go</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">goblin</span>
+<span style="color:#689194">: WHAT</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Thomas Danforth</b> left a last will.</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">John-Willard</span>
+<span style="color:#689194">: crazy call</i></span>
+</body>
+</html>

@@ -1,0 +1,843 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Samuel - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Samuel - Investigator<br><br>N1 - Daichi (No blood)<br>N2 -</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: DynamicHRE)</i></span>
+<style>span.Samuel{color: #06E00C;}</style>
+<span><br>[2] Israel - </span><span style="color:#DB7601"> Arsonist </span>
+<span style="color:#a0a0a0"><i>(Username: BallMoment)</i></span>
+<style>span.Israel{color: #DB7601;}</style>
+<span><br>[3] Deeds - </span><span style="color:#06E00C"> Jailor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style> <br><br>N1 - Looked away for 3 seconds, already night, hell yeah<br>N2 - writing role list didn't jail, I might be stupid<br>N3 - Jailing 9, they're silent and haven't claimed</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: AzzyH)</i></span>
+<style>span.Deeds{color: #06E00C;}</style>
+<span><br>[4] Briarlight - </span><span style="color:#B545FF"> Jinx </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">ㅤ</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Briarlight{color: #B545FF;}</style>
+<span><br>[5] Daichi - </span><span style="color:#06E00C"> Vigilante </span>
+<span style="color:#a0a0a0"><i>(Username: Ronyoki)</i></span>
+<style>span.Daichi{color: #06E00C;}</style>
+<span><br>[6] Muffin Man - </span><span style="color:#B545FF"> Coven Leader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Borat def to high</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: LegionKing)</i></span>
+<style>span.Muffin-Man{color: #B545FF;}</style>
+<span><br>[7] Rick Grimes - </span><span style="color:#FF004E"> Baker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">I just fucked town up I die tmr and it becomes a 1v1</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: IKabutops)</i></span>
+<style>span.Rick-Grimes{color: #FF004E;}</style>
+<span><br>[8] Janitor - </span><span style="color:#06E00C"> Prosecutor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style> <br><br><br><br>Sry <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>B I G Man Borat</color></link></font></style> but you take what you get <br><br>Sry <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sarah Bishop</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> did you dirty</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">ㅤ</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Ravenssz)</i></span>
+<style>span.Janitor{color: #06E00C;}</style>
+<span><br>[9] Sarah Bishop - </span><span style="color:#B545FF"> Potion Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Deeds</color></link></font></style> nothing<br><br>2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style> nothing<br><br>3 -</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Sarah-Bishop{color: #B545FF;}</style>
+<span><br>[10] Avery - </span><span style="color:#B545FF"> Witch </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">1<br>2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <br>3<br>4<br>5<br>6<br>7 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> <br>8 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r105"><b><style="TownColor">Town </style><color=#1F51FF>Power</color></b></link></font></style> <br>9<br>10<br>11 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><style="TownColor">Town </style><color=#1F51FF>Killing</color></b></link></font></style> <br>12<br>13<br>14<br>15</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: FireDOTT)</i></span>
+<style>span.Avery{color: #B545FF;}</style>
+<span><br>[11] Hey - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br>n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style> <br>n2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style> cuz what.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: JustAnotherNoob)</i></span>
+<style>span.Hey{color: #06E00C;}</style>
+<span><br>[12] Spiderman - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style>  no blood<br>N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sarah Bishop</color></link></font></style> no blood<br>N3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Briarlight</color></link></font></style> no blood</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Spiderman{color: #06E00C;}</style>
+<span><br>[13] Lantern Jack - </span><span style="color:#06E00C"> Bodyguard </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> <br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Israel</color></link></font></style> <br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Israel</color></link></font></style> again i guess</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: EnglishLanguage)</i></span>
+<style>span.Lantern-Jack{color: #06E00C;}</style>
+<span><br>[14] B I G Man Borat - </span><span style="color:#FF004E"> Berserker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Bodyguard<br>N1-self<br>N2-8</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: EmperorofKoy)</i></span>
+<style>span.B-I-G-Man-Borat{color: #FF004E;}</style>
+<span><br>[15] Francis Dane - </span><span style="color:#06E00C"> Vigilante </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">aMnESIaC<br><br><br>This role is trash.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Cintex)</i></span>
+<style>span.Francis-Dane{color: #06E00C;}</style>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Muffin Man</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: tplo im awesome</span>
+<span><br>[8]</span>
+<span class="Janitor">Janitor</span>
+<span>: TPLO on me</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Morning</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: tplo on me</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: if i die you are fake</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: nah</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: i called dibs</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: I got invest</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: nice</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: nice nice</span>
+<span><br>[12]</span>
+<span class="Spiderman">Spiderman</span>
+<span>: they need me</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: tplo on me</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: if i die its your fault</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: That's a lot of folks asking for TPLO lol.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Avery</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Avery</color></link></font></style> decided to make their victim target <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Daichi</color></link></font></style> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to jinx a visitor of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Spiderman</color></link></font></style> tonight.</span>
+<span><br>[10]</span>
+<span class="Avery">Avery</span>
+<span>: ello</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Muffin Man</color></link></font></style> decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>B I G Man Borat</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sarah Bishop</color></link></font></style> decided to reveal <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Egg</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sarah Bishop</color></link></font></style> instead decided to reveal <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Daichi</color></link></font></style>.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sarah Bishop</color></link></font></style> instead decided to reveal <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Francis Dane</color></link></font></style>.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Avery</color></link></font></style> instead decided to make their victim target <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Hey</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lantern Jack</color></link></font></style>.</color></span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> n1: ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Hey</color></link></font></style> ) <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Muffin Man</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Spiderman</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Israel</color></link></font></style>.</color></span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Morning</span>
+<span><br>[13]</span>
+<span class="Lantern-Jack">Lantern Jack</span>
+<span>: no death?</span>
+<span><br>[11]</span>
+<span class="Hey">Hey</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><style="TownColor">Town </style><color=#1F51FF>Killing</color></b></link></font></style></span>
+<span><br>[3]</span>
+<span class="Deeds">Deeds</span>
+<span>: any rbd?</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style> (11), 9, 4</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Israel</color></link></font></style>.</color></span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: Damn I got attacked by those coven bitches</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lantern Jack</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style>.</color></span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: witched</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Israel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style>.</color></span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Hmmm</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: we both went on 11</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: but good thing I'm tp</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: awesome sauce</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Oh, I'm <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span><br>[11]</span>
+<span class="Hey">Hey</span>
+<span>: me when i get checked by 2 psys</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: i went on 12</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: fuck that shşt</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: shit</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: i visited one of those 3</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: what</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: you put 11</span>
+<span><br>[10]</span>
+<span class="Avery">Avery</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: sorry had to change my will quick</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[8]</span>
+<span class="Janitor">Janitor</span>
+<span>: I am <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r105"><b><style="TownColor">Town </style><color=#1F51FF>Power</color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: ?</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: i got witched</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: lol</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: what</span>
+<span><br>[1]</span>
+<span class="Samuel">Samuel</span>
+<span>: I am Gunk Power</span>
+<span><br>[13]</span>
+<span class="Lantern-Jack">Lantern Jack</span>
+<span>: rip</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style> 11, 9, 4 (witched)</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: i got witched</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style>, you don't see your results when <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#B545FF>Witch [5]</color></b></link></font></style>ed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Samuel</color></link></font></style> has disconnected from life.</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: yeah you do</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: no shit sherlock</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: you do</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: you jsut dont see visit</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: 6 claim</span>
+<span><br>[13]</span>
+<span class="Lantern-Jack">Lantern Jack</span>
+<span>: good day</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Daichi</color></link></font></style> has disconnected from life.</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: L day</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: No you don't?</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span><br>[10]</span>
+<span class="Avery">Avery</span>
+<span>: 7 is baker</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Avery</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style> tonight.</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Yeah no shit 7 is fake lol.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Avery</color></link></font></style> decided to make their victim target <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Avery</color></link></font></style> instead decided not to use their powers tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Avery</color></link></font></style> decided not to make their victim target anyone tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Avery</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Muffin Man</color></link></font></style> decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Israel</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Avery</color></link></font></style> decided to make their victim target <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style> tonight.</span>
+<span><br>[6]</span>
+<span class="Muffin-Man">Muffin Man</span>
+<span>: well hope i dont die for this</span>
+<span><br>[6]</span>
+<span class="Muffin-Man">Muffin Man</span>
+<span>: also 14 has def</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to jinx a visitor of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Israel</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sarah Bishop</color></link></font></style> decided to reveal <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Spiderman</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: I'll <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx [15]</color></b></link></font></style> 'em with you.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sarah Bishop</color></link></font></style> instead decided to reveal <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lantern Jack</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You jinxed someone who visited your target!</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sarah Bishop</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Samuel</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Samuel</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Daichi</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Daichi</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Muffin Man</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Muffin Man</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r26"><b><color=#B545FF>Coven Leader [1]</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Avery</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Avery</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#B545FF>Witch [5]</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lantern Jack</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died while defending their target. They were also killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx [15]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lantern Jack</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k39"><b><color=#007AFF><b>Good</b></color></b></link></font></style> (3), 2</span>
+<span><br>[8]</span>
+<span class="Janitor">Janitor</span>
+<span>: witched</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: n2: ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Muffin Man</color></link></font></style> ) <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Daichi</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k39"><b><color=#007AFF><b>Good</b></color></b></link></font></style></span>
+<span><br>[11]</span>
+<span class="Hey">Hey</span>
+<span>: I love my man Samuel not posting then proceeding to dc. o7 BG.</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Nice hits <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>!</span>
+<span><br>[12]</span>
+<span class="Spiderman">Spiderman</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style> no blood N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sarah Bishop</color></link></font></style> no blood</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: thanks <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Lantern Jack</color></link></font></style></span>
+<span><br>[11]</span>
+<span class="Hey">Hey</span>
+<span>: anyways</span>
+<span><br>[3]</span>
+<span class="Deeds">Deeds</span>
+<span>: 6 9 12 and 15 haven't claimed</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style>.</color></span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: no shit <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Muffin Man</color></link></font></style> I selfed</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: coven says 14 immune</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style>.</color></span>
+<span><br>[11]</span>
+<span class="Hey">Hey</span>
+<span>: 7 super sus atm</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style> 11, 9, 4 (witched) N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k39"><b><color=#007AFF><b>Good</b></color></b></link></font></style> (3), 2</span>
+<span><br>[15]</span>
+<span class="Francis-Dane">Francis Dane</span>
+<span>: aMnESIaC This role is trash.</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> n1: ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Hey</color></link></font></style> ) <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Muffin Man</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Spiderman</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style> n2: ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Muffin Man</color></link></font></style> ) <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Daichi</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k39"><b><color=#007AFF><b>Good</b></color></b></link></font></style></span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: they are correct I'm immune</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style>.</color></span>
+<span><br>[3]</span>
+<span class="Deeds">Deeds</span>
+<span>: 6 died forgot to remove from copy paste</span>
+<span><br>[11]</span>
+<span class="Hey">Hey</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Israel</color></link></font></style> werent you attacked by CL tho</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: because I FUCKING VESTED</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style>.</color></span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: yea but that means n1</span>
+<span><br>[11]</span>
+<span class="Hey">Hey</span>
+<span>: i mean</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: bro vested n1</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Why did you vest N1 14?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: awesome move</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: sure</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: I can</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rick Grimes</color></link></font></style>.</color></span>
+<span><br>[11]</span>
+<span class="Hey">Hey</span>
+<span>: witch says 7 is baker</span>
+<span><br>[9]</span>
+<span class="Sarah-Bishop">Sarah Bishop</span>
+<span>: I don't think vest says def too high but cov could be lying</span>
+<span style="background-color:#000000; color:#02FF4D"><br><color=#1133FF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style> prosecuted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>B I G Man Borat</color></link></font></style>!</color></span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: I hope these coven bitches</span>
+<span><br>[14]</span>
+<span class="B-I-G-Man-Borat">B I G Man Borat</span>
+<span>: die</span>
+<span><br>[8]</span>
+<span class="Janitor">Janitor</span>
+<span>: Hahahaha</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>B I G Man Borat</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>B I G Man Borat</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>B I G Man Borat</b> has been judged <b><style="GuiltyColor">guilty</style></b> and will be put to death.</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: lol</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: witch lied sorry man</span>
+<span><br>[11]</span>
+<span class="Hey">Hey</span>
+<span>: and 14 defended 7. therefore probs evil both</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: you die aswell</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>B I G Man Borat</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were Prosecuted.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Janitor">Janitor</span>
+<span>: TPLO on me</span>
+<span><br>[9]</span>
+<span class="Sarah-Bishop">Sarah Bishop</span>
+<span>: ah they are apoc</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: oh wait</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>, nice.</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: well if theres another apoc we know who</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>B I G Man Borat</b> left a last will.</span>
+<span><br>[15]</span>
+<span class="Francis-Dane">Francis Dane</span>
+<span>: Ill avenge u!</span>
+<span><br>[11]</span>
+<span class="Hey">Hey</span>
+<span>: i mean</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: i thougt i was getting hung</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: my bad</span>
+<span><br>[11]</span>
+<span class="Hey">Hey</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#B545FF>Witch [5]</color></b></link></font></style>'s will?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sarah Bishop</b> was hauled off to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Great.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to jinx a visitor of <b>Janitor</b> tonight.</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Might as well potentially kill a TP I guess.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Hey</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Janitor</b> is whispering to <b>Rick Grimes</b>.</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Hey</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Rick Grimes</b> is whispering to <b>Janitor</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Francis Dane</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Francis Dane</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Janitor</b> is whispering to <b>Rick Grimes</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Rick Grimes</b> is whispering to <b>Janitor</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Rick Grimes</b> is whispering to <b>Janitor</b>.</color></span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: n3: ( <b>Deeds</b> ) <b>Rick Grimes</b> <b>Spiderman</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style></span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style> (4), 9, 15</span>
+<span><br>[9]</span>
+<span class="Sarah-Bishop">Sarah Bishop</span>
+<span>: 3 - Jailed. And highly confused tbh</span>
+<span><br>[12]</span>
+<span class="Spiderman">Spiderman</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N3 <b>Briarlight</b> no blood</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Janitor</b> is whispering to <b>Rick Grimes</b>.</color></span>
+<span><br>[3]</span>
+<span class="Deeds">Deeds</span>
+<span>: town is so boned what</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: necro game</span>
+<span><br>[8]</span>
+<span class="Janitor">Janitor</span>
+<span>: i pros 9</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Oof. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> hit a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: nah</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: necro used probably</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: vig would still die</span>
+<span><br>[9]</span>
+<span class="Sarah-Bishop">Sarah Bishop</span>
+<span>: i thought <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> only hits evil</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: o wait they did</span>
+<span><br>[9]</span>
+<span class="Sarah-Bishop">Sarah Bishop</span>
+<span>: thats nuts</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: im dumb lol</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> can taunt ANYTHING that kills.</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: nah its anyone who can attack</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Even <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>s.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><color=#1133FF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Janitor</color></link></font></style> prosecuted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sarah Bishop</color></link></font></style>!</color></span>
+<span><br>[9]</span>
+<span class="Sarah-Bishop">Sarah Bishop</span>
+<span>: holy shit</span>
+<span><br>[8]</span>
+<span class="Janitor">Janitor</span>
+<span>: Psy will mate</span>
+<span><br>[9]</span>
+<span class="Sarah-Bishop">Sarah Bishop</span>
+<span>: well i guess im dead</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Janitor</b> voted <b>Sarah Bishop</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sarah Bishop</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sarah Bishop</b> has been judged <b><style="GuiltyColor">guilty</style></b> and will be put to death.</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> n1: ( <b>Hey</b> ) <b>Muffin Man</b> <b>Spiderman</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style> n2: ( <b>Muffin Man</b> ) <b>Daichi</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k39"><b><color=#007AFF><b>Good</b></color></b></link></font></style> n3: ( <b>Deeds</b> ) <b>Rick Grimes</b> <b>Spiderman</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style></span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Briarlight</b> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: 12 is confirmed evil in my will</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sarah Bishop</b> died today.</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: we get 12 tmr</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were Prosecuted.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master [12]</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style> 11, 9, 4 (witched) N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k39"><b><color=#007AFF><b>Good</b></color></b></link></font></style> (3), 2 N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style> (4), 9, 15</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: PM, nice.</span>
+<span><br>[8]</span>
+<span class="Janitor">Janitor</span>
+<span>: yeah 12 next</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Sarah Bishop</b> left a last will.</span>
+<span><br>[3]</span>
+<span class="Deeds">Deeds</span>
+<span>: ill just exe 12</span>
+<span><br>[8]</span>
+<span class="Janitor">Janitor</span>
+<span>: kk</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to jinx a visitor of and attack <b>Deeds</b> tonight.</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: I gotta risk it.,</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: I don't think there's any TPs otherwise.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Deeds</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Deeds</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Spiderman</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were executed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Spiderman</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: woah</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: N4: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k39"><b><color=#007AFF><b>Good</b></color></b></link></font></style> (4), 3</span>
+<span><br>[8]</span>
+<span class="Janitor">Janitor</span>
+<span>: Ok 7 Baker or 2 Fake</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Oof</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: im confirmed not coven btw</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: n4: ( <b>Spiderman</b> ) in jail</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: i am slow</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: 9 was in my evil will</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: both nights</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Well 9 is dead, so oof.</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style> 11, 9, 4 (witched) N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k39"><b><color=#007AFF><b>Good</b></color></b></link></font></style> (3), 2 N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style> (4), 9, 15 N4: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k39"><b><color=#007AFF><b>Good</b></color></b></link></font></style> (4), 3</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: thats what im saying</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: what is 4</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: any tp left?</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: I'm <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: post will</span>
+<span><br>[8]</span>
+<span class="Janitor">Janitor</span>
+<span>: wich</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Briarlight the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> // N1. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style>ing photos of <b>Spiderman</b> // N2. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style>ing <b>Spiderman</b> // N3. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style>ing <b>Janitor</b> // N4. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style>ing</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>:  <b>Janitor</b></span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: Been on the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Janitor">Janitor</span>
+<span>: i see</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: hmmmmmmmmmmmmm</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: i say we let 4 try to protect tn</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: instead of 50/50ng</span>
+<span><br>[2]</span>
+<span class="Israel">Israel</span>
+<span>: so true</span>
+<span><br>[7]</span>
+<span class="Rick-Grimes">Rick Grimes</span>
+<span>: then vote tmr</span>
+<span><br>[8]</span>
+<span class="Janitor">Janitor</span>
+<span>: Well we hang tomorrow</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span><br>[4]</span>
+<span class="Briarlight">Briarlight</span>
+<span>: 7 is giving it to me, nice.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to jinx a visitor of and attack <b>Janitor</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were set on fire by an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style>!</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Hey</span>
+<span style="color:#689194">: now town loses</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Lantern-Jack</span>
+<span style="color:#689194">: arso?</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Briarlight</span>
+<span style="color:#689194">: 2 was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Lantern-Jack</span>
+<span style="color:#689194">: oh shit</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Briarlight</b> died last night.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Lantern-Jack</span>
+<span style="color:#689194">: arso lol</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were torched by an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Briarlight</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx [15]</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Briarlight</span>
+<span style="color:#689194">: I think 7 was trying to give it to me, but the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style> changed things...</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Lantern-Jack</span>
+<span style="color:#689194">: them not hanging 4 was such a boneheaded move. TP not on the jailor claim</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Lantern-Jack</span>
+<span style="color:#689194">: smh</i></span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">Janitor</span>
+<span style="color:#689194">: Town had lost the second 1 and 5 DCed</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Rick Grimes</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Rick Grimes</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Lantern-Jack</span>
+<span style="color:#689194">: well gj last second arso</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Janitor</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were torched by an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style>. They were also killed by the <style="CovenColor">Coven</style>.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Hey</span>
+<span style="color:#689194">: maybe if they tried to hang the baker that the bers defended</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Hey</span>
+<span style="color:#689194">: smh</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Briarlight</span>
+<span style="color:#689194">: gg I suppose. Well played Arso.</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Janitor</b> left a last will.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Briarlight</span>
+<span style="color:#689194">: Eh, the Baker was gonna starve.</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Hey</span>
+<span style="color:#689194">: eh</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Hey</span>
+<span style="color:#689194">: i mean earlier</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Hey</span>
+<span style="color:#689194">: instead of never voting</i></span>
+</body>
+</html>

@@ -1,0 +1,793 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Luffy - </span><span style="color:#B545FF"> Enchanter </span>
+<span style="color:#a0a0a0"><i>(Username: trihnem)</i></span>
+<style>span.Luffy{color: #B545FF;}</style>
+<span><br>[2] we snipe those - </span><span style="color:#6699FF"> Shroud </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> <br>n1 self</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Theonewhoisnotsus)</i></span>
+<style>span.we-snipe-those{color: #6699FF;}</style>
+<span><br>[3] Chaotic Good - </span><span style="color:#FF004E"> Berserker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style> <br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Pasta</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Durilix)</i></span>
+<style>span.Chaotic-Good{color: #FF004E;}</style>
+<span><br>[4] ChaoticNeutral - </span><span style="color:#06E00C"> Jailor </span>
+<span style="color:#a0a0a0"><i>(Username: Alexann)</i></span>
+<style>span.ChaoticNeutral{color: #06E00C;}</style>
+<span><br>[5] Crazy - </span><span style="color:#00CC99"> Doomsayer </span>
+<span style="color:#a0a0a0"><i>(Username: AverageFleshyGuy)</i></span>
+<style>span.Crazy{color: #00CC99;}</style>
+<span><br>[6] shoot the other guy - </span><span style="color:#06E00C"> Seer </span>
+<span style="color:#a0a0a0"><i>(Username: Yomshii)</i></span>
+<style>span.shoot-the-other-guy{color: #06E00C;}</style>
+<span><br>[7] Marceline - </span><span style="color:#B545FF"> Witch </span>
+<span style="color:#a0a0a0"><i>(Username: Phaera)</i></span>
+<style>span.Marceline{color: #B545FF;}</style>
+<span><br>[8] Girl Kisser - </span><span style="color:#B545FF"> Medusa </span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Girl-Kisser{color: #B545FF;}</style>
+<span><br>[9] Ben Dover - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br><br>N1: trick <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Luffy</color></link></font></style><br>N2: trick <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Chaotic Good</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: sobexmaster)</i></span>
+<style>span.Ben-Dover{color: #06E00C;}</style>
+<span><br>[10] Swaws - </span><span style="color:#06E00C"> Admirer </span>
+<span style="color:#a0a0a0"><i>(Username: MuffinOphi)</i></span>
+<style>span.Swaws{color: #06E00C;}</style>
+<span><br>[11] John Hathorne - </span><span style="color:#06E00C"> Psychic </span>
+<span style="color:#a0a0a0"><i>(Username: neo2681)</i></span>
+<style>span.John-Hathorne{color: #06E00C;}</style>
+<span><br>[12] Pasta - </span><span style="color:#06E00C"> Spy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Pasta the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> <br>n1 bug REDACTEd <br>n2 bug <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>shoot the other guy</color></link></font></style> enchanted/killed <br>n3 bug <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Marceline</color></link></font></style> Witched onto <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Sarah Wildes</color></link></font></style>, enchant dispell</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: SolarBear)</i></span>
+<style>span.Pasta{color: #06E00C;}</style>
+<span><br>[13] Sarah Wildes - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">I actually eat ass, just so you guys know...<br><br>I've been doing it for a long time...<br><br>TOWN GOT SHEEPED EZZZ</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TJDiamonds)</i></span>
+<style>span.Sarah-Wildes{color: #06E00C;}</style>
+<span><br>[14] Jay - </span><span style="color:#B545FF"> Potion Master </span>
+<span style="color:#a0a0a0"><i>(Username: Jay629)</i></span>
+<style>span.Jay{color: #B545FF;}</style>
+<span><br>[15] PewPew - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Luffy</color></link></font></style> <br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>we snipe those</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Nighttail)</i></span>
+<style>span.PewPew{color: #06E00C;}</style>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Girl Kisser</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Morning</span>
+<span><br>[15]</span>
+<span class="PewPew">PewPew</span>
+<span>: aight no need to alert n1 since no one ever kills 15 first</span>
+<span><br>[15]</span>
+<span class="PewPew">PewPew</span>
+<span>: good good</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: howdy</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Goodnight</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Marceline</color></link></font></style> was hauled off to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>!</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: dont die</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Can I stop getting coven for fuck's sake?</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style> tonight.</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: gl witch</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Jay</color></link></font></style> decided to reveal <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>ChaoticNeutral</color></link></font></style>.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Luffy</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k26"><b><color=#007AFF><b>Enchant</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style> tonight.</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: I mean, 7 can't be <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k64"><b><color=#007AFF><b>Execute</b></color></b></link></font></style>d N1.</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: yeah</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: or n2</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: 1, i'm a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r32"><b><color=#B545FF>Medusa [3]</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>ChaoticNeutral</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Luffy</color></link></font></style> instead decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k26"><b><color=#007AFF><b>Enchant</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Chaotic Good</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>ChaoticNeutral</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>ChaoticNeutral</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>).</span>
+<span><br>[3]</span>
+<span class="Chaotic-Good">Chaotic Good</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1: (7), 5, 12</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Sarah Wildes</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>we snipe those</color></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k111"><b><color=#007AFF><b>No Blood</b></color></b></link></font></style>, good TI role)</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>ChaoticNeutral</color></link></font></style> ns</span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Marceline</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k26"><b><color=#007AFF><b>Enchant</b></color></b></link></font></style>ed and Dispelled )</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Girl Kisser the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> // N1. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Swaws</color></link></font></style> (No Blood)</span>
+<span><br>[12]</span>
+<span class="Pasta">Pasta</span>
+<span>: Pasta the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> n1 bug [REDACTED]</span>
+<span><br>[6]</span>
+<span class="shoot-the-other-guy">shoot the other guy</span>
+<span>: Im like helen keller at a pinata party n1 1 and 3 (friendly) n2</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: Marceline the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1 - [Jailed]</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: 5 IS FAKE I WAS JAILED</span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r43"><b><color=#00CC99>Doomsayer</color></b></link></font></style></span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: Lol</span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: Im in fake <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> will</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: 3 also claimed to be on you 7, lol.</span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: So hang the psy first</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: good job guys</span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: LEt jailor deal with me if they want</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: outing urself reaaaaal early</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[12]</span>
+<span class="Pasta">Pasta</span>
+<span>: what is "dispelled"?</span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: Bro I claimed to visit a jailed</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Everyone claimed to be on the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>ed person lol.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ben Dover</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: lmaooooo</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Jay</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: Not much I can do there</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Luffy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Pasta</color></link></font></style> it means the enchant was used up by a TI visiting</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Swaws</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Marceline</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Chaotic Good</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Sarah Wildes</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style> was voted up to trial.</span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: Odd that Im pushed over the psy will and nobody is mentioning it</span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Chaotic Good</color></link></font></style> is fake psy</span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: I can try to guess coven based off those votes</span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: Cause coven is voting me to ssave 2</span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: *3</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: How can you prove he's fake though?</span>
+<span><br>[12]</span>
+<span class="Pasta">Pasta</span>
+<span>: huh. never seen that one before.</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: You're both fake, so whatever lol.</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: visited jailed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Sarah Wildes</color></link></font></style></span>
+<span><br>[3]</span>
+<span class="Chaotic-Good">Chaotic Good</span>
+<span>: you got me, I'm exe on 12</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: 3 claims to visit 7</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: ur both fake</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: psy visited a jailed guy</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: right</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: but jailor can still exe 3</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: sorry "visited" a jailed guy</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Luffy</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>we snipe those</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Chaotic Good</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>shoot the other guy</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Marceline</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ben Dover</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Swaws</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>John Hathorne</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Pasta</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Sarah Wildes</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Jay</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>PewPew</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crazy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Crazy</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[5]</span>
+<span class="Crazy">Crazy</span>
+<span>: Unlucky, 3 is coven though</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: it doesnt matter who gets hung here</span>
+<span><br>[9]</span>
+<span class="Ben-Dover">Ben Dover</span>
+<span>: jail on 3</span>
+<span><br>[10]</span>
+<span class="Swaws">Swaws</span>
+<span>: 14?</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Jailor on 3.</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: if anything 3 could be CK and thats a better person to jail overall</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: id rather get cov than exe</span>
+<span><br>[3]</span>
+<span class="Chaotic-Good">Chaotic Good</span>
+<span>: I'm not coven though, he should find those</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Crazy</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Crazy</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r43"><b><color=#00CC99>Doomsayer</color></b></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: this is just a doom</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r43"><b><color=#00CC99>Doomsayer</color></b></link></font></style>, nice.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Crazy</b> did not leave a last will.</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: id rather get coven than doom lol</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: 3 could be CK and waste a night of killing</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: half this town are TIs</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: its better that 3 is jailed over hung</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: LMAO</span>
+<span><br>[1]</span>
+<span class="Luffy">Luffy</span>
+<span>: pro plays lmfao</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: we got the jailor what a dub</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: dusa</span>
+<span style="background-color:#FA8585; color:#FFFFFF"><br>You have accepted <b>Swaws</b>'s proposal. They are the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: whyd you swap to my reveal</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: :/</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: i beg one of u claims jailor later on</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to attack <b>Swaws</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Marceline</b> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> <b>Sarah Wildes</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Marceline</b> decided to make their victim target <b>shoot the other guy</b> tonight.</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: i'm alr an invest claim</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Luffy</b> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k26"><b><color=#007AFF><b>Enchant</b></color></b></link></font></style> <b>Sarah Wildes</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Jay</b> decided to reveal <b>Ben Dover</b>.</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Sorry 10, you're being <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> for proposing to me.</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: uhh</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: not ideal</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>we snipe those</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>we snipe those</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Jay</b> is whispering to <b>Luffy</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Chaotic Good</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Chaotic Good</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Ben Dover</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Ben Dover</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Swaws</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Swaws</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style>).</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>PewPew</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>PewPew</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <b>Ben Dover</b> SUS, whispered to 1 before it showed they were trick</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: <b>Sarah Wildes</b> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1 - <b>we snipe those</b> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k111"><b><color=#007AFF><b>No Blood</b></color></b></link></font></style>, good TI role) N2 - <b>John Hathorne</b> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#B545FF>Witch [5]</color></b></link></font></style>ed)</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Nice hits <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>s!</span>
+<span><br>[12]</span>
+<span class="Pasta">Pasta</span>
+<span>: Pasta the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> n1 bug [REDACTED] n2 bug [REDACTED]</span>
+<span><br>[11]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1 AFK N2 ( <b>shoot the other guy</b> ) and/or <b>Luffy</b> Good</span>
+<span><br>[6]</span>
+<span class="shoot-the-other-guy">shoot the other guy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> Im like helen keller at a pinata party n1 1 and 3 (friendly) n2 3 and 8 ( enemies) n3</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Did <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style> not jail 3 though?</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: N2 - <b>Sarah Wildes</b> (Inno/book)</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: // N2. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <b>Pasta</b> (No Blood)\</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: <b>ChaoticNeutral</b> could have been <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style></span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: who was jailed?</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: That is true 13. If 4 was the jailor, that'd be unlucky.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>shoot the other guy</b> voted against <b>Luffy</b>.</span>
+<span><br>[6]</span>
+<span class="shoot-the-other-guy">shoot the other guy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> Im like helen keller at a pinata party n1 1 and 3 (friendly) n2 3 and 8 ( enemies) n3</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: trickster conf 1 as not CK</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sarah Wildes</b> voted against <b>John Hathorne</b>.</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: 6, I'd sure hope I'm enemies with the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style></span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: yea</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: I think 11 or 12 could be a good kill</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>John Hathorne</b> voted against <b>Girl Kisser</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Luffy</b> voted against <b>John Hathorne</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Marceline</b> voted against <b>John Hathorne</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jay</b> voted against <b>John Hathorne</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>John Hathorne</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>John Hathorne</b> was voted up to trial.</span>
+<span><br>[11]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1 AFK N2 ( <b>shoot the other guy</b> ) and/or <b>Luffy</b> Good</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: no</span>
+<span><br>[11]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: yup</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: AFK <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> who voted up an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>?</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: im not innoing an afk clai</span>
+<span><br>[1]</span>
+<span class="Luffy">Luffy</span>
+<span>: Nah</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: we literally have jack flummery to go off of</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: claim</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: okay lmao this is so sus</span>
+<span><br>[1]</span>
+<span class="Luffy">Luffy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style> N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k4"><b><color=#007AFF><b>No Defense</b></color></b></link></font></style> N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k4"><b><color=#007AFF><b>No Defense</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>John Hathorne</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: I'm not innoing an afk claim</span>
+<span><br>[11]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: I didn't vote yesterday</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Luffy</b> voted <b>John Hathorne</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>shoot the other guy</b> voted <b>John Hathorne</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Marceline</b> voted <b>John Hathorne</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Pasta</b> voted <b>John Hathorne</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sarah Wildes</b> <b><style="AbstainColor>abstained</style></b> on <b>John Hathorne</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jay</b> voted <b>John Hathorne</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>John Hathorne</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: "afk" but voted</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: okay</span>
+<span><br>[11]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: should of gotten 8 who's bad according to seer will</span>
+<span><br>[11]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: but heyh</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: ?????</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>John Hathorne</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>John Hathorne</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: seer checked with 3 did they not</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: No 11, I'm just enemies with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>John Hathorne</b> did not leave a last will.</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: 8 was enemies with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style> no?</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: enemies with bers=/=evil</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: I'm not NA.</span>
+<span><br>[6]</span>
+<span class="shoot-the-other-guy">shoot the other guy</span>
+<span>: 1 is a berserker</span>
+<span><br>[1]</span>
+<span class="Luffy">Luffy</span>
+<span>: Kill 6</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: maj</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: nice</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: LMAO</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Luffy</b> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k26"><b><color=#007AFF><b>Enchant</b></color></b></link></font></style> <b>shoot the other guy</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Jay</b> decided to reveal <b>Sarah Wildes</b>.</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Do we even NEED to kill 6? lol.</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: yeah</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: kill someone</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: i beggggggggggg one of u claim jailor</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to attack <b>shoot the other guy</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Marceline</b> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> <b>Pasta</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Marceline</b> decided to make their victim target <b>Sarah Wildes</b> tonight.</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: <b>Marceline</b> ive been posting invest results</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: i cant</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: We don't need to claim <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>, we win anyways.</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: 1 could</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Luffy</b> also decided to alterate <b>shoot the other guy</b> tonight.</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: frick</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: 1 hasnt been claiming</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>shoot the other guy</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>shoot the other guy</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>).</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: N3 - <b>Girl Kisser</b> (Has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style>)</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: n3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <b>Sarah Wildes</b> ns</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: what is 12 i swear they havent spoken all game</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: But i doubt it matters at this point</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: // N3. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <b>Marceline</b> (No Blood)</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: coven prob as maj or tied maj</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: <b>Pasta</b> ?</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: 12's probably a fake spy</span>
+<span><br>[12]</span>
+<span class="Pasta">Pasta</span>
+<span>: Pasta the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> n1 bug REDACTEd n2 bug <b>shoot the other guy</b> enchanted/killed n3 bug <b>Marceline</b> Witched onto <b>Sarah Wildes</b>, enchant dispell</span>
+<span><br>[12]</span>
+<span class="Pasta">Pasta</span>
+<span>: sorry</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: idk bout that one</span>
+<span><br>[12]</span>
+<span class="Pasta">Pasta</span>
+<span>: I had a bunch to update</span>
+<span><br>[13]</span>
+<span class="Sarah-Wildes">Sarah Wildes</span>
+<span>: yeah you cant see who they get witched to</span>
+<span><br>[1]</span>
+<span class="Luffy">Luffy</span>
+<span>: lol kinda cap man</span>
+<span><br>[12]</span>
+<span class="Pasta">Pasta</span>
+<span>: no, I got witched</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: easy fake spy get him</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Hmmm</span>
+<span><br>[12]</span>
+<span class="Pasta">Pasta</span>
+<span>: but it triggered immediately</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jay</b> voted against <b>Pasta</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sarah Wildes</b> voted against <b>Girl Kisser</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Marceline</b> voted against <b>Pasta</b>.</span>
+<span><br>[12]</span>
+<span class="Pasta">Pasta</span>
+<span>: so I knew it was on you</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Pasta</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Luffy</b> voted against <b>Pasta</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Pasta</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Sarah Wildes</b> is whispering to <b>Luffy</b>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Pasta</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Luffy</b> is whispering to <b>Sarah Wildes</b>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Luffy</b> voted <b>Pasta</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Marceline</b> voted <b>Pasta</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sarah Wildes</b> voted <b>Pasta</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jay</b> voted <b>Pasta</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Pasta</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Jay</b> is whispering to <b>Sarah Wildes</b>.</color></span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Being real, this game has been over since yesterday.</span>
+<span><br>[1]</span>
+<span class="Luffy">Luffy</span>
+<span>: ^</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: yeah lmao</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Pasta</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Pasta</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Jay</b> is whispering to <b>Sarah Wildes</b>.</color></span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Of course I'm the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r32"><b><color=#B545FF>Medusa [3]</color></b></link></font></style> lol.</span>
+<span><br>[1]</span>
+<span class="Luffy">Luffy</span>
+<span>: Town got sheeped</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Pasta</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Sarah Wildes</b> is whispering to <b>Jay</b>.</color></span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#B545FF>Witch [5]</color></b></link></font></style> here</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: im jailor (real)</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: 4 was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Luffy">Luffy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r28"><b><color=#B545FF>Enchanter [8]</color></b></link></font></style> ez</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: im amne jailor</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: dammit</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: too slow</span>
+<span><br>[1]</span>
+<span class="Luffy">Luffy</span>
+<span>: lmfao</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to attack <b>Sarah Wildes</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sarah Wildes</b> has disconnected from life.</span>
+<span><br>[1]</span>
+<span class="Luffy">Luffy</span>
+<span>: <b>Sarah Wildes</b> whispereed me</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Jay</b> decided to reveal <b>Sarah Wildes</b>.</span>
+<span><br>[1]</span>
+<span class="Luffy">Luffy</span>
+<span>: LOL</span>
+<span><br>[1]</span>
+<span class="Luffy">Luffy</span>
+<span>: GG</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Luffy</b> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k26"><b><color=#007AFF><b>Enchant</b></color></b></link></font></style> <b>Sarah Wildes</b> tonight.</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: 1, you kinda forgot I had 1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> left last night lol.</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: everyone pile on 13</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Marceline</b> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> <b>Sarah Wildes</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Marceline</b> decided to make their victim target <b>Sarah Wildes</b> tonight.</span>
+<span><br>[14]</span>
+<span class="Jay">Jay</span>
+<span>: alterate them into <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF004E>Death</color></b></link></font></style> or something</span>
+<span><br>[7]</span>
+<span class="Marceline">Marceline</span>
+<span>: xD</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Luffy</b> also decided to alterate <b>Sarah Wildes</b> tonight.</span>
+<span><br>[8]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Medium</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sarah Wildes</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>. They also disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Sarah Wildes</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>).</span>
+</body>
+</html>

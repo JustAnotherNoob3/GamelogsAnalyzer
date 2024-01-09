@@ -1,0 +1,733 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] chip - </span><span style="color:#06E00C"> Seer </span>
+<span style="color:#a0a0a0"><i>(Username: Chipthunk)</i></span>
+<style>span.chip{color: #06E00C;}</style>
+<span><br>[2] Breadd - </span><span style="color:#06E00C"> Coroner </span>
+<span style="color:#a0a0a0"><i>(Username: Atotalsecret)</i></span>
+<style>span.Breadd{color: #06E00C;}</style>
+<span><br>[3] Honeybee - </span><span style="color:#06E00C"> Admirer </span>
+<span style="color:#a0a0a0"><i>(Username: ItzIzabela)</i></span>
+<style>span.Honeybee{color: #06E00C;}</style>
+<span><br>[4] I have a Knife - </span><span style="color:#B545FF"> Voodoo Master </span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.I-have-a-Knife{color: #B545FF;}</style>
+<span><br>[5] domb - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> domb<br>n1: 4 (nb)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: domb100)</i></span>
+<style>span.domb{color: #06E00C;}</style>
+<span><br>[6] Jestilence - </span><span style="color:#06E00C"> Crusader </span>
+<span style="color:#a0a0a0"><i>(Username: Eggshell97)</i></span>
+<style>span.Jestilence{color: #06E00C;}</style>
+<span><br>[7] Jack Frost - </span><span style="color:#00CC99"> Doomsayer </span>
+<span style="color:#a0a0a0"><i>(Username: TheSnowShark)</i></span>
+<style>span.Jack-Frost{color: #00CC99;}</style>
+<span><br>[8] No Brain Cells - </span><span style="color:#06E00C"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.No-Brain-Cells{color: #06E00C;}</style>
+<span><br>[9] Lyght - </span><span style="color:#B545FF"> Potion Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">N1 bug <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>chip</color></link></font></style> - nothing<br>N2 bug <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>chip</color></link></font></style> - again nothing??<br>D3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>chip</color></link></font></style> confirmed. <br>N3 bug <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Paper</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: LyghtSpark)</i></span>
+<style>span.Lyght{color: #B545FF;}</style>
+<span><br>[10] Twerkulation - </span><span style="color:#06E00C"> Admirer </span>
+<span style="color:#a0a0a0"><i>(Username: KGuida)</i></span>
+<style>span.Twerkulation{color: #06E00C;}</style>
+<span><br>[11] Paper - </span><span style="color:#06E00C"> Vigilante </span>
+<span style="color:#a0a0a0"><i>(Username: Zizel)</i></span>
+<style>span.Paper{color: #06E00C;}</style>
+<span><br>[12] Ann Sears - </span><span style="color:#B545FF"> Wildling </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Tracker<br><br>N1: Tracking 6 Visited 2 <br><br>N2: Tracking 8</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Ann-Sears{color: #B545FF;}</style>
+<span><br>[13] Smile - </span><span style="color:#06E00C"> Monarch </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Mon<br><br>N1: None<br>N2: 12</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Marksbay)</i></span>
+<style>span.Smile{color: #06E00C;}</style>
+<span><br>[14] White Mocha - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> (IM CURSED SCROLLING THIS ROLE)<br><br>n1: 1<br><br><br><br><br>YAAAAAYYYYYY <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> SUCH A FUN AND BALANCED ROLE THAT IS VERY REWARDING TO THE PLAYER</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Bombayy)</i></span>
+<style>span.White-Mocha{color: #06E00C;}</style>
+<span><br>[15] Who - </span><span style="color:#B545FF"> Coven Leader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">who the surv turned vet<br><br>n1 vesting/alerting<br><br>n2 not vesting/ not alerting<br><br>n3 vesting/alerting (attacked)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: AlteredMatrix)</i></span>
+<style>span.Who{color: #B545FF;}</style>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: NO WAY IM JAILOR</span>
+<span><br>[10]</span>
+<span class="Twerkulation">Twerkulation</span>
+<span>: FR?</span>
+<span><br>[4]</span>
+<span class="I-have-a-Knife">I have a Knife</span>
+<span>: Mornin'</span>
+<span><br>[10]</span>
+<span class="Twerkulation">Twerkulation</span>
+<span>: IM GONNA EXE YOU!!!</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: d1 surv claim tp lo on me</span>
+<span><br>[12]</span>
+<span class="Ann-Sears">Ann Sears</span>
+<span>: lol</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: (for all intensive purposes, this was a joke)</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to use a voodoo doll on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Twerkulation</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Ann Sears</color></link></font></style> decided to sense <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jestilence</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>White Mocha</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lyght</color></link></font></style> decided to reveal <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>chip</color></link></font></style>.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> instead decided to not attack anyone tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>White Mocha</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> decided to empower their offense.</span>
+<span><br>[12]</span>
+<span class="Ann-Sears">Ann Sears</span>
+<span>: :)</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>White Mocha</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>White Mocha</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="domb">domb</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> domb n1: 4 (nb)</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: Not my nabour</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: the sad tale of trickster</span>
+<span><br>[1]</span>
+<span class="chip">chip</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jestilence</color></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>No Brain Cells</color></link></font></style> (friends)</span>
+<span><br>[12]</span>
+<span class="Ann-Sears">Ann Sears</span>
+<span>: Tracker N1: Tracking 6 Visited 2</span>
+<span><br>[7]</span>
+<span class="Jack-Frost">Jack Frost</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1- (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style> ), <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Honeybee</color></link></font></style> , <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>White Mocha</color></link></font></style></span>
+<span><br>[6]</span>
+<span class="Jestilence">Jestilence</span>
+<span>: im tp</span>
+<span><br>[4]</span>
+<span class="I-have-a-Knife">I have a Knife</span>
+<span>: Morning</span>
+<span><br>[3]</span>
+<span class="Honeybee">Honeybee</span>
+<span>: ts</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: i feel threated</span>
+<span><br>[12]</span>
+<span class="Ann-Sears">Ann Sears</span>
+<span>: checks out</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: the murder happend a house over to me</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: i heard it</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: it was so loud</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: he just kept yelling</span>
+<span><br>[4]</span>
+<span class="I-have-a-Knife">I have a Knife</span>
+<span>: Alrighty, we have a fair bit of TI, Nice.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[7]</span>
+<span class="Jack-Frost">Jack Frost</span>
+<span>: 5 and 3 claims?</span>
+<span><br>[3]</span>
+<span class="Honeybee">Honeybee</span>
+<span>: vfa?</span>
+<span><br>[8]</span>
+<span class="No-Brain-Cells">No Brain Cells</span>
+<span>: My guess is that only one of them is real though</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Smile</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Honeybee</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: conj kill me u wont</span>
+<span><br>[3]</span>
+<span class="Honeybee">Honeybee</span>
+<span>: oh</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Jack Frost</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Honeybee</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Breadd</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Honeybee</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style> has disconnected from life.</span>
+<span><br>[3]</span>
+<span class="Honeybee">Honeybee</span>
+<span>: ts</span>
+<span><br>[4]</span>
+<span class="I-have-a-Knife">I have a Knife</span>
+<span>: 5 left?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Smile</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Ann-Sears">Ann Sears</span>
+<span>: 3?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Smile</color></link></font></style> cancelled their vote.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Jack Frost</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Honeybee</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Breadd</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Honeybee</color></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style> has reconnected with life.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Breadd</color></link></font></style> cancelled their vote.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Smile</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Honeybee">Honeybee</span>
+<span>: ts bruh</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Jack Frost</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: ah 5s back</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: wth</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>No Brain Cells</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="I-have-a-Knife">I have a Knife</span>
+<span>: Oh, 5's back.</span>
+<span><br>[11]</span>
+<span class="Paper">Paper</span>
+<span>: 3 claimed TS</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: lag</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: did you like my story</span>
+<span><br>[4]</span>
+<span class="I-have-a-Knife">I have a Knife</span>
+<span>: I'm going to claim <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> if that's okay.</span>
+<span><br>[12]</span>
+<span class="Ann-Sears">Ann Sears</span>
+<span>: Tracker N1: Tracking 6 Visited 2, 1 visited 6</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> instead decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Smile</color></link></font></style> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to use a voodoo doll on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>chip</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Ann Sears</color></link></font></style> decided to sense <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>No Brain Cells</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lyght</color></link></font></style> decided to reveal <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Smile</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: im claiming vet</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>I have a Knife</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: Fuck.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: :(</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>I have a Knife</color></link></font></style> did not leave a last will.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">White-Mocha</span>
+<span style="color:#689194">: damn</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#B545FF>Voodoo Master</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Twerkulation</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>chip</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: Really unlucky</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: Yeah, rip.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Ann Sears</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Ann Sears</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r38"><b><color=#B545FF>Wildling</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">White-Mocha</span>
+<span style="color:#689194">: i wonder why that vigi shot 12</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Smile</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: I have no idea tbh.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: Yeah seriously</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Smile</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: lol</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style> has disconnected from life.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: You were gonna be knighted too, rip.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: gee golly lol</i></span>
+<span><br>[7]</span>
+<span class="Jack-Frost">Jack Frost</span>
+<span>: N2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Breadd</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jestilence</color></link></font></style></span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: CK is coven leader, and 5 is not the CL</span>
+<span><br>[6]</span>
+<span class="Jestilence">Jestilence</span>
+<span>: ima take a wild guess and say crus was on the seer, and therefore 1 is silenced</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: not my other nabour. i feel like im being targeted</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: wait 7 are you psy?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Honeybee</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>chip</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: 2 literally had my fake Coroner claim lol.</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: I have a Knife the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> // N1. Chilling // D2. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k51"><b><color=#007AFF><b>Autopsy</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>White Mocha</color></link></font></style> (Killed by <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r26"><b><color=#B545FF>Coven Leader</color></b></link></font></style>) // N2. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k56"><b><color=#007AFF><b>Examine</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style> (Not the killer)</i></span>
+<span><br>[7]</span>
+<span class="Jack-Frost">Jack Frost</span>
+<span>: ye</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: ok yeah</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: lol clean</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: lol.</i></span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: anyway im coro</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: ah wait 13 wasnt my nabour</span>
+<span><br>[8]</span>
+<span class="No-Brain-Cells">No Brain Cells</span>
+<span>: Guess we're on me. TP</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: nnvm</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: If I lived, it would've soft-confirmed me too. Rip.</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: i dont care</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: Yeah true</i></span>
+<span><br>[6]</span>
+<span class="Jestilence">Jestilence</span>
+<span>: 1 was targetted by VM</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: 1 you better stay alive as my nabour</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Jack Frost</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: We still got 2 in it</i></span>
+<span><br>[6]</span>
+<span class="Jestilence">Jestilence</span>
+<span>: he is your neighbor</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: so 1 confirmed?</span>
+<span><br>[8]</span>
+<span class="No-Brain-Cells">No Brain Cells</span>
+<span>: 1 is confirmed not coven</span>
+<span><br>[6]</span>
+<span class="Jestilence">Jestilence</span>
+<span>: yeah 1 conf it seems</span>
+<span><br>[7]</span>
+<span class="Jack-Frost">Jack Frost</span>
+<span>: And tp claims</span>
+<span><br>[7]</span>
+<span class="Jack-Frost">Jack Frost</span>
+<span>: Any</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: Yeah, though we don't know if there's other Neutrals.</i></span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: not meh</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: well fuck</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: If there's no neutrals, then a 2v9 is going to be rough.</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: :(</i></span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> instead decided to empower their defense.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Jack Frost</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lyght</color></link></font></style> decided to reveal <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>No Brain Cells</color></link></font></style>.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: That <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> is a problem too.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: 7 had defense, uh oh.</i></span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: N3: 15 (Coven leader) guys i found an evil as coroner this is so epic</span>
+<span><br>[1]</span>
+<span class="chip">chip</span>
+<span>: I HAVE TWO MARRIAGES</span>
+<span><br>[7]</span>
+<span class="Jack-Frost">Jack Frost</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1- (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style> ), <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Honeybee</color></link></font></style> , <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>White Mocha</color></link></font></style> N2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Breadd</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Ann Sears</color></link></font></style> N3- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lyght</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> , <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>No Brain Cells</color></link></font></style></span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: first off who the fuck ttacked me second off why are they dead i vested/alerted</span>
+<span><br>[3]</span>
+<span class="Honeybee">Honeybee</span>
+<span>: TWO????</span>
+<span><br>[1]</span>
+<span class="chip">chip</span>
+<span>: also i was indeed silenced</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: Well fuck.</i></span>
+<span><br>[3]</span>
+<span class="Honeybee">Honeybee</span>
+<span>: UR CHEATING ON ME????</span>
+<span><br>[1]</span>
+<span class="chip">chip</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jestilence</color></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>No Brain Cells</color></link></font></style> (friends) n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Twerkulation</color></link></font></style> adn <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>domb</color></link></font></style> (friends) n3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Honeybee</color></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>No Brain Cells</color></link></font></style> (friends)</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: guys 15 is CL</span>
+<span><br>[3]</span>
+<span class="Honeybee">Honeybee</span>
+<span>: i married 1 last night</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: it's over.</i></span>
+<span><br>[1]</span>
+<span class="chip">chip</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Honeybee</color></link></font></style> you proposed second</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: get 15</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Twerkulation</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Honeybee</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: first of your probs exe</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: 15 shut up im in psy will</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: i alerted</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: im conf by psy</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: and was attacked</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: prepare to be hung</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: :(</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Breadd</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>chip</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Honeybee</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Jack Frost</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>No Brain Cells</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Jack Frost</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Jestilence">Jestilence</span>
+<span>: if you were attacked</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: you just dont like surv claims</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jestilence</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Twerkulation</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: super unlucky coven round tbh</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master</color></b></link></font></style> ain't solo-ing this.</i></span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: this is extreme targeting</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: Yeah, we got shit luck.</i></span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: as surv</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: Typical for me, but still, ouch.</i></span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: i deserve to live</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: i am surv turned vet</span>
+<span><br>[6]</span>
+<span class="Jestilence">Jestilence</span>
+<span>: they wouldve died</span>
+<span><br>[10]</span>
+<span class="Twerkulation">Twerkulation</span>
+<span>: i am coven and i can confirm this is my teammate</span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: nope, bye bye</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: i alerted last night</span>
+<span><br>[3]</span>
+<span class="Honeybee">Honeybee</span>
+<span>: 7 fake based on N1 seer will btw since 14 and i are both conf</span>
+<span><br>[7]</span>
+<span class="Jack-Frost">Jack Frost</span>
+<span>: bye</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: so exe probs</span>
+<span><br>[10]</span>
+<span class="Twerkulation">Twerkulation</span>
+<span>: get 7</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>chip</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Breadd</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Honeybee</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jestilence</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Jack Frost</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>No Brain Cells</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lyght</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Twerkulation</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Paper</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Who</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Who</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Who</b> to death by a vote of <color=#FF0000><b>7</b></color> to <color=#66FF66><b>2</b></color>.</span>
+<span><br>[10]</span>
+<span class="Twerkulation">Twerkulation</span>
+<span>: that BUM!</span>
+<span><br>[3]</span>
+<span class="Honeybee">Honeybee</span>
+<span>: bruh</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: you evil scum</span>
+<span><br>[15]</span>
+<span class="Who">Who</span>
+<span>: how dare</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Lyght</b> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Who</span>
+<span style="color:#689194">: im surv</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: Heya CL.</i></span>
+<span><br>[2]</span>
+<span class="Breadd">Breadd</span>
+<span>: im a gamer</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Who</span>
+<span style="color:#689194">: hi</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: :)</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Who</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Who</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r26"><b><color=#B545FF>Coven Leader</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Honeybee">Honeybee</span>
+<span>: oh oops</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Who</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Jestilence</b> is whispering to <b>chip</b>.</span>
+<span><br>[3]</span>
+<span class="Honeybee">Honeybee</span>
+<span>: well 7 still fake</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: Our <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master</color></b></link></font></style> is so dead lol.</i></span>
+<span><br>[10]</span>
+<span class="Twerkulation">Twerkulation</span>
+<span>: crus on 3</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Jestilence</b> is whispering to <b>chip</b>.</span>
+<span><br>[3]</span>
+<span class="Honeybee">Honeybee</span>
+<span>: tk on 7</span>
+<span><br>[10]</span>
+<span class="Twerkulation">Twerkulation</span>
+<span>: protect 3</span>
+<span><br>[1]</span>
+<span class="chip">chip</span>
+<span>: i have 2 jest</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Who</span>
+<span style="color:#689194">: yup</i></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: I wouldn't be shocked if they just reveal 7 tonight.</i></span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Lyght</b> decided to attack <b>chip</b> tonight.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: If they can deflect they might make it</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: Ah, they've chosen suicide.</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Who</span>
+<span style="color:#689194">: ya possibly</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Who</span>
+<span style="color:#689194">: yup</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: Maybe</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: Probably</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: I mean, 1 certainly has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> on them still.</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: BUt what if it wasnt tho</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Who</span>
+<span style="color:#689194">: watch them die to trapper or somethen</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: Yep, Suicide.</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Who</span>
+<span style="color:#689194">: yup</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">I-have-a-Knife</span>
+<span style="color:#689194">: Oh well.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Lyght</b> died last night.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: yeah. . .</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Lyght</span>
+<span style="color:#689194">: trapped</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Lyght</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Jestilence</b> is whispering to <b>chip</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Who</span>
+<span style="color:#689194">: question is, is there na</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Ann-Sears</span>
+<span style="color:#689194">: rough</i></span>
+</body>
+</html>

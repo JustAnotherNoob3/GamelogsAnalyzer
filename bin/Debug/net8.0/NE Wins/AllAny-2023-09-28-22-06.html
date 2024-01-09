@@ -1,0 +1,873 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Betty Parris - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>N1 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Yessir</color></link></font></style> / No Blood<br>N2 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Dodo</color></link></font></style> ,</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Betty-Parris{color: #06E00C;}</style>
+<span><br>[2] funkyjunky - </span><span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: discofresh420)</i></span>
+<style>span.funkyjunky{color: #06E00C;}</style>
+<span><br>[3] Femboy - </span><span style="color:#06E00C"> Admirer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Irene Rapona</color></link></font></style> said no to me :(<br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Irene Rapona</color></link></font></style> is evil lolh</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Thething45)</i></span>
+<style>span.Femboy{color: #06E00C;}</style>
+<span><br>[4] Pon - </span><span style="color:#DB7601"> Arsonist </span>
+<span style="color:#a0a0a0"><i>(Username: Illyasviel)</i></span>
+<style>span.Pon{color: #DB7601;}</style>
+<span><br>[5] Eobard Thawne - </span><span style="color:#B545FF"> Medusa </span>
+<span style="color:#a0a0a0"><i>(Username: flither)</i></span>
+<style>span.Eobard-Thawne{color: #B545FF;}</style>
+<span><br>[6] Ruby Rose - </span><span style="color:#F5A6D4"> Jester </span>
+<span style="color:#a0a0a0"><i>(Username: UnRubysYourRose)</i></span>
+<style>span.Ruby-Rose{color: #F5A6D4;}</style>
+<span><br>[7] TosBattlePass - </span><span style="color:#B545FF"> Wildling </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>TosBattlePass</color></link></font></style> the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r20"><sprite="RoleIcons" name="Role20"><b><color=#06E00C>Tracker</color></b></link></font></style><br>N1 Jailed<br>N2 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Pon</color></link></font></style> <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k53"><b><color=#007AFF><b>Visit</b></color></b></link></font></style>ed <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Dog Castrator</color></link></font></style><br>N3 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Irene Rapona</color></link></font></style> <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k53"><b><color=#007AFF><b>Visit</b></color></b></link></font></style>ed <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Femboy</color></link></font></style><br>N4 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Yessir</color></link></font></style></span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">thanks for not voting mayor</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Shrekgogo)</i></span>
+<style>span.TosBattlePass{color: #B545FF;}</style>
+<span><br>[8] Cleric is useless - </span><span style="color:#949797"> Executioner </span>
+<span style="color:#a0a0a0"><i>(Username: LyncTheGhast)</i></span>
+<style>span.Cleric-is-useless{color: #949797;}</style>
+<span><br>[9] Yessir - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Investigator<br><br>N1: 10 - No Blood<br>N2: 15 - BLOOD<br>N3: 4 - No Blood<br><br>2 - Mayor<br>4 - TP Claim<br>7 - ???<br>9 - Investigator <br><br>It could still be 4 if they have an astral attack?<br>Im ded</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">thanks for not voting mayor</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: DeeVee)</i></span>
+<style>span.Yessir{color: #06E00C;}</style>
+<span><br>[10] Katy Perry - </span><span style="color:#06E00C"> Jailor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r9"><sprite="RoleIcons" name="Role9"><b><color=#06E00C>Jailor</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: FunkyJunky)</i></span>
+<style>span.Katy-Perry{color: #06E00C;}</style>
+<span><br>[11] Ely - </span><span style="color:#06E00C"> Coroner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>N1- <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> has blood</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Mikeruuu)</i></span>
+<style>span.Ely{color: #06E00C;}</style>
+<span><br>[12] Irene Rapona - </span><span style="color:#06E00C"> Psychic </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Irene Rapona</color></link></font></style> the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r14"><sprite="RoleIcons" name="Role14"><b><color=#06E00C>Psychic</color></b></link></font></style> |<br><br>N1- ( <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Pon</color></link></font></style>), <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Eobard Thawne</color></link></font></style>, <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Ruby Rose</color></link></font></style> |<br>N2- ( <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>funkyjunky</color></link></font></style> ), failed because jailed| <br>N3- ( <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Femboy</color></link></font></style>), <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Katy Perry</color></link></font></style>, <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Dodo</color></link></font></style> |</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MysticMismagius)</i></span>
+<style>span.Irene-Rapona{color: #06E00C;}</style>
+<span><br>[13] Dog Castrator - </span><span style="color:#FF004E"> Soul Collector </span>
+<span style="color:#a0a0a0"><i>(Username: BBGaigey)</i></span>
+<style>span.Dog-Castrator{color: #FF004E;}</style>
+<span><br>[14] Gravekeeper - </span><span style="color:#F5A6D4"> Jester </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">n1 11 sus</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: phantomkiro)</i></span>
+<style>span.Gravekeeper{color: #F5A6D4;}</style>
+<span><br>[15] Dodo - </span><span style="color:#FF004E"> Berserker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">vet<br>n1 - chill<br>n2 - chill</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Kazuto)</i></span>
+<style>span.Dodo{color: #FF004E;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[5]</span>
+<span class="Eobard-Thawne">Eobard Thawne</span>
+<span>: RAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: samuel's dead body is in 4's spot</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: wtf</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: i killed him</span>
+<span><br>[1]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: my bad</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You have decided to have a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k58"><b><color=#007AFF><b>Vision</b></color></b></link></font></style> including <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Pon</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>A <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k58"><b><color=#007AFF><b>Vision</b></color></b></link></font></style> revealed that at least one of <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Eobard Thawne</color></link></font></style>, <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Pon</color></link></font></style>, or <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Ruby Rose</color></link></font></style> is evil!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Ruby Rose</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Ruby Rose</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r254"><sprite="RoleIcons" name="Role254"><b><color=#9C9A9A>Stoned</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="TosBattlePass">TosBattlePass</span>
+<span>: Jailed</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: Irene Rapona the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r14"><sprite="RoleIcons" name="Role14"><b><color=#06E00C>Psychic</color></b></link></font></style> |N1- ( <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Pon</color></link></font></style>), <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Eobard Thawne</color></link></font></style>, <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Ruby Rose</color></link></font></style> | [I shit you not this is the vision I got]</span>
+<span><br>[1]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Yessir</color></link></font></style> / No Blood</span>
+<span><br>[11]</span>
+<span class="Ely">Ely</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1- <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> has blood</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: InvestigatorN1: 10 - No Blood</span>
+<span><br>[8]</span>
+<span class="Cleric-is-useless">Cleric is useless</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1 S(<style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Eobard Thawne</color></link></font></style>) (<style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k42"><b><color=#007AFF><b>Not Sus</b></color></b></link></font></style>)</span>
+<span><br>[10]</span>
+<span class="Katy-Perry">Katy Perry</span>
+<span>: Tk</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: tp</span>
+<span><br>[3]</span>
+<span class="Femboy">Femboy</span>
+<span>: ts</span>
+<span><br>[8]</span>
+<span class="Cleric-is-useless">Cleric is useless</span>
+<span>: 5 is inno</span>
+<span><br>[2]</span>
+<span class="funkyjunky">funkyjunky</span>
+<span>: tp</span>
+<span><br>[5]</span>
+<span class="Eobard-Thawne">Eobard Thawne</span>
+<span>: we do share a resemblance man</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: could be an NK or illusioned</span>
+<span><br>[5]</span>
+<span class="Eobard-Thawne">Eobard Thawne</span>
+<span>: im ts</span>
+<span><br>[14]</span>
+<span class="Gravekeeper">Gravekeeper</span>
+<span>: oh bs 11</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> blood?</span>
+<span><br>[8]</span>
+<span class="Cleric-is-useless">Cleric is useless</span>
+<span>: true</span>
+<span><br>[11]</span>
+<span class="Ely">Ely</span>
+<span>: best defense</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: or perhaps 6 was jester/pirate</span>
+<span><br>[11]</span>
+<span class="Ely">Ely</span>
+<span>: and quick too</span>
+<span><br>[11]</span>
+<span class="Ely">Ely</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1- <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> has blood</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: oh my</span>
+<span><br>[8]</span>
+<span class="Cleric-is-useless">Cleric is useless</span>
+<span>: 14?</span>
+<span><br>[5]</span>
+<span class="Eobard-Thawne">Eobard Thawne</span>
+<span>: 14 crazy for that</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Cleric-is-useless">Cleric is useless</span>
+<span>: get 14</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Dog Castrator</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Eobard Thawne</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Cleric is useless</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>TosBattlePass</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Dodo</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Ely</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>funkyjunky</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> is whispering to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Ely</color></link></font></style>.</color></color></span>
+<span><br>[10]</span>
+<span class="Katy-Perry">Katy Perry</span>
+<span>: If I could fall</span>
+<span><br>[8]</span>
+<span class="Cleric-is-useless">Cleric is useless</span>
+<span>: Guilty</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[10]</span>
+<span class="Katy-Perry">Katy Perry</span>
+<span>: into the sky</span>
+<span><br>[10]</span>
+<span class="Katy-Perry">Katy Perry</span>
+<span>: do you think time</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: guilty ig</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: guilty</span>
+<span><br>[10]</span>
+<span class="Katy-Perry">Katy Perry</span>
+<span>: would pass me by</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: What</span>
+<span><br>[11]</span>
+<span class="Ely">Ely</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> was that supposed to scare me?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Betty Parris</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>funkyjunky</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Femboy</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Pon</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Eobard Thawne</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>TosBattlePass</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Cleric is useless</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Yessir</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Katy Perry</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Ely</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Dog Castrator</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Dodo</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Gravekeeper</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Gravekeeper</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Gravekeeper</b> to death by a vote of <color=#FF0000><b>9</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[14]</span>
+<span class="Gravekeeper">Gravekeeper</span>
+<span>: thanks 11</span>
+<span><br>[8]</span>
+<span class="Cleric-is-useless">Cleric is useless</span>
+<span>: LET THE ROULETTE SPIN HAHAHA</span>
+<span><br>[14]</span>
+<span class="Gravekeeper">Gravekeeper</span>
+<span>: jester bomb</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#F5A6D4>Jester</color></b></link></font></style> will get their revenge from the grave!</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: don't hurt me</span>
+<span><br>[3]</span>
+<span class="Femboy">Femboy</span>
+<span>: oh i thought i guilty</span>
+<span><br>[3]</span>
+<span class="Femboy">Femboy</span>
+<span>: NO</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: woah</span>
+<span><br>[3]</span>
+<span class="Femboy">Femboy</span>
+<span>: :(</span>
+<span><br>[8]</span>
+<span class="Cleric-is-useless">Cleric is useless</span>
+<span>: I DIDN'T EVEN WANT TO KILL <b>Gravekeeper</b> TODAY</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Gravekeeper</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Gravekeeper</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Gravekeeper</b> left a last will.</span>
+<span><br>[11]</span>
+<span class="Ely">Ely</span>
+<span>: kill me im coroner</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r44"><sprite="RoleIcons" name="Role44"><b><color=#949797>Executioner</color></b></link></font></style> successfully got their target hanged!</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>Cleric is useless</b> accomplished their goal as <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r44"><sprite="RoleIcons" name="Role44"><b><color=#949797>Executioner</color></b></link></font></style> and left town.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Eobard Thawne</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were tormented by an <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r44"><sprite="RoleIcons" name="Role44"><b><color=#949797>Executioner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Eobard Thawne</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r32"><sprite="RoleIcons" name="Role32"><b><color=#B545FF>Medusa [3]</color></b></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: well that answers my N1 vision lol</span>
+<span><br>[3]</span>
+<span class="Femboy">Femboy</span>
+<span>: i alaways guily jest i fell sad</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: lol evils dropping left and right</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: thanks exe?</span>
+<span><br>[2]</span>
+<span class="funkyjunky">funkyjunky</span>
+<span>: whaat</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You rejected <b>Femboy</b>'s <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k37"><b><color=#007AFF><b>Proposal</b></color></b></link></font></style>!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You have decided to have a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k58"><b><color=#007AFF><b>Vision</b></color></b></link></font></style> including <b>funkyjunky</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your ability failed because your target was in <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Betty Parris</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were torn apart by the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r42"><sprite="RoleIcons" name="Role42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Betty Parris</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Irene Rapona</b> is whispering to <b>Femboy</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>To <b>Femboy</b>: I always reject proposals</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Irene Rapona</b> is whispering to <b>Femboy</b>.</color></color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF>To <b>Femboy</b>: congrats you are confirmed town</color></color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>funkyjunky</b> disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Ely</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were possessed by a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Ely</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r5"><sprite="RoleIcons" name="Role5"><b><color=#06E00C>Coroner</color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br><b>funkyjunky</b> reconnected with life.</span>
+<span><br>[3]</span>
+<span class="Femboy">Femboy</span>
+<span>: i was rejected :(</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: N2: 15 - FOUND BLOOD</span>
+<span><br>[7]</span>
+<span class="TosBattlePass">TosBattlePass</span>
+<span>: N2 <b>Pon</b> <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k53"><b><color=#007AFF><b>Visit</b></color></b></link></font></style>ed <b>Dog Castrator</b></span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: N2- ( <b>funkyjunky</b> ), failed because jailed| 3 is confirmed town, I rejected them so no double kills</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: N2: 15 - FOUND BLOOD</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: N2: 15 - FOUND BLOOD</span>
+<span><br>[2]</span>
+<span class="funkyjunky">funkyjunky</span>
+<span>: 7 is jailor</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: oh my</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: i did visit 13</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: I was attacked</span>
+<span><br>[7]</span>
+<span class="TosBattlePass">TosBattlePass</span>
+<span>: ah</span>
+<span><br>[10]</span>
+<span class="Katy-Perry">Katy Perry</span>
+<span>: OMG 15 HAS BLOOD!?!?!?!?!?!</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: 7 you were amne right?</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>funkyjunky</b> revealed themself as the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r11"><sprite="RoleIcons" name="Role11"><b><color=#06E00C>Mayor</color></b></link></font></style>!</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: i did not attack 13 tho</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Katy Perry</b> is whispering to <b>funkyjunky</b>.</color></color></span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: 13 and 15 havent claimed i dont think</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: 9 coven then</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: but</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: ?</span>
+<span><br>[15]</span>
+<span class="Dodo">Dodo</span>
+<span>: i'm vet</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: doomer :)</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Katy Perry</b> voted against <b>Dodo</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Dodo</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>TosBattlePass</b> voted against <b>Dodo</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Yessir</b> voted against <b>Dodo</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Pon</b> voted against <b>Dodo</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Dodo</b> was voted up to trial.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Dodo</b> disconnected from life.</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: oh</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: wait a minute we need to kill the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r43"><sprite="RoleIcons" name="Role43"><b><color=#00CC99>Doomsayer</color></b></link></font></style>, we have two confirmed townies that can be doomed</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Dodo</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: kill 13</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: get 13</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: two confirmed TIS</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: L</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: cant pick them</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>funkyjunky</b> voted <b>Dodo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Femboy</b> <b><style="AbstainColor>abstained</style></b> on <b>Dodo</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Pon</b> voted <b>Dodo</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>TosBattlePass</b> voted <b>Dodo</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Yessir</b> voted <b>Dodo</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Katy Perry</b> voted <b>Dodo</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dog Castrator</b> <b><style="AbstainColor>abstained</style></b> on <b>Dodo</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Dodo</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <b>Dodo</b> by a vote of <color=#66FF66><b>5</b></color> to <color=#FF0000><b>3</b></color>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: 13 up</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Dog Castrator</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>TosBattlePass</b> voted against <b>Dog Castrator</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Femboy</b> voted against <b>Dog Castrator</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Yessir</b> voted against <b>Dog Castrator</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Pon</b> voted against <b>Dog Castrator</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Dog Castrator</b> was voted up to trial.</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: the people pushing this are coven btw</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: just letting you know that</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: 15 confirmed bers</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: not really mate</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: mate I'm worried about the mayor and admirer, idgaf about coven</span>
+<span><br>[10]</span>
+<span class="Katy-Perry">Katy Perry</span>
+<span>: OMG MF DOOM</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Dog Castrator</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: so no threat</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: idek who admirer is</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: oh well</span>
+<span><br>[10]</span>
+<span class="Katy-Perry">Katy Perry</span>
+<span>: THERE IS ONLY ONE BEER LEFT</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>funkyjunky</b> voted <b>Dog Castrator</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Femboy</b> voted <b>Dog Castrator</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Pon</b> voted <b>Dog Castrator</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>TosBattlePass</b> voted <b>Dog Castrator</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Yessir</b> voted <b>Dog Castrator</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Katy Perry</b> voted <b>Dog Castrator</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dodo</b> <b><style="AbstainColor>abstained</style></b> on <b>Dog Castrator</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Dog Castrator</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Dog Castrator</b> to death by a vote of <color=#FF0000><b>9</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: 9 is coven</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: 4 is coven</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: and 12 is coven</span>
+<span><br>[13]</span>
+<span class="Dog-Castrator">Dog Castrator</span>
+<span>: there ya go</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: not really lmao</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: im not coven</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: mate can you not</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: lol</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Dog Castrator</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Dog Castrator</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r50"><sprite="RoleIcons" name="Role50"><b><color=#FF004E>Soul Collector</color></b></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: i found 15</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Dog Castrator</b> did not leave a last will.</span>
+<span><br>[3]</span>
+<span class="Femboy">Femboy</span>
+<span>: claiming not be coven that coven</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You have decided to have a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k58"><b><color=#007AFF><b>Vision</b></color></b></link></font></style> including <b>Femboy</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>A <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k58"><b><color=#007AFF><b>Vision</b></color></b></link></font></style> revealed that at least one of <b>Dodo</b>, <b>Femboy</b>, or <b>Katy Perry</b> is evil!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Femboy</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Femboy</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r1"><sprite="RoleIcons" name="Role1"><b><color=#06E00C>Admirer</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Katy Perry</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died of a <style="LoverColor">broken heart</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Katy Perry</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r9"><sprite="RoleIcons" name="Role9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Dodo</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Dodo</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r42"><sprite="RoleIcons" name="Role42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFF00"><br>Your message was too long.</span>
+<span><br>[7]</span>
+<span class="TosBattlePass">TosBattlePass</span>
+<span>: N3 <b>Irene Rapona</b> <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k53"><b><color=#007AFF><b>Visit</b></color></b></link></font></style>ed <b>Femboy</b></span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: 12 or 7 is evil</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: N3: 4 - No Blood</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: N3- ( <b>Femboy</b>), <b>Katy Perry</b>, <b>Dodo</b> |</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: Ye i visited 3</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: i knew they were admi and wanted them on my evil vision lmao</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: the only unconfirmed are 7 and 12, and 4 didnt kill last night</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: i trust 12</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: dont</span>
+<span><br>[7]</span>
+<span class="TosBattlePass">TosBattlePass</span>
+<span>: The adm will says you denied thier proposal</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Yessir</b> voted against <b>TosBattlePass</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Pon</b> voted against <b>Irene Rapona</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Yessir</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Yessir</b> cancelled their vote.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Yessir</b> voted against <b>Irene Rapona</b>.</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: yes, I did</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: i dont trust 12*</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: I always deny proposals</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: put up 12</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: 12 denied proposal</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: we need more time</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: no shit</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>funkyjunky</b> voted against <b>Irene Rapona</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Irene Rapona</b> was voted up to trial.</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: I never said I accepted the proposal, lul</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: I always deny proposals</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: because lifelink ass</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: and look at that the jailor died to it immediately</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: Seems like I was RIGHT</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: this wasnt really a defense</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: <b>Irene Rapona</b> the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r14"><sprite="RoleIcons" name="Role14"><b><color=#06E00C>Psychic</color></b></link></font></style> | N1- ( <b>Pon</b>), <b>Eobard Thawne</b>, <b>Ruby Rose</b> | N2- ( <b>funkyjunky</b> ), failed because jailed| N3- ( <b>Femboy</b>), <b>Katy Perry</b>, <b>Dodo</b> |</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>funkyjunky</b> voted <b>Irene Rapona</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Pon</b> voted <b>Irene Rapona</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>TosBattlePass</b> voted <b>Irene Rapona</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Yessir</b> voted <b>Irene Rapona</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Irene Rapona</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Irene Rapona</b> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[12]</span>
+<span class="Irene-Rapona">Irene Rapona</span>
+<span>: I stand by my reasoning</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Irene Rapona</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Irene Rapona</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r14"><sprite="RoleIcons" name="Role14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: okay its just 7 then</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Irene Rapona</b> left a last will.</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: yessir</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Irene-Rapona</span>
+<span style="color:#689194">: 10, I question why you, the jailor, would ever accept a proposal</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Irene-Rapona</span>
+<span style="color:#689194">: especially when 3 was outed</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: It was ha funny</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Irene-Rapona</span>
+<span style="color:#689194">: well</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Irene-Rapona</span>
+<span style="color:#689194">: ya died for it</i></span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Ruby-Rose</span>
+<span style="color:#689194">: I like women</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Irene-Rapona</span>
+<span style="color:#689194">: was it worth it</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: Yes.</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Irene-Rapona</span>
+<span style="color:#689194">: fair enough</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><color=#6699FF><b>Pon</b> is whispering to <b>Yessir</b>.</color></color></span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: ?</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: oh</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: lmao</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: i selfed lmao</span>
+<span><br>[7]</span>
+<span class="TosBattlePass">TosBattlePass</span>
+<span>: hey 4</span>
+<span><br>[7]</span>
+<span class="TosBattlePass">TosBattlePass</span>
+<span>: whyd you visit 2</span>
+<span><br>[7]</span>
+<span class="TosBattlePass">TosBattlePass</span>
+<span>: arso mabye?</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: i didnt visit 2</span>
+<span><br>[7]</span>
+<span class="TosBattlePass">TosBattlePass</span>
+<span>: "LOL I SELFED"</span>
+<span><br>[7]</span>
+<span class="TosBattlePass">TosBattlePass</span>
+<span>: wildling</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: N4: self</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: I legit dont have enough evidence to support either of these things</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Pon</b> voted against <b>TosBattlePass</b>.</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: however I think 4 was too trigger happy</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Yessir</b> voted against <b>Pon</b>.</span>
+<span><br>[7]</span>
+<span class="TosBattlePass">TosBattlePass</span>
+<span>: its ggs either way</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>TosBattlePass</b> voted against <b>Pon</b>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: There is only one beer left</i></span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: soooo mayor</span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Ruby-Rose</span>
+<span style="color:#689194">: mayor use your votes</i></span>
+<span><br>[7]</span>
+<span class="TosBattlePass">TosBattlePass</span>
+<span>: ggs arso</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: rappers screaming in our ears</i></span>
+<span><br>[7]</span>
+<span class="TosBattlePass">TosBattlePass</span>
+<span>: ignite</span>
+<span><br>[4]</span>
+<span class="Pon">Pon</span>
+<span>: well i win ig</span>
+<span><br>[9]</span>
+<span class="Yessir">Yessir</span>
+<span>: mayor threw</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: like were deafd</i></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Yessir</b> disconnected from life.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: so uh 2</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: i mean 3</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Irene-Rapona</span>
+<span style="color:#689194">: ...</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: are we uh</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: still married :)</i></span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Ruby-Rose</span>
+<span style="color:#689194">: Can I join in?</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: THEY LEFT</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Irene-Rapona</span>
+<span style="color:#689194">: you'll have to talk to the beuracracy of heaven</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: :(</i></span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Ruby-Rose</span>
+<span style="color:#689194">: I was only a jester</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>funkyjunky</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were incinerated by an <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r40"><sprite="RoleIcons" name="Role40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>funkyjunky</b> did not leave a last will.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: so uh 6</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r11"><sprite="RoleIcons" name="Role11"><b><color=#06E00C>Mayor</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: you wanna</i></span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Ruby-Rose</span>
+<span style="color:#689194">: Yes.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>TosBattlePass</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were incinerated by an <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r40"><sprite="RoleIcons" name="Role40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: marry :)</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>TosBattlePass</b> left a last will.</span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Ruby-Rose</span>
+<span style="color:#689194">: Didnt even have to ask</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: huh</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: yaknow</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r38"><sprite="RoleIcons" name="Role38"><b><color=#B545FF>Wildling [6]</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Irene-Rapona</span>
+<span style="color:#689194">: ...</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: 2 stole my name</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Yessir</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were incinerated by an <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r40"><sprite="RoleIcons" name="Role40"><b><color=#DB7601>Arsonist</color></b></link></font></style>. They were also killed by the <style="CovenColor">Coven</style>. They also disconnected from life.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: Im funky junky</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Yessir</b> left a last will.</span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Ruby-Rose</span>
+<span style="color:#689194">: Is that so</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Katy-Perry</span>
+<span style="color:#689194">: but</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+</body>
+</html>

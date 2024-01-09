@@ -1,0 +1,810 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Consigliere - </span><span style="color:#B545FF"> Coven Leader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Consigliere</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> <br><br>N1: No(bodies)<br><br>N2: noone died<br><br>N3: nothing <br><br>N4: nothing nothing</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Inelastic)</i></span>
+<style>span.Consigliere{color: #B545FF;}</style>
+<span><br>[2] Shadow - </span><span style="color:#06E00C"> Cleric </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Shadow <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br><br>N1: 6 attacked<br>N2: 7 (jailed)<br>N3: 7 (attacked)<br>N4: still doing it 7</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Fabinge)</i></span>
+<style>span.Shadow{color: #06E00C;}</style>
+<span><br>[3] Meemaw - </span><span style="color:#FF004E"> Baker </span>
+<span style="color:#a0a0a0"><i>(Username: ijellybeans)</i></span>
+<style>span.Meemaw{color: #FF004E;}</style>
+<span><br>[4] Trans Girl - </span><span style="color:#F5A6D4"> Jester </span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Trans-Girl{color: #F5A6D4;}</style>
+<span><br>[5] Lacking - </span><span style="color:#B545FF"> Necromancer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: FFirebug)</i></span>
+<style>span.Lacking{color: #B545FF;}</style>
+<span><br>[6] Daisy - </span><span style="color:#06E00C"> Deputy </span>
+<span style="color:#a0a0a0"><i>(Username: CCTinsley)</i></span>
+<style>span.Daisy{color: #06E00C;}</style>
+<span><br>[7] smothered kumquat - </span><span style="color:#06E00C"> Seer </span>
+<span style="color:#a0a0a0"><i>(Username: BlueIsNotAFlavor)</i></span>
+<style>span.smothered-kumquat{color: #06E00C;}</style>
+<span><br>[8] Yoshi - </span><span style="color:#949797"> Executioner </span>
+<span style="color:#a0a0a0"><i>(Username: Yoshi092)</i></span>
+<style>span.Yoshi{color: #949797;}</style>
+<span><br>[9] Luigi - </span><span style="color:#B545FF"> Ritualist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Luigi the Retri<br>N1: Chillin ong</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: PigLad)</i></span>
+<style>span.Luigi{color: #B545FF;}</style>
+<span><br>[10] Marcus Mundo - </span><span style="color:#06E00C"> Investigator </span>
+<span style="color:#a0a0a0"><i>(Username: orcacola)</i></span>
+<style>span.Marcus-Mundo{color: #06E00C;}</style>
+<span><br>[11] William Hobbs - </span><span style="color:#06E00C"> Tracker </span>
+<span style="color:#a0a0a0"><i>(Username: Magnarz)</i></span>
+<style>span.William-Hobbs{color: #06E00C;}</style>
+<span><br>[12] Iphone - </span><span style="color:#06E00C"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: Flood722)</i></span>
+<style>span.Iphone{color: #06E00C;}</style>
+<span><br>[13] MyKey - </span><span style="color:#06E00C"> Jailor </span>
+<span style="color:#a0a0a0"><i>(Username: MyKey)</i></span>
+<style>span.MyKey{color: #06E00C;}</style>
+<span><br>[14] Kahoot - </span><span style="color:#B545FF"> Voodoo Master </span>
+<span style="color:#a0a0a0"><i>(Username: Cristiesme)</i></span>
+<style>span.Kahoot{color: #B545FF;}</style>
+<span><br>[15] Samsung - </span><span style="color:#06E00C"> Monarch </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">i can t write...<br>you re one of most</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Adnan24)</i></span>
+<style>span.Samsung{color: #06E00C;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: Hi I'm Daisy!</span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: I <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k86"><b><color=#007AFF><b>Counter Claim</b></color></b></link></font></style> daisy</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Shadow</color></link></font></style> is a cutie.</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: TP on 2</span>
+<span><br>[13]</span>
+<span class="MyKey">MyKey</span>
+<span>: tplo</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: 2 is jailor.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><color=#FFCD00FF>You were hauled off to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>!</color></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>! haha!</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: jk, did I scare you?</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I'm <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>ok</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>:)</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: :)</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style>ed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>smothered kumquat</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Morning</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: Thanks <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style></span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: seer - n1 6|9 different alignments</span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: oop</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>MyKey</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans Girl</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>MyKey</color></link></font></style>: well you're not sk so that's gotta count for something</color></span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: thanks monarch</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: No kills, nice.</span>
+<span><br>[12]</span>
+<span class="Iphone">Iphone</span>
+<span>: cool</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: Coven hit me</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trans Girl</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>MyKey</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>MyKey</color></link></font></style>: Yeah, no SK here lol.</color></span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: 9 claim</span>
+<span><br>[2]</span>
+<span class="Shadow">Shadow</span>
+<span>: 9?</span>
+<span><br>[9]</span>
+<span class="Luigi">Luigi</span>
+<span>: Luigi the Retri N1: Chillin ong</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: and you live how, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Yoshi</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><color=#1133FF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style> revealed as a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style> and shot <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Luigi</color></link></font></style>!</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Luigi</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Luigi</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Yoshi</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Shadow</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>smothered kumquat</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Yoshi</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist [14]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Shadow</color></link></font></style>.</color></span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Nice shot <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>!</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: noice</span>
+<span><br>[14]</span>
+<span class="Kahoot">Kahoot</span>
+<span>: lmao got him</span>
+<span><br>[12]</span>
+<span class="Iphone">Iphone</span>
+<span>: cool nice</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: It was all the seer.</span>
+<span><br>[11]</span>
+<span class="William-Hobbs">William Hobbs</span>
+<span>: n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Yoshi</color></link></font></style> visited <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style></span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: guys 11 just whispered me</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[12]</span>
+<span class="Iphone">Iphone</span>
+<span>: good job sheriff</span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: why visit me</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Yoshi</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I mean, that makes sense lol.</span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style> or <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><b><color=#FF004E>Plaguebearer</color></b></link></font></style></span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: late <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style></span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: 11 is baker</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>MyKey</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Consigliere</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: Let him live</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Shadow</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Iphone</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Samsung</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: skiw</span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: slow</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>MyKey</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>smothered kumquat</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style> was voted up to trial.</span>
+<span><br>[11]</span>
+<span class="William-Hobbs">William Hobbs</span>
+<span>: THis is dumb aF</span>
+<span><br>[11]</span>
+<span class="William-Hobbs">William Hobbs</span>
+<span>: get <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Yoshi</color></link></font></style> for that</span>
+<span><br>[11]</span>
+<span class="William-Hobbs">William Hobbs</span>
+<span>: i posted</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: i mean, i feel like we would be better served looking for more immediate danger</span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: yeah way late</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: You posted late though.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: wayyy late</span>
+<span><br>[11]</span>
+<span class="William-Hobbs">William Hobbs</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Yoshi</color></link></font></style> has 0 claim</span>
+<span><br>[11]</span>
+<span class="William-Hobbs">William Hobbs</span>
+<span>: then push me</span>
+<span><br>[14]</span>
+<span class="Kahoot">Kahoot</span>
+<span>: so?</span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: 0?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Consigliere</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Shadow</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Meemaw</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lacking</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Daisy</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>smothered kumquat</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Yoshi</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Marcus Mundo</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Iphone</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>MyKey</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Kahoot</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Samsung</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>William Hobbs</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>William Hobbs</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: my claim is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r113"><b><style="NeutralColor">Neutral </style><color=#1F51FF>Evil</color></b></link></font></style></span>
+<span><br>[11]</span>
+<span class="William-Hobbs">William Hobbs</span>
+<span>: Kill <b>Yoshi</b></span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: they cant kill me</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: i'll comare 6 & 8 tonight - tp if available please</span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: im outa this snap crackle pop</span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: cya guys</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Exe?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>William Hobbs</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>William Hobbs</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: oh they exe</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: lol</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Ah nice.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>William Hobbs</b> did not leave a last will.</span>
+<span><br>[8]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: bye everyone</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Lacking</b> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style> has successfully gotten their target hanged!</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>Yoshi</b> has accomplished their goal as <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style> and left town.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Lacking</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were tormented by an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Lacking</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r33"><b><color=#B545FF>Necromancer [11]</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Why would 11 post so late though? The lynch was worth it though.</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: All a part of the plan!</span>
+<span><br>[13]</span>
+<span class="MyKey">MyKey</span>
+<span>: so that worked out 1f1</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: so still tp if available</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decide to put on your armor tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style>ed <b>Daisy</b>.</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: jailed last night :(</span>
+<span><br>[12]</span>
+<span class="Iphone">Iphone</span>
+<span>: wow</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Samsung</b> is whispering to <b>Daisy</b>.</color></span>
+<span><br>[1]</span>
+<span class="Consigliere">Consigliere</span>
+<span>: forewarning bc im not doing anything</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Shadow</b> is whispering to <b>Daisy</b>.</color></span>
+<span><br>[1]</span>
+<span class="Consigliere">Consigliere</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Morning</span>
+<span><br>[2]</span>
+<span class="Shadow">Shadow</span>
+<span>: i'm tp</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: <b>Meemaw</b>?</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I'm <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style></span>
+<span><br>[14]</span>
+<span class="Kahoot">Kahoot</span>
+<span>: how do you write it up like thhat?</span>
+<span><br>[13]</span>
+<span class="MyKey">MyKey</span>
+<span>: 10?</span>
+<span><br>[13]</span>
+<span class="MyKey">MyKey</span>
+<span>: use <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style></span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: <b>Meemaw</b> what is your align</span>
+<span><br>[13]</span>
+<span class="MyKey">MyKey</span>
+<span>: :</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>smothered kumquat</b> voted against <b>Meemaw</b>.</span>
+<span><br>[14]</span>
+<span class="Kahoot">Kahoot</span>
+<span>: ..</span>
+<span><br>[14]</span>
+<span class="Kahoot">Kahoot</span>
+<span>: ...</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samsung</b> voted against <b>Meemaw</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Shadow</b> voted against <b>Meemaw</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>MyKey</b> voted against <b>Meemaw</b>.</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: : for <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style>, @ for <b>Trans Girl</b>, # for <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Consigliere</b> voted against <b>Meemaw</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Meemaw</b> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="Meemaw">Meemaw</span>
+<span>: im baker</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Oh I'm also a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style>. We're all <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style>s.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Meemaw</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[14]</span>
+<span class="Kahoot">Kahoot</span>
+<span>: for .bread.</span>
+<span><br>[12]</span>
+<span class="Iphone">Iphone</span>
+<span>: jester?</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Joking of course.</span>
+<span><br>[3]</span>
+<span class="Meemaw">Meemaw</span>
+<span>: im baker</span>
+<span><br>[3]</span>
+<span class="Meemaw">Meemaw</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Consigliere</b> <b><style="AbstainColor>abstained</style></b> on <b>Meemaw</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Shadow</b> voted <b>Meemaw</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Daisy</b> <b><style="AbstainColor>abstained</style></b> on <b>Meemaw</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>smothered kumquat</b> voted <b>Meemaw</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Marcus Mundo</b> voted <b>Meemaw</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Iphone</b> voted <b>Meemaw</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>MyKey</b> voted <b>Meemaw</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kahoot</b> <b><style="AbstainColor>abstained</style></b> on <b>Meemaw</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samsung</b> voted <b>Meemaw</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Meemaw</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: <b>Marcus Mundo</b> ?</span>
+<span><br>[3]</span>
+<span class="Meemaw">Meemaw</span>
+<span>: NO GUYS IM BAD TO THE BONE PLEASE</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>smothered kumquat</b> voted against <b>Marcus Mundo</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>MyKey</b> voted against <b>Marcus Mundo</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Consigliere</b> voted against <b>Marcus Mundo</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samsung</b> voted against <b>Marcus Mundo</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Shadow</b> voted against <b>Marcus Mundo</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Marcus Mundo</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>MyKey</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>MyKey</b>: i'll exe 3 tonight</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>MyKey</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>MyKey</b>: Alrighty</color></span>
+<span><br>[10]</span>
+<span class="Marcus-Mundo">Marcus Mundo</span>
+<span>: I am investigator</span>
+<span><br>[2]</span>
+<span class="Shadow">Shadow</span>
+<span>: right</span>
+<span><br>[10]</span>
+<span class="Marcus-Mundo">Marcus Mundo</span>
+<span>: I have done absolutely nothing all game because I dont know whats going on</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: will</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>MyKey</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>MyKey</b>: I feel like 3 might be a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style> anyways, but claiming <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> ain't going to make them look like town lol.</color></span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: obviously</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Marcus Mundo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Consigliere</b> voted <b>Marcus Mundo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Shadow</b> voted <b>Marcus Mundo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Meemaw</b> voted <b>Marcus Mundo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Daisy</b> voted <b>Marcus Mundo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>smothered kumquat</b> voted <b>Marcus Mundo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Iphone</b> <b><style="AbstainColor>abstained</style></b> on <b>Marcus Mundo</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>MyKey</b> voted <b>Marcus Mundo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kahoot</b> voted <b>Marcus Mundo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samsung</b> voted <b>Marcus Mundo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Marcus Mundo</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>MyKey</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>MyKey</b>: ya thats why I innoed and exe</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>MyKey</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>MyKey</b>: Yeah, that makes sense.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Marcus Mundo</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Marcus Mundo</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: comparing 6 & 15 tonight</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: ...</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Marcus Mundo</b> did not leave a last will.</span>
+<span><br>[12]</span>
+<span class="Iphone">Iphone</span>
+<span>: dam</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: jailor - please dont jail 15</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: Hi I'm Daisy!</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: seer - n1 6|9 different alignments n2 jailed n3 1|15 different alignments</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Morning</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#B545FF>Voodoo Master [9]</color></b></link></font></style> game</span>
+<span><br>[13]</span>
+<span class="MyKey">MyKey</span>
+<span>: ok</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: and barriered</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Shadow</b> is whispering to <b>smothered kumquat</b>.</color></span>
+<span><br>[13]</span>
+<span class="MyKey">MyKey</span>
+<span>: I messed up</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: from coven attack</span>
+<span><br>[12]</span>
+<span class="Iphone">Iphone</span>
+<span>: theres also a baker</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Okay yeah, <b>smothered kumquat</b> realized they can't use #6</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: lol.</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: <b>Samsung</b> role?</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: I was seeing if he'd out himself <b>Trans Girl</b> lol</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>MyKey</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>MyKey</b>: i double clicked 3 on accident</color></span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Me too 6 lol.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>MyKey</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>MyKey</b>: Oops</color></span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: <b>Samsung</b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>MyKey</b> voted against <b>Samsung</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>smothered kumquat</b> voted against <b>Samsung</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Daisy</b> voted against <b>Samsung</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Consigliere</b> voted against <b>Samsung</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Samsung</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>MyKey</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>MyKey</b>: Did you not jail them, or did you not <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k64"><b><color=#007AFF><b>Execute</b></color></b></link></font></style> them?</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>MyKey</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>MyKey</b>: i didn't exe</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>MyKey</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>MyKey</b>: didn't jail I mean</color></span>
+<span><br>[15]</span>
+<span class="Samsung">Samsung</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>MyKey</b> is whispering to <b>Trans Girl</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>MyKey</b>: man whats wrong with me today</color></span>
+<span><br>[14]</span>
+<span class="Kahoot">Kahoot</span>
+<span>: maybe he is silenced</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>MyKey</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>MyKey</b>: Ah, alrighty. So you can still Jail them tonight. That's good.</color></span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: idk tbh</span>
+<span><br>[2]</span>
+<span class="Shadow">Shadow</span>
+<span>: any been silenced</span>
+<span><br>[14]</span>
+<span class="Kahoot">Kahoot</span>
+<span>: or afk</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Samsung</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Consigliere</b> <b><style="AbstainColor>abstained</style></b> on <b>Samsung</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Shadow</b> voted <b>Samsung</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Meemaw</b> voted <b>Samsung</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Daisy</b> voted <b>Samsung</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>smothered kumquat</b> voted <b>Samsung</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Iphone</b> <b><style="AbstainColor>abstained</style></b> on <b>Samsung</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>MyKey</b> voted <b>Samsung</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kahoot</b> <b><style="AbstainColor>abstained</style></b> on <b>Samsung</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Samsung</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[13]</span>
+<span class="MyKey">MyKey</span>
+<span>: he hasn't talked till now</span>
+<span><br>[3]</span>
+<span class="Meemaw">Meemaw</span>
+<span>: no hes silenced</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: <b>Kahoot</b> & <b>Trans Girl</b> whisper alot...</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: I was silenced</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: I claimed it at the start of the day.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Samsung</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Samsung</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>smothered kumquat</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>smothered kumquat</b>: I know what 14 is, that's why we're whispering.</color></span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: Oh wtf</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>, oof.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Samsung</b> left a last will.</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: flummery</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: <b>Consigliere</b> evil</span>
+<span><br>[6]</span>
+<span class="Daisy">Daisy</span>
+<span>: Just exe 1</span>
+<span><br>[12]</span>
+<span class="Iphone">Iphone</span>
+<span>: dang</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: they are differetn align</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Shadow</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Shadow</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Meemaw</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were executed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Meemaw</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Trans Girl</b> is whispering to <b>Kahoot</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>Kahoot</b>: Actual baker, huh.</color></span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: huh. 3 wasn't lying. lol</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Morning</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: seer - n1 6|9 different alignments n2 jailed n3 1|15 different alignments n4 1|3 target jailed <b>Kahoot</b> & <b>Trans Girl</b> whisper alot...</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Kinda surprised 3 was actually <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> lol.</span>
+<span><br>[12]</span>
+<span class="Iphone">Iphone</span>
+<span>: yeah</span>
+<span><br>[13]</span>
+<span class="MyKey">MyKey</span>
+<span>: i really thought jest</span>
+<span><br>[12]</span>
+<span class="Iphone">Iphone</span>
+<span>: same</span>
+<span><br>[14]</span>
+<span class="Kahoot">Kahoot</span>
+<span>: lol :))</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: As I said <b>smothered kumquat</b>, I have my reasons for whispering 14.</span>
+<span><br>[14]</span>
+<span class="Kahoot">Kahoot</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k87"><b><color=#007AFF><b>Toxic Relationship</b></color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Anyways, we know 1 is evil, right?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>smothered kumquat</b> voted against <b>Consigliere</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Consigliere</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>MyKey</b> voted against <b>Consigliere</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Consigliere</b> was voted up to trial.</span>
+<span><br>[1]</span>
+<span class="Consigliere">Consigliere</span>
+<span>: im exe but my target aint getting hanging</span>
+<span><br>[1]</span>
+<span class="Consigliere">Consigliere</span>
+<span>: man</span>
+<span><br>[1]</span>
+<span class="Consigliere">Consigliere</span>
+<span>: ggs</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: <b>Trans Girl</b> i didn't mean to include that sorry</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: It's fine</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: Also I just realized you wrote 14 instead of 13 lol.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <b>Consigliere</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Daisy</b> voted <b>Consigliere</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>smothered kumquat</b> voted <b>Consigliere</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Iphone</b> voted <b>Consigliere</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>MyKey</b> voted <b>Consigliere</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kahoot</b> <b><style="AbstainColor>abstained</style></b> on <b>Consigliere</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Consigliere</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[14]</span>
+<span class="Kahoot">Kahoot</span>
+<span>: maybe he is jester</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Consigliere</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Consigliere</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r26"><b><color=#B545FF>Coven Leader [1]</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: ooooooooooo</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Consigliere</b> left a last will.</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: sweet</span>
+<span><br>[4]</span>
+<span class="Trans-Girl">Trans Girl</span>
+<span>: I know what 13 is, not 14 lol. Your will mixed me up 7 lol.</span>
+<span><br>[14]</span>
+<span class="Kahoot">Kahoot</span>
+<span>: nice</span>
+<span><br>[7]</span>
+<span class="smothered-kumquat">smothered kumquat</span>
+<span>: lol</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your voice seems to be lost! You can't speak.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>A <style="CovenColor">Coven</style> member attacked you, but a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> protected you!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Kahoot</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Kahoot</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#B545FF>Voodoo Master [9]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>MyKey</b> is whispering to <b>Daisy</b>.</color></span>
+</body>
+</html>

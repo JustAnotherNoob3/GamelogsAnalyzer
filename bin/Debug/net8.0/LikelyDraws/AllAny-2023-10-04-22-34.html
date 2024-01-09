@@ -1,0 +1,805 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Survivor - </span><span style="color:#06E00C"> Vigilante </span>
+<span style="color:#a0a0a0"><i>(Username: NoirMouse)</i></span>
+<style>span.Survivor{color: #06E00C;}</style>
+<span><br>[2] David McStink - </span><span style="color:#06E00C"> Deputy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>David McStink</color></link></font></style> The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style> <br>I dont think I have much to say here</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Josharoonie2004)</i></span>
+<style>span.David-McStink{color: #06E00C;}</style>
+<span><br>[3] Deodat Lawson - </span><span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: jeffereyepstein)</i></span>
+<style>span.Deodat-Lawson{color: #06E00C;}</style>
+<span><br>[4] surv claim - </span><span style="color:#B545FF"> Ritualist </span>
+<span style="color:#a0a0a0"><i>(Username: TreBecca)</i></span>
+<style>span.surv-claim{color: #B545FF;}</style>
+<span><br>[5] Cornball - </span><span style="color:#FF004E"> Berserker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Cornball the Bodyguard<br><br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PumpkinQueen</color></link></font></style> <br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Survivor</color></link></font></style> <br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Deodat Lawson</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: cornball)</i></span>
+<style>span.Cornball{color: #FF004E;}</style>
+<span><br>[6] Jonathan Corwin - </span><span style="color:#06E00C"> Prosecutor </span>
+<span style="color:#a0a0a0"><i>(Username: MrShenanigans)</i></span>
+<style>span.Jonathan-Corwin{color: #06E00C;}</style>
+<span><br>[7] Mothwing - </span><span style="color:#ECC23E"> Pirate </span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Mothwing{color: #ECC23E;}</style>
+<span><br>[8] PumpkinQueen - </span><span style="color:#06E00C"> Bodyguard </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> <br><br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Bread</color></link></font></style> <br>N <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Cornball</color></link></font></style> other Tp Claim</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: FoxyQueen)</i></span>
+<style>span.PumpkinQueen{color: #06E00C;}</style>
+<span><br>[9] Bread - </span><span style="color:#B545FF"> Witch </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Beast9)</i></span>
+<style>span.Bread{color: #B545FF;}</style>
+<span><br>[10] Saarna - </span><span style="color:#FF004E"> Soul Collector </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k28"><b><color=#007AFF><b>Insane</b></color></b></link></font></style>? I was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k28"><b><color=#007AFF><b>Insane</b></color></b></link></font></style> once.<br>They put me in a room<br>A rubber room<br>A rubber room full of rats<br>and rats make me <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k28"><b><color=#007AFF><b>Insane</b></color></b></link></font></style> <br>(repeat from start)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: NourishedBow34)</i></span>
+<style>span.Saarna{color: #FF004E;}</style>
+<span><br>[11] Insane - </span><span style="color:#06E00C"> Crusader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style><br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Survivor</color></link></font></style><br><br>Why is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>'s sprite so small? If it wasnt armed Id bully it for being os small</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">Sorry, daily subscription fee.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: AverageFleshyGuy)</i></span>
+<style>span.Insane{color: #06E00C;}</style>
+<span><br>[12] Samuel Parris - </span><span style="color:#06E00C"> Trickster </span>
+<span style="color:#a0a0a0"><i>(Username: MrPenguinz)</i></span>
+<style>span.Samuel-Parris{color: #06E00C;}</style>
+<span><br>[13] DdD - </span><span style="color:#06E00C"> Monarch </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">I was [[:49]]ed by a [[#42]] last night btw. Sorry [[#42]]!</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ajflj)</i></span>
+<style>span.DdD{color: #06E00C;}</style>
+<span><br>[14] Ann Putnam - </span><span style="color:#B545FF"> Illusionist </span>
+<span style="color:#a0a0a0"><i>(Username: DongGobbler)</i></span>
+<style>span.Ann-Putnam{color: #B545FF;}</style>
+<span><br>[15] Cas - </span><span style="color:#B545FF"> Dreamweaver </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br>N1- 5 <br>N2- 1 (Dreamweaved) <br>N3-</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: surskittles)</i></span>
+<style>span.Cas{color: #B545FF;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[9]</span>
+<span class="Bread">Bread</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style></span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: Surv claim d1</span>
+<span><br>[4]</span>
+<span class="surv-claim">surv claim</span>
+<span>: surv claim d1</span>
+<span><br>[7]</span>
+<span class="Mothwing">Mothwing</span>
+<span>: Morning</span>
+<span><br>[12]</span>
+<span class="Samuel-Parris">Samuel Parris</span>
+<span>: I'm vet</span>
+<span><br>[4]</span>
+<span class="surv-claim">surv claim</span>
+<span>: ill vest if you vest</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Ann Putnam</color></link></font></style> tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Ann Putnam</color></link></font></style> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Scimitar!</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Yer scimitar's slash could nah be sidestepped by th' landlubber. Ye won th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Insane</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Insane</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Ann Putnam</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Ann Putnam</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r30"><b><color=#B545FF>Illusionist</color></b></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Bread">Bread</span>
+<span>: pirate though</span>
+<span><br>[10]</span>
+<span class="Saarna">Saarna</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k28"><b><color=#007AFF><b>Insane</b></color></b></link></font></style>? I was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k28"><b><color=#007AFF><b>Insane</b></color></b></link></font></style> once</span>
+<span><br>[7]</span>
+<span class="Mothwing">Mothwing</span>
+<span>: Morning</span>
+<span><br>[9]</span>
+<span class="Bread">Bread</span>
+<span>: oh no</span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: Thanks pirate</span>
+<span><br>[4]</span>
+<span class="surv-claim">surv claim</span>
+<span>: wtg pirate</span>
+<span><br>[4]</span>
+<span class="surv-claim">surv claim</span>
+<span>: any TI</span>
+<span><br>[7]</span>
+<span class="Mothwing">Mothwing</span>
+<span>: wtg?</span>
+<span><br>[9]</span>
+<span class="Bread">Bread</span>
+<span>: huh</span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: That's not a good sign</span>
+<span><br>[4]</span>
+<span class="surv-claim">surv claim</span>
+<span>: haha what a good game</span>
+<span><br>[3]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: Dont be insane guys its not cool</span>
+<span><br>[6]</span>
+<span class="Jonathan-Corwin">Jonathan Corwin</span>
+<span>: I am dreamweaved</span>
+<span><br>[9]</span>
+<span class="Bread">Bread</span>
+<span>: but <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k28"><b><color=#007AFF><b>Insane</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Cornball</color></link></font></style> tonight.</span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: I'm TS</span>
+<span><br>[2]</span>
+<span class="David-McStink">David McStink</span>
+<span>: lmao</span>
+<span><br>[6]</span>
+<span class="Jonathan-Corwin">Jonathan Corwin</span>
+<span>: who is dreamweaver</span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>David McStink</color></link></font></style> go</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[5]</span>
+<span class="Cornball">Cornball</span>
+<span>: tm tp</span>
+<span><br>[6]</span>
+<span class="Jonathan-Corwin">Jonathan Corwin</span>
+<span>: Imma pros them</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Survivor</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>David McStink</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="David-McStink">David McStink</span>
+<span>: TK</span>
+<span><br>[9]</span>
+<span class="Bread">Bread</span>
+<span>: why didn't you say that earlier 6</span>
+<span><br>[6]</span>
+<span class="Jonathan-Corwin">Jonathan Corwin</span>
+<span>: tell me who to pros</span>
+<span><br>[12]</span>
+<span class="Samuel-Parris">Samuel Parris</span>
+<span>: 12 stayed home</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Survivor</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Deodat Lawson</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Jonathan-Corwin">Jonathan Corwin</span>
+<span>: I'll do it</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PumpkinQueen</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Deodat Lawson</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Bread">Bread</span>
+<span>: uh don't yet</span>
+<span><br>[9]</span>
+<span class="Bread">Bread</span>
+<span>: we don't know</span>
+<span><br>[7]</span>
+<span class="Mothwing">Mothwing</span>
+<span>: Hmm</span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: We should VFA</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Samuel Parris</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PumpkinQueen</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: If we don't have TI info</span>
+<span><br>[8]</span>
+<span class="PumpkinQueen">PumpkinQueen</span>
+<span>: tp44</span>
+<span style="background-color:#000000; color:#02FF4D"><br><color=#1133FF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jonathan Corwin</color></link></font></style> prosecuted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Samuel Parris</color></link></font></style>!</color></span>
+<span><br>[12]</span>
+<span class="Samuel-Parris">Samuel Parris</span>
+<span>: okay</span>
+<span><br>[12]</span>
+<span class="Samuel-Parris">Samuel Parris</span>
+<span>: We both die I guess</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jonathan Corwin</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Samuel Parris</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Samuel Parris</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel Parris</b> has been judged <b><style="GuiltyColor">guilty</style></b> and will be put to death.</span>
+<span><br>[9]</span>
+<span class="Bread">Bread</span>
+<span>: huh neat, well there goes the day, oof</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to plunder <b>DdD</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Samuel Parris</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were Prosecuted.</span>
+<span><br>[7]</span>
+<span class="Mothwing">Mothwing</span>
+<span>: Classic <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Samuel Parris</b> did not leave a last will.</span>
+<span><br>[6]</span>
+<span class="Jonathan-Corwin">Jonathan Corwin</span>
+<span>: why did 12 stay home smh</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jonathan Corwin</b> has <b><style="GuiltyColor">dishonored the town</style></b> and will be put to death.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Jonathan Corwin</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>For crimes against the town, the hangman has executed them.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Jonathan Corwin</b> did not leave a last will.</span>
+<span><br>[9]</span>
+<span class="Bread">Bread</span>
+<span>: wrong tk lol</span>
+<span><br>[3]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: good job bruh</span>
+<span><br>[4]</span>
+<span class="surv-claim">surv claim</span>
+<span>: what a dishonor. you should feel bad pro</span>
+<span><br>[7]</span>
+<span class="Mothwing">Mothwing</span>
+<span>: Rip</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <b>DdD</b> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Rapier!</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ahoy! Yer rapier skewered th' scurvy dog's chainmail. Ye won th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style> attacked you, but your defense was too high!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>PumpkinQueen</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died while defending their target.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>PumpkinQueen</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Bread</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Bread</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#B545FF>Witch</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>DdD</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>DdD</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>Mothwing</b> has accomplished their goal as <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> and left town.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: oh 7 is pirate</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Howdy</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: Hey 7 I am sorry</i></span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">PumpkinQueen</span>
+<span style="color:#689194">: gj pirate</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: I sent bers after you</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: 5 is bers</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: sorry</i></span>
+<span><br>[15]</span>
+<span class="Cas">Cas</span>
+<span>: I AM DREAMWEAVED</span>
+<span><br>[5]</span>
+<span class="Cornball">Cornball</span>
+<span>: thank you <b>PumpkinQueen</b> you saved me from coven</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: It's fine, I still won lol.</i></span>
+<span><br>[10]</span>
+<span class="Saarna">Saarna</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k89"><b><color=#007AFF><b>Dreamweave</b></color></b></link></font></style></span>
+<span><br>[2]</span>
+<span class="David-McStink">David McStink</span>
+<span>: huh</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: yeah luckily lol</i></span>
+<span><br>[4]</span>
+<span class="surv-claim">surv claim</span>
+<span>: 6 was DW</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Rapier always gets 'em.</i></span>
+<span><br>[10]</span>
+<span class="Saarna">Saarna</span>
+<span>: <b>Cas</b> is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k89"><b><color=#007AFF><b>Dreamweave</b></color></b></link></font></style></span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: Right</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: no ti game really</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><color=#1133FF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>David McStink</color></link></font></style> revealed as a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style> and shot <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Cas</color></link></font></style>!</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Cas</b> died today.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: HOW</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: THOUGH</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Cas</b> left a last will.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Cas</span>
+<span style="color:#689194">: ?</i></span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">PumpkinQueen</span>
+<span style="color:#689194">: i mean i didnt know 5 was evil and to be honest this town isnt very info friendly trght now</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Cas</span>
+<span style="color:#689194">: wtf</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: 10 IS RIGHT BUT HOW</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Nice shot 2.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#B545FF>Dreamweaver</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="David-McStink">David McStink</span>
+<span>: So he is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#B545FF>Dreamweaver</color></b></link></font></style> huh</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: thing is</i></span>
+<span><br>[10]</span>
+<span class="Saarna">Saarna</span>
+<span>: um ok. LMAO. that works</span>
+<span><br>[2]</span>
+<span class="David-McStink">David McStink</span>
+<span>: Lol</span>
+<span><br>[4]</span>
+<span class="surv-claim">surv claim</span>
+<span>: nice shot dep</span>
+<span><br>[3]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: nice shot</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Cas</span>
+<span style="color:#689194">: that was random af</i></span>
+<span><br>[5]</span>
+<span class="Cornball">Cornball</span>
+<span>: lmao wow</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: 10 could be <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style> or <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><b><color=#FF004E>Plaguebearer</color></b></link></font></style>?</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: that isn't a nice shot</i></span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: <b>Deodat Lawson</b> <b>surv claim</b> <b>Saarna</b> what are your claims then</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: that is a lucky shot</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Survivor</b> voted against <b>Deodat Lawson</b>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: like cmon</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Is 10'</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Cornball</b> voted against <b>Deodat Lawson</b>.</span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">PumpkinQueen</span>
+<span style="color:#689194">: some times u get a lucky shot</i></span>
+<span><br>[4]</span>
+<span class="surv-claim">surv claim</span>
+<span>: imtk</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Does 10 have a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k89"><b><color=#007AFF><b>Dreamweave</b></color></b></link></font></style> icon?</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>surv claim</b> voted against <b>Deodat Lawson</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Saarna</b> voted against <b>Deodat Lawson</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Deodat Lawson</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: uh no</i></span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">PumpkinQueen</span>
+<span style="color:#689194">: and again wit no info this town is everywhere</i></span>
+<span><br>[3]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: Im mayor</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: but that is because dwer is dead</i></span>
+<span><br>[3]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: Inno and I'll reveal</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Did they have one before 15 was shot?</i></span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: Inno and vote <b>Saarna</b></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: no idea lol</i></span>
+<span><br>[10]</span>
+<span class="Saarna">Saarna</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: didn't check</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Survivor</b> voted <b>Deodat Lawson</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>David McStink</b> voted <b>Deodat Lawson</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>surv claim</b> voted <b>Deodat Lawson</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Cornball</b> voted <b>Deodat Lawson</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Saarna</b> voted <b>Deodat Lawson</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Deodat Lawson</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <b>Deodat Lawson</b> by a vote of <color=#66FF66><b>5</b></color> to <color=#FF0000><b>0</b></color>.</span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: You've been awfully quiet and I want to see a will</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: My thought is maybe 10 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style> or <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><b><color=#FF004E>Plaguebearer</color></b></link></font></style>.</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: But idk.</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: probably not</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>surv claim</b> voted against <b>Saarna</b>.</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>Deodat Lawson</b> has revealed themself as the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: just saying random things llol</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Survivor</b> voted against <b>Saarna</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>surv claim</b> voted against <b>Saarna</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Deodat Lawson</b> voted against <b>Saarna</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Saarna</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: 5 being bers though</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: I hope they don't kill last coven member</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Unlucky that you sent them to me since now they can't kill tonight.</i></span>
+<span><br>[10]</span>
+<span class="Saarna">Saarna</span>
+<span>: well <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style> can be dead</span>
+<span><br>[3]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: 10/10 defense ngl</span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: That's not a will or a claim</span>
+<span><br>[4]</span>
+<span class="surv-claim">surv claim</span>
+<span>: lmao</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: oh god and they aren't questioning 5</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Survivor</b> voted <b>Saarna</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>David McStink</b> <b><style="AbstainColor>abstained</style></b> on <b>Saarna</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Deodat Lawson</b> voted <b>Saarna</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>surv claim</b> voted <b>Saarna</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Cornball</b> voted <b>Saarna</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Saarna</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Saarna</b> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: even though they haven't claimed</i></span>
+<span><br>[4]</span>
+<span class="surv-claim">surv claim</span>
+<span>: thats your last words</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: just because they can't be coven</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: I mean, like 5 can do anything tonight anyways lol.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Saarna</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Saarna</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><b><color=#FF004E>Soul Collector</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: well huh neat lol</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Saarna</b> left a last will.</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: 10 was Apoc, figures.</i></span>
+<span><br>[4]</span>
+<span class="surv-claim">surv claim</span>
+<span>: what didnt pirate say bers</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: so a supposed ts</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: a deputy</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: a mayor</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: a supposed tk</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: And 5</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: and a bers</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: lol</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: WHY</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: what is bers doing</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>David McStink</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: now they lose</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>David McStink</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Survivor</b> is whispering to <b>Deodat Lawson</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: mayor just votes 5</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Survivor</b> is whispering to <b>Deodat Lawson</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Cornball</b> is whispering to <b>Deodat Lawson</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>surv claim</b> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Cornball</b> is whispering to <b>Deodat Lawson</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">surv-claim</span>
+<span style="color:#689194">: why didnt the mayor die too!</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Well then lol.</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>surv claim</b> did not leave a last will.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: oh lol</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">surv-claim</span>
+<span style="color:#689194">: roddle</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Cornball</b> is whispering to <b>Deodat Lawson</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: never mind</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: 1 shot 4</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: and claimed ts</i></span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: Sorry 5</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Yeah, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style> hit me, they couldn't attack me again.</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: and not tk</i></span>
+<span><br>[5]</span>
+<span class="Cornball">Cornball</span>
+<span>: 1</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: yeah 7 sorry my fault</i></span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: I already claimed to mayor</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: yo lets go 1</i></span>
+<span><br>[3]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: ???</span>
+<span><br>[3]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: then reveal bruh</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: honestly never mind good play</i></span>
+<span><br>[5]</span>
+<span class="Cornball">Cornball</span>
+<span>: bro coven will win</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: NO WAY</i></span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: 5 is the berserker 3</span>
+<span><br>[5]</span>
+<span class="Cornball">Cornball</span>
+<span>: me?</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: No, I was saying that, since they hit me, they can't attack N3.</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: DUDE COVEN IS DEAD</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: They didn't power up because they didn't kill me.</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: no yeah lol true 7</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Survivor</b> voted against <b>Cornball</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Cornball</b> voted against <b>Survivor</b>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: 3 don't you dare</i></span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: Mayor VOTE</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Deodat Lawson</b> voted against <b>Cornball</b>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: you have to do something</i></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Cornball</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: great</i></span>
+<span><br>[5]</span>
+<span class="Cornball">Cornball</span>
+<span>: bro</span>
+<span><br>[5]</span>
+<span class="Cornball">Cornball</span>
+<span>: im bg</span>
+<span><br>[5]</span>
+<span class="Cornball">Cornball</span>
+<span>: you want coven to win?</span>
+<span><br>[3]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: Bodyguard claim when we only have a vigilante left?</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: no way 5 gets away with this</i></span>
+<span><br>[1]</span>
+<span class="Survivor">Survivor</span>
+<span>: Lmao, that's your defense against a mayor and a confirmed vigil?</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: I do kinda feel bad for 5. Fucked over because the Witch controlled them into the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> who won.</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: yeah lol</i></span>
+<span><br>[5]</span>
+<span class="Cornball">Cornball</span>
+<span>: wdym vig</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: lets go</i></span>
+<span><br>[5]</span>
+<span class="Cornball">Cornball</span>
+<span>: ur ritualist</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Survivor</b> voted <b>Cornball</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Deodat Lawson</b> voted <b>Cornball</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Cornball</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Cornball</b> to death by a vote of <color=#FF0000><b>4</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: this guy</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Cornball</b> has disconnected from life.</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Unfortunate luck 5.</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: man I don't think you can convince that way</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Cornball</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Cornball</b> was convicted and executed.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: oh they left</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mothwing</span>
+<span style="color:#689194">: Yeah</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Cornball</b> left a last will.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: man how did town win lol</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: anyways</i></span>
+</body>
+</html>

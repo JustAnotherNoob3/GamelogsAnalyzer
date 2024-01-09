@@ -1,0 +1,769 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Yoshi - </span><span style="color:#06E00C"> Retributionist </span>
+<span style="color:#a0a0a0"><i>(Username: YoshiFN5k)</i></span>
+<style>span.Yoshi{color: #06E00C;}</style>
+<span><br>[2] Bayonetta - </span><span style="color:#B545FF"> Voodoo Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bayonetta</color></link></font></style> meets an untimely end!</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MysticMismagius)</i></span>
+<style>span.Bayonetta{color: #B545FF;}</style>
+<span><br>[3] Minoas - </span><span style="color:#B545FF"> Medusa </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r5"><sprite="RoleIcons" name="Role5"><b><color=#06E00C>Coroner</color></b></link></font></style> <br>d2- cant autpsy..<br>d3- medusas last stone work tonight</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Aiakos)</i></span>
+<style>span.Minoas{color: #B545FF;}</style>
+<span><br>[4] Ann Putnam - </span><span style="color:#B545FF"> Jinx </span>
+<span style="color:#a0a0a0"><i>(Username: BeyazSaray)</i></span>
+<style>span.Ann-Putnam{color: #B545FF;}</style>
+<span><br>[5] LemmeCook - </span><span style="color:#1D4DFC"> Serial Killer </span>
+<span style="color:#a0a0a0"><i>(Username: Strider)</i></span>
+<style>span.LemmeCook{color: #1D4DFC;}</style>
+<span><br>[6] Thomas Danforth - </span><span style="color:#949797"> Executioner </span>
+<span style="color:#a0a0a0"><i>(Username: NotJester746)</i></span>
+<style>span.Thomas-Danforth{color: #949797;}</style>
+<span><br>[7] Forensic - </span><span style="color:#06E00C"> Jailor </span>
+<span style="color:#a0a0a0"><i>(Username: HungryRock)</i></span>
+<style>span.Forensic{color: #06E00C;}</style>
+<span><br>[8] Bankleton - </span><span style="color:#06E00C"> Psychic </span>
+<span style="color:#a0a0a0"><i>(Username: BurningBlu)</i></span>
+<style>span.Bankleton{color: #06E00C;}</style>
+<span><br>[9] Blue Jester - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: ShinyShrike44)</i></span>
+<style>span.Blue-Jester{color: #06E00C;}</style>
+<span><br>[10] Bread - </span><span style="color:#B545FF"> Hex Master </span>
+<span style="color:#a0a0a0"><i>(Username: YYmix)</i></span>
+<style>span.Bread{color: #B545FF;}</style>
+<span><br>[11] Will Graham - </span><span style="color:#06E00C"> Psychic </span>
+<span style="color:#a0a0a0"><i>(Username: Mineuma)</i></span>
+<style>span.Will-Graham{color: #06E00C;}</style>
+<span><br>[12] Gaming - </span><span style="color:#06E00C"> Coroner </span>
+<span style="color:#a0a0a0"><i>(Username: Alpha13)</i></span>
+<style>span.Gaming{color: #06E00C;}</style>
+<span><br>[13] Jer Kinghoff - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">JK the Inv <br>N1: 7 - NB <br>N2: 5 <br>N3: <br><br>yesh <br><br>what have i done? i have no idea...<br><br>but hey there's google which i can use to insult people as the trickster</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">[[@6]] imm fake ass [[#14]]</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: AlchlcSystm)</i></span>
+<style>span.Jer-Kinghoff{color: #06E00C;}</style>
+<span><br>[14] Im The Stabber - </span><span style="color:#FF004E"> Plaguebearer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r5"><sprite="RoleIcons" name="Role5"><b><color=#06E00C>Coroner</color></b></link></font></style> <br><br>D2: 11, add <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r26"><sprite="RoleIcons" name="Role26"><b><color=#B545FF>Coven Leader [1]</color></b></link></font></style> to list<br>N2: 14 is not the killer</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Rosenator)</i></span>
+<style>span.Im-The-Stabber{color: #FF004E;}</style>
+<span><br>[15] AliceThePeach - </span><span style="color:#FF004E"> Baker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">TP<br>Night 1- <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style> <br>Night 2- <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bankleton</color></link></font></style> <br>Night 3- Roleblocked</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: AliceInPeaches)</i></span>
+<style>span.AliceThePeach{color: #FF004E;}</style>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Minoas</color></link></font></style> possesses the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span><br>[13]</span>
+<span class="Jer-Kinghoff">Jer Kinghoff</span>
+<span>: glhf everyone</span>
+<span><br>[9]</span>
+<span class="Blue-Jester">Blue Jester</span>
+<span>: hello</span>
+<span><br>[10]</span>
+<span class="Bread">Bread</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style> here for you</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: gfhl</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: YAY!</span>
+<span><br>[13]</span>
+<span class="Jer-Kinghoff">Jer Kinghoff</span>
+<span>: im alerting, all evils on me please</span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: is this a no-TP game</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: BREAD!</span>
+<span><br>[9]</span>
+<span class="Blue-Jester">Blue Jester</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style> moment</span>
+<span><br>[8]</span>
+<span class="Bankleton">Bankleton</span>
+<span>: evils on 13</span>
+<span><br>[9]</span>
+<span class="Blue-Jester">Blue Jester</span>
+<span>: ok <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Jer Kinghoff</color></link></font></style></span>
+<span><br>[8]</span>
+<span class="Bankleton">Bankleton</span>
+<span>: kill him</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to use a voodoo doll on and attack <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style> tonight.</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: have claims ready</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: we will be VFA'd</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bread</color></link></font></style> decided to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k19"><b><color=#007AFF><b>Hex</b></color></b></link></font></style> <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Forensic</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Minoas</color></link></font></style> decided to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Will Graham</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Ann Putnam</color></link></font></style> decided to attack a visitor to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Blue Jester</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Will Graham</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Will Graham</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r254"><sprite="RoleIcons" name="Role254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r14"><sprite="RoleIcons" name="Role14"><b><color=#06E00C>Psychic</color></b></link></font></style>).</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: Bayonetta the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#06E00C>Sheriff</color></b></link></font></style> |N1- <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Minoas</color></link></font></style>, inno/secrets|</span>
+<span><br>[13]</span>
+<span class="Jer-Kinghoff">Jer Kinghoff</span>
+<span>: JK the Inv N1: 7 - NB</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r16"><sprite="RoleIcons" name="Role16"><b><color=#06E00C>Seer</color></b></link></font></style>N1 - <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k60"><b><color=#007AFF><b>Intuit</b></color></b></link></font></style> <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>, <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k59"><b><color=#007AFF><b>Gaze</b></color></b></link></font></style> <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>AliceThePeach</color></link></font></style> - ENEMIES</span>
+<span><br>[9]</span>
+<span class="Blue-Jester">Blue Jester</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r104"><sprite="RoleIcons" name="Role104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style> N1: Jailed</span>
+<span><br>[8]</span>
+<span class="Bankleton">Bankleton</span>
+<span>: Bankleton the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r14"><sprite="RoleIcons" name="Role14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>LemmeCook</color></link></font></style> | <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Forensic</color></link></font></style> or <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bayonetta</color></link></font></style> are evil</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: TP</span>
+<span><br>[7]</span>
+<span class="Forensic">Forensic</span>
+<span>: ts</span>
+<span><br>[10]</span>
+<span class="Bread">Bread</span>
+<span>: 1 15 ?</span>
+<span><br>[9]</span>
+<span class="Blue-Jester">Blue Jester</span>
+<span>: 1 and 15 claim</span>
+<span><br>[8]</span>
+<span class="Bankleton">Bankleton</span>
+<span>: 5 claim</span>
+<span><br>[4]</span>
+<span class="Ann-Putnam">Ann Putnam</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1 <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Blue Jester</color></link></font></style> Jailed</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>?</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>AliceThePeach</color></link></font></style> already claimed</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: Yoshi?</span>
+<span><br>[12]</span>
+<span class="Gaming">Gaming</span>
+<span>: Guys I am Retri I will check what 11 was tonight</span>
+<span><br>[13]</span>
+<span class="Jer-Kinghoff">Jer Kinghoff</span>
+<span>: you can't do that</span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: 1 is silent mayor just watch</span>
+<span><br>[3]</span>
+<span class="Minoas">Minoas</span>
+<span>: you cant</span>
+<span><br>[4]</span>
+<span class="Ann-Putnam">Ann Putnam</span>
+<span>: retri cant used stoned</span>
+<span><br>[9]</span>
+<span class="Blue-Jester">Blue Jester</span>
+<span>: not how retri works</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thomas Danforth</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Minoas</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Gaming">Gaming</span>
+<span>: oh</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>AliceThePeach</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bread</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Ann Putnam</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Im The Stabber</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bankleton</color></link></font></style> voted against <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style> was voted up to trial.</span>
+<span><br>[1]</span>
+<span class="Yoshi">Yoshi</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style></span>
+<span><br>[9]</span>
+<span class="Blue-Jester">Blue Jester</span>
+<span>: retri should be able to use stoned tho, it makes their role useless that they cant</span>
+<span><br>[10]</span>
+<span class="Bread">Bread</span>
+<span>: inno, 15 what are u</span>
+<span><br>[13]</span>
+<span class="Jer-Kinghoff">Jer Kinghoff</span>
+<span>: ret used to but not anymore</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: Possibly true, but hes also enemies with me</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: retri can't.</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: get 15 or the seer</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: Possible but idk</span>
+<span><br>[9]</span>
+<span class="Blue-Jester">Blue Jester</span>
+<span>: 1f1</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Minoas</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Ann Putnam</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>LemmeCook</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thomas Danforth</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Forensic</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Bankleton</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Blue Jester</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bread</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Gaming</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Jer Kinghoff</color></link></font></style> voted <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Im The Stabber</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>AliceThePeach</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Yoshi</color></link></font></style>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Yoshi</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: seer could be fake</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: They can still be evil even if silenced</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>AliceThePeach</b>.</span>
+<span><br>[9]</span>
+<span class="Blue-Jester">Blue Jester</span>
+<span>: true ig</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Minoas</b> voted against <b>AliceThePeach</b>.</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: I already claimed TP</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Forensic</b> voted against <b>AliceThePeach</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bread</b> voted against <b>AliceThePeach</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ann Putnam</b> voted against <b>AliceThePeach</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Blue Jester</b> voted against <b>AliceThePeach</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bankleton</b> voted against <b>AliceThePeach</b>.</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: yes we know</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: I literally claimed TP</span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: true, could be <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r112"><sprite="RoleIcons" name="Role112"><b><style="NeutralColor">Neutral </style><color=#1F51FF>Killing</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Blue Jester</b> cancelled their vote.</span>
+<span><br>[3]</span>
+<span class="Minoas">Minoas</span>
+<span>: true byt not coven</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: but one of you three is bullshitting</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Blue Jester</b> voted against <b>AliceThePeach</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Forensic</b> cancelled their vote.</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: can we vote one of them please</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bankleton</b> cancelled their vote.</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: don't waste a day on this shit</span>
+<span><br>[8]</span>
+<span class="Bankleton">Bankleton</span>
+<span>: 5 hasnt calimed</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ann Putnam</b> was kidnapped by the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r9"><sprite="RoleIcons" name="Role9"><b><color=#06E00C>Jailor</color></b></link></font></style>!</span>
+<span><br>[10]</span>
+<span class="Bread">Bread</span>
+<span>: uh oh</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: fuck my life</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to use a voodoo doll on and attack <b>Bankleton</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Minoas</b> decided to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <b>Yoshi</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Bread</b> decided to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k19"><b><color=#007AFF><b>Hex</b></color></b></link></font></style> <b>AliceThePeach</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>A <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r19"><sprite="RoleIcons" name="Role19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> or <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r34"><sprite="RoleIcons" name="Role34"><b><color=#B545FF>Poisoner [4]</color></b></link></font></style> gave you a drink, and you fell asleep! You were <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Yoshi</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Yoshi</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r254"><sprite="RoleIcons" name="Role254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r15"><sprite="RoleIcons" name="Role15"><b><color=#06E00C>Retributionist</color></b></link></font></style>).</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Ann Putnam</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were executed by the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r9"><sprite="RoleIcons" name="Role9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Ann Putnam</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r31"><sprite="RoleIcons" name="Role31"><b><color=#B545FF>Jinx [15]</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>LemmeCook</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were beaten by a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r22"><sprite="RoleIcons" name="Role22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>LemmeCook</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r48"><sprite="RoleIcons" name="Role48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Jer Kinghoff</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r48"><sprite="RoleIcons" name="Role48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Jer Kinghoff</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r22"><sprite="RoleIcons" name="Role22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: N2- roleblocked| bruhhhhhh?</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: I was on 8 last night, just so everyone knows</span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r5"><sprite="RoleIcons" name="Role5"><b><color=#06E00C>Coroner</color></b></link></font></style> D2: 11, add <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r26"><sprite="RoleIcons" name="Role26"><b><color=#B545FF>Coven Leader [1]</color></b></link></font></style> to list N2: 15 is not the killer</span>
+<span><br>[8]</span>
+<span class="Bankleton">Bankleton</span>
+<span>: N2 <b>Blue Jester</b> | and/or <b>Forensic</b> are good</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: N2 - <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k60"><b><color=#007AFF><b>Intuit</b></color></b></link></font></style> <b>Ann Putnam</b>, <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k59"><b><color=#007AFF><b>Gaze</b></color></b></link></font></style> <b>AliceThePeach</b> - Jailed</span>
+<span><br>[10]</span>
+<span class="Bread">Bread</span>
+<span>: CL game?</span>
+<span><br>[12]</span>
+<span class="Gaming">Gaming</span>
+<span>: <b>Im The Stabber</b> is fake</span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: it's CL game</span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: ?</span>
+<span><br>[12]</span>
+<span class="Gaming">Gaming</span>
+<span>: <b>Im The Stabber</b> is fake</span>
+<span><br>[3]</span>
+<span class="Minoas">Minoas</span>
+<span>: you cannot autopsy stoned</span>
+<span><br>[12]</span>
+<span class="Gaming">Gaming</span>
+<span>: I am coroner too, I baited as ret</span>
+<span><br>[10]</span>
+<span class="Bread">Bread</span>
+<span>: 15 wasn't jailed tho</span>
+<span><br>[12]</span>
+<span class="Gaming">Gaming</span>
+<span>: you cant autopsy stoned</span>
+<span><br>[3]</span>
+<span class="Minoas">Minoas</span>
+<span>: i am coro. but not like 14</span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: well damb</span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: there goes that play</span>
+<span><br>[3]</span>
+<span class="Minoas">Minoas</span>
+<span>: prop jester</span>
+<span><br>[12]</span>
+<span class="Gaming">Gaming</span>
+<span>: aha! my random lulz bait actually worked for smth</span>
+<span><br>[9]</span>
+<span class="Blue-Jester">Blue Jester</span>
+<span>: L</span>
+<span><br>[12]</span>
+<span class="Gaming">Gaming</span>
+<span>: and yeah, lets at least give jester the win</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Forensic</b> voted against <b>Im The Stabber</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Im The Stabber</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Thomas Danforth</b> voted against <b>Im The Stabber</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Minoas</b> voted against <b>Im The Stabber</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Gaming</b> voted against <b>Im The Stabber</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Blue Jester</b> voted against <b>Im The Stabber</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Im The Stabber</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Bayonetta</b> is whispering to <b>Thomas Danforth</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Thomas Danforth</b>: regarding your vision on n1</color></span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: thanks for the dub but i genuinely didn't know</span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: so ty for that knowledge</span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: i got something from this game</span>
+<span><br>[10]</span>
+<span class="Bread">Bread</span>
+<span>: <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#F5A6D4>Jester</color></b></link></font></style> ? guilty</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: GG jester</span>
+<span><br>[12]</span>
+<span class="Gaming">Gaming</span>
+<span>: Pick me jester</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Im The Stabber</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Bayonetta</b> is whispering to <b>Thomas Danforth</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Thomas Danforth</b>: it's very unlikely for 1 to have been jester or pirate</color></span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: pls dont haunt me</span>
+<span><br>[9]</span>
+<span class="Blue-Jester">Blue Jester</span>
+<span>: we love you jester</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Bayonetta</b> is whispering to <b>Thomas Danforth</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Thomas Danforth</b>: so 15 prob bad</color></span>
+<span><br>[12]</span>
+<span class="Gaming">Gaming</span>
+<span>: Release me from this prison that is called <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r5"><sprite="RoleIcons" name="Role5"><b><color=#06E00C>Coroner</color></b></link></font></style> Gamin</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Minoas</b> voted <b>Im The Stabber</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Thomas Danforth</b> voted <b>Im The Stabber</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Forensic</b> voted <b>Im The Stabber</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bankleton</b> voted <b>Im The Stabber</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Blue Jester</b> voted <b>Im The Stabber</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bread</b> voted <b>Im The Stabber</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Gaming</b> voted <b>Im The Stabber</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>AliceThePeach</b> voted <b>Im The Stabber</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Im The Stabber</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: i will not <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k81"><b><color=#007AFF><b>Haunt</b></color></b></link></font></style> coroner</span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: sorry</span>
+<span><br>[14]</span>
+<span class="Im-The-Stabber">Im The Stabber</span>
+<span>: as an honor policy</span>
+<span><br>[8]</span>
+<span class="Bankleton">Bankleton</span>
+<span>: we love jester roulette! :)))</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: 15 probably evil btw, it's unlikely for <b>Yoshi</b> to have been <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#F5A6D4>Jester</color></b></link></font></style> or <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r46"><sprite="RoleIcons" name="Role46"><b><color=#ECC23E>Pirate</color></b></link></font></style></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Im The Stabber</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Im The Stabber</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r47"><sprite="RoleIcons" name="Role47"><b><color=#FF004E>Plaguebearer</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: We have a 1f1 to settle</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: :(</span>
+<span><br>[10]</span>
+<span class="Bread">Bread</span>
+<span>: pb</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: poor pb</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Im The Stabber</b> left a last will.</span>
+<span><br>[3]</span>
+<span class="Minoas">Minoas</span>
+<span>: wow nice</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: Jester bearer lol</span>
+<span><br>[8]</span>
+<span class="Bankleton">Bankleton</span>
+<span>: :( no jester roulette</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bread</b> was kidnapped by the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r9"><sprite="RoleIcons" name="Role9"><b><color=#06E00C>Jailor</color></b></link></font></style>!</span>
+<span><br>[3]</span>
+<span class="Minoas">Minoas</span>
+<span>: ffs this jailor</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: everyone is getting kidnapped</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: wtf</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to use a voodoo doll on and attack <b>Blue Jester</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Minoas</b> decided to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <b>Bankleton</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Bankleton</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Bankleton</b> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Bayonetta</b> is whispering to <b>Thomas Danforth</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>To <b>Thomas Danforth</b>: N3- <b>Bread</b>, failed because jailed|</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r254"><sprite="RoleIcons" name="Role254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r14"><sprite="RoleIcons" name="Role14"><b><color=#06E00C>Psychic</color></b></link></font></style>).</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Bread</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were executed by the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r9"><sprite="RoleIcons" name="Role9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Bread</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r29"><sprite="RoleIcons" name="Role29"><b><color=#B545FF>Hex Master [10]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Thomas Danforth</b> is whispering to <b>Bayonetta</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF>From <b>Thomas Danforth</b>: yeah they were bad :(</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Gaming</b> is whispering to <b>Forensic</b>.</color></span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: N3- <b>Bread</b>, failed because jailed|</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: I was fking roleblocked are you serious :/</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: N3 - <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k60"><b><color=#007AFF><b>Intuit</b></color></b></link></font></style> <b>Bayonetta</b>, <b>AliceThePeach</b> - ENEMIES</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: 15 we still have a 1f1</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: between you and the seer</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: I was roleblocked</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Forensic</b> is whispering to <b>Blue Jester</b>.</color></span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: Cant be coven</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: OK? could be tav</span>
+<span><br>[3]</span>
+<span class="Minoas">Minoas</span>
+<span>: why not?</span>
+<span><br>[3]</span>
+<span class="Minoas">Minoas</span>
+<span>: you are not coven killing yeah</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: At least cant be ck</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Forensic</b> is whispering to <b>Blue Jester</b>.</color></span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: 1 certainly can't be coven and was unlikely to be evil</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>AliceThePeach</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Thomas Danforth</b> voted against <b>AliceThePeach</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Minoas</b> voted against <b>AliceThePeach</b>.</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: so if you are town, jailor can exe the seer</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: slow votes</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: If it helps the game then fine</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: vote please</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: 1f1</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: ...</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: for the love of god</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: S L O W</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: Or not</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Forensic</b> is whispering to <b>Blue Jester</b>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Gaming</b> voted against <b>AliceThePeach</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>AliceThePeach</b> was voted up to trial.</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: There we go. Jailor inno me in case of exe</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Forensic</b> is whispering to <b>Blue Jester</b>.</color></span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: Do what you will</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>AliceThePeach</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: oh yea</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: others guilty though</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: no cowards</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: TPow inno</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: all else guilty</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Minoas</b> voted <b>AliceThePeach</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Thomas Danforth</b> voted <b>AliceThePeach</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Forensic</b> voted <b>AliceThePeach</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Blue Jester</b> voted <b>AliceThePeach</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Gaming</b> voted <b>AliceThePeach</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>AliceThePeach</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: Fking unlucky</span>
+<span><br>[15]</span>
+<span class="AliceThePeach">AliceThePeach</span>
+<span>: GG</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: Sorry</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: I was Exe</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: :O</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>AliceThePeach</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>AliceThePeach</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r41"><sprite="RoleIcons" name="Role41"><b><color=#FF004E>Baker</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: W exe</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>AliceThePeach</b> left a last will.</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: rando haunt</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r44"><sprite="RoleIcons" name="Role44"><b><color=#949797>Executioner</color></b></link></font></style> successfully got their target hanged!</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>Thomas Danforth</b> accomplished their goal as <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r44"><sprite="RoleIcons" name="Role44"><b><color=#949797>Executioner</color></b></link></font></style> and left town.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Bayonetta</b> possesses the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Minoas</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were tormented by an <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r44"><sprite="RoleIcons" name="Role44"><b><color=#949797>Executioner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Minoas</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r32"><sprite="RoleIcons" name="Role32"><b><color=#B545FF>Medusa [3]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Forensic</b> is whispering to <b>Blue Jester</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><color=#FFCD00FF>Go to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>. Do not pass GO. Do not collect $200.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r9"><sprite="RoleIcons" name="Role9"><b><color=#06E00C>Jailor</color></b></link></font></style> is planning to <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="k64"><b><color=#007AFF><b>Execute</b></color></b></link></font></style> you.</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: Bayonetta the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#06E00C>Sheriff</color></b></link></font></style> | N1- <b>Minoas</b>, inno/secrets| N2- roleblocked| N3- <b>Bread</b>, failed because jailed| N4- | N5- | N6- | N7- |</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>:  N8- | N9- | N10- |</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: ????</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>gn voodoo</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: ?</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: Wtf are you talking about</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: Bayonetta the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#06E00C>Sheriff</color></b></link></font></style> |N1- <b>Minoas</b>, inno/secrets|N2- roleblocked|N3- <b>Bread</b>, failed because jailed|</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>uhh you're <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r37"><sprite="RoleIcons" name="Role37"><b><span style="color:#B545FF">Voodoo Master [9]</span></b></link></font></style> confirmed?</span>
+<span><br>[2]</span>
+<span class="Bayonetta">Bayonetta</span>
+<span>: how so?</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>cuz 12 isnt</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>and 9 is conf tav</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>lol</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were executed by the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r9"><sprite="RoleIcons" name="Role9"><b><color=#06E00C>Jailor</color></b></link></font></style>!</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Jer-Kinghoff</span>
+<span style="color:#689194">: 2 died instead, interesting</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Bayonetta</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were executed by the <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r9"><sprite="RoleIcons" name="Role9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Bayonetta</span>
+<span style="color:#689194">: i was jailed</i></span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">Bankleton</span>
+<span style="color:#689194">: lol</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Jer-Kinghoff</span>
+<span style="color:#689194">: ah dang</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Gaming</b> is whispering to <b>Forensic</b>.</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Bayonetta</b> left a last will.</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Bayonetta</span>
+<span style="color:#689194">: and surrounded by confirmed</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#6699FF><b>Forensic</b> is whispering to <b>Gaming</b>.</color></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Jer-Kinghoff</span>
+<span style="color:#689194">: rip lmao</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Minoas</span>
+<span style="color:#689194">: jailor carrieed hard</i></span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Bayonetta</span>
+<span style="color:#689194">: saddest part is</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: 2 I wish u guys kill 7 when I was jailed</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="Game SDF" material="Game SDF - Mentions"><link="r37"><sprite="RoleIcons" name="Role37"><b><color=#B545FF>Voodoo Master [9]</color></b></link></font></style>.</span>
+</body>
+</html>

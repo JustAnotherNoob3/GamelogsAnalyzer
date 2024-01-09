@@ -1,0 +1,994 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] blade - </span><span style="color:#06E00C"> Jailor </span>
+<span style="color:#a0a0a0"><i>(Username: Bladewens45)</i></span>
+<style>span.blade{color: #06E00C;}</style>
+<span><br>[2] Tophat - </span><span style="color:#06E00C"> Prosecutor </span>
+<span style="color:#a0a0a0"><i>(Username: APCrown)</i></span>
+<style>span.Tophat{color: #06E00C;}</style>
+<span><br>[3] Miasma - </span><span style="color:#F5A6D4"> Jester </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">tavern keep<br><br>n1: rb 1<br>n2: rb 9</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ghostband)</i></span>
+<style>span.Miasma{color: #F5A6D4;}</style>
+<span><br>[4] Psychopomp - </span><span style="color:#1D4DFC"> Serial Killer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Psychopomp</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style><br><br>N1: 10 (nb)<br><br>1 jailor<br>2 TK<br>3 tav rb 1<br>5 TS jailed<br>6<br>7<br>8<br>9<br>10<br>12<br>14<br>15</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: VivalaPluto)</i></span>
+<style>span.Psychopomp{color: #1D4DFC;}</style>
+<span><br>[5] melon - </span><span style="color:#06E00C"> Admirer </span>
+<span style="color:#a0a0a0"><i>(Username: Creativename70)</i></span>
+<style>span.melon{color: #06E00C;}</style>
+<span><br>[6] sucks - </span><span style="color:#B545FF"> Illusionist </span>
+<span style="color:#a0a0a0"><i>(Username: generic)</i></span>
+<style>span.sucks{color: #B545FF;}</style>
+<span><br>[7] neanderthol - </span><span style="color:#B545FF"> Potion Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">tavern keeper<br>n1 drink with sucks<br>n2</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: neanderthol666)</i></span>
+<style>span.neanderthol{color: #B545FF;}</style>
+<span><br>[8] safeegg - </span><span style="color:#06E00C"> Mayor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">mayor</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">wait that worked?</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: SafeEgg512)</i></span>
+<style>span.safeegg{color: #06E00C;}</style>
+<span><br>[9] Kyla - </span><span style="color:#9D7038"> Werewolf </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kyla</color></link></font></style> THe <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: StrangePerson128)</i></span>
+<style>span.Kyla{color: #9D7038;}</style>
+<span><br>[10] Bad Bad Boy - </span><span style="color:#06E00C"> Lookout </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Lookout<br>N1. 6- jailed<br>N2.6- No One<br>N3. 8- 6 visited</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TeoTheLionTamer)</i></span>
+<style>span.Bad-Bad-Boy{color: #06E00C;}</style>
+<span><br>[11] Briar - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Briar{color: #06E00C;}</style>
+<span><br>[12] Tpaint - </span><span style="color:#FF004E"> Plaguebearer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">n1. Blade inno<br>n2 SafeEgg inno<br>n3 jailed<br>n4 Sucks SUS</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Tpaint)</i></span>
+<style>span.Tpaint{color: #FF004E;}</style>
+<span><br>[13] Royal Dominguez - </span><span style="color:#06E00C"> Admirer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style> <br><br>I love you!<br><br><br><br>i AM the 1 real day 1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style> claim!</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: PirateKid9)</i></span>
+<style>span.Royal-Dominguez{color: #06E00C;}</style>
+<span><br>[14] Plago - </span><span style="color:#FF004E"> Baker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Plago - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> <br><br>N1- Wait<br>N2- Wait<br>N3- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k68"><b><color=#007AFF><b>Shoot</b></color></b></link></font></style> 12 (Jailed)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Galvion)</i></span>
+<style>span.Plago{color: #FF004E;}</style>
+<span><br>[15] Kill Briar - </span><span style="color:#06E00C"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: Tregims)</i></span>
+<style>span.Kill-Briar{color: #06E00C;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: DO IT</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: hello</span>
+<span><br>[13]</span>
+<span class="Royal-Dominguez">Royal Dominguez</span>
+<span>: ts day 1 as all day 1 ts claims are like totally evil</span>
+<span><br>[11]</span>
+<span class="Briar">Briar</span>
+<span>: ok</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: hang 13 tmr</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: 6 is a bad number</span>
+<span><br>[13]</span>
+<span class="Royal-Dominguez">Royal Dominguez</span>
+<span>: im the one real day 1 ts claim</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: no</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to celebrate with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Psychopomp</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were murdered by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style> you visited!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Briar</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: Why did I know I'd visit a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>?</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They visited a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Briar</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Royal Dominguez</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Royal Dominguez</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: thanks sk</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: oh, what do u know, 13 was real</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: jailed</span>
+<span><br>[3]</span>
+<span class="Miasma">Miasma</span>
+<span>: tavern keep n1: rb 1</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: what's 1?</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: and 5</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: well 1 isnt sk</span>
+<span><br>[14]</span>
+<span class="Plago">Plago</span>
+<span>: either 5 is CK or they hit SK perhaps</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: i was jailed yesterday</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: or 1 is ck</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: and i claim ts</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: 1 claim</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: wow 4 ts</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: i think coven hit immune</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: tavs make sure u tell ppl who u visit</span>
+<span><br>[8]</span>
+<span class="safeegg">safeegg</span>
+<span>: whats ck?</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: coven killing</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: coven killing</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Psychopomp</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>blade</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Kill Briar</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>blade</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="blade">blade</span>
+<span>: jailor</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: or cov with book</span>
+<span><br>[8]</span>
+<span class="safeegg">safeegg</span>
+<span>: thanks</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>melon</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>blade</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Kill Briar</color></link></font></style> cancelled their vote.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Miasma</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>blade</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Plago</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>blade</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Psychopomp</color></link></font></style> cancelled their vote.</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: im tk</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>melon</color></link></font></style> cancelled their vote.</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: next</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bad Bad Boy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tophat</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>sucks</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Miasma</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tophat</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Miasma</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Plago</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Miasma</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="blade">blade</span>
+<span>: i jailed melon</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Tpaint</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bad Bad Boy</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Miasma</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tophat</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Psychopomp</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Kill Briar</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Psychopomp</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bad Bad Boy</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Psychopomp</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>sucks</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Psychopomp</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bad Bad Boy</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>melon</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Miasma</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tophat</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>sucks</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>melon</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>melon</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Psychopomp</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Psychopomp">Psychopomp</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Psychopomp</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>N1: 10 (nb)</span>
+<span><br>[4]</span>
+<span class="Psychopomp">Psychopomp</span>
+<span>: I FORGOT TO POST</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: i claimed ts</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bad Bad Boy</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>sucks</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Psychopomp">Psychopomp</span>
+<span>: IM SORRY</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Tpaint</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Psychopomp</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Psychopomp">Psychopomp</span>
+<span>: I GOT DISTRACTED</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: ts</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: 4 is late</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>melon</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>sucks</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: wtf</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>sucks</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Tpaint</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>sucks</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Miasma</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>sucks</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bad Bad Boy</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>safeegg</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Kill Briar</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>sucks</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="neanderthol">neanderthol</span>
+<span>: tpaint is sus</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Plago</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style>.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: "Forgot to post" says the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style></i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: Heya <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style></i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Psychopomp</span>
+<span style="color:#689194">: sup</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Miasma</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>sucks</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Miasma</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Kill Briar</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>blade</color></link></font></style>.</color></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: Why did I know I was gonna visit a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style> on N1? lol.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tophat</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>blade</color></link></font></style>.</color></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: It's my typical luck with this role.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Psychopomp</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Psychopomp</span>
+<span style="color:#689194">: thats so unlucky lmao my bloodlust didnt even do anything :(</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Kyla</span>
+<span style="color:#689194">: wait how am i dead</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Psychopomp</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Kyla</span>
+<span style="color:#689194">: what attacked me</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Psychopomp</span>
+<span style="color:#689194">: 9 you ww?</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Kyla</span>
+<span style="color:#689194">: yeah</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Psychopomp</span>
+<span style="color:#689194">: i was sk w bloodlust</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>blade</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tophat</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: Well then lol.</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Psychopomp</span>
+<span style="color:#689194">: we killed each other LMAO</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kyla</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>sucks</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kyla</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Kyla</span>
+<span style="color:#689194">: wait sk has bloodthrist n2?</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Psychopomp</span>
+<span style="color:#689194">: i got a double kill</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Psychopomp</span>
+<span style="color:#689194">: n1</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>sucks</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style>.</color></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: Because I visited them and they killed 13.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Kyla</span>
+<span style="color:#689194">: LOL</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Kyla</span>
+<span style="color:#689194">: riiiipppp</i></span>
+<span><br>[14]</span>
+<span class="Plago">Plago</span>
+<span>: Wow SK and WW traded that's insane luck</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: oh what do u know, the guy late af was fake af</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: They got 2 kills, so instant bloodlust.</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Psychopomp</span>
+<span style="color:#689194">: rip to both of us lmao</i></span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: is there any coven?</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: And me</i></span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: nvm</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: so wait</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Kyla</span>
+<span style="color:#689194">: insane i thought i was safe if i walked away\</i></span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: continue with vfa ig</span>
+<span style="background-color:#000000; color:#FF7F66"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>safeegg</color></link></font></style> has revealed themself as the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>!</span>
+<span><br>[7]</span>
+<span class="neanderthol">neanderthol</span>
+<span>: tpaint is sus</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: we should get claims</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Kyla</span>
+<span style="color:#689194">: riperoni</i></span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: neat</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: 7</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Psychopomp</span>
+<span style="color:#689194">: you think youre safe and then the most insane shit happens</i></span>
+<span><br>[8]</span>
+<span class="safeegg">safeegg</span>
+<span>: vote neanderthol</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: there was no dnote</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: so what happened n1</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: 7 claim</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Kill Briar</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>safeegg</color></link></font></style>.</color></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: I mean, a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style> could've killed you N2 as well.</i></span>
+<span><br>[8]</span>
+<span class="safeegg">safeegg</span>
+<span>: why do you say tpaint is sus</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: 7 is ts</span>
+<span><br>[8]</span>
+<span class="safeegg">safeegg</span>
+<span>: role neanderthol</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: So you were never truly safe.</i></span>
+<span><br>[7]</span>
+<span class="neanderthol">neanderthol</span>
+<span>: sheriff</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: 10 claim</span>
+<span><br>[10]</span>
+<span class="Bad-Bad-Boy">Bad Bad Boy</span>
+<span>: LookoutN1. 6- jailedN2.6- No One</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: crazy</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Kill Briar</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tophat</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>blade</color></link></font></style>.</color></span>
+<span><br>[14]</span>
+<span class="Plago">Plago</span>
+<span>: ok 7 jest</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>melon</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>safeegg</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Plago</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style> was voted up to trial.</span>
+<span><br>[7]</span>
+<span class="neanderthol">neanderthol</span>
+<span>: n1 tpaint is sus</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: wait what who was jailed?</span>
+<span><br>[7]</span>
+<span class="neanderthol">neanderthol</span>
+<span>: what more do you want</span>
+<span><br>[8]</span>
+<span class="safeegg">safeegg</span>
+<span>: me</span>
+<span><br>[8]</span>
+<span class="safeegg">safeegg</span>
+<span>: lol</span>
+<span><br>[14]</span>
+<span class="Plago">Plago</span>
+<span>: Where is N2</span>
+<span><br>[12]</span>
+<span class="Tpaint">Tpaint</span>
+<span>: im not sus, guilty this</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: all guilty except 8</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>blade</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tophat</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>blade</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tophat</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>melon</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>sucks</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>safeegg</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Bad Bad Boy</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Tpaint</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Plago</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Kill Briar</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>neanderthol</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>neanderthol</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>neanderthol</b> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: mayor gambling</span>
+<span><br>[7]</span>
+<span class="neanderthol">neanderthol</span>
+<span>: he is polagebearer</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Tophat</b> is whispering to <b>blade</b>.</color></span>
+<span><br>[14]</span>
+<span class="Plago">Plago</span>
+<span>: who?</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: the polagebearer</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>neanderthol</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>neanderthol</b> was convicted and executed.</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">neanderthol</span>
+<span style="color:#689194">: 12</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: wow</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>neanderthol</b> left a last will.</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: obv they are polar bear</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Tophat</b> is whispering to <b>blade</b>.</color></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: Also 7, NA are <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k42"><b><color=#007AFF><b>Not Sus</b></color></b></link></font></style></i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: Click the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> keyword to find out what is and isn't <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style>.</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>safeegg</b> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Tophat</b> is whispering to <b>melon</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>safeegg</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Kill Briar</b> is whispering to <b>blade</b>.</color></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: mayor</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>melon</b> is whispering to <b>Tophat</b>.</color></span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">safeegg</span>
+<span style="color:#689194">: what</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Psychopomp</span>
+<span style="color:#689194">: mayor</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: mayor</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Plago</b> is whispering to <b>blade</b>.</color></span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> has transformed into <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r250"><b><color=#FF004E>Famine</color></b></link></font></style>, Horseman of the Apocalypse! A famine has begun!</span>
+<span><br>[10]</span>
+<span class="Bad-Bad-Boy">Bad Bad Boy</span>
+<span>: N3. 8- 6 visited</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: 10 can u post ur will again</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: oh ffs</span>
+<span><br>[14]</span>
+<span class="Plago">Plago</span>
+<span>: Well fuck</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: 12 and 14 last to claim</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: hmmmmm</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: alright if 12 is really pb</span>
+<span><br>[10]</span>
+<span class="Bad-Bad-Boy">Bad Bad Boy</span>
+<span>: LookoutN1. 6- jailedN2.6- No OneN3. 8- 6 visited</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: am traooer</span>
+<span><br>[14]</span>
+<span class="Plago">Plago</span>
+<span>: I claimed to jailor</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: claim out loud</span>
+<span><br>[12]</span>
+<span class="Tpaint">Tpaint</span>
+<span>: im the sheriff, i knew SafeEgg was inno before she revealed</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: idc</span>
+<span><br>[14]</span>
+<span class="Plago">Plago</span>
+<span>: Im vigi</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: 12 is famine pmer revealed them</span>
+<span><br>[14]</span>
+<span class="Plago">Plago</span>
+<span>: shot 12</span>
+<span><br>[14]</span>
+<span class="Plago">Plago</span>
+<span>: they were jailed</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Miasma</span>
+<span style="color:#689194">: traooer</i></span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: wait 10, wasn't 5 the one jailed</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: Not enough nights for 14 to be <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r250"><b><color=#FF004E>Famine</color></b></link></font></style></i></span>
+<span><br>[12]</span>
+<span class="Tpaint">Tpaint</span>
+<span>: i was in jail last night</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: its 14 or 15</span>
+<span><br>[10]</span>
+<span class="Bad-Bad-Boy">Bad Bad Boy</span>
+<span>: Jailor can confirm me</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: its a 2 coven game and im outted coven</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: 6 is ck 12 is pb</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kill Briar</b> voted against <b>Tpaint</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Bad Bad Boy</b> voted against <b>sucks</b>.</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: its 14 or 15</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Plago</b> voted against <b>Kill Briar</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>sucks</b> voted against <b>Tpaint</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tophat</b> voted against <b>Tpaint</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>melon</b> voted against <b>Kill Briar</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tpaint</b> voted against <b>Kill Briar</b>.</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: 12 is pb according to pmer</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: im trapper</span>
+<span><br>[10]</span>
+<span class="Bad-Bad-Boy">Bad Bad Boy</span>
+<span>: 6 literaally got caught</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kill Briar</b> cancelled their vote.</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: it needs to be 14 or 15</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kill Briar</b> voted against <b>Plago</b>.</span>
+<span><br>[10]</span>
+<span class="Bad-Bad-Boy">Bad Bad Boy</span>
+<span>: N3. 8- 6 visited</span>
+<span><br>[14]</span>
+<span class="Plago">Plago</span>
+<span>: Well I shot 12</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>melon</b> is whispering to <b>Tophat</b>.</color></span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style> N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k95"><b><color=#007AFF><b>Build</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> X (Didn't Trigger)N3 Wait (No Trigger)</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: 12 is famine idiots</span>
+<span style="background-color:#000000; color:#02FF4D"><br><color=#1133FF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tophat</color></link></font></style> prosecuted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Plago</color></link></font></style>!</color></span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: fck it</span>
+<span><br>[14]</span>
+<span class="Plago">Plago</span>
+<span>: wow</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: idkw aht im doing</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Plago</b> has disconnected from life.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Miasma</span>
+<span style="color:#689194">: wow</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tophat</b> voted <b>Plago</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Plago</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Plago</b> has been judged <b><style="GuiltyColor">guilty</style></b> and will be put to death.</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: now we hope</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: oh way</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: achievemnt</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Plago</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were Prosecuted.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r250"><b><color=#FF004E>Famine</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: Famine, nice.</i></span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: hmmmm</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Plago</b> left a last will.</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: nice one</span>
+<span><br>[10]</span>
+<span class="Bad-Bad-Boy">Bad Bad Boy</span>
+<span>: now 6?</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: nuh uh</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: So they were never jailed lol.</i></span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: jailor on 6</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: 2 made a good call there</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Bad Bad Boy</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Bad Bad Boy</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>melon</b> is whispering to <b>Tophat</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>sucks</b> is whispering to <b>Tophat</b>.</color></span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>A <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k9"><b><color=#007AFF><b>Plague</b></color></b></link></font></style> has consumed the Town, transforming the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><b><color=#FF004E>Plaguebearer</color></b></link></font></style> into <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r252"><b><color=#FF004E>Pestilence</color></b></link></font></style>, Horseman of the Apocalypse!</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: why wasn't 6 exed? wtf</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: ok now 12</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: im jailor</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: alright we vote 12</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: 1 post ur full will</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: jailor jailexe 6</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: so does 6</span>
+<span><br>[12]</span>
+<span class="Tpaint">Tpaint</span>
+<span>: vote 6 we know hes not the jailor</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: im jailor</span>
+<span><br>[1]</span>
+<span class="blade">blade</span>
+<span>: i misclicked 5 sorr</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: i cant exe myself</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: we know 6 is not jailor</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: 12 is literly pb</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: no 10 wills</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: goes against that</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: 6 visited</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: 2 is famine!</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: 10s will proves 6 is ck</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: we up 12 here</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>melon</b> voted against <b>Tpaint</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kill Briar</b> voted against <b>Tpaint</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>blade</b> voted against <b>sucks</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>sucks</b> voted against <b>Tophat</b>.</span>
+<span><br>[12]</span>
+<span class="Tpaint">Tpaint</span>
+<span>: im the sheriff</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tophat</b> voted against <b>sucks</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>sucks</b> changed their vote to <b>blade</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tpaint</b> voted against <b>sucks</b>.</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: we have to up 12 here</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: thats not nice</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: everyone just stay home</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: WE NEED PB</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>melon</b> changed their vote to <b>sucks</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>sucks</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>melon</b> is whispering to <b>blade</b>.</color></span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: Retributionist N1-no bodies N2-rb 7 N3-rb 1 N4-rb 2</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>melon</b> is whispering to <b>blade</b>.</color></span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: (real)</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: INNO, WE NEED PLAGUEBEARER, NOT COVEN</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: inno this up 12 jailor cant exe 12</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: inno get 12</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: oh yeah</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: forgot about that</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: inno</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: get 133</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>melon</b> is whispering to <b>blade</b>.</color></span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: 2 is pestilence</span>
+<span><br>[2]</span>
+<span class="Tophat">Tophat</span>
+<span>: 12</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: JAILOR CAN'T EXE A HORSEMAN</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>blade</b> voted <b>sucks</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tophat</b> voted <b>sucks</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>melon</b> voted <b>sucks</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tpaint</b> voted <b>sucks</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kill Briar</b> voted <b>sucks</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>sucks</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <b>sucks</b> by a vote of <color=#66FF66><b>4</b></color> to <color=#FF0000><b>1</b></color>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Tophat</b> is whispering to <b>melon</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>melon</b> is whispering to <b>Tophat</b>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: IT'S 12</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kill Briar</b> voted against <b>Tpaint</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>sucks</b> voted against <b>Tophat</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>melon</b> voted against <b>Tpaint</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tophat</b> voted against <b>Tpaint</b>.</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: vote 12</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: vote 2</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>blade</b> voted against <b>Tpaint</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Tpaint</b> was voted up to trial.</span>
+<span><br>[12]</span>
+<span class="Tpaint">Tpaint</span>
+<span>: n1. Blade inno n2 SafeEgg inno n3 jailed n4 Sucks SUS</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: this is good inno</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: 1st 6 would be inno</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: guilty lol</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: they have book</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: CK isn't Sus lol.</i></span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: nah i think they jester!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>blade</b> voted <b>Tpaint</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tophat</b> voted <b>Tpaint</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>melon</b> voted <b>Tpaint</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>sucks</b> voted <b>Tpaint</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kill Briar</b> voted <b>Tpaint</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Tpaint</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Tpaint</b> to death by a vote of <color=#FF0000><b>4</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Tophat</b> is whispering to <b>Kill Briar</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Kill Briar</b> is whispering to <b>Tophat</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Tpaint</b> died today.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Kill Briar</b> is whispering to <b>Tophat</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Tpaint</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r252"><b><color=#FF004E>Pestilence</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="melon">melon</span>
+<span>: jail and kill 6</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: wow i never knew that!</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Tophat</b> is whispering to <b>Kill Briar</b>.</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Tpaint</b> left a last will.</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: getv 6</span>
+<span><br>[15]</span>
+<span class="Kill-Briar">Kill Briar</span>
+<span>: jailor</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: dont</span>
+<span><br>[6]</span>
+<span class="sucks">sucks</span>
+<span>: 2 is coven</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: Purple <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style></i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: In All <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r115"><b><color=#FFFFFF>Any</color></b></link></font></style></i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Briar</span>
+<span style="color:#689194">: Real</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Kill Briar</b> is whispering to <b>blade</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>sucks</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were executed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Kill Briar</b> is whispering to <b>Tophat</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Kill Briar</b> is whispering to <b>melon</b>.</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>sucks</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r30"><b><color=#B545FF>Illusionist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>melon</b> is whispering to <b>Kill Briar</b>.</color></span>
+</body>
+</html>

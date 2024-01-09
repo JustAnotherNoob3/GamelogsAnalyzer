@@ -1,0 +1,833 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Not Veteran - </span><span style="color:#B545FF"> Coven Leader </span>
+<span style="color:#a0a0a0"><i>(Username: AWeekFromNextTuesday)</i></span>
+<style>span.Not-Veteran{color: #B545FF;}</style>
+<span><br>[2] Grandpa Bob - </span><span style="color:#B545FF"> Poisoner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> <br>n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wonton</color></link></font></style> <br>n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Demen1175)</i></span>
+<style>span.Grandpa-Bob{color: #B545FF;}</style>
+<span><br>[3] Loon - </span><span style="color:#06E00C"> Deputy </span>
+<span style="color:#a0a0a0"><i>(Username: StupidPeasant)</i></span>
+<style>span.Loon{color: #06E00C;}</style>
+<span><br>[4] Disjoint - </span><span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: owlsop)</i></span>
+<style>span.Disjoint{color: #06E00C;}</style>
+<span><br>[5] Lovely Bimbo - </span><span style="color:#B545FF"> Witch </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Was I the baddest in the land????<br>Lovely Bimbo</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Cakerose)</i></span>
+<style>span.Lovely-Bimbo{color: #B545FF;}</style>
+<span><br>[6] Abigail Hobbs - </span><span style="color:#B545FF"> Voodoo Master </span>
+<span style="color:#a0a0a0"><i>(Username: Gspot)</i></span>
+<style>span.Abigail-Hobbs{color: #B545FF;}</style>
+<span><br>[7] Tetellius - </span><span style="color:#9D7038"> Werewolf </span>
+<span style="color:#a0a0a0"><i>(Username: dbzskate)</i></span>
+<style>span.Tetellius{color: #9D7038;}</style>
+<span><br>[8] Thievy Eevee - </span><span style="color:#06E00C"> Veteran </span>
+<span style="color:#a0a0a0"><i>(Username: Delupe)</i></span>
+<style>span.Thievy-Eevee{color: #06E00C;}</style>
+<span><br>[9] Girl Kisser - </span><span style="color:#06E00C"> Crusader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Girl Kisser</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style><br><br><br>// N1. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k66"><b><color=#007AFF><b>Fortify</b></color></b></link></font></style>ing <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k49"><b><color=#007AFF><b>Attack</b></color></b></link></font></style>ed a Visitor, but no one died)<br><br>// N2. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k66"><b><color=#007AFF><b>Fortify</b></color></b></link></font></style>ing <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Loon</color></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k49"><b><color=#007AFF><b>Attack</b></color></b></link></font></style>ed a Visitor, the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MarioMamTess)</i></span>
+<style>span.Girl-Kisser{color: #06E00C;}</style>
+<span><br>[10] Logos - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><style="TownColor">Town </style><color=#1F51FF>Killing</color></b></link></font></style> <br>n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Not Veteran</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Luxlia)</i></span>
+<style>span.Logos{color: #06E00C;}</style>
+<span><br>[11] Wonton - </span><span style="color:#06E00C"> Sheriff </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Sheriff<br>n1: rbed<br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: mrmicroid)</i></span>
+<style>span.Wonton{color: #06E00C;}</style>
+<span><br>[12] Clumsy - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Clumsy the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br>N.1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style>, not <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style> <br>N.2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Moo</color></link></font></style> <br><br><br><br><br>let me join you fellow <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Clumsy)</i></span>
+<style>span.Clumsy{color: #06E00C;}</style>
+<span><br>[13] Clay - </span><span style="color:#06E00C"> Seer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> <br>N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Disjoint</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Logos</color></link></font></style> Friends<br>N2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Clumsy</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Loon</color></link></font></style> <br><br>2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> <br>3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style> <br>4 TPOW<br>5 TS<br>7 TP <br>8 TK<br>9 TP<br>11 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> ?<br>12<br>14 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>15<br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#B545FF>Witch [5]</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Daysal)</i></span>
+<style>span.Clay{color: #06E00C;}</style>
+<span><br>[14] Mary Eastey - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Mary Eastey</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Disjoint</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k111"><b><color=#007AFF><b>No Blood</b></color></b></link></font></style> )<br>N2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Moo</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: siccovicco)</i></span>
+<style>span.Mary-Eastey{color: #06E00C;}</style>
+<span><br>[15] Moo - </span><span style="color:#6699FF"> Shroud </span>
+<span style="color:#a0a0a0"><i>(Username: Lennie)</i></span>
+<style>span.Moo{color: #6699FF;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[9]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Morning</span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: tp/lo on me</span>
+<span><br>[3]</span>
+<span class="Loon">Loon</span>
+<span>: whats a morning?</span>
+<span><br>[9]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: An early period of time during the day</span>
+<span><br>[1]</span>
+<span class="Not-Veteran">Not Veteran</span>
+<span>: Goodnight :)</span>
+<span><br>[5]</span>
+<span class="Lovely-Bimbo">Lovely Bimbo</span>
+<span>: top o the morning</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k66"><b><color=#007AFF><b>Fortify</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You attacked someone visiting your target.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Not Veteran</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Not Veteran</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r26"><b><color=#B545FF>Coven Leader [1]</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Abigail Hobbs</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Abigail Hobbs</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#B545FF>Voodoo Master [9]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Girl Kisser</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style>: Did anything happen to you last night?</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Logos</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Girl Kisser</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style>: Nope</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Logos</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Girl Kisser</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style>: Someone with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k50"><b><color=#007AFF><b>Defense</b></color></b></link></font></style> must've visited you.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Loon">Loon</span>
+<span>: I got witched</span>
+<span><br>[11]</span>
+<span class="Wonton">Wonton</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> Gaming just go #1 night 1</span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: based trickster</span>
+<span><br>[13]</span>
+<span class="Clay">Clay</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Disjoint</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Logos</color></link></font></style> Friends</span>
+<span><br>[14]</span>
+<span class="Mary-Eastey">Mary Eastey</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Mary Eastey</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Disjoint</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k111"><b><color=#007AFF><b>No Blood</b></color></b></link></font></style> )</span>
+<span><br>[9]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Morning</span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: Morning</span>
+<span><br>[11]</span>
+<span class="Wonton">Wonton</span>
+<span>: also rbed</span>
+<span><br>[5]</span>
+<span class="Lovely-Bimbo">Lovely Bimbo</span>
+<span>: Morning morning</span>
+<span><br>[12]</span>
+<span class="Clumsy">Clumsy</span>
+<span>: based trickster</span>
+<span><br>[9]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Nice hit <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>!</span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: I am indeed friends with 10</span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: vfa I guess?</span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: Where did you met 10</span>
+<span><br>[5]</span>
+<span class="Lovely-Bimbo">Lovely Bimbo</span>
+<span>: Any guess?</span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: to be friends before</span>
+<span><br>[3]</span>
+<span class="Loon">Loon</span>
+<span>: witch know what I am so Im gonna open claim</span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: at a bar</span>
+<span><br>[3]</span>
+<span class="Loon">Loon</span>
+<span>: I am deputy man</span>
+<span><br>[14]</span>
+<span class="Mary-Eastey">Mary Eastey</span>
+<span>: what r u 3?</span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: I am tpow</span>
+<span><br>[14]</span>
+<span class="Mary-Eastey">Mary Eastey</span>
+<span>: oh hell yeah 3</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wonton</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Grandpa Bob</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Mary Eastey</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Grandpa Bob</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Loon</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="Wonton">Wonton</span>
+<span>: vFA</span>
+<span><br>[2]</span>
+<span class="Grandpa-Bob">Grandpa Bob</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wonton</color></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Loon</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Grandpa Bob</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Disjoint</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Grandpa Bob</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Mary Eastey</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Disjoint</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wonton</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Loon</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Girl Kisser</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style>: Hopefully what visited you was a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> or an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style>, not an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style> or something...</color></span>
+<span><br>[3]</span>
+<span class="Loon">Loon</span>
+<span>: vfa</span>
+<span><br>[3]</span>
+<span class="Loon">Loon</span>
+<span>: pls</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Grandpa Bob</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Loon</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Mary-Eastey">Mary Eastey</span>
+<span>: 5 next</span>
+<span><br>[11]</span>
+<span class="Wonton">Wonton</span>
+<span>: facts i was rbed</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wonton</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Disjoint</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Loon">Loon</span>
+<span>: I need to shoot</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Clay</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Mary-Eastey">Mary Eastey</span>
+<span>: 3 claimed</span>
+<span><br>[11]</span>
+<span class="Wonton">Wonton</span>
+<span>: go 4</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Grandpa Bob</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Loon</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Clumsy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Girl Kisser</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style>: Did you attack someone on me?</color></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Girl Kisser</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style>: That is what I said, yeah.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Mary Eastey</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wonton</color></link></font></style>.</color></span>
+<span><br>[5]</span>
+<span class="Lovely-Bimbo">Lovely Bimbo</span>
+<span>: I'm know ts</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Disjoint</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Loon</color></link></font></style>.</color></span>
+<span><br>[5]</span>
+<span class="Lovely-Bimbo">Lovely Bimbo</span>
+<span>: new</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wonton</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Mary Eastey</color></link></font></style>.</color></span>
+<span><br>[5]</span>
+<span class="Lovely-Bimbo">Lovely Bimbo</span>
+<span>: sorry I'm also dumb</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Girl Kisser</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style>: I suppose now is a good time to ask, what are you anyways?</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Girl Kisser</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style>: Okay, um....don't do that anymore. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style></color></span>
+<span><br>[3]</span>
+<span class="Loon">Loon</span>
+<span>: inno this whats 7?</span>
+<span><br>[5]</span>
+<span class="Lovely-Bimbo">Lovely Bimbo</span>
+<span>: I'm new</span>
+<span><br>[13]</span>
+<span class="Clay">Clay</span>
+<span>: 8 next</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Grandpa Bob</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Loon</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Disjoint</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Tetellius</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thievy Eevee</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wonton</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Clumsy</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Clay</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Mary Eastey</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Moo</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Lovely Bimbo</color></link></font></style>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Lovely Bimbo</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mary Eastey</b> has disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Girl Kisser</b> is whispering to <b>Thievy Eevee</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>Thievy Eevee</b>: Sounds good. I'll go on someone else.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: TK</span>
+<span><br>[11]</span>
+<span class="Wonton">Wonton</span>
+<span>: 7 claimed tp</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Grandpa Bob</b> voted against <b>Tetellius</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Wonton</b> voted against <b>Thievy Eevee</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Clay</b> voted against <b>Thievy Eevee</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Loon</b> voted against <b>Thievy Eevee</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Grandpa Bob</b> changed their vote to <b>Thievy Eevee</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Disjoint</b> voted against <b>Thievy Eevee</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Wonton</b> changed their vote to <b>Girl Kisser</b>.</span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: i claimed tp</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: TK</span>
+<span><br>[9]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style> here.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Loon</b> changed their vote to <b>Girl Kisser</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Lovely Bimbo</b> voted against <b>Thievy Eevee</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Disjoint</b> changed their vote to <b>Girl Kisser</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Grandpa Bob</b> changed their vote to <b>Girl Kisser</b>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br><b>Mary Eastey</b> has reconnected with life.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Loon</b> changed their vote to <b>Wonton</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Disjoint</b> changed their vote to <b>Wonton</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Clay</b> changed their vote to <b>Wonton</b>.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k66"><b><color=#007AFF><b>Fortify</b></color></b></link></font></style> <b>Loon</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You attacked someone visiting your target.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Wonton</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Wonton</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Disjoint</b> is whispering to <b>Thievy Eevee</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Clumsy</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Clumsy</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Girl Kisser</b> is whispering to <b>Loon</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>Loon</b>: ANything hapen to you last night?</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Loon</b> is whispering to <b>Girl Kisser</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>From <b>Loon</b>: nothing at all</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Girl Kisser</b> is whispering to <b>Thievy Eevee</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>Thievy Eevee</b>: Someone visited 3</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Clay</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Clay</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Girl Kisser</b> is whispering to <b>Thievy Eevee</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF>To <b>Thievy Eevee</b>: Damn, was hoping it wasn't them.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mary Eastey</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Mary Eastey</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Moo</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Moo</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: wow</span>
+<span><br>[9]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Morning</span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: Morning</span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: that was a lot of deaths</span>
+<span><br>[3]</span>
+<span class="Loon">Loon</span>
+<span>: is 8 vet?</span>
+<span><br>[9]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: That was... an eventful night.</span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: so 8 is vet</span>
+<span><br>[9]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: Yeah, 8 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: Visit him tomorrow just to be sure</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: Stay off my lawn</span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: someone is crus</span>
+<span><br>[5]</span>
+<span class="Lovely-Bimbo">Lovely Bimbo</span>
+<span>: That was a lot dead</span>
+<span><br>[3]</span>
+<span class="Loon">Loon</span>
+<span>: who is crus</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Tetellius</b> is whispering to <b>Disjoint</b>.</color></span>
+<span><br>[3]</span>
+<span class="Loon">Loon</span>
+<span>: ?</span>
+<span><br>[9]</span>
+<span class="Girl-Kisser">Girl Kisser</span>
+<span>: idk</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><color=#1133FF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Loon</color></link></font></style> revealed as a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style> and shot <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Girl Kisser</color></link></font></style>!</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Girl Kisser</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Logos</span>
+<span style="color:#689194">: well</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Girl Kisser</b> left a last will.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Wonton</span>
+<span style="color:#689194">: omg</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Disjoint</b> is whispering to <b>Loon</b>.</color></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: Gee <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>, maybe I was trying to be fucking Subtle?</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Logos</span>
+<span style="color:#689194">: town on town</i></span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">Not-Veteran</span>
+<span style="color:#689194">: Who will win: A carefully planned Coven with a full team to deceive the town, or one trick boi</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Tetellius</b> is whispering to <b>Loon</b>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Loon</b> has <b><style="GuiltyColor">dishonored the town</style></b> and will be put to death.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: 3... How the fuck did you not know I was the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>?</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Loon</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>For crimes against the town, the hangman has executed them.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Loon</span>
+<span style="color:#689194">: 2 tp claims</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Loon</b> did not leave a last will.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: I literally asked you if anything happened to you last night.</i></span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">Not-Veteran</span>
+<span style="color:#689194">: oh wait coven might win this</i></span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: Someone here has defense, just fyi. Wasn't going to out <b>Girl Kisser</b>, but they were on me N1 and hit someone. <b>Disjoint</b>, which Tpow?</span>
+<span><br>[2]</span>
+<span class="Grandpa-Bob">Grandpa Bob</span>
+<span>: ffs dep</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>Disjoint</b> has revealed themself as the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>!</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Loon</span>
+<span style="color:#689194">: I would shoot the other one</i></span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: this tpow</span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">Not-Veteran</span>
+<span style="color:#689194">: WHY DO I SPEAK</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Logos</span>
+<span style="color:#689194">: so much is happening today</i></span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">Not-Veteran</span>
+<span style="color:#689194">: WHY</i></span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: Someone has def</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: 3, you are an absolute moron.</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: I shall obey 4</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Wonton</span>
+<span style="color:#689194">: town just slowly killing itself</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Logos</span>
+<span style="color:#689194">: what a day</i></span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: hmm</span>
+<span><br>[5]</span>
+<span class="Lovely-Bimbo">Lovely Bimbo</span>
+<span>: ?</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: We have a witch and an immune</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: Crus hit someone on me N1</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Disjoint</b> voted against <b>Lovely Bimbo</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Lovely Bimbo</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Tetellius</b> is whispering to <b>Thievy Eevee</b>.</color></span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">Not-Veteran</span>
+<span style="color:#689194">: The MOMENT I said we had a chance the mayor reveals and votes the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#B545FF>Witch [5]</color></b></link></font></style></i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: Gee, I wonder who the fucking <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> was.</i></span>
+<span><br>[5]</span>
+<span class="Lovely-Bimbo">Lovely Bimbo</span>
+<span>: It wasn't me</span>
+<span><br>[5]</span>
+<span class="Lovely-Bimbo">Lovely Bimbo</span>
+<span>: I'm admi</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: Maybe it was the person who literally asked you if anyone visited you, and the one who killed a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> that was ON YOU.</i></span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Abigail-Hobbs</span>
+<span style="color:#689194">: nah this game is cursed af</i></span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: anyone rbed?</span>
+<span><br>[2]</span>
+<span class="Grandpa-Bob">Grandpa Bob</span>
+<span>: they did propose</span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: nope</span>
+<span><br>[2]</span>
+<span class="Grandpa-Bob">Grandpa Bob</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> n1 <b>Wonton</b> n2 <b>Lovely Bimbo</b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Grandpa Bob</b> voted <b>Lovely Bimbo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Disjoint</b> <b><style="AbstainColor>abstained</style></b> on <b>Lovely Bimbo</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tetellius</b> <b><style="AbstainColor>abstained</style></b> on <b>Lovely Bimbo</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Thievy Eevee</b> voted <b>Lovely Bimbo</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Lovely Bimbo</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Lovely Bimbo</b> to death by a vote of <color=#FF0000><b>2</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Loon</span>
+<span style="color:#689194">: yeah yeah next time Id just shoot the mayor</i></span>
+<span><br>[5]</span>
+<span class="Lovely-Bimbo">Lovely Bimbo</span>
+<span>: It was fun but i'm ded</span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">Not-Veteran</span>
+<span style="color:#689194">: You are on trial for 15 cases of murder. How do you plead? "NUH UH"</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Lovely Bimbo</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Lovely Bimbo</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#B545FF>Witch [5]</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#AA7CFF><b>Disjoint</b> is whispering to <b>Thievy Eevee</b>.</color></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Loon</span>
+<span style="color:#689194">: less of a hassle</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: 3, you can't connect a single fucking dot, can you?</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Lovely Bimbo</b> left a last will.</span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: my gut was right</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: Alerting</span>
+<span><br>[4]</span>
+<span class="Disjoint">Disjoint</span>
+<span>: nice</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: The dot you had to connect was a straight line, and you fucking drew an oval.</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Lovely-Bimbo</span>
+<span style="color:#689194">: I dead</i></span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">Not-Veteran</span>
+<span style="color:#689194">: town vs one drink boi</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Disjoint</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Disjoint</b> did not leave a last will.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Disjoint</span>
+<span style="color:#689194">: 2 is poisoner I bet</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Loon</span>
+<span style="color:#689194">: yes</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: I'm seriously so upset at 3 right now.</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Loon</span>
+<span style="color:#689194">: seethe more</i></span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: Well, i lied i was tp</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Disjoint</span>
+<span style="color:#689194">: I messaged 8 so hopefully they listen to my gut</i></span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: im actually exe</span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">Not-Veteran</span>
+<span style="color:#689194">: ya know coven would have had a better chance if half of us didnt die n1</i></span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: and targeted you 8</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: We vote out 7 here</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Disjoint</span>
+<span style="color:#689194">: god dammit</i></span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: n1</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: 8</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: I mean</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: No</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: I can't read</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: Too tird</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: tired</span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: Lets just get cov out and gg</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Grandpa Bob</b> voted against <b>Tetellius</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tetellius</b> voted against <b>Grandpa Bob</b>.</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: 2 you tav?</span>
+<span><br>[2]</span>
+<span class="Grandpa-Bob">Grandpa Bob</span>
+<span>: 7 lied</span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: Yeah im exe</span>
+<span><br>[2]</span>
+<span class="Grandpa-Bob">Grandpa Bob</span>
+<span>: im tav</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Thievy Eevee</b> voted against <b>Tetellius</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Tetellius</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: 8...</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Disjoint</span>
+<span style="color:#689194">: 8 you idiot</i></span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: 8, i visited you N1</span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">Not-Veteran</span>
+<span style="color:#689194">: no way coven wins this</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Disjoint</span>
+<span style="color:#689194">: 2 is poisoner I even told you so</i></span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: Crusader attacked me but i have basic armor</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: Seems this town has multiple idiots.</i></span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: 2 is the coven</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: 2 might be poisoner</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Wonton</span>
+<span style="color:#689194">: why would exe care tho?</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Grandpa Bob</b> voted <b>Tetellius</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Thievy Eevee</b> voted <b>Tetellius</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Tetellius</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <b>Tetellius</b> by a vote of <color=#66FF66><b>1</b></color> to <color=#FF0000><b>1</b></color>.</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: I can't risk that. Poisoner counters me</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Logos</span>
+<span style="color:#689194">: aweeee</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: He is the poisoner*</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Grandpa Bob</b> voted against <b>Thievy Eevee</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Thievy Eevee</b> voted against <b>Grandpa Bob</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tetellius</b> voted against <b>Grandpa Bob</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Grandpa Bob</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: Because the Exe can't win here if 2 refuses to vote 8 out.</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Logos</span>
+<span style="color:#689194">: ayeeeee</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Logos</span>
+<span style="color:#689194">: we winning</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Lovely-Bimbo</span>
+<span style="color:#689194">: NOOOOOOOO</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Wonton</span>
+<span style="color:#689194">: oh fair i guess <b>Grandpa Bob</b> would die anyway</i></span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: I can fake out 7 until the game ends. I can't beat you if you're poisoner <b>Grandpa Bob</b>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: I'm glad the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style> at least was smart enough.</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Logos</span>
+<span style="color:#689194">: aye there were spme smarties in here</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tetellius</b> voted <b>Grandpa Bob</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Thievy Eevee</b> voted <b>Grandpa Bob</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Grandpa Bob</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Grandpa Bob</b> to death by a vote of <color=#FF0000><b>2</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Disjoint</span>
+<span style="color:#689194">: 5 was kind of obviously sus</i></span>
+<span><br>[2]</span>
+<span class="Grandpa-Bob">Grandpa Bob</span>
+<span>: rip</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Logos</span>
+<span style="color:#689194">: me and other trick gave our lives for town</i></span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Abigail-Hobbs</span>
+<span style="color:#689194">: and 2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> did wonder</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: I mean yeah 10, I just meant near the end.</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Lovely-Bimbo</span>
+<span style="color:#689194">: No my fatherrrr</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Logos</span>
+<span style="color:#689194">: thank you 6</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Logos</span>
+<span style="color:#689194">: i appreciate you</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Grandpa Bob</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Grandpa Bob</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#B545FF>Poisoner [4]</color></b></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: Okay</span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: see</span>
+<span><br>[8]</span>
+<span class="Thievy-Eevee">Thievy Eevee</span>
+<span>: GGs</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Grandpa Bob</b> left a last will.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Girl-Kisser</span>
+<span style="color:#689194">: Y'know, when the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style> shot the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> who was literally talking to them...</i></span>
+<span><br>[7]</span>
+<span class="Tetellius">Tetellius</span>
+<span>: Are you sure about that?</span>
+</body>
+</html>

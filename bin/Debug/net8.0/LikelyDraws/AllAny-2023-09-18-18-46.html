@@ -1,0 +1,979 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Jester - </span><span style="color:#B545FF"> Enchanter </span>
+<span style="color:#a0a0a0"><i>(Username: DogmaticCapital)</i></span>
+<style>span.Jester{color: #B545FF;}</style>
+<span><br>[2] seer tiddies - </span><span style="color:#B545FF"> Voodoo Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><sprite="RoleIcons" name="Role4"><b><color=#06E00C>Cleric</color></b></link></font></style><br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Orange</color></link></font></style> <br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Voodoo Master</color></link></font></style><br>n3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Voodoo Master</color></link></font></style><br>n4: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Voodoo Master</color></link></font></style><br>n5:</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: krys)</i></span>
+<style>span.seer-tiddies{color: #B545FF;}</style>
+<span><br>[3] Orange - </span><span style="color:#06E00C"> Admirer </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Orange{color: #06E00C;}</style>
+<span><br>[4] Sheriff - </span><span style="color:#1D4DFC"> Serial Killer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Sheriff</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br><br>N1: 14 (NB)<br>N2: 10 (NB)<br>N3: RBD</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Mcchopter)</i></span>
+<style>span.Sheriff{color: #1D4DFC;}</style>
+<span><br>[5] Kit - </span><span style="color:#FF004E"> Baker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Wendy Oldbag</color></link></font></style> no blood<br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Jinx</color></link></font></style> no blood<br>n3: Pirated (won)<br>n4: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Friend</color></link></font></style> no blood<br>n5: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Voodoo Master</color></link></font></style> no blood</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ObsidianKaiser)</i></span>
+<style>span.Kit{color: #FF004E;}</style>
+<span><br>[6] Wendy Oldbag - </span><span style="color:#06E00C"> Sheriff </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#06E00C>Sheriff</color></b></link></font></style><br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style>)<br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Brown</color></link></font></style> (suspected <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><sprite="RoleIcons" name="Role44"><b><color=#949797>Executioner</color></b></link></font></style>)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Wendy-Oldbag{color: #06E00C;}</style>
+<span><br>[7] i scroll evil - </span><span style="color:#F5A6D4"> Jester </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><sprite="RoleIcons" name="Role16"><b><color=#06E00C>Seer</color></b></link></font></style> <br><br>n1: 1, 4 friends <br>n2:</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: zebethlia)</i></span>
+<style>span.i-scroll-evil{color: #F5A6D4;}</style>
+<span><br>[8] Kobold - </span><span style="color:#ECC23E"> Pirate </span>
+<span style="color:#a0a0a0"><i>(Username: StarSaintMark)</i></span>
+<style>span.Kobold{color: #ECC23E;}</style>
+<span><br>[9] Ti Jester - </span><span style="color:#B545FF"> Wildling </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ti Jester</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><sprite="RoleIcons" name="Role20"><b><color=#06E00C>Tracker</color></b></link></font></style><br><br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> ---) nv<br>N2 - <br><br>1<br>2<br>3<br>4<br>5<br>6<br>8<br>10<br>11<br>12<br>13<br>15</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: SpookedLink)</i></span>
+<style>span.Ti-Jester{color: #B545FF;}</style>
+<span><br>[10] Mayor - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: vatt96)</i></span>
+<style>span.Mayor{color: #06E00C;}</style>
+<span><br>[11] Jinx - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Snoozevestigator<br><br>n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kit</color></link></font></style> [no blood]</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Tortoise)</i></span>
+<style>span.Jinx{color: #06E00C;}</style>
+<span><br>[12] Friend - </span><span style="color:#06E00C"> Veteran </span>
+<span style="color:#a0a0a0"><i>(Username: Patrat)</i></span>
+<style>span.Friend{color: #06E00C;}</style>
+<span><br>[13] Brown - </span><span style="color:#06E00C"> Sheriff </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ti Jester</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style> <br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Wendy Oldbag</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style> <br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Mayor</color></link></font></style> - <br><br><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ti Jester</color></link></font></style> wildling?</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: NoirMouse)</i></span>
+<style>span.Brown{color: #06E00C;}</style>
+<span><br>[14] Glizzy Gobbler - </span><span style="color:#B545FF"> Coven Leader </span>
+<span style="color:#a0a0a0"><i>(Username: nokillplz)</i></span>
+<style>span.Glizzy-Gobbler{color: #B545FF;}</style>
+<span><br>[15] Voodoo Master - </span><span style="color:#06E00C"> Crusader </span>
+<span style="color:#a0a0a0"><i>(Username: B01000010)</i></span>
+<style>span.Voodoo-Master{color: #06E00C;}</style>
+<span><br>[11]</span>
+<span class="Jinx">Jinx</span>
+<span>: can an evil kill me</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: Yip</span>
+<span><br>[11]</span>
+<span class="Jinx">Jinx</span>
+<span>: i really dont wanna play invest</span>
+<span><br>[1]</span>
+<span class="Jester">Jester</span>
+<span>: The bester jester</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Glizzy Gobbler</color></link></font></style> tonight.</span>
+<span><br>[14]</span>
+<span class="Glizzy-Gobbler">Glizzy Gobbler</span>
+<span>: Sure</span>
+<span><br>[3]</span>
+<span class="Orange">Orange</span>
+<span>: Hello</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: tplo on me</span>
+<span><br>[6]</span>
+<span class="Wendy-Oldbag">Wendy Oldbag</span>
+<span>: I never understood how <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#06E00C>Sheriff</color></b></link></font></style> can find <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r112"><sprite="RoleIcons" name="Role112"><b><style="NeutralColor">Neutral </style><color=#1F51FF>Killing</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k42"><b><color=#007AFF><b>Not Sus</b></color></b></link></font></style></span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: You got it <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Jinx</color></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Kobold</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Glizzy Gobbler</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Glizzy Gobbler</color></link></font></style>: You're first =D</span>
+<span><br>[14]</span>
+<span class="Glizzy-Gobbler">Glizzy Gobbler</span>
+<span>: nobodsy visit <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Jinx</color></link></font></style></span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: cruss on 1</span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: Coming to your place now</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Glizzy Gobbler</color></link></font></style> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Scimitar!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Pistol!</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Yo ho ho! Th' sluggard's backpedal be nah enough to stop yer shot. Ye won th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Glizzy Gobbler</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><sprite="RoleIcons" name="Role46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Glizzy Gobbler</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r26"><sprite="RoleIcons" name="Role26"><b><color=#B545FF>Coven Leader</color></b></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: Hey everyone, I know, I know.</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: W pirate</span>
+<span><br>[11]</span>
+<span class="Jinx">Jinx</span>
+<span>: Snoozevestigator n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kit</color></link></font></style> [no blood]</span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: But</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><sprite="RoleIcons" name="Role16"><b><color=#06E00C>Seer</color></b></link></font></style> n1: 1, 4 friends n2:</span>
+<span><br>[6]</span>
+<span class="Wendy-Oldbag">Wendy Oldbag</span>
+<span>: Any LO on 7?</span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ti Jester</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style></span>
+<span><br>[2]</span>
+<span class="seer-tiddies">seer tiddies</span>
+<span>: W pirate</span>
+<span><br>[4]</span>
+<span class="Sheriff">Sheriff</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Sheriff</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1: 14 (NB)</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: Yip</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Wendy Oldbag</color></link></font></style> no blood</span>
+<span><br>[9]</span>
+<span class="Ti-Jester">Ti Jester</span>
+<span>: N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> ---) nv</span>
+<span><br>[9]</span>
+<span class="Ti-Jester">Ti Jester</span>
+<span>: .-.</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: 7 is fake</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><sprite="RoleIcons" name="Role6"><b><color=#06E00C>Crusader</color></b></link></font></style> N1- 1</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: 7 is fake seer</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: what does that will mean 9</span>
+<span><br>[6]</span>
+<span class="Wendy-Oldbag">Wendy Oldbag</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#06E00C>Sheriff</color></b></link></font></style>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style>)</span>
+<span><br>[1]</span>
+<span class="Jester">Jester</span>
+<span>: welp</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: no da faq i am not</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: holy</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><sprite="RoleIcons" name="Role6"><b><color=#06E00C>Crusader</color></b></link></font></style> N1- 1</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: exe is on me</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: woulda killed you</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: on me on me</span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: So we get <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Jester</color></link></font></style> first</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: 15 is lying</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: no</span>
+<span><br>[6]</span>
+<span class="Wendy-Oldbag">Wendy Oldbag</span>
+<span>: My guy, three different people think you're suspicious</span>
+<span><br>[1]</span>
+<span class="Jester">Jester</span>
+<span>: what</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: 7</span>
+<span><br>[6]</span>
+<span class="Wendy-Oldbag">Wendy Oldbag</span>
+<span>: You didn't visit anyone</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: its not me</span>
+<span><br>[9]</span>
+<span class="Ti-Jester">Ti Jester</span>
+<span>: just get 7</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><sprite="RoleIcons" name="Role16"><b><color=#06E00C>Seer</color></b></link></font></style> n1: 1, 4 friends n2:</span>
+<span><br>[9]</span>
+<span class="Ti-Jester">Ti Jester</span>
+<span>: 13 is exe</span>
+<span><br>[6]</span>
+<span class="Wendy-Oldbag">Wendy Oldbag</span>
+<span>: You've been found <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[9]</span>
+<span class="Ti-Jester">Ti Jester</span>
+<span>: get 7 first</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Voodoo Master</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Jinx</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ti Jester</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: i very much did</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Sheriff</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kit</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: visit</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Jester</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Mayor</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: someone</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>seer tiddies</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> was voted up to trial.</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: i visited 2 people</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><sprite="RoleIcons" name="Role16"><b><color=#06E00C>Seer</color></b></link></font></style> n1: 1, 4 friends n2:</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: great plan you guys</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: coven push</span>
+<span><br>[9]</span>
+<span class="Ti-Jester">Ti Jester</span>
+<span>: I am contractually obligated to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k46"><b><color=#007AFF><b>Guilty</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#F5A6D4>Jester</color></b></link></font></style> sorry</span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ti Jester</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style></span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: no</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: 1 156</span>
+<span><br>[2]</span>
+<span class="seer-tiddies">seer tiddies</span>
+<span>: im more inclined to believe crus claim</span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ti Jester</color></link></font></style> is sus</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: 15 6</span>
+<span><br>[9]</span>
+<span class="Ti-Jester">Ti Jester</span>
+<span>: 13 is exe btw</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: inno</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: me</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Wendy Oldbag</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k46"><b><color=#007AFF><b>Guilty</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Jester</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>seer tiddies</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Orange</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Sheriff</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kit</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Wendy Oldbag</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ti Jester</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Mayor</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Jinx</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Friend</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Brown</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Voodoo Master</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>i scroll evil</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>i scroll evil</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: brother</span>
+<span><br>[7]</span>
+<span class="i-scroll-evil">i scroll evil</span>
+<span>: wow</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#F5A6D4>Jester</color></b></link></font></style> will get their revenge from the grave!</span>
+<span><br>[9]</span>
+<span class="Ti-Jester">Ti Jester</span>
+<span>: gl brotha</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: alright evils bomb 15</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: ALL EVILS BOMB 15</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: tp on me</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: lol</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>i scroll evil</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>i scroll evil</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: TP on me</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: I abstained</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>i scroll evil</b> left a last will.</span>
+<span><br>[9]</span>
+<span class="Ti-Jester">Ti Jester</span>
+<span>: tk on 13, since could be jest</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: lucky</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <b>Mayor</b> tonight.</span>
+<span><br>[9]</span>
+<span class="Ti-Jester">Ti Jester</span>
+<span>: prob just exe tho</span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: Why would vig kill me</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <b>Mayor</b> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Scimitar!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You rejected <b>Orange</b>'s <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k37"><b><color=#007AFF><b>Proposal</b></color></b></link></font></style>!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Rapier!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Blimey! Th' rapscallion backpedaled away from yer rapier. Ye lost th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Wendy Oldbag</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were haunted by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><sprite="RoleIcons" name="Role45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Wendy Oldbag</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#06E00C>Sheriff</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Ti Jester</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><sprite="RoleIcons" name="Role6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Ti Jester</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r38"><sprite="RoleIcons" name="Role38"><b><color=#B545FF>Wildling</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Jinx</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><sprite="RoleIcons" name="Role23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Jinx</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: TP's whisper me to chain</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: I confirm <b>Orange</b> is town</span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <b>Wendy Oldbag</b> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="Sheriff">Sheriff</span>
+<span>: N2: 10 (NB)</span>
+<span><br>[3]</span>
+<span class="Orange">Orange</span>
+<span>: Hello I was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k25"><b><color=#007AFF><b>Silence</b></color></b></link></font></style>d n1. Also <b>Kobold</b> rejected my <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k34"><b><color=#007AFF><b>Lover</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k37"><b><color=#007AFF><b>Proposal</b></color></b></link></font></style> last night. My life is in shambles</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <b>Jinx</b> no blood</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: Guys, pirate dueled me I won</span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: <b>Kobold</b> role then</span>
+<span><br>[1]</span>
+<span class="Jester">Jester</span>
+<span>: 8?</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: Pirate</span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: Alright</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: fair</span>
+<span><br>[3]</span>
+<span class="Orange">Orange</span>
+<span>: okie thats good</span>
+<span><br>[3]</span>
+<span class="Orange">Orange</span>
+<span>: I cannot stand the sea anyway</span>
+<span><br>[3]</span>
+<span class="Orange">Orange</span>
+<span>: uck</span>
+<span><br>[3]</span>
+<span class="Orange">Orange</span>
+<span>: :(</span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: We should VFA</span>
+<span><br>[1]</span>
+<span class="Jester">Jester</span>
+<span>: ts</span>
+<span><br>[2]</span>
+<span class="seer-tiddies">seer tiddies</span>
+<span>: tp</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <b>Friend</b> tonight.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Brown</b> voted against <b>Sheriff</b>.</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: tk</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Voodoo Master</b> voted against <b>Orange</b>.</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: i wonder what happens when pirates win with a lover does the admirer just die?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Brown</b> changed their vote to <b>Kit</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>seer tiddies</b> voted against <b>Kit</b>.</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: 3 claim</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Orange</b> voted against <b>Kit</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sheriff</b> voted against <b>Kit</b>.</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: No idea</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Friend</b> voted against <b>Mayor</b>.</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: Don't wanna find out either</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jester</b> voted against <b>Mayor</b>.</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: 10 is last claim</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>seer tiddies</b> changed their vote to <b>Mayor</b>.</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: 5 claimed</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Brown</b> changed their vote to <b>Mayor</b>.</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: ts</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Mayor</b>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Voodoo Master</b> is whispering to <b>seer tiddies</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sheriff</b> changed their vote to <b>Mayor</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mayor</b> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: tavern keeper</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: taverna N1 - 3</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>seer tiddies</b> is whispering to <b>Voodoo Master</b>.</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: N2 pirate duel</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: I rbed orange, he confirmed</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: this is pois</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to plunder <b>Kit</b> tonight.</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: i swear</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: Kobold the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><sprite="RoleIcons" name="Role46"><b><color=#ECC23E>Pirate</color></b></link></font></style> N1 - <b>Glizzy Gobbler</b> [Win] N2 - <b>Mayor</b> [Lost]</span>
+<span><br>[13]</span>
+<span class="Brown">Brown</span>
+<span>: Could be poisoner but we don't have evidence</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: this isn't coven killing</span>
+<span><br>[3]</span>
+<span class="Orange">Orange</span>
+<span>: Pirate would be <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k87"><b><color=#007AFF><b>Toxic Relationship</b></color></b></link></font></style> and doesnt affect me further than being silenced 1 day</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: i don't trust</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <b>Mayor</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jester</b> voted <b>Mayor</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>seer tiddies</b> <b><style="AbstainColor>abstained</style></b> on <b>Mayor</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Orange</b> voted <b>Mayor</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sheriff</b> voted <b>Mayor</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kit</b> voted <b>Mayor</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Friend</b> voted <b>Mayor</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Brown</b> voted <b>Mayor</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Voodoo Master</b> voted <b>Mayor</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mayor</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: no coven kills</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: who are the idiots guilted?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Voodoo Master</b> voted against <b>Mayor</b>.</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: when they were pirated</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Friend</b> voted against <b>Mayor</b>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <b>Kit</b> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Scimitar!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Rapier!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Blimey! Th' rapscallion backpedaled away from yer rapier. Ye lost th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Brown</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Brown</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><sprite="RoleIcons" name="Role17"><b><color=#06E00C>Sheriff</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Sheriff">Sheriff</span>
+<span>: N3: RBD</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: n3: Pirated</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: taverna N1 - 3 N2 - Pirate Duel N3 - 4</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: 4 and 5 not coven killing</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Jester</b> has disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <b>Friend</b> tonight.</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: 12 vet</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: 2 post</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to plunder <b>Sheriff</b> tonight.</span>
+<span><br>[2]</span>
+<span class="seer-tiddies">seer tiddies</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><sprite="RoleIcons" name="Role4"><b><color=#06E00C>Cleric</color></b></link></font></style> n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> on <b>Orange</b> n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> on <b>Voodoo Master</b> n3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> on <b>Voodoo Master</b> n4:</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: Why does pirate not winning any duels lol</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: Because people pick different options</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: get an invest out</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Voodoo Master</b> voted against <b>Sheriff</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Kit</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mayor</b> voted against <b>Sheriff</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kit</b> voted against <b>Sheriff</b>.</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: I pirated 5 ln</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>seer tiddies</b> voted against <b>Sheriff</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Orange</b> voted against <b>Sheriff</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sheriff</b> was voted up to trial.</span>
+<span><br>[4]</span>
+<span class="Sheriff">Sheriff</span>
+<span>: I was rbd, I can't be coven killing</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: still can be coven, if I die 2 is fake TP</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: Your role?</span>
+<span><br>[4]</span>
+<span class="Sheriff">Sheriff</span>
+<span>: N1: 14 (NB)N2: 10 (NB)N3: RBD</span>
+<span><br>[4]</span>
+<span class="Sheriff">Sheriff</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to plunder <b>Mayor</b> tonight.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <b>Sheriff</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jester</b> <b><style="AbstainColor>abstained</style></b> on <b>Sheriff</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>seer tiddies</b> <b><style="AbstainColor>abstained</style></b> on <b>Sheriff</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Orange</b> voted <b>Sheriff</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kit</b> <b><style="AbstainColor>abstained</style></b> on <b>Sheriff</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mayor</b> <b><style="AbstainColor>abstained</style></b> on <b>Sheriff</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Friend</b> voted <b>Sheriff</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Voodoo Master</b> voted <b>Sheriff</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sheriff</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sheriff</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sheriff</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><sprite="RoleIcons" name="Role48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: nice</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Sheriff</b> left a last will.</span>
+<span><br>[2]</span>
+<span class="seer-tiddies">seer tiddies</span>
+<span>: silent sk?</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: gee golly</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: shocked</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Voodoo Master</b> is whispering to <b>Orange</b>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <b>Mayor</b> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Scimitar!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Pistol!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Blow me down! The sorry seadog's chainmail stopped yer shot. Ye lost th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Jester</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Orange</b> is whispering to <b>Voodoo Master</b>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Jester</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r28"><sprite="RoleIcons" name="Role28"><b><color=#B545FF>Enchanter</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Voodoo Master</b> is whispering to <b>Orange</b>.</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: Fairly sure <b>Mayor</b> is the CK</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: taverna N1 - 3 N2 - Pirate Duel N3 - 4 N4 - Pirate Duel again N5 -</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Orange</b> is whispering to <b>Voodoo Master</b>.</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: Kobold the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><sprite="RoleIcons" name="Role46"><b><color=#ECC23E>Pirate</color></b></link></font></style> N1 - <b>Glizzy Gobbler</b> [Win] N2 - <b>Mayor</b> [Lost] N3 - <b>Kit</b> [Lost] N4 - <b>Mayor</b> [Lost]</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: ok get 10</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: taverna N1 - 3 N2 - Pirate Duel N3 - 4 N4 - Pirate Duel again N5 -</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: that's what i said</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: The two nights I pirated them</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: no Coven Kills</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: I am tavern keeper</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: lol</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: 9 attacked 6</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: pirate dueled again</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: that's who the coven killing was</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: I don't know what to say you</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: idk how 4 and 10 would coordinate that though</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Voodoo Master</b> voted against <b>Mayor</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Mayor</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>seer tiddies</b> voted against <b>Mayor</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Orange</b> voted against <b>Mayor</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mayor</b> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: orange and 4 confirmed rb</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: outright</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: you are throwing at this point</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <b>Friend</b> tonight.</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: i don't think 10 is ck.</span>
+<span><br>[3]</span>
+<span class="Orange">Orange</span>
+<span>: yeah doesnt mean you aint poisoner</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: Or extremely dumb</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: yeah buddy orange you are the dumbesr</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: t</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: coven killed n3</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: and 4 claimed rbed</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <b>Mayor</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>seer tiddies</b> <b><style="AbstainColor>abstained</style></b> on <b>Mayor</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Orange</b> <b><style="AbstainColor>abstained</style></b> on <b>Mayor</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kit</b> voted <b>Mayor</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Friend</b> voted <b>Mayor</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Voodoo Master</b> voted <b>Mayor</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mayor</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: poisoner does get book fast</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: Not N2 and N4 tho</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: the two nights they were pirated</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: enchanter might have had book</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: I'd get 2</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Voodoo Master</b> voted against <b>seer tiddies</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>seer tiddies</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Orange</b> voted against <b>seer tiddies</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Friend</b> voted against <b>seer tiddies</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>seer tiddies</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to plunder <b>Friend</b> tonight.</span>
+<span><br>[2]</span>
+<span class="seer-tiddies">seer tiddies</span>
+<span>: 15 im chaining with you</span>
+<span><br>[2]</span>
+<span class="seer-tiddies">seer tiddies</span>
+<span>: im tp</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: not confirmed</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: this is a safe hang</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>seer tiddies</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Orange</b> <b><style="AbstainColor>abstained</style></b> on <b>seer tiddies</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kit</b> voted <b>seer tiddies</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mayor</b> voted <b>seer tiddies</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Friend</b> voted <b>seer tiddies</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Voodoo Master</b> voted <b>seer tiddies</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>seer tiddies</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: 5 or 10 next</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: Pirate don't duel me I swear to god</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>seer tiddies</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>seer tiddies</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><sprite="RoleIcons" name="Role37"><b><color=#B545FF>Voodoo Master</color></b></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: o nice</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>seer tiddies</b> left a last will.</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: tarnation</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: 5 or 10</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Ye have challenged <b>Friend</b> to a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style> tonight! Booty ahoy!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Scimitar!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Ye've decided to attack with your Rapier!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Shiver me timbers! Th' scallywag sidestepped yer rapier. Ye lost th' <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>!</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: someone is immune</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: pirated</span>
+<span><br>[10]</span>
+<span class="Mayor">Mayor</span>
+<span>: taverna N1 - 3 N2 - Pirate Duel N3 - 4 N4 - Pirate Duel again N5 - 12</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: and rbed</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: Kobold the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><sprite="RoleIcons" name="Role46"><b><color=#ECC23E>Pirate</color></b></link></font></style> N1 - <b>Glizzy Gobbler</b> [Win] N2 - <b>Mayor</b> [Lost] N3 - <b>Kit</b> [Lost] N4 - <b>Mayor</b> [Lost] N5 - <b>Friend</b> [Lost]</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: i got silenced last night</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: i'm literally confirmed</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: I attacked someone visiting 3</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: what are you two doin</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: n4: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <b>Friend</b> no bloodn5: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <b>Voodoo Master</b> no blood</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: aaight hang 5</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: those are the two last nights</span>
+<span><br>[15]</span>
+<span class="Voodoo-Master">Voodoo Master</span>
+<span>: 5 has to be fake</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: nope</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: yes.</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: nope</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: you can't get out of this</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to plunder <b>Kit</b> tonight.</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: you didn't alert n4</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Voodoo Master</b> voted against <b>Kit</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Friend</b> voted against <b>Kit</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Kit</b>.</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: that's true</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mayor</b> voted against <b>Kit</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Kit</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to plunder <b>Mayor</b> tonight.</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: don't up me and let the pirate go on me</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: give this poor pirate his win</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: is this man serious right now</span>
+<span><br>[8]</span>
+<span class="Kobold">Kobold</span>
+<span>: I'd appreciate that</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Kit</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: i am baker</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: solo apoc</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to plunder <b>Kit</b> tonight.</span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: inno i will sidestep</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Orange</b> voted <b>Kit</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mayor</b> voted <b>Kit</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Friend</b> <b><style="AbstainColor>abstained</style></b> on <b>Kit</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Voodoo Master</b> voted <b>Kit</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Kit</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[5]</span>
+<span class="Kit">Kit</span>
+<span>: poor pirate</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to plunder <b>Mayor</b> tonight.</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: i mean even if i voted i couldn't change the result</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Kit</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Kit</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><sprite="RoleIcons" name="Role41"><b><color=#FF004E>Baker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Kit</b> left a last will.</span>
+<span><br>[12]</span>
+<span class="Friend">Friend</span>
+<span>: ggs</span>
+</body>
+</html>

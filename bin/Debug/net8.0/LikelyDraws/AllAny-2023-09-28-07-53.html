@@ -1,0 +1,852 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] trespassa - </span><span style="color:#06E00C"> Admirer </span>
+<span style="color:#a0a0a0"><i>(Username: Maddo)</i></span>
+<style>span.trespassa{color: #06E00C;}</style>
+<span><br>[2] Tangible - </span><span style="color:#B545FF"> Jinx </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><sprite="RoleIcons" name="Role14"><b><color=#06E00C>Psychic</color></b></link></font></style> <br>N1-E (1) (1,10,13)<br>N2-G (9) (9,3)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Tangible)</i></span>
+<style>span.Tangible{color: #B545FF;}</style>
+<span><br>[3] Kit Cat - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> - No Blood<br>N2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tangible</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MyrMace)</i></span>
+<style>span.Kit-Cat{color: #06E00C;}</style>
+<span><br>[4] Way Too Friendly - </span><span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: pinkaboo)</i></span>
+<style>span.Way-Too-Friendly{color: #06E00C;}</style>
+<span><br>[5] Dead Night Three - </span><span style="color:#06E00C"> Veteran </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Dead-Night-Three{color: #06E00C;}</style>
+<span><br>[6] Lol - </span><span style="color:#06E00C"> Retributionist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lol</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><sprite="RoleIcons" name="Role104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style> <br><br>n1: no dead town<br>n2: no dead town can't use stoned<br> n3:<br><br><br>5 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r33"><sprite="RoleIcons" name="Role33"><b><color=#B545FF>Necromancer</color></b></link></font></style> ?</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: AnnaElise93)</i></span>
+<style>span.Lol{color: #06E00C;}</style>
+<span><br>[7] Happy - </span><span style="color:#06E00C"> Trickster </span>
+<span style="color:#a0a0a0"><i>(Username: 9katt)</i></span>
+<style>span.Happy{color: #06E00C;}</style>
+<span><br>[8] Percival - </span><span style="color:#06E00C"> Cleric </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><sprite="RoleIcons" name="Role4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dead By Daylight</color></link></font></style> <br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> <br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dead Night Three</color></link></font></style> <br><br><br><br>Why was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><sprite="RoleIcons" name="Role31"><b><color=#B545FF>Jinx</color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tangible</color></link></font></style> and not <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>? Makes me think maybe 4 is coven</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Gingyman1999)</i></span>
+<style>span.Percival{color: #06E00C;}</style>
+<span><br>[9] Grumpy - </span><span style="color:#06E00C"> Bodyguard </span>
+<span style="color:#a0a0a0"><i>(Username: dommyd)</i></span>
+<style>span.Grumpy{color: #06E00C;}</style>
+<span><br>[10] Dead By Daylight - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dead By Daylight</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><sprite="RoleIcons" name="Role22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k92"><b><color=#007AFF><b>Taunt</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> <br>N2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k92"><b><color=#007AFF><b>Taunt</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tangible</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: sure)</i></span>
+<style>span.Dead-By-Daylight{color: #06E00C;}</style>
+<span><br>[11] Kobold - </span><span style="color:#B545FF"> Ritualist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Kobold the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><sprite="RoleIcons" name="Role24"><b><color=#06E00C>Vigilante</color></b></link></font></style> <br><br>N1 - Reloading</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: StarSaintMark)</i></span>
+<style>span.Kobold{color: #B545FF;}</style>
+<span><br>[12] kill two - </span><span style="color:#B545FF"> Witch </span>
+<span style="color:#a0a0a0"><i>(Username: Ratatouille)</i></span>
+<style>span.kill-two{color: #B545FF;}</style>
+<span><br>[13] Josh Thunderbolt - </span><span style="color:#9D7038"> Werewolf </span>
+<span style="color:#a0a0a0"><i>(Username: momsspaghetti)</i></span>
+<style>span.Josh-Thunderbolt{color: #9D7038;}</style>
+<span><br>[14] May - </span><span style="color:#B545FF"> Medusa </span>
+<span style="color:#a0a0a0"><i>(Username: Maytheblacksmith)</i></span>
+<style>span.May{color: #B545FF;}</style>
+<span><br>[15] John Hathorne - </span><span style="color:#949797"> Executioner </span>
+<span style="color:#a0a0a0"><i>(Username: Piscesrd)</i></span>
+<style>span.John-Hathorne{color: #949797;}</style>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>May</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Hi everyone!</span>
+<span><br>[11]</span>
+<span class="Kobold">Kobold</span>
+<span>: Yip</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Let's all have fun! Good luck!</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: I will be seeking legal action against anyone who kills me N1, N2, or who votes me guilty D2 or D3</span>
+<span><br>[12]</span>
+<span class="kill-two">kill two</span>
+<span>: mafia on tangible</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: See you in court.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>May</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Kit Cat</color></link></font></style> tonight.</span>
+<span><br>[2]</span>
+<span class="Tangible">Tangible</span>
+<span>: N3- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>trespassa</color></link></font></style> v (NV)</span>
+<span><br>[11]</span>
+<span class="Kobold">Kobold</span>
+<span>: Yay, Rit...</span>
+<span><br>[14]</span>
+<span class="May">May</span>
+<span>: gl</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tangible</color></link></font></style> decided to attack a visitor to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Happy</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>kill two</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Happy</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>kill two</color></link></font></style> decided to make their victim target <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>May</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>kill two</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dead By Daylight</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Happy</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Happy</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><sprite="RoleIcons" name="Role254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><sprite="RoleIcons" name="Role22"><b><color=#06E00C>Trickster</color></b></link></font></style>).</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dead By Daylight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dead By Daylight</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>May</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><sprite="RoleIcons" name="Role22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dead By Daylight</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dead By Daylight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>May</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r32"><sprite="RoleIcons" name="Role32"><b><color=#B545FF>Medusa</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dead By Daylight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dead By Daylight</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>John Hathorne</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><sprite="RoleIcons" name="Role23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>John Hathorne</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><sprite="RoleIcons" name="Role44"><b><color=#949797>Executioner</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Tangible">Tangible</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><sprite="RoleIcons" name="Role14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1-E (1) (1,10,13)</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: N1 - 3 ns/book</span>
+<span><br>[9]</span>
+<span class="Grumpy">Grumpy</span>
+<span>: ok so <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Happy</color></link></font></style> was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><sprite="RoleIcons" name="Role22"><b><color=#06E00C>Trickster</color></b></link></font></style></span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: tk</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: for tarnation sake</span>
+<span><br>[11]</span>
+<span class="Kobold">Kobold</span>
+<span>: Good start IG</span>
+<span><br>[8]</span>
+<span class="Percival">Percival</span>
+<span>: W <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Happy</color></link></font></style></span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: it HAD to be a dusa</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: its 1998 baby</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: now i cant tarnation use <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><sprite="RoleIcons" name="Role22"><b><color=#06E00C>Trickster</color></b></link></font></style></span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: we rollin</span>
+<span><br>[3]</span>
+<span class="Kit-Cat">Kit Cat</span>
+<span>: sorry I was afk</span>
+<span><br>[3]</span>
+<span class="Kit-Cat">Kit Cat</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> - No Blood</span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>trespassa</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Josh Thunderbolt</color></link></font></style> claim</span>
+<span><br>[8]</span>
+<span class="Percival">Percival</span>
+<span>: atleast dusa is dead now</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: N1 - 3 ns/book</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: true</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: sherf</span>
+<span><br>[1]</span>
+<span class="trespassa">trespassa</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><sprite="RoleIcons" name="Role104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style></span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: 13 late</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: but if I had a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><sprite="RoleIcons" name="Role22"><b><color=#06E00C>Trickster</color></b></link></font></style> to use</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Okay guys, what's the plan?</span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: 13 is late</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: gee golly that would be nice</span>
+<span><br>[2]</span>
+<span class="Tangible">Tangible</span>
+<span>: ong up 13</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: i literally posted first</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tangible</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Josh Thunderbolt</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: No no 13 posted earlier</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: scroll up</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dead By Daylight</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Josh Thunderbolt</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Josh Thunderbolt</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: its okay!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>kill two</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Josh Thunderbolt</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lol</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Josh Thunderbolt</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: /nvm</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: 13 is okay!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dead By Daylight</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>trespassa</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: evil is pushing me</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Grumpy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>trespassa</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Josh Thunderbolt</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dead By Daylight</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: vote 1 for time</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lol</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Kit-Cat">Kit Cat</span>
+<span>: 13 posted early</span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: tk i claimed</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Percival</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>trespassa</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>kill two</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Josh Thunderbolt</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Kit Cat</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> was voted up to trial.</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Oh I'm the town equvilant of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r26"><sprite="RoleIcons" name="Role26"><b><color=#B545FF>Coven Leader</color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Oh wait that makes no sense</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Tpow</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: So you have a powerful attack?</span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: fr fr</span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: guilty</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: ... nooo?</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: TPOW</span>
+<span><br>[1]</span>
+<span class="trespassa">trespassa</span>
+<span>: guilty for being a doodle</span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: fr guilty</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: IM SORRY</span>
+<span><br>[9]</span>
+<span class="Grumpy">Grumpy</span>
+<span>: inno</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: ill inno for now</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: NOO</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: GUILTY</span>
+<span><br>[3]</span>
+<span class="Kit-Cat">Kit Cat</span>
+<span>: imo</span>
+<span><br>[3]</span>
+<span class="Kit-Cat">Kit Cat</span>
+<span>: inno</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>trespassa</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Tangible</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Kit Cat</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dead Night Three</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lol</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Percival</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Grumpy</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dead By Daylight</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>kill two</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Josh Thunderbolt</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Way Too Friendly</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Way Too Friendly</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: get guilties</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dead By Daylight</b> voted against <b>Kobold</b>.</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: get more info</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tangible</b> voted against <b>Josh Thunderbolt</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Dead Night Three</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Josh Thunderbolt</b> voted against <b>Kobold</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kit Cat</b> voted against <b>Kobold</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Lol</b> voted against <b>Kobold</b>.</span>
+<span><br>[11]</span>
+<span class="Kobold">Kobold</span>
+<span>: TK</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Way Too Friendly</b> voted against <b>Kobold</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dead Night Three</b> voted against <b>Kobold</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Way Too Friendly</b> cancelled their vote.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>trespassa</b> voted against <b>Kobold</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Grumpy</b> voted against <b>Kobold</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Kobold</b> was voted up to trial.</span>
+<span><br>[11]</span>
+<span class="Kobold">Kobold</span>
+<span>: I'm TK</span>
+<span><br>[11]</span>
+<span class="Kobold">Kobold</span>
+<span>: Who the frick describes themselves as "Town CL"</span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: last trial + guiltied <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r105"><sprite="RoleIcons" name="Role105"><b><style="TownColor">Town </style><color=#1F51FF>Power</color></b></link></font></style> claim</span>
+<span><br>[11]</span>
+<span class="Kobold">Kobold</span>
+<span>: It's so weird</span>
+<span><br>[2]</span>
+<span class="Tangible">Tangible</span>
+<span>: <b>Kobold</b> say frfr?</span>
+<span><br>[1]</span>
+<span class="trespassa">trespassa</span>
+<span>: ehhh guilty</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: Quite honestly, this gives me a TK to use at night</span>
+<span><br>[2]</span>
+<span class="Tangible">Tangible</span>
+<span>: BRO JUST SAY tarnation</span>
+<span><br>[2]</span>
+<span class="Tangible">Tangible</span>
+<span>: WHY TYPE FRICK</span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: this might be vet but</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Im just tryna be funny</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: so if this is vigi or trick, we win</span>
+<span><br>[12]</span>
+<span class="kill-two">kill two</span>
+<span>: frick</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: its not last trial</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>trespassa</b> voted <b>Kobold</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tangible</b> voted <b>Kobold</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Kit Cat</b> voted <b>Kobold</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Way Too Friendly</b> voted <b>Kobold</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dead Night Three</b> voted <b>Kobold</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Lol</b> <b><style="AbstainColor>abstained</style></b> on <b>Kobold</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Percival</b> voted <b>Kobold</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Grumpy</b> <b><style="AbstainColor>abstained</style></b> on <b>Kobold</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dead By Daylight</b> voted <b>Kobold</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>kill two</b> <b><style="AbstainColor>abstained</style></b> on <b>Kobold</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Josh Thunderbolt</b> voted <b>Kobold</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Kobold</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Can I ask for TP/LO if that's okay?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Kobold</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><sprite="RoleIcons" name="Role36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: tarnation</span>
+<span><br>[8]</span>
+<span class="Percival">Percival</span>
+<span>: oof</span>
+<span><br>[8]</span>
+<span class="Percival">Percival</span>
+<span>: I claim TP</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Kobold</b> left a last will.</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: I NEED SOMEONE TO USE</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Happy</span>
+<span style="color:#689194">: DAMNNN</i></span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: OH THAT'S VERY HELPFUL</span>
+<span><br>[10]</span>
+<span class="Dead-By-Daylight">Dead By Daylight</span>
+<span>: no u can't ask for tplo fr fr</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: WISH THIS WAS VIGI</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: TP/LO please!</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Happy</span>
+<span style="color:#689194">: alos 14 how did u die with me</i></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span><br>[12]</span>
+<span class="kill-two">kill two</span>
+<span>: im</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Happy</span>
+<span style="color:#689194">: did witch witch me into you</i></span>
+<span><br>[12]</span>
+<span class="kill-two">kill two</span>
+<span>: so sorry 14</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Happy</span>
+<span style="color:#689194">: like thta makes nos ense</i></span>
+<span><br>[2]</span>
+<span class="Tangible">Tangible</span>
+<span>: 9</span>
+<span><br>[2]</span>
+<span class="Tangible">Tangible</span>
+<span>: seems angry</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Tangible</b> decided to attack a visitor to <b>Grumpy</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>kill two</b> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> and drain <b>Kit Cat</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>kill two</b> decided to make their victim target <b>Grumpy</b> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Kit Cat</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><sprite="RoleIcons" name="Role31"><b><color=#B545FF>Jinx</color></b></link></font></style>. They were also killed by the <style="CovenColor">Coven</style>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Dead-By-Daylight</span>
+<span style="color:#689194">: uh</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Way Too Friendly</b> is whispering to <b>trespassa</b>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Kit Cat</b> left a last will.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Dead-By-Daylight</span>
+<span style="color:#689194">: ww ur so naughty</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Kit-Cat</span>
+<span style="color:#689194">: I got witched nooo</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>trespassa</b> is whispering to <b>Way Too Friendly</b>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Dead-By-Daylight</span>
+<span style="color:#689194">: i was gonna trick <b>Tangible</b></i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Kit-Cat</span>
+<span style="color:#689194">: people will think 2 is not coven</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><sprite="RoleIcons" name="Role8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Kit-Cat</span>
+<span style="color:#689194">: 2 is jinx</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Way Too Friendly</b> is whispering to <b>trespassa</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Dead By Daylight</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Dead By Daylight</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><sprite="RoleIcons" name="Role22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: OH tarnation YES I GOT A <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><sprite="RoleIcons" name="Role22"><b><color=#06E00C>Trickster</color></b></link></font></style> NOW BABY</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: N2 - 8 ns/book</span>
+<span><br>[2]</span>
+<span class="Tangible">Tangible</span>
+<span>: N2-G (9) (9,3), bro fr why everyone on my pillion</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: COVEN AND WW WATCH OUT</span>
+<span><br>[2]</span>
+<span class="Tangible">Tangible</span>
+<span>: what did i do</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: 2 cant be coven</span>
+<span><br>[9]</span>
+<span class="Grumpy">Grumpy</span>
+<span>: 8, 6, 12 innod on rit</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Yup yup</span>
+<span><br>[9]</span>
+<span class="Grumpy">Grumpy</span>
+<span>: can 6b and 12 claim</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><sprite="RoleIcons" name="Role31"><b><color=#B545FF>Jinx</color></b></link></font></style> was on 2</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: 1 speak</span>
+<span><br>[12]</span>
+<span class="kill-two">kill two</span>
+<span>: why cant 2 be coven</span>
+<span><br>[1]</span>
+<span class="trespassa">trespassa</span>
+<span>: hey</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: 1 is okay!</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: <b>kill two</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><sprite="RoleIcons" name="Role31"><b><color=#B545FF>Jinx</color></b></link></font></style> was on them</span>
+<span><br>[6]</span>
+<span class="Lol">Lol</span>
+<span>: i didn't inno i abstiened</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Who here is tp?</span>
+<span><br>[8]</span>
+<span class="Percival">Percival</span>
+<span>: I am TP</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><sprite="RoleIcons" name="Role31"><b><color=#B545FF>Jinx</color></b></link></font></style> cant go on coven members</span>
+<span><br>[1]</span>
+<span class="trespassa">trespassa</span>
+<span>: 6 logs</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>trespassa</b> voted against <b>Lol</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Josh Thunderbolt</b> voted against <b>Lol</b>.</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Goodie!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Grumpy</b> voted against <b>Lol</b>.</span>
+<span><br>[6]</span>
+<span class="Lol">Lol</span>
+<span>: <b>Lol</b> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><sprite="RoleIcons" name="Role104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style> n1: no dead town n2: no dead town can't use stoned n3: 5 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r33"><sprite="RoleIcons" name="Role33"><b><color=#B545FF>Necromancer</color></b></link></font></style> ?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Way Too Friendly</b> voted against <b>Lol</b>.</span>
+<span><br>[9]</span>
+<span class="Grumpy">Grumpy</span>
+<span>: ok but you didnt claim</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Way Too Friendly</b> cancelled their vote.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dead Night Three</b> voted against <b>Lol</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Way Too Friendly</b> voted against <b>Lol</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Lol</b> was voted up to trial.</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: LOL OKAY NAH THIS HANGS FOR CALLING ME NECRO</span>
+<span><br>[1]</span>
+<span class="trespassa">trespassa</span>
+<span>: i dont buy it</span>
+<span><br>[9]</span>
+<span class="Grumpy">Grumpy</span>
+<span>: inno for now, <b>kill two</b> claim</span>
+<span><br>[1]</span>
+<span class="trespassa">trespassa</span>
+<span>: nah guilty this</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: nope im guiltying this</span>
+<span><br>[12]</span>
+<span class="kill-two">kill two</span>
+<span>: tp</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: and ill use <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><sprite="RoleIcons" name="Role22"><b><color=#06E00C>Trickster</color></b></link></font></style> on 12</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: I will trust 1!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>trespassa</b> voted <b>Lol</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Tangible</b> <b><style="AbstainColor>abstained</style></b> on <b>Lol</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Way Too Friendly</b> voted <b>Lol</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dead Night Three</b> voted <b>Lol</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Percival</b> voted <b>Lol</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Grumpy</b> voted <b>Lol</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>kill two</b> voted <b>Lol</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Josh Thunderbolt</b> voted <b>Lol</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Lol</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Lol</b> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[1]</span>
+<span class="trespassa">trespassa</span>
+<span>: 8 logs</span>
+<span><br>[8]</span>
+<span class="Percival">Percival</span>
+<span>: oh no did I do it again</span>
+<span><br>[8]</span>
+<span class="Percival">Percival</span>
+<span>: N1: <b>Dead By Daylight</b> N2: <b>Way Too Friendly</b></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Lol</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Lol</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><sprite="RoleIcons" name="Role15"><b><color=#06E00C>Retributionist</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Oh no</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: N2 - 8 ns/book</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: hm</span>
+<span><br>[8]</span>
+<span class="Percival">Percival</span>
+<span>: ok good it was townie</span>
+<span><br>[1]</span>
+<span class="trespassa">trespassa</span>
+<span>: gee golly</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Lol</b> left a last will.</span>
+<span><br>[8]</span>
+<span class="Percival">Percival</span>
+<span>: i mean bad, but good for me atm</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: TP ON MEEEE</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: im not <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r33"><sprite="RoleIcons" name="Role33"><b><color=#B545FF>Necromancer</color></b></link></font></style></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Tangible</b> decided to attack a visitor to <b>Dead Night Three</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>kill two</b> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> and drain <b>Dead Night Three</b> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>kill two</b> decided to make their victim target <b>Way Too Friendly</b> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">Percival</span>
+<span style="color:#689194">: wait</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Tangible</b> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Dead Night Three</b> is whispering to <b>trespassa</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><sprite="RoleIcons" name="Role23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Way Too Friendly</b> is whispering to <b>trespassa</b>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Tangible</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Dead Night Three</b> is whispering to <b>trespassa</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><sprite="RoleIcons" name="Role31"><b><color=#B545FF>Jinx</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Percival</b> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Way Too Friendly</b> is whispering to <b>trespassa</b>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><sprite="RoleIcons" name="Role31"><b><color=#B545FF>Jinx</color></b></link></font></style>. They were also shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><sprite="RoleIcons" name="Role23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Percival</b> left a last will.</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Happy</span>
+<span style="color:#689194">: WHO IS THIS gee golly VET</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><sprite="RoleIcons" name="Role4"><b><color=#06E00C>Cleric</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Happy</span>
+<span style="color:#689194">: 5?</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>kill two</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><sprite="RoleIcons" name="Role23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>kill two</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><sprite="RoleIcons" name="Role39"><b><color=#B545FF>Witch</color></b></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: N3 - 1 ns/book</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: OH YOU ALL tarnation BOUGHT THE 'RET HAS TRICKESTER NOW' BAIT LMFAO</span>
+<span><br>[9]</span>
+<span class="Grumpy">Grumpy</span>
+<span>: 1 what ts are u</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Nice 5!</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: 1 is a very good boy!</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: WHO IS NOT TALKING</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: OH NOOO</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: WHICH ONE OF YOU DID IT</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: silence bait?</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: its 9 or 13</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: no no <b>trespassa</b> is very real</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: I know this</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: i've been posting first</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[9]</span>
+<span class="Grumpy">Grumpy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><sprite="RoleIcons" name="Role3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> n1 - <b>Kit Cat</b> n2 - <b>Way Too Friendly</b>n3 - <b>Way Too Friendly</b></span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: i want full wills</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>Way Too Friendly</b> has revealed themself as the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><sprite="RoleIcons" name="Role11"><b><color=#06E00C>Mayor</color></b></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Way Too Friendly</b> voted against <b>Josh Thunderbolt</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Josh Thunderbolt</b> was voted up to trial.</span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: N1 - 3 ns/bookN2 - 8 ns/bookN3 - 1 ns/book</span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Lol</span>
+<span style="color:#689194">: lol never seen that bait before</i></span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Lol</span>
+<span style="color:#689194">: for vet</i></span>
+<span><br>[13]</span>
+<span class="Josh-Thunderbolt">Josh Thunderbolt</span>
+<span>: been posting first</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: 1 has absolutely no claim</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><b>Way Too Friendly</b> is whispering to <b>trespassa</b>.</span>
+<span><br>[9]</span>
+<span class="Grumpy">Grumpy</span>
+<span>: i still think its 1</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: full will <b>trespassa</b></span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: im innoing</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: get 1</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>trespassa</b> voted <b>Josh Thunderbolt</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Way Too Friendly</b> voted <b>Josh Thunderbolt</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dead Night Three</b> voted <b>Josh Thunderbolt</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Grumpy</b> <b><style="AbstainColor>abstained</style></b> on <b>Josh Thunderbolt</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Josh Thunderbolt</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Josh Thunderbolt</b> to death by a vote of <color=#FF0000><b>4</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: Do not get 1</span>
+<span><br>[9]</span>
+<span class="Grumpy">Grumpy</span>
+<span>: 1 claim theres no doom/rit</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: 1 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><sprite="RoleIcons" name="Role1"><b><color=#06E00C>Admirer</color></b></link></font></style> , proposed to me N2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Josh Thunderbolt</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Josh Thunderbolt</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><sprite="RoleIcons" name="Role51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: AHA</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: ah</span>
+<span><br>[9]</span>
+<span class="Grumpy">Grumpy</span>
+<span>: oh ggs</span>
+<span><br>[5]</span>
+<span class="Dead-Night-Three">Dead Night Three</span>
+<span>: okay then</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Josh Thunderbolt</b> did not leave a last will.</span>
+<span><br>[4]</span>
+<span class="Way-Too-Friendly">Way Too Friendly</span>
+<span>: get 9 if game not end</span>
+</body>
+</html>
