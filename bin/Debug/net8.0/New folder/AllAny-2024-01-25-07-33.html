@@ -1,0 +1,538 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Shadow Boy - </span><span style="color:#00CC99"> Doomsayer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Shadow Boy the  TS<br>N1</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ShadowBoy)</i></span>
+<style>span.Shadow-Boy{color: #00CC99;}</style>
+<span><br>[2] Best Role - </span><span style="color:#06E00C"> Trickster </span>
+<span style="color:#a0a0a0"><i>(Username: kaneta)</i></span>
+<style>span.Best-Role{color: #06E00C;}</style>
+<span><br>[3] Hope Eradicated - </span><span style="color:#06E00C"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Hope-Eradicated{color: #06E00C;}</style>
+<span><br>[4] Taker - </span><span style="color:#777777"> Executioner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> <br>N1:<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Uncertified Loser</color></link></font></style>&<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wolpaz</color></link></font></style> Enemies</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: jobjob)</i></span>
+<style>span.Taker{color: #777777;}</style>
+<span><br>[5] Champion of Light - </span><span style="color:#06E00C"> Retributionist </span>
+<span style="color:#a0a0a0"><i>(Username: nedosna)</i></span>
+<style>span.Champion-of-Light{color: #06E00C;}</style>
+<span><br>[6] Proofreading - </span><span style="color:#AE00FF"> Necromancer </span>
+<span style="color:#a0a0a0"><i>(Username: Marmogus)</i></span>
+<style>span.Proofreading{color: #AE00FF;}</style>
+<span><br>[7] VanWinkle - </span><span style="color:#06E00C"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: benc2256)</i></span>
+<style>span.VanWinkle{color: #06E00C;}</style>
+<span><br>[8] Uncertified Loser - </span><span style="color:#AE00FF"> Jinx </span>
+<span style="color:#a0a0a0"><i>(Username: Existent)</i></span>
+<style>span.Uncertified-Loser{color: #AE00FF;}</style>
+<span><br>[9] Giles Corey - </span><span style="color:#06E00C"> Jailor </span>
+<span style="color:#a0a0a0"><i>(Username: Onlycat)</i></span>
+<style>span.Giles-Corey{color: #06E00C;}</style>
+<span><br>[10] Zeal - </span><span style="color:#FF0000"> Plaguebearer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style> <br><br>n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k95"><b><color=#007AFF><b>Build</b></color></b></link></font></style> <br>n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>VanWinkle</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Nrc196)</i></span>
+<style>span.Zeal{color: #FF0000;}</style>
+<span><br>[11] Wolpaz - </span><span style="color:#AE00FF"> Hex Master </span>
+<span style="color:#a0a0a0"><i>(Username: Wolpaz)</i></span>
+<style>span.Wolpaz{color: #AE00FF;}</style>
+<span><br>[12] Vinkle - </span><span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: VanWinkle)</i></span>
+<style>span.Vinkle{color: #06E00C;}</style>
+<span><br>[13] Dave - </span><span style="color:#FF8900"> Arsonist </span>
+<span style="color:#a0a0a0"><i>(Username: BrianApricot)</i></span>
+<style>span.Dave{color: #FF8900;}</style>
+<span><br>[14] Sir Goldesburgh Jr - </span><span style="color:#06E00C"> Tracker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">n1<br>n2<br>n3<br>n4<br>n5<br>n6<br>n7<br>n8<br>n9<br>n10</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Player321)</i></span>
+<style>span.Sir-Goldesburgh-Jr{color: #06E00C;}</style>
+<span><br>[15] mlerp - </span><span style="color:#FF0000"> Soul Collector </span>
+<span style="color:#a0a0a0"><i>(Username: POTAHO)</i></span>
+<style>span.mlerp{color: #FF0000;}</style>
+<span><br>[2]</span>
+<span class="Best-Role">Best Role</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> on me trust</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: It's Friday in New Zealand</span>
+<span><br>[14]</span>
+<span class="Sir-Goldesburgh-Jr">Sir Goldesburgh Jr</span>
+<span>: /I HATEE TRACKER GOODBYE IM LEAVING IDC</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Sir Goldesburgh Jr</color></link></font></style> has disconnected from life.</span>
+<span><br>[4]</span>
+<span class="Taker">Taker</span>
+<span>: bye 14</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: bye 14</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: rip</span>
+<span><br>[6]</span>
+<span class="Proofreading">Proofreading</span>
+<span>: PIRATE AND SC ON 14</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You are building your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> is built.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Best Role</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#AE00FF>Jinx</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Best Role</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Sir Goldesburgh Jr</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Sir Goldesburgh Jr</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Taker">Taker</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> N1:<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Uncertified Loser</color></link></font></style>&<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wolpaz</color></link></font></style> Enemies</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: im admirer on 11 so like yeah</span>
+<span><br>[4]</span>
+<span class="Taker">Taker</span>
+<span>: uh hello ?</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: seers fake</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Shadow Boy</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Taker</color></link></font></style> start claiming too</span>
+<span><br>[7]</span>
+<span class="VanWinkle">VanWinkle</span>
+<span>: me tp</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: im tk</span>
+<span><br>[1]</span>
+<span class="Shadow-Boy">Shadow Boy</span>
+<span>: TS</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Giles Corey</color></link></font></style> has disconnected from life.</span>
+<span><br>[4]</span>
+<span class="Taker">Taker</span>
+<span>: seers real</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: can admirer love n1?</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: nah</span>
+<span><br>[6]</span>
+<span class="Proofreading">Proofreading</span>
+<span>: TS as well</span>
+<span><br>[4]</span>
+<span class="Taker">Taker</span>
+<span>: fr</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: no, 10</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: no</span>
+<span><br>[6]</span>
+<span class="Proofreading">Proofreading</span>
+<span>: but they can N2</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: im ts</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: hmm</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Dave</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: im going on 11</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Proofreading</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>VanWinkle</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style> claims please</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: soon</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Taker</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Dave</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wolpaz</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Taker</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wolpaz</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: TP</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wolpaz</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wolpaz</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>mlerp</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wolpaz</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: 6 7 ?</span>
+<span><br>[6]</span>
+<span class="Proofreading">Proofreading</span>
+<span>: TS I CLAIMED ALREADY</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Champion of Light</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Proofreading</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Champion of Light</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>VanWinkle</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: ty</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: slow on 11</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: btw</span>
+<span><br>[7]</span>
+<span class="VanWinkle">VanWinkle</span>
+<span>: ?</span>
+<span><br>[4]</span>
+<span class="Taker">Taker</span>
+<span>: 11 slow</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Taker</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Taker</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> has been dismantled.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Taker</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Taker</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Giles Corey</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Giles Corey</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="VanWinkle">VanWinkle</span>
+<span>: 11 trickster</span>
+<span><br>[6]</span>
+<span class="Proofreading">Proofreading</span>
+<span>: WHO tarnation TOOK MY CORPSE</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: yuh</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Shadow Boy</color></link></font></style> has disconnected from life.</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: can conf</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 5 what r u</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: was it 5?</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: how you know 11 town?</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 1 or 5 is ret/necro</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: ts</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: if 6s corpse was stolen</span>
+<span><br>[7]</span>
+<span class="VanWinkle">VanWinkle</span>
+<span>: trapper</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: well let's tell the entire town my role</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wolpaz</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 5 who did u track/trick</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: 11?</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: 11</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: idk how trick on trick works</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: it does nothing</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You are building your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> is built.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Shadow Boy</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Shadow Boy</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r43"><b><color=#00CC99>Doomsayer</color></b></link></font></style>.</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>Now <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><b><color=#FF0000>Soul Collector</color></b></link></font></style> has become <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF0000>Death</color></b></link></font></style>, Destroyer of Worlds and Horseman of the Apocalypse!</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Vinkle</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Dave</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>mlerp</color></link></font></style> you three have not said a single fucking word all game claim right now</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: n3 - trick on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>mlerp</color></link></font></style> //</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: oh</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: oh</span>
+<span><br>[6]</span>
+<span class="Proofreading">Proofreading</span>
+<span>: HOLY tarnation flummery</span>
+<span><br>[15]</span>
+<span class="mlerp">mlerp</span>
+<span>: tp</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: will 15</span>
+<span><br>[12]</span>
+<span class="Vinkle">Vinkle</span>
+<span>: Tpow</span>
+<span><br>[15]</span>
+<span class="mlerp">mlerp</span>
+<span>: on 7 all nights</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 12 which</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: well now we lose</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: what's 5</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: WHICH TPOW</span>
+<span><br>[15]</span>
+<span class="mlerp">mlerp</span>
+<span>: BGN1: 7N2: 7N3: 7</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Uncertified Loser</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Uncertified Loser</color></link></font></style>: its 10</color></span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: OPEN CLAIM</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: EVERYONE</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: THERE IS DEATH</span>
+<span><br>[6]</span>
+<span class="Proofreading">Proofreading</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#FF7F66"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Vinkle</color></link></font></style> has revealed themself as the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>!</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: won't help...</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: no point hiding your roles</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: what's 5?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Uncertified Loser</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Proofreading</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Champion of Light</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: ret</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: well at least me and 6 are conf not death</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>mlerp</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 5s ret</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>mlerp</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Champion of Light</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>mlerp</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 5 is ret/necro</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Proofreading</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Champion of Light</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wolpaz</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: 5 can't be</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: they've said nothing all game</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: why would i use trick as necro...</span>
+<span><br>[6]</span>
+<span class="Proofreading">Proofreading</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Dave</color></link></font></style></span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 6 said his corpse was stolen, so that makes 5 retri, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Dave</color></link></font></style> HASNT SPOKEN EITHER</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: whats ur role than</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: I'm Trapper</span>
+<span><br>[6]</span>
+<span class="Proofreading">Proofreading</span>
+<span>: what are u</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 10 will</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: nah</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: who was trapped n2</span>
+<span><br>[7]</span>
+<span class="VanWinkle">VanWinkle</span>
+<span>: Im trapper...</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: guilty this bro</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: 12</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: we cant win this</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: bro</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Champion of Light</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Proofreading</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>VanWinkle</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Uncertified Loser</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Wolpaz</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Vinkle</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Dave</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>mlerp</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zeal</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Zeal</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 13 hasnt spoke all game</span>
+<span><br>[6]</span>
+<span class="Proofreading">Proofreading</span>
+<span>: ig we lost</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: either</span>
+<span><br>[10]</span>
+<span class="Zeal">Zeal</span>
+<span>: gg</span>
+<span><br>[5]</span>
+<span class="Champion-of-Light">Champion of Light</span>
+<span>: what a funny game</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Zeal</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Zeal</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><b><color=#FF0000>Plaguebearer</color></b></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Proofreading">Proofreading</span>
+<span>: tarnation</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: oh</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Zeal</b> left a last will.</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: he had defense</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i swear</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: bro</span>
+<span><br>[8]</span>
+<span class="Uncertified-Loser">Uncertified Loser</span>
+<span>: so i assumed</span>
+</body>
+</html>

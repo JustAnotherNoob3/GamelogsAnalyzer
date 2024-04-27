@@ -1,0 +1,859 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] James Bayley - </span><span style="color:#06E00C"> Investigator </span>
+<span style="color:#a0a0a0"><i>(Username: pethi)</i></span>
+<style>span.James-Bayley{color: #06E00C;}</style>
+<span><br>[2] Unlucky - </span><span style="color:#06E00C"> Sheriff </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Unlucky Sheriff<br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Azelf</color></link></font></style> (no sus)<br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style> )<br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Battleax</color></link></font></style> <br><br><br><br>There is a tracker claim in a WW game</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Silvade)</i></span>
+<style>span.Unlucky{color: #06E00C;}</style>
+<span><br>[3] Black Hole Sun - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style><br>|N1 - n/a<br>|N2 - 11<br>|N3 - 14<br>|N4 - 7 <br>|1 - invest<br>|3 - tav - c<br>|5 - coven killing<br>|7 - shroud<br>|8 -<br>|14 - trapper -c</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Black-Hole-Sun{color: #06E00C;}</style>
+<span><br>[4] Fazmoboy - </span><span style="color:#00CC99"> Doomsayer </span>
+<span style="color:#a0a0a0"><i>(Username: Fejetlen)</i></span>
+<style>span.Fazmoboy{color: #00CC99;}</style>
+<span><br>[5] Battleax - </span><span style="color:#AE00FF"> Voodoo Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> <br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Black Hole Sun</color></link></font></style> <br>N2: RBD<br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>James Bayley</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Battleax)</i></span>
+<style>span.Battleax{color: #AE00FF;}</style>
+<span><br>[6] John Proctor - </span><span style="color:#AE00FF"> Medusa </span>
+<span style="color:#a0a0a0"><i>(Username: femboisteve)</i></span>
+<style>span.John-Proctor{color: #AE00FF;}</style>
+<span><br>[7] Red Spy - </span><span style="color:#000000"> Shroud </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <br>N1 jailed<br>N2 ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style> ) <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Water</color></link></font></style><br>N3 ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Unlucky</color></link></font></style> ) <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Var</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Black Hole Sun</color></link></font></style>  <br>N4 ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Battleax</color></link></font></style> ) rbed</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: darktime)</i></span>
+<style>span.Red-Spy{color: #000000;}</style>
+<span><br>[8] Monkey D Dragon - </span><span style="color:#06E00C"> Monarch </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span style="color:#a0a0a0"><i>(Username: StrawHatZero)</i></span>
+<style>span.Monkey-D-Dragon{color: #06E00C;}</style>
+<span><br>[9] Water - </span><span style="color:#06E00C"> Jailor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style> <br>N1: 7 - claims psy  - not coven killing n1<br><br><br>1 invest 3nb<br>2 sheriff 12 ns<br>3 tav<br>4<br>5 tp<br>6<br>7 psy<br>8<br>11<br>12<br>13<br>14<br>15 invest 4nb</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: waterprincess244)</i></span>
+<style>span.Water{color: #06E00C;}</style>
+<span><br>[10] Pineapple - </span><span style="color:#06E00C"> Monarch </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Monarch<br>N1: nothing</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">hi guys nothing yet, sorry about that</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Gabrieleire)</i></span>
+<style>span.Pineapple{color: #06E00C;}</style>
+<span><br>[11] moot - </span><span style="color:#AE00FF"> Hex Master </span>
+<span style="color:#a0a0a0"><i>(Username: GoonaTuppy)</i></span>
+<style>span.moot{color: #AE00FF;}</style>
+<span><br>[12] Azelf - </span><span style="color:#06E00C"> Tracker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Azelf the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> <br><br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>James Bayley</color></link></font></style> (Visited <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Black Hole Sun</color></link></font></style>)<br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Battleax</color></link></font></style> (Visited No One)<br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Var</color></link></font></style></span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">Marasmus i will haunt your ass whit my foot</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Jarpis)</i></span>
+<style>span.Azelf{color: #06E00C;}</style>
+<span><br>[13] Var - </span><span style="color:#9B5600"> Werewolf </span>
+<span style="color:#a0a0a0"><i>(Username: hiiii)</i></span>
+<style>span.Var{color: #9B5600;}</style>
+<span><br>[14] hubisow - </span><span style="color:#06E00C"> Trapper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style> <br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k95"><b><color=#007AFF><b>Build</b></color></b></link></font></style> ing <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> <br>N2: Placing it on X<br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> triggered<br>Killed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#AE00FF>Conjurer</color></b></link></font></style> <br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k95"><b><color=#007AFF><b>Build</b></color></b></link></font></style> ing <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> <br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed<br>N4: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k95"><b><color=#007AFF><b>Build</b></color></b></link></font></style>ing <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style><br>N5: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style>ing <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Monkey D Dragon</color></link></font></style><br>I swear if <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Battleax</color></link></font></style> is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r33"><b><color=#AE00FF>Necromancer</color></b></link></font></style>and uses <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9B5600>Werewolf</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: hubisow)</i></span>
+<style>span.hubisow{color: #06E00C;}</style>
+<span><br>[15] Icicle Spear - </span><span style="color:#AE00FF"> Conjurer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>N1: 4 (nb)<br>N2: 7 (nb)<br><br>uh oh guys I died</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: HyperSomnom)</i></span>
+<style>span.Icicle-Spear{color: #AE00FF;}</style>
+<span><br>[6]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: omg guys</span>
+<span><br>[6]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: i put hand sanitizer on my balls</span>
+<span><br>[6]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: dont do it</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Pineapple</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Pineapple</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: Guys seriously my balls fcking burned for like 20 seconds i gee golly near cried.</span>
+<span><br>[15]</span>
+<span class="Icicle-Spear">Icicle Spear</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1: 4 (nb)</span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Black Hole Sun</color></link></font></style> - no blood</span>
+<span><br>[7]</span>
+<span class="Red-Spy">Red Spy</span>
+<span>: jailed i am psy</span>
+<span><br>[2]</span>
+<span class="Unlucky">Unlucky</span>
+<span>: Unlucky Sheriff N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Azelf</color></link></font></style> (no sus)</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: im tav for vfa</span>
+<span><br>[9]</span>
+<span class="Water">Water</span>
+<span>: vfa?</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style></span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: you go</span>
+<span><br>[12]</span>
+<span class="Azelf">Azelf</span>
+<span>: Azelf the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>James Bayley</color></link></font></style> (Visited <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Black Hole Sun</color></link></font></style>)</span>
+<span><br>[4]</span>
+<span class="Fazmoboy">Fazmoboy</span>
+<span>: what do I do?</span>
+<span><br>[9]</span>
+<span class="Water">Water</span>
+<span>: 12 late tracker will</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: 12 thats so late + outted info</span>
+<span><br>[15]</span>
+<span class="Icicle-Spear">Icicle Spear</span>
+<span>: thats hella late</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: 4 its vfa</span>
+<span><br>[9]</span>
+<span class="Water">Water</span>
+<span>: known info</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: I'm <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span><br>[9]</span>
+<span class="Water">Water</span>
+<span>: 4 vfa role</span>
+<span><br>[4]</span>
+<span class="Fazmoboy">Fazmoboy</span>
+<span>: what is vfa</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Water</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Azelf</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Icicle Spear</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>James Bayley</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: vote for alingment</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Red Spy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Water">Water</span>
+<span>: up 12</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>hubisow</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Monkey D Dragon</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Azelf</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Icicle-Spear">Icicle Spear</span>
+<span>: vote for alignement</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Battleax</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Black Hole Sun</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>: ur sub alingment in ur rolecard</color></span>
+<span><br>[4]</span>
+<span class="Fazmoboy">Fazmoboy</span>
+<span>: aight gg just downloaded this game but idc anyway</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Black Hole Sun</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>: hover mouse over top right</color></span>
+<span><br>[15]</span>
+<span class="Icicle-Spear">Icicle Spear</span>
+<span>: huh</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: inno let him learn the game</span>
+<span><br>[9]</span>
+<span class="Water">Water</span>
+<span>: vfa = vote for alignment we start from the top and go down the list</span>
+<span><br>[8]</span>
+<span class="Monkey-D-Dragon">Monkey D Dragon</span>
+<span>: stellar defense</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: inno</span>
+<span><br>[7]</span>
+<span class="Red-Spy">Red Spy</span>
+<span>: hehehe time to learn</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: let him learn the game</span>
+<span><br>[9]</span>
+<span class="Water">Water</span>
+<span>: claim your alignment</span>
+<span><br>[12]</span>
+<span class="Azelf">Azelf</span>
+<span>: I always post late waiting for contradictory info</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: im trying to explain to him</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: just inno and keep going</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>James Bayley</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Unlucky</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Battleax</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>John Proctor</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Red Spy</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Monkey D Dragon</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Water</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>moot</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Azelf</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Var</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>hubisow</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Icicle Spear</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fazmoboy</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Fazmoboy</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[15]</span>
+<span class="Icicle-Spear">Icicle Spear</span>
+<span>: except this time you didn't contradict anything 12</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: 6 next</span>
+<span><br>[15]</span>
+<span class="Icicle-Spear">Icicle Spear</span>
+<span>: you just posted known info</span>
+<span><br>[9]</span>
+<span class="Water">Water</span>
+<span>: 4 role</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>John Proctor</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Red Spy</b> voted against <b>John Proctor</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Icicle Spear</b> voted against <b>John Proctor</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Monkey D Dragon</b> voted against <b>John Proctor</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Water</b> voted against <b>Fazmoboy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Unlucky</b> voted against <b>John Proctor</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Battleax</b> voted against <b>John Proctor</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>hubisow</b> voted against <b>John Proctor</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Azelf</b> voted against <b>John Proctor</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>John Proctor</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Battleax</b> is whispering to <b>Fazmoboy</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Hole Sun</b> is whispering to <b>Fazmoboy</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>Fazmoboy</b>: In the top right is your rolecard, the icon between the sword and shield is your role, it'll tell you a subalingment</color></span>
+<span><br>[6]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: my balls</span>
+<span><br>[6]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: were on fire</span>
+<span><br>[6]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: sueriousy</span>
+<span><br>[15]</span>
+<span class="Icicle-Spear">Icicle Spear</span>
+<span>: another stellar defence</span>
+<span><br>[9]</span>
+<span class="Water">Water</span>
+<span>: ok guilty</span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: was there any reason to vote inno on 4?</span>
+<span><br>[6]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: no hand sanitizer on balls</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Fazmoboy</b> is whispering to <b>Black Hole Sun</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>Fazmoboy</b>: I'm doomsayer</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Hole Sun</b> is whispering to <b>Fazmoboy</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>Fazmoboy</b>: if you are not green (town) you want to lie about your role</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Hole Sun</b> is whispering to <b>Fazmoboy</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>Fazmoboy</b>: oh shit okay lmao</color></span>
+<span><br>[6]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: jesus christ</span>
+<span><br>[6]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: it burned</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <b>John Proctor</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>James Bayley</b> voted <b>John Proctor</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Unlucky</b> <b><style="AbstainColor>abstained</style></b> on <b>John Proctor</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Fazmoboy</b> <b><style="AbstainColor>abstained</style></b> on <b>John Proctor</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Battleax</b> voted <b>John Proctor</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Red Spy</b> voted <b>John Proctor</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Monkey D Dragon</b> <b><style="AbstainColor>abstained</style></b> on <b>John Proctor</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Water</b> voted <b>John Proctor</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>moot</b> <b><style="AbstainColor>abstained</style></b> on <b>John Proctor</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Azelf</b> voted <b>John Proctor</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Var</b> <b><style="AbstainColor>abstained</style></b> on <b>John Proctor</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>hubisow</b> voted <b>John Proctor</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Icicle Spear</b> voted <b>John Proctor</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>John Proctor</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[6]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: for a good 20 seconds</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: <b>Fazmoboy</b> claim role</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: <b>James Bayley</b> hes new to the game and trying to learn</span>
+<span><br>[9]</span>
+<span class="Water">Water</span>
+<span>: still needs to give a role</span>
+<span><br>[14]</span>
+<span class="hubisow">hubisow</span>
+<span>: tk on 4</span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: ^</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>John Proctor</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>John Proctor</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r32"><b><color=#AE00FF>Medusa</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>John Proctor</b> did not leave a last will.</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: <b>Fazmoboy</b> claim or get killed</span>
+<span><br>[4]</span>
+<span class="Fazmoboy">Fazmoboy</span>
+<span>: i think I'm going to help</span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: if he doesnt claim he doesnt help</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to celebrate with <b>moot</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Water</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9B5600>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Water</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Hole Sun</b> is whispering to <b>Fazmoboy</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>Fazmoboy</b>: okay, click on the keyword <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r100"><b><color=#1F51FF>Random </color><style="TownColor">Town</style></b></link></font></style> it'll bring up a list of all town roles, you wanna pick one of those to claim</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Icicle Spear</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Icicle Spear</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#AE00FF>Conjurer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Hole Sun</b> is whispering to <b>Fazmoboy</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>Fazmoboy</b>: imo i'd just claim cleric or bodyguard since those are easy you just say you protect someone each night</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Azelf</b> is whispering to <b>Battleax</b>.</color></span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: N2: <b>Var</b> (jailed) welp</span>
+<span><br>[2]</span>
+<span class="Unlucky">Unlucky</span>
+<span>: Unlucky Sheriff N1: <b>Azelf</b> (no sus) N2: <b>Fazmoboy</b> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style> )</span>
+<span><br>[7]</span>
+<span class="Red-Spy">Red Spy</span>
+<span>: N2 ( <b>Fazmoboy</b> ) <b>Water</b></span>
+<span><br>[4]</span>
+<span class="Fazmoboy">Fazmoboy</span>
+<span>: I'm spy</span>
+<span><br>[12]</span>
+<span class="Azelf">Azelf</span>
+<span>: Azelf the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> N1: <b>James Bayley</b> (Visited <b>Black Hole Sun</b>) N2: <b>Battleax</b> (Visited No One)</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: RBD</span>
+<span><br>[2]</span>
+<span class="Unlucky">Unlucky</span>
+<span>: 4 is sus</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: 5 is this true</span>
+<span><br>[2]</span>
+<span class="Unlucky">Unlucky</span>
+<span>: Unlucky Sheriff N1: <b>Azelf</b> (no sus) N2: <b>Fazmoboy</b> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style> )</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: Yes, I got RBD</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Fazmoboy</b> is whispering to <b>Black Hole Sun</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>Fazmoboy</b>: I appreciate your help but I think i just got a bad role and should learn more before playing</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Hole Sun</b> is whispering to <b>Fazmoboy</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>Fazmoboy</b>: yeah doom is VERY difficult role to get as your first</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Unlucky</b> voted against <b>Fazmoboy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Red Spy</b> voted against <b>Fazmoboy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Battleax</b> voted against <b>Fazmoboy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Monkey D Dragon</b> voted against <b>Fazmoboy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>James Bayley</b> voted against <b>Fazmoboy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Azelf</b> voted against <b>Fazmoboy</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Fazmoboy</b> was voted up to trial.</span>
+<span><br>[4]</span>
+<span class="Fazmoboy">Fazmoboy</span>
+<span>: gg guys:)</span>
+<span><br>[4]</span>
+<span class="Fazmoboy">Fazmoboy</span>
+<span>: my defense is</span>
+<span><br>[4]</span>
+<span class="Fazmoboy">Fazmoboy</span>
+<span>: life could be dream</span>
+<span><br>[4]</span>
+<span class="Fazmoboy">Fazmoboy</span>
+<span>: life could be dreeeeeaaaaam</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Fazmoboy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: I can bet my ass this is jest</span>
+<span><br>[2]</span>
+<span class="Unlucky">Unlucky</span>
+<span>: probably</span>
+<span><br>[2]</span>
+<span class="Unlucky">Unlucky</span>
+<span>: but fck it, get him out</span>
+<span><br>[12]</span>
+<span class="Azelf">Azelf</span>
+<span>: all guilty tbh</span>
+<span><br>[2]</span>
+<span class="Unlucky">Unlucky</span>
+<span>: in case he isn't</span>
+<span><br>[7]</span>
+<span class="Red-Spy">Red Spy</span>
+<span>: just let him win</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: sure</span>
+<span><br>[14]</span>
+<span class="hubisow">hubisow</span>
+<span>: hs annoying</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>James Bayley</b> voted <b>Fazmoboy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Unlucky</b> voted <b>Fazmoboy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Battleax</b> voted <b>Fazmoboy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Red Spy</b> voted <b>Fazmoboy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Monkey D Dragon</b> <b><style="AbstainColor>abstained</style></b> on <b>Fazmoboy</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>moot</b> <b><style="AbstainColor>abstained</style></b> on <b>Fazmoboy</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Azelf</b> voted <b>Fazmoboy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Var</b> voted <b>Fazmoboy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>hubisow</b> voted <b>Fazmoboy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Fazmoboy</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[4]</span>
+<span class="Fazmoboy">Fazmoboy</span>
+<span>: gg</span>
+<span><br>[4]</span>
+<span class="Fazmoboy">Fazmoboy</span>
+<span>: im no jester</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Fazmoboy</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Fazmoboy</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r43"><b><color=#00CC99>Doomsayer</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: eh</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Fazmoboy</b> did not leave a last will.</span>
+<span><br>[2]</span>
+<span class="Unlucky">Unlucky</span>
+<span>: neat</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: at least not town</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to celebrate with <b>Var</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>moot</b> has disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to celebrate with <b>hubisow</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Unlucky</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Unlucky</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>moot</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>moot</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r29"><b><color=#AE00FF>Hex Master</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Azelf</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#000000>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Azelf</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Red-Spy">Red Spy</span>
+<span>: N3 ( <b>Unlucky</b> ) <b>Var</b> <b>Black Hole Sun</b></span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: hang 13 today</span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: N3: <b>Var</b> - no blood</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: 13 is werewolf</span>
+<span><br>[13]</span>
+<span class="Var">Var</span>
+<span>: no blood</span>
+<span><br>[13]</span>
+<span class="Var">Var</span>
+<span>: so im not evil</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: jailed n2 and killed jailor</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: ww doesnt have blood on n3</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: 7 is shroud</span>
+<span><br>[14]</span>
+<span class="hubisow">hubisow</span>
+<span>: no blood : didnt kill</span>
+<span><br>[13]</span>
+<span class="Var">Var</span>
+<span>: Trickster n1 3 n2 jailed n3 7</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: btw</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: yea, 13 is likely</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: nope</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: 7 is the shroud</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: ur fake</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: 13 today, 7 tomorrow</span>
+<span><br>[7]</span>
+<span class="Red-Spy">Red Spy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style> apear only on attacking nights</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: 13 is ww 7 is shroud</span>
+<span><br>[13]</span>
+<span class="Var">Var</span>
+<span>: im trickster</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: 14 is not coven killing unless they are rb immune</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: Ww more important</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: 'btw</span>
+<span><br>[13]</span>
+<span class="Var">Var</span>
+<span>: nah</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>hubisow</b> voted against <b>Var</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Var</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>James Bayley</b> voted against <b>Var</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Monkey D Dragon</b> voted against <b>hubisow</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Battleax</b> voted against <b>Var</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Var</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>hubisow</b> is whispering to <b>Black Hole Sun</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>hubisow</b>: r u tav</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Hole Sun</b> is whispering to <b>hubisow</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>hubisow</b>: yes</color></span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: who roleblocked <b>Battleax</b> ?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>hubisow</b> is whispering to <b>Black Hole Sun</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>hubisow</b>: why did u rb me</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Var</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Hole Sun</b> is whispering to <b>hubisow</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>hubisow</b>: nonclaimer</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>hubisow</b> is whispering to <b>Black Hole Sun</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>hubisow</b>: im trapper btw killed 15 n2</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Hole Sun</b> is whispering to <b>hubisow</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>hubisow</b>: okay didnt know that sorry</color></span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: maybe PH has book</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>James Bayley</b> voted <b>Var</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Battleax</b> voted <b>Var</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Red Spy</b> voted <b>Var</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Monkey D Dragon</b> voted <b>Var</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>hubisow</b> voted <b>Var</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Var</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>hubisow</b> is whispering to <b>Black Hole Sun</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>hubisow</b>: its fine</color></span>
+<span><br>[13]</span>
+<span class="Var">Var</span>
+<span>: 5 is CK</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: pois wouldve killed 5</span>
+<span><br>[13]</span>
+<span class="Var">Var</span>
+<span>: :)</span>
+<span><br>[13]</span>
+<span class="Var">Var</span>
+<span>: :))</span>
+<span><br>[13]</span>
+<span class="Var">Var</span>
+<span>: :)))</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: yeah 5 and 7 are evil</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: pois has book*</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Var</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Var</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9B5600>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Var</b> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Red Spy</b> is whispering to <b>Battleax</b>.</color></span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: conj died n2, then pois got book</span>
+<span><br>[3]</span>
+<span class="Black-Hole-Sun">Black Hole Sun</span>
+<span>: trick 5</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to celebrate with <b>Red Spy</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your voice seems to be lost! You can't speak.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by a member of the <style="CovenColor">Coven</style>!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Black Hole Sun</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Black Hole Sun</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Red-Spy">Red Spy</span>
+<span>: N4 ( <b>Battleax</b> ) rbed</span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: N4: <b>Battleax</b> - blood</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: So I guess 3 RBD me N2</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: Yea, I'm VM, but we need shroud out</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Black-Hole-Sun</span>
+<span style="color:#689194">: 4 you still here?</i></span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: why</span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: tbh no difference for me</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: Shroud can kill me, I cannot kill shroud</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: easy</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>hubisow</b> voted against <b>Red Spy</b>.</span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: uhm</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Monkey D Dragon</b> voted against <b>Red Spy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Battleax</b> voted against <b>Red Spy</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Red Spy</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>hubisow</b> is whispering to <b>James Bayley</b>.</color></span>
+<span><br>[7]</span>
+<span class="Red-Spy">Red Spy</span>
+<span>: you know 5 you lost if you vote me out</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: Trust me I know what i'm doing</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>James Bayley</b> voted <b>Red Spy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Battleax</b> voted <b>Red Spy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Monkey D Dragon</b> voted <b>Red Spy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>hubisow</b> voted <b>Red Spy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Red Spy</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[7]</span>
+<span class="Red-Spy">Red Spy</span>
+<span>: no you dont</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Unlucky</span>
+<span style="color:#689194">: lol</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Red Spy</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Red Spy</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#000000>Shroud</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Black-Hole-Sun</span>
+<span style="color:#689194">: what even is 8</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Red Spy</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>hubisow</b> is whispering to <b>James Bayley</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>hubisow</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>hubisow</b> left a last will.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Black-Hole-Sun</span>
+<span style="color:#689194">: 14 do we know what 8 is</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">hubisow</span>
+<span style="color:#689194">: likely town</i></span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style>ed <b>James Bayley</b>.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">hubisow</span>
+<span style="color:#689194">: all nks dead</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Black-Hole-Sun</span>
+<span style="color:#689194">: oh</i></span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: ooo</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Black-Hole-Sun</span>
+<span style="color:#689194">: 8 is ret or amne monarch</i></span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: Wait 8 was ret?</span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: must be</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: I thought they were neutral</span>
+<span><br>[8]</span>
+<span class="Monkey-D-Dragon">Monkey D Dragon</span>
+<span>: amnes</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Unlucky</span>
+<span style="color:#689194">: lol</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">hubisow</span>
+<span style="color:#689194">: ggs</i></span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: OOF</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Unlucky</span>
+<span style="color:#689194">: he knew what he was doing</i></span>
+<span><br>[8]</span>
+<span class="Monkey-D-Dragon">Monkey D Dragon</span>
+<span>: everyone i tried to knight died</span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: i was a bit afrai 8 was ne too</span>
+<span><br>[8]</span>
+<span class="Monkey-D-Dragon">Monkey D Dragon</span>
+<span>: F</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>James Bayley</b> voted against <b>Battleax</b>.</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Red-Spy</span>
+<span style="color:#689194">: 5 should have coopereted with me</i></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Battleax</b> was voted up to trial.</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: was expecting death to transform here or something</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">hubisow</span>
+<span style="color:#689194">: but he didnt</i></span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: RIP</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Unlucky</span>
+<span style="color:#689194">: i wonder what 5s plan was if 1 wasn't knighted</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Black-Hole-Sun</span>
+<span style="color:#689194">: sheep 1 into voting 8</i></span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: Anyways, still needed shroud gome</span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: Inno pls, would be fun</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>James Bayley</b> voted <b>Battleax</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Monkey D Dragon</b> voted <b>Battleax</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Battleax</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Black-Hole-Sun</span>
+<span style="color:#689194">: 5 still loses to trap</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Black-Hole-Sun</span>
+<span style="color:#689194">: lmao</i></span>
+<span><br>[5]</span>
+<span class="Battleax">Battleax</span>
+<span>: GGs</span>
+<span><br>[8]</span>
+<span class="Monkey-D-Dragon">Monkey D Dragon</span>
+<span>: gg</span>
+<span><br>[1]</span>
+<span class="James-Bayley">James Bayley</span>
+<span>: gg</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">hubisow</span>
+<span style="color:#689194">: gg</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Battleax</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Battleax</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#AE00FF>Voodoo Master</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Battleax</b> left a last will.</span>
+</body>
+</html>

@@ -1,0 +1,944 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Coven traitor - </span><span style="color:#9B5600"> Werewolf </span>
+<span style="color:#a0a0a0"><i>(Username: Thebestmimicchest)</i></span>
+<style>span.Coven-traitor{color: #9B5600;}</style>
+<span><br>[2] Dumb Townie - </span><span style="color:#AE00FF"> Hex Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br>n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Brifford</color></link></font></style> <br>n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Lillystartiger)</i></span>
+<style>span.Dumb-Townie{color: #AE00FF;}</style>
+<span><br>[3] Hope Eradicated - </span><span style="color:#AE00FF"> Ritualist </span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Hope-Eradicated{color: #AE00FF;}</style>
+<span><br>[4] Trico - </span><span style="color:#06E00C"> Bodyguard </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">WE WIN!</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">Legalize nuclear bombs.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Pipsyxxx)</i></span>
+<style>span.Trico{color: #06E00C;}</style>
+<span><br>[5] Brifford - </span><span style="color:#FFB0DF"> Jester </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Brifford the Retri<br><br>N1 - Chillin</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: bearbandit12)</i></span>
+<style>span.Brifford{color: #FFB0DF;}</style>
+<span><br>[6] Lynch Nein - </span><span style="color:#06E00C"> Vigilante </span>
+<span style="color:#a0a0a0"><i>(Username: AimedGecko7)</i></span>
+<style>span.Lynch-Nein{color: #06E00C;}</style>
+<span><br>[7] Sleepy - </span><span style="color:#FFB0DF"> Jester </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">I'm the sleepy Jester<br><br>Zzz</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Psychokitty02)</i></span>
+<style>span.Sleepy{color: #FFB0DF;}</style>
+<span><br>[8] pitou - </span><span style="color:#AE00FF"> Conjurer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style> <br><br>n1 waiting<br>n2 waiting<br>n3 waiting<br>n4 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style> target jailed</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: pitouu)</i></span>
+<style>span.pitou{color: #AE00FF;}</style>
+<span><br>[9] Hydrogen - </span><span style="color:#06E00C"> Prosecutor </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">fricking slow internet ahhhh</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">Legalize nuclear bombs.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: HingleMcCringleberry)</i></span>
+<style>span.Hydrogen{color: #06E00C;}</style>
+<span><br>[10] Dreambeaver - </span><span style="color:#06E00C"> Mayor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">lmao moment</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">its a dirty game</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TploOnMe)</i></span>
+<style>span.Dreambeaver{color: #06E00C;}</style>
+<span><br>[11] The Koza - </span><span style="color:#06E00C"> Jailor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Jailor<br>N1|14 late trick claim <br>N2|5 "tpow"<br>N3|14 exing <br><br>|1 invest<br>|2 <br>|3 <br>|4 <br>|8<br>|9<br>|10 <br>|11 <br>|12 <br>|13 <br>|14</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">i wanna go to the moon</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Cichy777)</i></span>
+<style>span.The-Koza{color: #06E00C;}</style>
+<span><br>[12] Achievement Hunter - </span><span style="color:#0000FF"> Serial Killer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style> <br>N1 nothing<br>N2 no point in <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k72"><b><color=#007AFF><b>Raise</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Vawtermelon)</i></span>
+<style>span.Achievement-Hunter{color: #0000FF;}</style>
+<span><br>[13] SweetBonanza - </span><span style="color:#06E00C"> Prosecutor </span>
+<span style="color:#a0a0a0"><i>(Username: BeyazSaray)</i></span>
+<style>span.SweetBonanza{color: #06E00C;}</style>
+<span><br>[14] Pepine - </span><span style="color:#AE00FF"> Illusionist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br><br>N1: jailed<br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style> because claimed rol (I live)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Hanster)</i></span>
+<style>span.Pepine{color: #AE00FF;}</style>
+<span><br>[15] Dam - </span><span style="color:#06E00C"> Coroner </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">begged for tplo too much for my liking</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: wholesomedungeater)</i></span>
+<style>span.Dam{color: #06E00C;}</style>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span><br>[15]</span>
+<span class="Dam">Dam</span>
+<span>: Tpow here TP LO</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: hello fellow coven members</span>
+<span><br>[12]</span>
+<span class="Achievement-Hunter">Achievement Hunter</span>
+<span>: Jail me I wanna talk thanks</span>
+<span><br>[4]</span>
+<span class="Trico">Trico</span>
+<span>: erm..</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Dam</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dreambeaver</color></link></font></style>.</color></span>
+<span><br>[12]</span>
+<span class="Achievement-Hunter">Achievement Hunter</span>
+<span>: i cant do shit n1</span>
+<span><br>[15]</span>
+<span class="Dam">Dam</span>
+<span>: TP LO on me</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 12 that seems suspicious</span>
+<span><br>[15]</span>
+<span class="Dam">Dam</span>
+<span>: TPOW</span>
+<span><br>[15]</span>
+<span class="Dam">Dam</span>
+<span>: heer</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style> was hauled off to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>!</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: 15 is getting that nuke</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: good luck 14</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Dumb Townie</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k19"><b><color=#007AFF><b>Hex</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hydrogen</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style> decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Coven traitor</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>SweetBonanza</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>SweetBonanza</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Sheriff N1|14 jailed</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style> decided to conjure a meteor targeting <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Dam</color></link></font></style> today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Dam</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#AE00FF>Conjurer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Dam</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: gee golly</span>
+<span><br>[10]</span>
+<span class="Dreambeaver">Dreambeaver</span>
+<span>: waste of conj</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: CLASSIC CORONER W</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: LMAO CONJ L</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: Coven traitor the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>n1: ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trico</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k111"><b><color=#007AFF><b>No Blood</b></color></b></link></font></style> )</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: that was fast</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: lol</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: jailed</span>
+<span><br>[12]</span>
+<span class="Achievement-Hunter">Achievement Hunter</span>
+<span>: huh</span>
+<span><br>[5]</span>
+<span class="Brifford">Brifford</span>
+<span>: he was not tpow</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: well 11 isnt conj</span>
+<span><br>[4]</span>
+<span class="Trico">Trico</span>
+<span>: well then..</span>
+<span><br>[12]</span>
+<span class="Achievement-Hunter">Achievement Hunter</span>
+<span>: weird <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k77"><b><color=#007AFF><b>Conjure</b></color></b></link></font></style></span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: why a coro asking for TPLO XD</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynch Nein</color></link></font></style> has disconnected from life.</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: holy based coroner</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: 14 jailed no cov kills, any tav wanna pop out?</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: and jailed claim I was dying N3? I dont know what to make of that</span>
+<span><br>[4]</span>
+<span class="Trico">Trico</span>
+<span>: cos they're like the Meds of ToS2</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: to be fair cov could have hit nuet</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: neut</span>
+<span><br>[10]</span>
+<span class="Dreambeaver">Dreambeaver</span>
+<span>: marshal???</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: vfa time</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: 2</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: 3</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: 4</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: VFR</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Dumb Townie</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: no VFA</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Coven traitor</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Dumb Townie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Koza</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Dumb Townie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Dumb Townie</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: i'm TK</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Coven traitor</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: im cleric</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Coven traitor</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trico</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dreambeaver</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trico</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Koza</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trico</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Trico">Trico</span>
+<span>: TP</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trico</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Brifford</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trico</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dreambeaver</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Brifford</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Koza</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Brifford</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: full claim is sus</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: full roles</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Brifford</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Coven traitor</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Brifford</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: naaah vfa pussies</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: full claim or sus</span>
+<span><br>[4]</span>
+<span class="Trico">Trico</span>
+<span>: was thinking the same thing <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Coven traitor</color></link></font></style></span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: slow 5</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: slow 45</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Brifford</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: wow</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: slow</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: jailor</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Brifford</color></link></font></style> sus</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: so</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Dumb Townie</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k19"><b><color=#007AFF><b>Hex</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style> tonight.</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: fucking coro man</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: I was jailed</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style> instead decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dreambeaver</color></link></font></style> tonight.</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: never full claim if not faking TI</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: and the jailor said I was dying N3</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: yeah</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i know what im doin 2</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: LMAO</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: dont worry</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: we need to find him</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: ok</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style> decided to cast an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k27"><b><color=#007AFF><b>Illusion</b></color></b></link></font></style> over <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Brifford</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were executed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Brifford</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trico</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trico</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynch Nein</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynch Nein</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dreambeaver</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>. They were also killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trico</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Dreambeaver</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trico</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>: ur so sk lmao</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>: asking for the n1 jail</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>: little achievement gremlin</color></span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: n2: ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Brifford</color></link></font></style> was jailed)</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: 14 post now</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: so <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Coven traitor</color></link></font></style> you were?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>: i'll keep secrets</color></span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: VFR 14</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>: :)</color></span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: invest</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: blind</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>: ok lol</color></span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: VFR 14</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: 14 post</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: 2 4 full claims</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 14 post</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: please</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: or claim</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: I think full claim is dumb cause this game is based on lying</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: I mean, if you dont post full will, we will not remember</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: 2 4 14 full claims</span>
+<span><br>[4]</span>
+<span class="Trico">Trico</span>
+<span>: i claimed TP thank you</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: breh</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 7 thats the point</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: tk</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: i'm TK</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Koza</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: Coven traitor the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>n1: ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trico</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k111"><b><color=#007AFF><b>No Blood</b></color></b></link></font></style> ) n2: ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Brifford</color></link></font></style> was jailed)</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hydrogen</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: there</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Coven traitor</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: Why u want a full claim unless ur dooms/rit</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: ur the one not posting full will</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: goodbye</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Dumb Townie</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style> was voted up to trial.</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: Im guessing I have to post full will</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>: whatre you</color></span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: I swear if there is a rit.....</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> N1: jailed N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style> because claimed rol (I live)</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>: cleric</color></span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: 11 post your n2 pls</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: 11 wants doom and rit to run a train on town</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: are we sure they are evil role</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: how does doom/rit know 14 was jailed n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Dumb Townie</color></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>: cool, who u going on i wont kill them cuz u die</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>You <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style>!</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: I think inno</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style>: myself</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Coven traitor</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Dumb Townie</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Trico</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>pitou</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hydrogen</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Koza</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Achievement Hunter</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Pepine</color></link></font></style>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Pepine</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: inno let jailor handle</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: i think <b>The Koza</b> is rit doom</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Achievement Hunter</b> is whispering to <b>Hope Eradicated</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>Achievement Hunter</b>: based</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 7 defending this btw</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: jailor can handle this</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: bro idk i'm dumb, i forgot what 11 is</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>The Koza</b> voted against <b>Sleepy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Sleepy</b>.</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: get 7</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: 11 post your n2 pls</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dumb Townie</b> voted against <b>Sleepy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Achievement Hunter</b> voted against <b>Sleepy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Hydrogen</b> voted against <b>Sleepy</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>pitou</b> voted against <b>Sleepy</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sleepy</b> was voted up to trial.</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: why me?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Hope Eradicated</b> is whispering to <b>The Koza</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>The Koza</b>: BRO ITS NOT EVEN HARD TO GUESS</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Hope Eradicated</b> is whispering to <b>The Koza</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>The Koza</b>: LMAO</color></span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: he said it</span>
+<span><br>[4]</span>
+<span class="Trico">Trico</span>
+<span>: ok THATS a guilty</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: he said the words</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: okay godbye let jailor exe 14 if this is evil</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: 11 where is your n2 buddy</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: I finally get a role I like and you guys kill me</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: 11 will</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Sleepy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: I have to guilty</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Hope Eradicated</b> is whispering to <b>The Koza</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>The Koza</b>: this is so jester</color></span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: <b>The Koza</b> will</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Hope Eradicated</b> is whispering to <b>The Koza</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>The Koza</b>: lmao</color></span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: inno up 11</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: up 11</span>
+<span><br>[11]</span>
+<span class="The-Koza">The Koza</span>
+<span>: lmao</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: inno</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Coven traitor</b> voted <b>Sleepy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Dumb Townie</b> voted <b>Sleepy</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Trico</b> voted <b>Sleepy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>pitou</b> voted <b>Sleepy</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Hydrogen</b> voted <b>Sleepy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>The Koza</b> voted <b>Sleepy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Achievement Hunter</b> voted <b>Sleepy</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Pepine</b> voted <b>Sleepy</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sleepy</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: hahhahahahahah</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: where is your n2</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: YES</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style> will get their revenge from the grave!</span>
+<span><br>[12]</span>
+<span class="Achievement-Hunter">Achievement Hunter</span>
+<span>: obv jester is obv</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: ohhhh</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sleepy</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sleepy</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: he said the words</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: 8 9 12 roles</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: but jester not killer</span>
+<span><br>[14]</span>
+<span class="Pepine">Pepine</span>
+<span>: is a must guilty</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Sleepy</b> left a last will.</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: im ts</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: 11 not posting d2 is sus</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Hope Eradicated</b> is whispering to <b>Achievement Hunter</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>Achievement Hunter</b>: kill 4</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Pepine</b> was hauled off to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>!</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 11 is the Jailor</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: fucking christ</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: yeah</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: kill 11</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: rit 11</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You have performed a Blood Ritual on <b>Achievement Hunter</b> guessing their role is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: rit him</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: dude</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: no im killing SK</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 12 is SK</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: 11 is probably sheriff</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: ok</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>pitou</b> decided to attack <b>The Koza</b> tonight.</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: no 11 is jailor</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 100%</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: ok</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: rit 11 then</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i know 11 hes very good player</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: no i can kill sk</span>
+<span><br>[2]</span>
+<span class="Dumb-Townie">Dumb Townie</span>
+<span>: good lord</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: <b>Pepine</b> tell him u will see him in hell</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You successfully guessed your target's role.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Dumb Townie</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Dumb Townie</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r29"><b><color=#AE00FF>Hex Master</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>The Koza</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>The Koza</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Achievement Hunter</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#AE00FF>Ritualist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Achievement Hunter</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Pepine</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were haunted by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style>. They were also executed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Pepine</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r30"><b><color=#AE00FF>Illusionist</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: n3: ( <b>pitou</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k108"><b><color=#007AFF><b>Blood</b></color></b></link></font></style> )</span>
+<span><br>[4]</span>
+<span class="Trico">Trico</span>
+<span>: i think.. coven has maj rn</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style> n1 waiting n2 waiting n3 waiting n4 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> on <b>Pepine</b> target jailed</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: no they do not like 3 v2</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: probably why i have blood</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: thats not how it works</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: yes it is</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: at all</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Coven traitor</b> voted against <b>pitou</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Hydrogen</b> voted against <b>pitou</b>.</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: 9 not coven</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: who is the other</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: come on</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: just rit pros then 4 domt vote</span>
+<span><br>[8]</span>
+<span class="pitou">pitou</span>
+<span>: ez</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Hydrogen</b> voted <b>pitou</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>pitou</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><b>Hope Eradicated</b> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 4 didntg vote this</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: btgw</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i pushed to guilty illusionist</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>pitou</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were Prosecuted.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#AE00FF>Conjurer</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: get 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>pitou</b> left a last will.</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: you also did not vote this 3 lol</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i was checking claims</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Trico</b>.</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i literally</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: pushed to guilty 14</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: lmao</span>
+<span><br>[3]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: pros?</span>
+<span><br>[9]</span>
+<span class="Hydrogen">Hydrogen</span>
+<span>: lets die together</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Hydrogen</b> voted <b>Hope Eradicated</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Hope Eradicated</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: 1 is arsonist</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: lmao</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Hope Eradicated</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were Prosecuted.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#AE00FF>Ritualist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Hope Eradicated</b> did not leave a last will.</span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Sleepy</span>
+<span style="color:#689194">: I wanna keep being jest</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: nice</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Coven traitor</b> voted against <b>Trico</b>.</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: no</span>
+<span><br>[9]</span>
+<span class="Hydrogen">Hydrogen</span>
+<span>: wtf</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: 1 is just arsonist</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Sleepy</span>
+<span style="color:#689194">: ah I can't keep haunting :(</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Trico</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9B5600>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Trico</b> left a last will.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: oh 1 is werewolf</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: LOL</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Sleepy</span>
+<span style="color:#689194">: ww</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Trico</span>
+<span style="color:#689194">: does pros have another pros?</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: no</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Dreambeaver</span>
+<span style="color:#689194">: oh he's werewolf</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: he used both</i></span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Trico</span>
+<span style="color:#689194">: SHIT</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Sleepy</span>
+<span style="color:#689194">: dang it</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Rapid mode has been activated.</span>
+<span><br>[9]</span>
+<span class="Hydrogen">Hydrogen</span>
+<span>: Hi ww.</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: hello</span>
+<span><br>[9]</span>
+<span class="Hydrogen">Hydrogen</span>
+<span>: 2 pros shots not enough</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Coven traitor</b> voted against <b>Hydrogen</b>.</span>
+<span><br>[9]</span>
+<span class="Hydrogen">Hydrogen</span>
+<span>: im plump and ready to eat</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Hydrogen</b> voted against <b>Coven traitor</b>.</span>
+<span><br>[1]</span>
+<span class="Coven-traitor">Coven traitor</span>
+<span>: you need another one</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: wasnt really winnable when 1 wasnt exe</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: tbh</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Sleepy</span>
+<span style="color:#689194">: YES!!!</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: we knew 1 was immune</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: from n1</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Sleepy</span>
+<span style="color:#689194">: true</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Hydrogen</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9B5600>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Hydrogen</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+</body>
+</html>

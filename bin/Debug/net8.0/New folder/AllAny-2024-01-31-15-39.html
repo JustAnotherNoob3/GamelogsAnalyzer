@@ -1,0 +1,876 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Zee - </span><span style="color:#06E00C"> Deputy </span>
+<span style="color:#a0a0a0"><i>(Username: ZeeSpartan)</i></span>
+<style>span.Zee{color: #06E00C;}</style>
+<span><br>[2] Black Sabbath - </span><span style="color:#06E00C"> Monarch </span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Black-Sabbath{color: #06E00C;}</style>
+<span><br>[3] Queenie - </span><span style="color:#AE00FF"> Voodoo Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Trapper<br>n1 building<br>Silenced day 1, voodoo master</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Chazza647)</i></span>
+<style>span.Queenie{color: #AE00FF;}</style>
+<span><br>[4] Only Surv Claims - </span><span style="color:#AE00FF"> Dreamweaver </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> <br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Zoroark</color></link></font></style> <br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zee</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ninjawnnab)</i></span>
+<style>span.Only-Surv-Claims{color: #AE00FF;}</style>
+<span><br>[5] Sk in Disguise - </span><span style="color:#06E00C"> Prosecutor </span>
+<span style="color:#a0a0a0"><i>(Username: SavantofSand)</i></span>
+<style>span.Sk-in-Disguise{color: #06E00C;}</style>
+<span><br>[6] Jevil - </span><span style="color:#06E00C"> Tracker </span>
+<span style="color:#a0a0a0"><i>(Username: YeetTheCheese)</i></span>
+<style>span.Jevil{color: #06E00C;}</style>
+<span><br>[7] Toe Man - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span style="color:#a0a0a0"><i>(Username: CaptainNoShirt)</i></span>
+<style>span.Toe-Man{color: #06E00C;}</style>
+<span><br>[8] Coven fear me - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">[[@8]] Im not scared</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ShangyD)</i></span>
+<style>span.Coven-fear-me{color: #06E00C;}</style>
+<span><br>[9] mrrp mrrrp mreow - </span><span style="color:#06E00C"> Jailor </span>
+<span style="color:#a0a0a0"><i>(Username: catboybilly)</i></span>
+<style>span.mrrp-mrrrp-mreow{color: #06E00C;}</style>
+<span><br>[10] Zoodiac - </span><span style="color:#FF8900"> Arsonist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Bodyguard<br>n1 protecting 14<br>n2 protecting 6<br>n3 protecting 1</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Puklas)</i></span>
+<style>span.Zoodiac{color: #FF8900;}</style>
+<span><br>[11] Samuel - </span><span style="color:#06E00C"> Psychic </span>
+<span style="color:#a0a0a0"><i>(Username: Chilon)</i></span>
+<style>span.Samuel{color: #06E00C;}</style>
+<span><br>[12] Antibiotic - </span><span style="color:#06E00C"> Lookout </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> <br><br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Samuel</color></link></font></style> - no visits<br>N2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zee</color></link></font></style> -</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">[[@8]] Im not scared</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: HmmxD)</i></span>
+<style>span.Antibiotic{color: #06E00C;}</style>
+<span><br>[13] Zoroark - </span><span style="color:#AE00FF"> Hex Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Vet<br>n1: no alert<br>n2: no alert</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Aphelion)</i></span>
+<style>span.Zoroark{color: #AE00FF;}</style>
+<span><br>[14] William Phips - </span><span style="color:#06E00C"> Coroner </span>
+<span style="color:#a0a0a0"><i>(Username: ppeter112)</i></span>
+<style>span.William-Phips{color: #06E00C;}</style>
+<span><br>[15] Ann Hibbins - </span><span style="color:#06E00C"> Psychic </span>
+<span style="color:#a0a0a0"><i>(Username: Speshal)</i></span>
+<style>span.Ann-Hibbins{color: #06E00C;}</style>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: lmao 6</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: thats on ur fault</span>
+<span><br>[11]</span>
+<span class="Samuel">Samuel</span>
+<span>: Psy claim d1 coven on me</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: you joined the game</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: dont go afk</span>
+<span><br>[7]</span>
+<span class="Toe-Man">Toe Man</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#000000>Shroud</color></b></link></font></style></span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: HOW IS THAT ON ME/</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: dont go afk mate</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: 2 ima tarnation kill u</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Toe Man</color></link></font></style> I cc I am <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k107"><b><color=#007AFF><b>Unique</b></color></b></link></font></style></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Coven fear me</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Antibiotic</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Samuel</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sk in Disguise</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Only Surv Claims</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Toe Man</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sk in Disguise</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Coven fear me</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Samuel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Antibiotic</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Only Surv Claims</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sk in Disguise</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sk in Disguise</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Toe Man</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Toe Man</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sk in Disguise</color></link></font></style>.</color></span>
+<span><br>[11]</span>
+<span class="Samuel">Samuel</span>
+<span>: PsychicN1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jevil</color></link></font></style> (target was in jail)</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: JAILOR IS A tarnation PERV AND A WEIRDO</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sk in Disguise</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Only Surv Claims</color></link></font></style>.</color></span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: what</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: Lol <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jevil</color></link></font></style> get rekt</span>
+<span><br>[7]</span>
+<span class="Toe-Man">Toe Man</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> now</span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: what did jailor say</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: he was telling me to "get my feet out"</span>
+<span><br>[12]</span>
+<span class="Antibiotic">Antibiotic</span>
+<span>: did anyone go on 11</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Only Surv Claims</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sk in Disguise</color></link></font></style>.</color></span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: holy</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: and started "sucking on them"</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Antibiotic</color></link></font></style> claim for me pls</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sk in Disguise</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Only Surv Claims</color></link></font></style>.</color></span>
+<span><br>[12]</span>
+<span class="Antibiotic">Antibiotic</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Samuel</color></link></font></style> - no visits</span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: was it 2</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jevil</color></link></font></style> blame 7</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jevil</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Black Sabbath</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jevil</color></link></font></style>: if you're jailor, you're a goddamn weirdo</color></span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Black Sabbath</color></link></font></style> are you jailor</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[7]</span>
+<span class="Toe-Man">Toe Man</span>
+<span>: sounds hot 6</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sk in Disguise</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zee</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: no</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: im ts</span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: real</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: vfa</span>
+<span><br>[12]</span>
+<span class="Antibiotic">Antibiotic</span>
+<span>: i whisped this to 11 so dont say its late</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: I am TK</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>William Phips</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zee</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Zoroark</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zee</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sk in Disguise</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Samuel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Zoroark</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Black Sabbath</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zoodiac</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Only Surv Claims</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: im ti but i have nothing</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>William Phips</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Antibiotic</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>mrrp mrrrp mreow</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Black Sabbath</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jevil</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jevil</color></link></font></style>: mate im not a degen</color></span>
+<span><br>[3]</span>
+<span class="Queenie">Queenie</span>
+<span>: ...</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Samuel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jevil</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Toe Man</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jevil</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jevil</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Black Sabbath</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jevil</color></link></font></style>: if you're the jailor you are</color></span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: Good to know</span>
+<span><br>[12]</span>
+<span class="Antibiotic">Antibiotic</span>
+<span>: lol fail</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: it's the wrong dots</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[14]</span>
+<span class="William-Phips">William Phips</span>
+<span>: lmao</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: fake silenced lmfao</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: embarrising</span>
+<span><br>[10]</span>
+<span class="Zoodiac">Zoodiac</span>
+<span>: it becomes blue right?</span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: this mf</span>
+<span><br>[12]</span>
+<span class="Antibiotic">Antibiotic</span>
+<span>: jester?</span>
+<span><br>[3]</span>
+<span class="Queenie">Queenie</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Toe Man</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jevil</color></link></font></style>.</color></span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: LOL</span>
+<span><br>[12]</span>
+<span class="Antibiotic">Antibiotic</span>
+<span>: jester???</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: WAIT</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: just guilty</span>
+<span><br>[12]</span>
+<span class="Antibiotic">Antibiotic</span>
+<span>: let jailor handle this</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: give jester win</span>
+<span><br>[11]</span>
+<span class="Samuel">Samuel</span>
+<span>: no</span>
+<span><br>[12]</span>
+<span class="Antibiotic">Antibiotic</span>
+<span>: smh</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: yeha inno</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: THATS CRAZY</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: inno this</span>
+<span><br>[11]</span>
+<span class="Samuel">Samuel</span>
+<span>: guilty</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: Give it to Jailor</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zee</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Only Surv Claims</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sk in Disguise</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Jevil</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Toe Man</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>mrrp mrrrp mreow</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Zoodiac</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Samuel</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Antibiotic</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Zoroark</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>William Phips</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Ann Hibbins</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Queenie</color></link></font></style>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Queenie</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Jevil</b> is whispering to <b>Samuel</b>.</color></span>
+<span><br>[12]</span>
+<span class="Antibiotic">Antibiotic</span>
+<span>: give it to jailor</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: Inno give it to jailor</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: dw jailor I got this</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: dont waste jailors time</span>
+<span><br>[12]</span>
+<span class="Antibiotic">Antibiotic</span>
+<span>: continue vfa</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: IM TP</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Ann Hibbins</b> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Queenie</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Queenie</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Only Surv Claims</b> is whispering to <b>Zee</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#AE00FF>Voodoo Master</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Sk in Disguise</b> is whispering to <b>Zee</b>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Antibiotic</b> voted against <b>Sk in Disguise</b>.</span>
+<span><br>[7]</span>
+<span class="Toe-Man">Toe Man</span>
+<span>: nice shot</span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: that's so fucking funny HAHAHAHA</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: I am TS</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Only Surv Claims</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel</b> voted against <b>Sk in Disguise</b>.</span>
+<span><br>[14]</span>
+<span class="William-Phips">William Phips</span>
+<span>: ...</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sk in Disguise</b> voted against <b>Toe Man</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You changed your vote to <b>Sk in Disguise</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>mrrp mrrrp mreow</b> voted against <b>Sk in Disguise</b>.</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: ti</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Toe Man</b> voted against <b>Sk in Disguise</b>.</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: hang 5</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Antibiotic</b> changed their vote to <b>Toe Man</b>.</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: ...</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>William Phips</b> voted against <b>Sk in Disguise</b>.</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: hang 5 now</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel</b> changed their vote to <b>Toe Man</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sk in Disguise</b> changed their vote to <b>mrrp mrrrp mreow</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Antibiotic</b> changed their vote to <b>mrrp mrrrp mreow</b>.</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: i have no will</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Antibiotic</b> changed their vote to <b>Sk in Disguise</b>.</span>
+<span><br>[10]</span>
+<span class="Zoodiac">Zoodiac</span>
+<span>: tp</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: 5 is coven</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: hang 5</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Zee</b> voted against <b>Jevil</b>.</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: ?</span>
+<span><br>[7]</span>
+<span class="Toe-Man">Toe Man</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style> turned <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1 hope i dont die b4 i turn N2</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: 5 is coven</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: vig on 5</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style> <b>Zee</b> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Antibiotic</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Antibiotic</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Ann Hibbins</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Ann Hibbins</b> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style>ed <b>Zee</b>.</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: Jailor why didn't you get 3?</span>
+<span><br>[11]</span>
+<span class="Samuel">Samuel</span>
+<span>: N2: <b>Black Sabbath</b> or <b>Zoroark</b> is good!</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: hey um 4? wanna talk about it my bud?</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: 4 visited 12</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: 12 died</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: Cool</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: just saying</span>
+<span><br>[14]</span>
+<span class="William-Phips">William Phips</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> N2: ( <b>Coven fear me</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#AE00FF>Dreamweaver</color></b></link></font></style> ) <b>Toe Man</b> - nothing</span>
+<span><br>[10]</span>
+<span class="Zoodiac">Zoodiac</span>
+<span>: okay</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: pog we kill 4 then</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: 6 wheres ur will</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: 4 hangs</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: my guy</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: 4 hangs</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: n2 - 4 visited 12</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: that is the most exe thing ever</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: n1 i was jailed, i had nothing</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: 4 hangs</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: 4 i stg</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: bye 4</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: BRO HAS NO WILL</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: tracker n1 - jailed n2 - 4 visited 12 n3 -</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: 1f1 gdet 6 firsty</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sk in Disguise</b> voted against <b>Only Surv Claims</b>.</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: follow jailor, we hang 4</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel</b> voted against <b>Only Surv Claims</b>.</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: THATS MY WILL</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Only Surv Claims</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Only Surv Claims</b> voted against <b>Jevil</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>William Phips</b> voted against <b>Only Surv Claims</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Zoodiac</b> voted against <b>Only Surv Claims</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Zee</b> voted against <b>Only Surv Claims</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Only Surv Claims</b> was voted up to trial.</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: WHOS VOTING THIS</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: bro made his will up</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: check logs</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: PLS</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: im jailor and i say guilty</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: literally everyone, get outta here coven</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> N1: <b>Zoroark</b> N2: <b>Zee</b></span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: 4 you haven't even posted your will.</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: follow jailor</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: guilty</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Only Surv Claims</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: JAILOR CAN HANG ME</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: INNO</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: no</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: YES HE CAN</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: No'</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: if this is wrong</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Zee</b> voted <b>Only Surv Claims</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sk in Disguise</b> voted <b>Only Surv Claims</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jevil</b> voted <b>Only Surv Claims</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Toe Man</b> voted <b>Only Surv Claims</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>mrrp mrrrp mreow</b> voted <b>Only Surv Claims</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Zoodiac</b> voted <b>Only Surv Claims</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel</b> voted <b>Only Surv Claims</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Zoroark</b> <b><style="AbstainColor>abstained</style></b> on <b>Only Surv Claims</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>William Phips</b> voted <b>Only Surv Claims</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Only Surv Claims</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: im not wasting an execute on you</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: jailor kills 6</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: :))))))))))))</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: 6 ww</span>
+<span><br>[4]</span>
+<span class="Only-Surv-Claims">Only Surv Claims</span>
+<span>: !</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: How?</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: They were jailed N1</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Only Surv Claims</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Only Surv Claims</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#AE00FF>Dreamweaver</color></b></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: im not tarnation ww, someone would have died last night</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: They would've attacked</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: W</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: SEEEEEE</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Only Surv Claims</b> left a last will.</span>
+<span><br>[10]</span>
+<span class="Zoodiac">Zoodiac</span>
+<span>: lets go</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: jesus christ 1</span>
+<span><br>[14]</span>
+<span class="William-Phips">William Phips</span>
+<span>: was there full moon n1?</span>
+<span><br>[14]</span>
+<span class="William-Phips">William Phips</span>
+<span>: how does ww work</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: XD</span>
+<span><br>[14]</span>
+<span class="William-Phips">William Phips</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9B5600>Werewolf</color></b></link></font></style></span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: NO</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: OMFG</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Zoroark</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were executed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Samuel</b> is whispering to <b>Zee</b>.</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Zoroark</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Jevil</b> is whispering to <b>Zee</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r29"><b><color=#AE00FF>Hex Master</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: Cool, I'm assuming 13 had the book then?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Zee</b> is whispering to <b>Jevil</b>.</color></span>
+<span><br>[11]</span>
+<span class="Samuel">Samuel</span>
+<span>: N3: <b>Zee</b> <b>Zoroark</b> <b>mrrp mrrrp mreow</b> evil!</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: 5 which ts are you</span>
+<span><br>[7]</span>
+<span class="Toe-Man">Toe Man</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style> turned <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1 hope i dont die b4 i turn N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <b>William Phips</b> - NB N3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <b>Zoroark</b> - jailed N4</span>
+<span><br>[10]</span>
+<span class="Zoodiac">Zoodiac</span>
+<span>: nice</span>
+<span><br>[14]</span>
+<span class="William-Phips">William Phips</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> N2: ( <b>Coven fear me</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#AE00FF>Dreamweaver</color></b></link></font></style> ) <b>Toe Man</b> - nothing N3: (<b>Antibiotic</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#AE00FF>Dreamweaver</color></b></link></font></style> ) <b>Zoroark</b> jailed</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: <b>Samuel</b> who'd you visit?</span>
+<span><br>[11]</span>
+<span class="Samuel">Samuel</span>
+<span>: 1</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: wait if i track a psychic</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: <b>Sk in Disguise</b> which TS</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: will it show all three?</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: 9 claim</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: Ehh fuck it</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: no 6</span>
+<span><br>[11]</span>
+<span class="Samuel">Samuel</span>
+<span>: i visit <b>Zee</b></span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: <b>Black Sabbath</b> the prosecuting kinda</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: just one, ok got it</span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: 6 claimed tracker 1</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: ok</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: just checking</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: <b>mrrp mrrrp mreow</b> you're last nonclaimer</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: <b>mrrp mrrrp mreow</b> claim</span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r105"><b><style="TownColor">Town </style><color=#1F51FF>Power</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: prove it</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: Ok then</span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: <b>Jevil</b> also what's ur will for today</span>
+<span><br>[5]</span>
+<span class="Sk-in-Disguise">Sk in Disguise</span>
+<span>: Well</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: 9s monarch then</span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: fym prove it?</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: prolly</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: I just said</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>mrrp mrrrp mreow</b> is whispering to <b>Jevil</b>.</color></span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: 11 visited 1</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>mrrp mrrrp mreow</b> is whispering to <b>Jevil</b>.</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Zee</b> voted against <b>Zoodiac</b>.</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: 9 WTF IS WRONG WITH YOU</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Zoodiac</b>.</span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: LOL</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: time</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>William Phips</b> voted against <b>Zoodiac</b>.</span>
+<span><br>[1]</span>
+<span class="Zee">Zee</span>
+<span>: vote for time</span>
+<span><br>[9]</span>
+<span class="mrrp-mrrrp-mreow">mrrp mrrrp mreow</span>
+<span>: 6 knows i'm real</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel</b> voted against <b>Zoodiac</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Zoodiac</b> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="Zoodiac">Zoodiac</span>
+<span>: im bg</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Sabbath</b> is whispering to <b>Sk in Disguise</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>Sk in Disguise</b>: pros tomorrow</color></span>
+<span><br>[10]</span>
+<span class="Zoodiac">Zoodiac</span>
+<span>: Bodyguard n1 protecting 14 n2 protecting 6 n3 protecting 1</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Sk in Disguise</b> is whispering to <b>Black Sabbath</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>Sk in Disguise</b>: sure.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Sabbath</b> is whispering to <b>mrrp mrrrp mreow</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>mrrp mrrrp mreow</b>: ur monarch now</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Sabbath</b> is whispering to <b>mrrp mrrrp mreow</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>mrrp mrrrp mreow</b>: im the jailor</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>Zoodiac</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>mrrp mrrrp mreow</b> is whispering to <b>Black Sabbath</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>mrrp mrrrp mreow</b>: i'm what now</color></span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: guilty</span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: guilty?</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: yes</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>mrrp mrrrp mreow</b> is whispering to <b>Black Sabbath</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>mrrp mrrrp mreow</b>: okay dope</color></span>
+<span><br>[6]</span>
+<span class="Jevil">Jevil</span>
+<span>: ok</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>mrrp mrrrp mreow</b> is whispering to <b>Black Sabbath</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>mrrp mrrrp mreow</b>: who am i knighting tonight then</color></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Zee</b> voted <b>Zoodiac</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sk in Disguise</b> voted <b>Zoodiac</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Jevil</b> voted <b>Zoodiac</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Toe Man</b> voted <b>Zoodiac</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>mrrp mrrrp mreow</b> voted <b>Zoodiac</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel</b> voted <b>Zoodiac</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>William Phips</b> voted <b>Zoodiac</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Zoodiac</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Sabbath</b> is whispering to <b>mrrp mrrrp mreow</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>mrrp mrrrp mreow</b>: nobody</color></span>
+<span><br>[10]</span>
+<span class="Zoodiac">Zoodiac</span>
+<span>: damn</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>mrrp mrrrp mreow</b> is whispering to <b>Black Sabbath</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>mrrp mrrrp mreow</b>: damn ok</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Sk in Disguise</b> is whispering to <b>Black Sabbath</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>Sk in Disguise</b>: who do you want me to pros tomorrow?</color></span>
+<span><br>[10]</span>
+<span class="Zoodiac">Zoodiac</span>
+<span>: why tho?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Black Sabbath</b> is whispering to <b>Sk in Disguise</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <b>Sk in Disguise</b>: 14</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Zoodiac</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Zoodiac</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#FF8900>Arsonist</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: because you're evil</span>
+<span><br>[2]</span>
+<span class="Black-Sabbath">Black Sabbath</span>
+<span>: lmao</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Zoodiac</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Sk in Disguise</b> is whispering to <b>Black Sabbath</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>From <b>Sk in Disguise</b>: alr</color></span>
+</body>
+</html>

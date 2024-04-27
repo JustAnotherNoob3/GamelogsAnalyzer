@@ -1,0 +1,923 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] straight face - </span><span style="color:#FF0000"> Baker </span>
+<span style="color:#a0a0a0"><i>(Username: UhhMatt)</i></span>
+<style>span.straight-face{color: #FF0000;}</style>
+<span><br>[2] Sarah Wildes - </span><span style="color:#AE00FF"> Wildling </span>
+<span style="color:#a0a0a0"><i>(Username: LexiKahn)</i></span>
+<style>span.Sarah-Wildes{color: #AE00FF;}</style>
+<span><br>[3] fake claimer - </span><span style="color:#AE00FF"> Hex Master </span>
+<span style="color:#a0a0a0"><i>(Username: Kirivert)</i></span>
+<style>span.fake-claimer{color: #AE00FF;}</style>
+<span><br>[4] gay face - </span><span style="color:#777777"> Executioner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <br><br><br>N1 : <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style>d (dam)</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">In my honest opinion, the Trickster is the best role in Town of Salem 2, offering an exhilarating and captivating experience whether you play as the Trickster or find yourself facing them as an opponent. Taking on the role of the Trickster provides a thrilling sense of power and strategy. Strategically Taunting players and manipulating their actions keeps on you the edge of your seet as you carefully choose your targets to disrupt evil plans and safegaurd the Town. The thrill of deceiving malevolent roles, making them question your true intention, and using your own abilities against them is second to none. Conversely, when you're up against a skilled Trickster, the challenge of deciphering their true identity amidst the veil of suspicion adds an exciting layor of complexity to the game. The cat-and-mouse dynamics create an engaging and fun-filled atmosphere, making every interaction with the Trickster a memorable and exhilarating</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: evater)</i></span>
+<style>span.gay-face{color: #777777;}</style>
+<span><br>[5] Timmy - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style>  NB<br>n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Laponia</color></link></font></style>  NB<br>n3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style> (Blood) was think tk was on 15 n2 <br>n4 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style> (NB)<br>n5 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Bread</color></link></font></style> (Blood ) no food?</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: sheepswars)</i></span>
+<style>span.Timmy{color: #06E00C;}</style>
+<span><br>[6] Elantris - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: bmeduho)</i></span>
+<style>span.Elantris{color: #06E00C;}</style>
+<span><br>[7] Oryan - </span><span style="color:#06E00C"> Trapper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style> <br><br>N1; Building<br>N2; Set trap at [x]<br>-<br>N3; Pirated. this is why i kill them.<br>- Sidestepped</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: DangerXDragon)</i></span>
+<style>span.Oryan{color: #06E00C;}</style>
+<span><br>[8] Thomas Danforth - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span style="color:#a0a0a0"><i>(Username: Zyniltz)</i></span>
+<style>span.Thomas-Danforth{color: #06E00C;}</style>
+<span><br>[9] Door locker - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Door locker</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style><br><br>N1 - Remembering <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style><br>N2 -</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Skeletonial)</i></span>
+<style>span.Door-locker{color: #06E00C;}</style>
+<span><br>[10] Toast - </span><span style="color:#FFB0DF"> Jester </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">i like running around to see my penguin pet slide on their stomach</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: GnFerg93)</i></span>
+<style>span.Toast{color: #FFB0DF;}</style>
+<span><br>[11] Bread - </span><span style="color:#FFF300"> Pirate </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">The friendly <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style> <br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>gay face</color></link></font></style> <br>N2 - staying home<br>N3 - due to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>'s suspicions, i am ready to plunder <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Oryan</color></link></font></style>  <br>N4 - staying home<br>N5 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style> said they will sidestep</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: kristal11902)</i></span>
+<style>span.Bread{color: #FFF300;}</style>
+<span><br>[12] Crewmate - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Tavern Keeper<br> n1- 4<br> n2- 14<br> n3- 10<br> n4- 3<br> n5-</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: tsourekos)</i></span>
+<style>span.Crewmate{color: #06E00C;}</style>
+<span><br>[13] John Willard - </span><span style="color:#AE00FF"> Conjurer </span>
+<span style="color:#a0a0a0"><i>(Username: McSquisher)</i></span>
+<style>span.John-Willard{color: #AE00FF;}</style>
+<span><br>[14] Laponia - </span><span style="color:#06E00C"> Crusader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> <br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Door locker</color></link></font></style> <br>N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>gay face</color></link></font></style> <br>N3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Timmy</color></link></font></style></span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">In my honest opinion, the Trickster is the best role in Town of Salem 2, offering an exhilarating and captivating experience whether you play as the Trickster or find yourself facing them as an opponent. Taking on the role of the Trickster provides a thrilling sense of power and strategy. Strategically Taunting players and manipulating their actions keeps on you the edge of your seet as you carefully choose your targets to disrupt evil plans and safegaurd the Town. The thrill of deceiving malevolent roles, making them question your true intention, and using your own abilities against them is second to none. Conversely, when you're up against a skilled Trickster, the challenge of deciphering their true identity amidst the veil of suspicion adds an exciting layor of complexity to the game. The cat-and-mouse dynamics create an engaging and fun-filled atmosphere, making every interaction with the Trickster a memorable and exhilarating</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Noheli)</i></span>
+<style>span.Laponia{color: #06E00C;}</style>
+<span><br>[15] Hope Eradicated - </span><span style="color:#FF0000"> Berserker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">i love being falsely correctly accused because people dont know how roles work <br><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style> <br><br>N1 - zoob<br>N2 - Trickster (9) on 3<br>N3 - Trickster (9) on 10</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Hope-Eradicated{color: #FF0000;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[7]</span>
+<span class="Oryan">Oryan</span>
+<span>: part at my house</span>
+<span><br>[4]</span>
+<span class="gay-face">gay face</span>
+<span>: i see <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> vented last night</span>
+<span><br>[9]</span>
+<span class="Door-locker">Door locker</span>
+<span>: can a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style> die real quick</span>
+<span><br>[12]</span>
+<span class="Crewmate">Crewmate</span>
+<span>: bro I was in electrical</span>
+<span><br>[4]</span>
+<span class="gay-face">gay face</span>
+<span>: yeah</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: man</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style> decided to give <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style> to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Timmy</color></link></font></style> tonight.</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: man</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i wish i could get the other 2 roles i dont have 25 wins with</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: ahahah</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i have 25 bers/sc wins and it always gives me bers</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: get me a beker win</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: sobbing</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i wanna be pb</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Sarah Wildes</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Sarah Wildes</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r38"><b><color=#AE00FF>Wildling</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Elantris</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Elantris</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Timmy">Timmy</span>
+<span>: n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> NB</span>
+<span><br>[4]</span>
+<span class="gay-face">gay face</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1 : <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style>d (dam)</span>
+<span><br>[9]</span>
+<span class="Door-locker">Door locker</span>
+<span>: bruh</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: was there any tp on 15?</span>
+<span><br>[14]</span>
+<span class="Laponia">Laponia</span>
+<span>: tricks hit a CL?</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: if no then hes not ck</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: ok sorry <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>gay face</color></link></font></style> i had to pick a target</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: why would there be tp on 15?</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: what</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: ???</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: random visit 10</span>
+<span><br>[9]</span>
+<span class="Door-locker">Door locker</span>
+<span>: ???</span>
+<span><br>[4]</span>
+<span class="gay-face">gay face</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Bread</color></link></font></style> all g</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: seems like not</span>
+<span><br>[9]</span>
+<span class="Door-locker">Door locker</span>
+<span>: lets all be confused</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: yes i am</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>gay face</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Laponia</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: are you accusing me of killing 6</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: 15 is not ck</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: who shall i plunder?</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: no</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Door locker</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: why r we upping 15</span>
+<span><br>[4]</span>
+<span class="gay-face">gay face</span>
+<span>: who was healed</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: tp</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>gay face</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Door-locker">Door locker</span>
+<span>: vfa</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Timmy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Door locker</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Timmy</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>gay face</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Door locker</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#AE00FF>Conjurer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Door locker</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: who else wants to claim trickster</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Oryan</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: awww conjurer got scared :(</span>
+<span><br>[14]</span>
+<span class="Laponia">Laponia</span>
+<span>: tricks die to COV, tricking 15, and 15 didnt die</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r105"><b><style="TownColor">Town </style><color=#1F51FF>Power</color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="gay-face">gay face</span>
+<span>: get 15</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>gay face</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Laponia</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Timmy</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: ????</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Bread</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="gay-face">gay face</span>
+<span>: get 15 he was tricked</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Oryan</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Timmy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: WHAT THE FUCK IS THIS SHIT</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: I WOPULDVE DIED</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style> decided to give <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style> to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>gay face</color></link></font></style> tonight.</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: gl gl</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Blood empowers you! You may now attack every night.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>gay face</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>gay face</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thomas Danforth</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Thomas Danforth</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>John Willard</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>John Willard</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#AE00FF>Conjurer</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: how many tricksters do we have!!!</span>
+<span><br>[5]</span>
+<span class="Timmy">Timmy</span>
+<span>: n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Laponia</color></link></font></style> NB</span>
+<span><br>[14]</span>
+<span class="Laponia">Laponia</span>
+<span>: rbed</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: i think there was amne, nah way 3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style></span>
+<span><br>[7]</span>
+<span class="Oryan">Oryan</span>
+<span>: is that all our tricksters?</span>
+<span><br>[7]</span>
+<span class="Oryan">Oryan</span>
+<span>: anyone a trickster?</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: any more tricksters?</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: 3 trickster is crazy aha</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: yeah</span>
+<span><br>[14]</span>
+<span class="Laponia">Laponia</span>
+<span>: lmao</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: jk</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: who shall i plunder?</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: continue vfa ig</span>
+<span><br>[14]</span>
+<span class="Laponia">Laponia</span>
+<span>: i was im a game with 5 tp</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: who was the investigator</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: again</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: 5 claims5</span>
+<span><br>[14]</span>
+<span class="Laponia">Laponia</span>
+<span>: the sheriff was Exe</span>
+<span><br>[14]</span>
+<span class="Laponia">Laponia</span>
+<span>: vfa</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: 5 claims inves*</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: do we not have any TI</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: didnt someone claim invest</span>
+<span><br>[14]</span>
+<span class="Laponia">Laponia</span>
+<span>: we dont have ti</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: who is evil, any guesses?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Laponia</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Oryan">Oryan</span>
+<span>: someone did</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Oryan</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: 1 claims tp</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Oryan</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 1 claimed tp did they not?</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Laponia</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: i claimed</span>
+<span><br>[7]</span>
+<span class="Oryan">Oryan</span>
+<span>: tk</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Oryan</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Bread</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Oryan</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: 14 read chat plz</span>
+<span><br>[7]</span>
+<span class="Oryan">Oryan</span>
+<span>: not trick</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Laponia</color></link></font></style> cancelled their vote.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Timmy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: oops was looking through chat</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: for TI person</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: i am a TS person</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Bread</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Bread</color></link></font></style>: 7 is the fourth town killing when we have three tricksters hes prolly fake</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: r u ret?</span>
+<span><br>[7]</span>
+<span class="Oryan">Oryan</span>
+<span>: 4 claimed sheriff</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: no</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: okay.</span>
+<span><br>[5]</span>
+<span class="Timmy">Timmy</span>
+<span>: i am <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Toast</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style> by a vote of <color=#66FF66><b>7</b></color> to <color=#FF0000><b>0</b></color>.</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i dont really buy it but sure</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: oh 5s the ivnest</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[12]</span>
+<span class="Crewmate">Crewmate</span>
+<span>: ts</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: here 5 have a gun be our 4th trickster</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Laponia</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style>, a friendly one</span>
+<span><br>[14]</span>
+<span class="Laponia">Laponia</span>
+<span>: im tp</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Laponia</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: copier</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: ts</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: copier</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 7s pirated</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: who shall i give bread</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: give pirate bread</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Laponia</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style> decided to give <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style> to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Oryan</color></link></font></style> tonight.</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: sound</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Blood empowers you! You will now <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k15"><b><color=#007AFF><b>Rampage</b></color></b></link></font></style> at your target's house, passively attacking any visitors.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Oryan</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Oryan</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Laponia</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Laponia</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Timmy">Timmy</span>
+<span>: n3 <b>Hope Eradicated</b> (Blood) was think tk was on 15 n2</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: sorry, someone suspected <b>Oryan</b> to not be <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><style="TownColor">Town </style><color=#1F51FF>Killing</color></b></link></font></style>, and yes indeed, they were <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: i got drunk last night</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: thats bullshit</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: im fucking ret</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: you're lying out your ass</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: whoa whoa whoa</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i wanna ask 12</span>
+<span><br>[5]</span>
+<span class="Timmy">Timmy</span>
+<span>: no you are not <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style></span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: why would tp claim tk</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: which ts are you</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: im confused</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 12 which ts</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: 1f1, lynch one i plunder the other</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: and if ur ret</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: 1f1 ig</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i wanna know the corpses</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: ok 5 first</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: i think 15 imo</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Timmy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Timmy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Hope Eradicated</b> was voted up to trial.</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: look at this glazing holy shit</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style> N1 - zoobN2 - Trickster (9) on 3N3 - Trickster (9) on 10</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 5 is lying out his ass</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: get 5 first</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: this seems inno to me icl</span>
+<span><br>[5]</span>
+<span class="Timmy">Timmy</span>
+<span>: so you coven?</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: no</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: pirate 5 if this is town</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: u thought i was a killa</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: u called me bers</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: LOL</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Hope Eradicated</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style> to death by a vote of <color=#FF0000><b>3</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: u said im bers</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: then u said im coven</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: why insta assume im bers</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 5 is jsut pm</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: <b>Bread</b> get him</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: the abstains LOL</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: thx abstainers</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: we saved the city!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hope Eradicated</color></link></font></style> left a last will.</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: nope</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style> decided to give <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style> to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style> tonight.</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: this aint gonna go well</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: lmfao</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF0000>Baker</color></b></link></font></style> has transformed into <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r250"><b><color=#FF0000>Famine</color></b></link></font></style>, Horseman of the Apocalypse! A famine has begun!</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: rbed</span>
+<span><br>[5]</span>
+<span class="Timmy">Timmy</span>
+<span>: n4 <b>straight face</b> (NB)</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: oooh</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: we need to get baker over cov</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: at this moment</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: that confirms me as not famine</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: tavern reveal urself</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: i am a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style></span>
+<span><br>[12]</span>
+<span class="Crewmate">Crewmate</span>
+<span>: im tavern</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: 11 pirate me tp 12 tav</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: havent plundered any1 N2 or N4</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: 1 or 10</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: gotta be 10</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: <b>straight face</b> u want me to plunder u?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: go for it tbf</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Bread</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Toast</b> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: didnt think id get this far</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Bread</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Bread</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: first time as famine</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Bread</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style> ?</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: im thinking that</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: nah im not that smart</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: all guilty</span>
+<span><br>[3]</span>
+<span class="fake-claimer">fake claimer</span>
+<span>: lets see</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Toast</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style> to death by a vote of <color=#FF0000><b>4</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: too ez</span>
+<span><br>[10]</span>
+<span class="Toast">Toast</span>
+<span>: ggs baker</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style> will get their revenge from the grave!</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: ah</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: mind haunting 12 for me?</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style> died today.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Toast</span>
+<span style="color:#689194">: sure lol</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: cheers</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Toast</color></link></font></style> left a last will.</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: so someone lied</span>
+<span><br>[11]</span>
+<span class="Bread">Bread</span>
+<span>: i am dead, i abstained</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style> is being <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>ed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style>!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Toast</span>
+<span style="color:#689194">: who is baker? i wanted to whisper them</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: 1</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Toast</span>
+<span style="color:#689194">: ohh gotcha. i wanted to give apoc win when i saw famine</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: 1 wouldve been famine the day earlier but he didnt listen to me</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: i told him to give 11 bread</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: he gave 7 bread</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: 7 dies instantly</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Toast</span>
+<span style="color:#689194">: oml lol. 11 getting bread wouldve been perfect</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Toast</span>
+<span style="color:#689194">: 15 asked me to haunt u</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: OMG</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: <b>straight face</b> IS BAKER</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>fake claimer</color></link></font></style> did not leave a last will.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: I GOT ACJIEVMENT</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r29"><b><color=#AE00FF>Hex Master</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: 12 had bread and was the tav so</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Bread</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Bread</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Crewmate</span>
+<span style="color:#689194">: yea makes sense</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Crewmate</span>
+<span style="color:#689194">: I was lost anyway wo</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">Crewmate</span>
+<span style="color:#689194">: so doesnt really matter</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: i told 1 to give 11 bread n3 and he gave it to 7 n3</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were haunted by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style>. They were also killed by the <style="CovenColor">Coven</style>.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: and 7 died</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: womp womp</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crewmate</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Toast</span>
+<span style="color:#689194">: not sure why i was voted out anyways if ppl thought i was jester</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Toast</span>
+<span style="color:#689194">: when famine came out</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Rapid mode has been activated.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: <b>Hope Eradicated</b> if he gave it to me, he would have lost</i></span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: what cov r u</span>
+<span><br>[5]</span>
+<span class="Timmy">Timmy</span>
+<span>: GG 1 gg</span>
+<span><br>[5]</span>
+<span class="Timmy">Timmy</span>
+<span>: nope</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: no he wouldnt have</i></span>
+<span><br>[5]</span>
+<span class="Timmy">Timmy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> n1 <b>Crewmate</b> NB n2 <b>Laponia</b> NB n3 <b>Hope Eradicated</b> (Blood) was think tk was on 15 n2 n4 <b>straight face</b> (NB) n5 <b>Bread</b> (Blood ) no food?</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: oh no way</span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: 2 cov game</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 6</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Bread</span>
+<span style="color:#689194">: i would have told everyone that he survived</i></span>
+<span><br>[1]</span>
+<span class="straight-face">straight face</span>
+<span>: and we wait</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>straight face</color></link></font></style> decided to starve <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Timmy</color></link></font></style> tonight.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: you would be the only person other than 5 alive</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 7</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: so voting him in that 1v1v1 is throwing technically</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Timmy</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Timmy</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: since you're losing the game by killing him</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+</body>
+</html>

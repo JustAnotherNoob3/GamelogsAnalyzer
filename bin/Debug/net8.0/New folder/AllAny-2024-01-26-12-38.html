@@ -1,0 +1,664 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] John Willard - </span><span style="color:#06E00C"> Retributionist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style> <br><br>N1: N/A<br>N2: N/A<br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style> <br>N4: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Soarrific)</i></span>
+<style>span.John-Willard{color: #06E00C;}</style>
+<span><br>[2] Hope Eradicated - </span><span style="color:#06E00C"> Sheriff </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style><br>|N1 - 10 - Suspicious<br>|N2 - 12 - witched<br>|N3 - 12 - innocent<br>|N4 - not visiting since 1 and 14 are both rets<br>|N5 - turns out 14 is necromancer and 7 is a forged PM. Unlucky<br><br>|2 - Sheriff<br>|4 - Witch<br>|14 - Necromancer<br><br>didnt realize it until its too late sadly</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Hope-Eradicated{color: #06E00C;}</style>
+<span><br>[3] Ego - </span><span style="color:#9B5600"> Werewolf </span>
+<span style="color:#a0a0a0"><i>(Username: Saresy)</i></span>
+<style>span.Ego{color: #9B5600;}</style>
+<span><br>[4] dean winchester - </span><span style="color:#AE00FF"> Witch </span>
+<span style="color:#a0a0a0"><i>(Username: bailsil)</i></span>
+<style>span.dean-winchester{color: #AE00FF;}</style>
+<span><br>[5] Dunce - </span><span style="color:#0000FF"> Serial Killer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style> <br><br>N1 : Building Trap<br>N2 : <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ella Enchanted</color></link></font></style> <br>N3 : Building Trap</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: sameeth1)</i></span>
+<style>span.Dunce{color: #0000FF;}</style>
+<span><br>[6] Weed - </span><span style="color:#06E00C"> Socialite </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r54"><b><color=#06E00C>Socialite</color></b></link></font></style> <br><br><br>B=D - who ever killed me pp<br><br>B=====================D - MINE</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Davezy)</i></span>
+<style>span.Weed{color: #06E00C;}</style>
+<span><br>[7] Mary Warren - </span><span style="color:#FF0000"> Soul Collector </span>
+<span style="color:#a0a0a0"><i>(Username: malikjasper)</i></span>
+<style>span.Mary-Warren{color: #FF0000;}</style>
+<span><br>[8] Little sussy - </span><span style="color:#06E00C"> Crusader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">A little sussy Crusader<br><br>N1- Witched into attacked<br>N2- 11<br>N3- Witched <br>N4- 2<br><br>I don't trust that whisper 14</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: CarbonizedToast)</i></span>
+<style>span.Little-sussy{color: #06E00C;}</style>
+<span><br>[9] Ella Enchanted - </span><span style="color:#06E00C"> Monarch </span>
+<span style="color:#a0a0a0"><i>(Username: ramknight)</i></span>
+<style>span.Ella-Enchanted{color: #06E00C;}</style>
+<span><br>[10] Im Eating - </span><span style="color:#AE00FF"> Enchanter </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br><br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Weed</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Blblaze)</i></span>
+<style>span.Im-Eating{color: #AE00FF;}</style>
+<span><br>[11] Heart - </span><span style="color:#06E00C"> Bodyguard </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> <br>n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ella Enchanted</color></link></font></style> <br>n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ella Enchanted</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Lillystartiger)</i></span>
+<style>span.Heart{color: #06E00C;}</style>
+<span><br>[12] Bacon - </span><span style="color:#AE00FF"> Conjurer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style> <br>N1 - No Alert.<br>N2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k69"><b><color=#007AFF><b>Alert</b></color></b></link></font></style>.<br>N3 - No Alert.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Asmodeus)</i></span>
+<style>span.Bacon{color: #AE00FF;}</style>
+<span><br>[13] Blank - </span><span style="color:#06E00C"> Crusader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> <br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Heart</color></link></font></style> (attacked) (hit someone)<br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ella Enchanted</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Cephi)</i></span>
+<style>span.Blank{color: #06E00C;}</style>
+<span><br>[14] Bread Witch - </span><span style="color:#AE00FF"> Necromancer </span>
+<span style="color:#a0a0a0"><i>(Username: PotionNoob)</i></span>
+<style>span.Bread-Witch{color: #AE00FF;}</style>
+<span><br>[15] Hazel - </span><span style="color:#FFB0DF"> Jester </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Hazel the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style> <br><br>N1 - Reloading</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Hazel)</i></span>
+<style>span.Hazel{color: #FFB0DF;}</style>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Mary Warren</color></link></font></style> has disconnected from life.</span>
+<span><br>[6]</span>
+<span class="Weed">Weed</span>
+<span>: PARTTTYYY MAAAAN</span>
+<span><br>[12]</span>
+<span class="Bacon">Bacon</span>
+<span>: greetings gentlemen</span>
+<span><br>[15]</span>
+<span class="Hazel">Hazel</span>
+<span>: Bye 7</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Im Eating</color></link></font></style>'s house tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your target seems suspicious!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Ego</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Mary Warren</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Mary Warren</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#AE00FF>Potion Master</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hazel</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hazel</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style>ed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Heart</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>|N1 - 10 - Suspicious</span>
+<span><br>[6]</span>
+<span class="Weed">Weed</span>
+<span>: W <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#AE00FF>Potion Master</color></b></link></font></style></span>
+<span><br>[10]</span>
+<span class="Im-Eating">Im Eating</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style></span>
+<span><br>[10]</span>
+<span class="Im-Eating">Im Eating</span>
+<span>: try again</span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: I would appreciate TP I'm somewhat valuable town role that got witched.</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: okay I'll try again</span>
+<span><br>[5]</span>
+<span class="Dunce">Dunce</span>
+<span>: ok up 10</span>
+<span><br>[10]</span>
+<span class="Im-Eating">Im Eating</span>
+<span>: ?</span>
+<span><br>[6]</span>
+<span class="Weed">Weed</span>
+<span>: ?</span>
+<span><br>[10]</span>
+<span class="Im-Eating">Im Eating</span>
+<span>: do you not know how <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> works</span>
+<span><br>[10]</span>
+<span class="Im-Eating">Im Eating</span>
+<span>: or</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: trick is sus</span>
+<span><br>[10]</span>
+<span class="Im-Eating">Im Eating</span>
+<span>: are you just a thrower</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: just get claims</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="John-Willard">John Willard</span>
+<span>: ts</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Blank</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dean winchester</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dunce</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="Heart">Heart</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style> if you were <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#AE00FF>Witch</color></b></link></font></style>ed Coven knows ur role, hope they dont have a RIT</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dunce</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dean winchester</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Blank</color></link></font></style> cancelled their vote.</span>
+<span><br>[4]</span>
+<span class="dean-winchester">dean winchester</span>
+<span>: tp</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Weed</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dean winchester</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Im-Eating">Im Eating</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dunce</color></link></font></style> you should claim first tbh</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dunce</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Dunce">Dunce</span>
+<span>: tp</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Weed</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dunce</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Im Eating</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dunce</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Weed</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: Yeah :/</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Im Eating</color></link></font></style> cancelled their vote.</span>
+<span><br>[11]</span>
+<span class="Heart">Heart</span>
+<span>: i'm TP BTW</span>
+<span><br>[5]</span>
+<span class="Dunce">Dunce</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Im Eating</color></link></font></style> u visit me babe</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dunce</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Weed</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Im-Eating">Im Eating</span>
+<span>: why would i visit a tp claim</span>
+<span><br>[10]</span>
+<span class="Im-Eating">Im Eating</span>
+<span>: ?</span>
+<span><br>[6]</span>
+<span class="Weed">Weed</span>
+<span>: TS MF</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ella Enchanted</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Heart</color></link></font></style>.</color></span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: tp pls</span>
+<span><br>[10]</span>
+<span class="Im-Eating">Im Eating</span>
+<span>: i need killers</span>
+<span><br>[10]</span>
+<span class="Im-Eating">Im Eating</span>
+<span>: not tp</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>A Socialite is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k113"><b><color=#007AFF><b>Entertain</b></color></b></link></font></style>ing the town. Feel free to socialize!</span>
+<span><br>[6]</span>
+<span class="Weed">Weed</span>
+<span>: PARTTYYY</span>
+<span><br>[13]</span>
+<span class="Blank">Blank</span>
+<span>: sup</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Bread Witch</color></link></font></style>'s house tonight.</span>
+<span><br>[6]</span>
+<span class="Weed">Weed</span>
+<span>: YEY</span>
+<span><br>[14]</span>
+<span class="Bread-Witch">Bread Witch</span>
+<span>: sup</span>
+<span><br>[12]</span>
+<span class="Bacon">Bacon</span>
+<span>: WOOOOOOOOOOOOO</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ella Enchanted</color></link></font></style></span>
+<span><br>[10]</span>
+<span class="Im-Eating">Im Eating</span>
+<span>: pog</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: claims</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: please</span>
+<span><br>[5]</span>
+<span class="Dunce">Dunce</span>
+<span>: tp</span>
+<span><br>[12]</span>
+<span class="Bacon">Bacon</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><style="TownColor">Town </style><color=#1F51FF>Killing</color></b></link></font></style></span>
+<span><br>[9]</span>
+<span class="Ella-Enchanted">Ella Enchanted</span>
+<span>: tpow</span>
+<span><br>[11]</span>
+<span class="Heart">Heart</span>
+<span>: TP</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Bacon</color></link></font></style>'s house tonight.</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 8?</span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: I got witched Im somewhat valuable town</span>
+<span><br>[6]</span>
+<span class="Weed">Weed</span>
+<span>: TP ON 12</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 13 and 14 too</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 8 say what then</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: coven knows</span>
+<span><br>[13]</span>
+<span class="Blank">Blank</span>
+<span>: tp</span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: Please TP me</span>
+<span><br>[6]</span>
+<span class="Weed">Weed</span>
+<span>: imagine ww</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You feel a mystical power dominating you. You were under the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> of a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#AE00FF>Witch</color></b></link></font></style>!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Ego</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Heart</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Ego</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9B5600>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Heart</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Im Eating</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Im Eating</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>John Willard</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>John Willard</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r28"><b><color=#AE00FF>Enchanter</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Heart</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Blank</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Blank</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: Witch, I have a request for you, please witch me, into yourself, since I know you dont have the book, I want an achievement, please :)</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Heart</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style>.</color></span>
+<span><br>[6]</span>
+<span class="Weed">Weed</span>
+<span>: oh i was right about the ww problem</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ella Enchanted</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#AE00FF>Conjurer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ella Enchanted</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Weed">Weed</span>
+<span>: oh welp</span>
+<span><br>[11]</span>
+<span class="Heart">Heart</span>
+<span>: NOT MY BIRB face thing king</span>
+<span><br>[4]</span>
+<span class="dean-winchester">dean winchester</span>
+<span>: does 3 meant CL or does it mean enchanter</span>
+<span><br>[11]</span>
+<span class="Heart">Heart</span>
+<span>: :(</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 3 left</span>
+<span><br>[11]</span>
+<span class="Heart">Heart</span>
+<span>: conj, u suck</span>
+<span><br>[5]</span>
+<span class="Dunce">Dunce</span>
+<span>: witch me into yourself im tp i also need achievement</span>
+<span><br>[11]</span>
+<span class="Heart">Heart</span>
+<span>: be different, conj someone else not TPOW</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: Conj TPow X Conj Coroner YES</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Weed</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Bread Witch</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: witch you should witch me into yourself so i can get the controlled interrogation achievement</span>
+<span><br>[14]</span>
+<span class="Bread-Witch">Bread Witch</span>
+<span>: im ts</span>
+<span><br>[6]</span>
+<span class="Weed">Weed</span>
+<span>: hmmm</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: you know im sheriff</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: since u witched me last night</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Weed</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Bacon</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: just witch me into urself n4</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>A Socialite is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k113"><b><color=#007AFF><b>Entertain</b></color></b></link></font></style>ing the town. Feel free to socialize!</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: its the only achievement i dont have</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: so please witch</span>
+<span><br>[6]</span>
+<span class="Weed">Weed</span>
+<span>: hi again</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: be a kind fellow</span>
+<span><br>[5]</span>
+<span class="Dunce">Dunce</span>
+<span>: hiii</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Bacon</color></link></font></style>'s house tonight.</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: also meow</span>
+<span><br>[14]</span>
+<span class="Bread-Witch">Bread Witch</span>
+<span>: as a good ret should do im using mon selfishly</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You cannot find evidence of wrongdoing. Your target seems innocent.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Heart</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died while defending their target. They were also killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Heart</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Bacon</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>. They were also stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Bacon</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>John Willard</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>John Willard</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#AE00FF>Conjurer</color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style>ed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Bread Witch</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: |N3 - 12 - innocent aaaaaaaaand there goes my achievement</span>
+<span><br>[14]</span>
+<span class="Bread-Witch">Bread Witch</span>
+<span>: who got attacked ur not coven confirmed</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 8 what r u</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: btw</span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: I was attacked</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: okay</span>
+<span><br>[5]</span>
+<span class="Dunce">Dunce</span>
+<span>: okk</span>
+<span><br>[14]</span>
+<span class="Bread-Witch">Bread Witch</span>
+<span>: ok</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: what is ur role</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: since witch knows</span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: TP</span>
+<span><br>[14]</span>
+<span class="Bread-Witch">Bread Witch</span>
+<span>: so 8 isnt coven at least</span>
+<span><br>[5]</span>
+<span class="Dunce">Dunce</span>
+<span>: yeah</span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: WHatever Im Crus</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>John Willard</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style>.</color></span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: okay ur a tp</span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: A little sussy Crusader N1- Witched into attacked N2- 11 N3- Witched</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: and 6 is socialite</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: so</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 1 4 5</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: which ts/tp</span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: n2 I protected 11 from somewhing</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[5]</span>
+<span class="Dunce">Dunce</span>
+<span>: trapper</span>
+<span><br>[4]</span>
+<span class="dean-winchester">dean winchester</span>
+<span>: bg ive been on 8</span>
+<span><br>[1]</span>
+<span class="John-Willard">John Willard</span>
+<span>: ret</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 1s fake</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Weed</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dunce</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dunce</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 14 is real ret</span>
+<span><br>[1]</span>
+<span class="John-Willard">John Willard</span>
+<span>: I killed 11 with the crus</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Weed</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: nope</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 1 out</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dunce</color></link></font></style> cancelled their vote.</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 14 is ret</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Bread Witch</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style>.</color></span>
+<span><br>[1]</span>
+<span class="John-Willard">John Willard</span>
+<span>: ret isn't unique</span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: AAA IDK</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>John Willard</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9B5600>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>John Willard</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dunce</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dunce</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Weed</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Weed</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r54"><b><color=#06E00C>Socialite</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="dean-winchester">dean winchester</span>
+<span>: yeah get flummery on 5</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: fuck</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: NO</span>
+<span><br>[14]</span>
+<span class="Bread-Witch">Bread Witch</span>
+<span>: ok prib 2 coven luckily i can help us out</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: wait</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: please</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 14 and 4</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: before you lynch me</span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: 3 dead cov no?</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i know 14 is necromancer</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: and 7 is a forged PM</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i know you both have maj</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 4 you know im sheriff</span>
+<span><br>[14]</span>
+<span class="Bread-Witch">Bread Witch</span>
+<span>: yeah i asume <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Im Eating</color></link></font></style> forged</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: please let me have my achievement</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: no 10 isnt</span>
+<span><br>[2]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 7 is</span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: Im Town</span>
+<span><br>[4]</span>
+<span class="dean-winchester">dean winchester</span>
+<span>: vote 8</span>
+<span><br>[4]</span>
+<span class="dean-winchester">dean winchester</span>
+<span>: 8 is crusader</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Bread Witch</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dean winchester</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dean winchester</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dean winchester</color></link></font></style>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dean winchester</color></link></font></style>: just send me into ur necro please and thanks</color></span>
+<span><br>[8]</span>
+<span class="Little-sussy">Little sussy</span>
+<span>: gg</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dean winchester</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Bread Witch</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Little sussy</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Little sussy</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Little sussy</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Little sussy</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Little sussy</b> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <b>Bread Witch</b>'s house tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You feel a mystical power dominating you. You were under the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> of a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#AE00FF>Witch</color></b></link></font></style>!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by a member of the <style="CovenColor">Coven</style>!</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: i hope 4 sent me to 14</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Hope Eradicated</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Hope Eradicated</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>.</span>
+</body>
+</html>

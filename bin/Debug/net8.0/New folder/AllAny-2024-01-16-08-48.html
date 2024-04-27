@@ -1,0 +1,830 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Giles Corey - </span><span style="color:#AE00FF"> Dreamweaver </span>
+<span style="color:#a0a0a0"><i>(Username: Bummers)</i></span>
+<style>span.Giles-Corey{color: #AE00FF;}</style>
+<span><br>[2] Hazel - </span><span style="color:#06E00C"> Marshal </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Hazel the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> <br><br>N1 - Reloading<br>N2 - Holding off~</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Hazel)</i></span>
+<style>span.Hazel{color: #06E00C;}</style>
+<span><br>[3] Marshal - </span><span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: Notmafiatrust)</i></span>
+<style>span.Marshal{color: #06E00C;}</style>
+<span><br>[4] Mark Cuban - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> <br><br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Nami</color></link></font></style> <br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: DiscoZombie)</i></span>
+<style>span.Mark-Cuban{color: #06E00C;}</style>
+<span><br>[5] Sanae - </span><span style="color:#AE00FF"> Necromancer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style> the</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: socks)</i></span>
+<style>span.Sanae{color: #AE00FF;}</style>
+<span><br>[6] Divine - </span><span style="color:#06E00C"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Divine{color: #06E00C;}</style>
+<span><br>[7] Black Cat - </span><span style="color:#000000"> Shroud </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: SiruNyan)</i></span>
+<style>span.Black-Cat{color: #000000;}</style>
+<span><br>[8] Binya - </span><span style="color:#06E00C"> Sheriff </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Binya</color></link></font></style> <br>Looking for Skooma<br><br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style>  - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style> <br>N2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Letitgo</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: BinyaElsweyr)</i></span>
+<style>span.Binya{color: #06E00C;}</style>
+<span><br>[9] John Hathorne - </span><span style="color:#06E00C"> Monarch </span>
+<span style="color:#a0a0a0"><i>(Username: dynexus)</i></span>
+<style>span.John-Hathorne{color: #06E00C;}</style>
+<span><br>[10] Jonathan Corwin - </span><span style="color:#AE00FF"> Potion Master </span>
+<span style="color:#a0a0a0"><i>(Username: NaturedTundra)</i></span>
+<style>span.Jonathan-Corwin{color: #AE00FF;}</style>
+<span><br>[11] Pepine - </span><span style="color:#AE00FF"> Medusa </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> <br><br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Chairo</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Hanster)</i></span>
+<style>span.Pepine{color: #AE00FF;}</style>
+<span><br>[12] Nami - </span><span style="color:#06E00C"> Monarch </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span style="color:#a0a0a0"><i>(Username: Dunkelkriege)</i></span>
+<style>span.Nami{color: #06E00C;}</style>
+<span><br>[13] Chairo - </span><span style="color:#06E00C"> Retributionist </span>
+<span style="color:#a0a0a0"><i>(Username: DMS405)</i></span>
+<style>span.Chairo{color: #06E00C;}</style>
+<span><br>[14] Letitgo - </span><span style="color:#FF0000"> Berserker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Letitgo the bodyguard<br><br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Binya</color></link></font></style> <br>N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Pollibob)</i></span>
+<style>span.Letitgo{color: #FF0000;}</style>
+<span><br>[15] no topic - </span><span style="color:#FF0000"> Plaguebearer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Trickster<br><br><br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style> <br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Binya</color></link></font></style><br>n3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Nami</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Boberos)</i></span>
+<style>span.no-topic{color: #FF0000;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Hathorne</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Jonathan Corwin</color></link></font></style> has disconnected from life.</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: JAILOR ON ME</span>
+<span><br>[1]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: giles corey</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: TRUST</span>
+<span><br>[2]</span>
+<span class="Hazel">Hazel</span>
+<span>: Bye</span>
+<span><br>[4]</span>
+<span class="Mark-Cuban">Mark Cuban</span>
+<span>: michael jordan</span>
+<span><br>[7]</span>
+<span class="Black-Cat">Black Cat</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Hathorne</color></link></font></style> probably Coven</span>
+<span><br>[1]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: :(</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You are building your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style>.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> is built.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Hathorne</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Hathorne</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Jonathan Corwin</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Jonathan Corwin</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#AE00FF>Potion Master</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Chairo</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>. They were also killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#000000>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Chairo</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Black-Cat">Black Cat</span>
+<span>: I hate people who leave when they don't like their roles</span>
+<span><br>[8]</span>
+<span class="Binya">Binya</span>
+<span>: N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style></span>
+<span><br>[1]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: bru my team disco nn ec teeing :(</span>
+<span><br>[12]</span>
+<span class="Nami">Nami</span>
+<span>: N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed</span>
+<span><br>[11]</span>
+<span class="Pepine">Pepine</span>
+<span>: I will guess shroud knows who is coven</span>
+<span><br>[2]</span>
+<span class="Hazel">Hazel</span>
+<span>: Or they attacked directly</span>
+<span><br>[11]</span>
+<span class="Pepine">Pepine</span>
+<span>: maybe</span>
+<span><br>[2]</span>
+<span class="Hazel">Hazel</span>
+<span>: So true 1</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: same 1 my teammate left the game</span>
+<span><br>[2]</span>
+<span class="Hazel">Hazel</span>
+<span>: Same</span>
+<span><br>[1]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: same bro</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: my teammate also left</span>
+<span><br>[1]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: why did my tpow disconn ect :(</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: i know right</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[2]</span>
+<span class="Hazel">Hazel</span>
+<span>: So true!</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Black-Cat">Black Cat</span>
+<span>: vfa?</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: vfa=</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="Pepine">Pepine</span>
+<span>: vfa</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Letitgo</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: TK</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>no topic</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mark Cuban</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Letitgo</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>no topic</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Hazel">Hazel</span>
+<span>: TK</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> was voted up to trial.</span>
+<span><br>[2]</span>
+<span class="Hazel">Hazel</span>
+<span>: I claimed TK, move along.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: im tpow</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: let's continue vfa, I agree</span>
+<span><br>[11]</span>
+<span class="Pepine">Pepine</span>
+<span>: maybe we should slow down a bit to let people time to claime</span>
+<span><br>[7]</span>
+<span class="Black-Cat">Black Cat</span>
+<span>: next claims? I'll already say TS</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: do i have the right to ball?</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: also tk here</span>
+<span><br>[7]</span>
+<span class="Black-Cat">Black Cat</span>
+<span>: 4?</span>
+<span><br>[11]</span>
+<span class="Pepine">Pepine</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> aligment?</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: tpower</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Hazel</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> by a vote of <color=#66FF66><b>9</b></color> to <color=#FF0000><b>0</b></color>.</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: do i ball</span>
+<span><br>[11]</span>
+<span class="Pepine">Pepine</span>
+<span>: ok</span>
+<span><br>[5]</span>
+<span class="Sanae">Sanae</span>
+<span>: we ball</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[4]</span>
+<span class="Mark-Cuban">Mark Cuban</span>
+<span>: I m <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mark Cuban</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: DEPUTY PLEASE</span>
+<span><br>[11]</span>
+<span class="Pepine">Pepine</span>
+<span>: <b>Mark Cuban</b> your turn</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mark Cuban</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>no topic</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mark Cuban</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FF7F66"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> has revealed themself as the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: i balled</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mark Cuban</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: DEPUTY ON ME</span>
+<span><br>[11]</span>
+<span class="Pepine">Pepine</span>
+<span>: da fuck??</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mark Cuban</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Hazel">Hazel</span>
+<span>: W</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: 4 claimed ts</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>no topic</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mark Cuban</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mark Cuban</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mark Cuban</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Letitgo</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mark Cuban</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Sanae">Sanae</span>
+<span>: tpow</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Letitgo</color></link></font></style> cancelled their vote.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>no topic</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sanae</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Sanae">Sanae</span>
+<span>: hi</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Sanae">Sanae</span>
+<span>: me tpow</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: nice</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: next is 11</span>
+<span><br>[7]</span>
+<span class="Black-Cat">Black Cat</span>
+<span>: Inno I guess</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: can you ball</span>
+<span><br>[11]</span>
+<span class="Pepine">Pepine</span>
+<span>: i will guess amne mon, or dep/jailor</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style> has disconnected from life.</span>
+<span><br>[2]</span>
+<span class="Hazel">Hazel</span>
+<span>: 11 role</span>
+<span><br>[5]</span>
+<span class="Sanae">Sanae</span>
+<span>: I can indeed ball</span>
+<span><br>[2]</span>
+<span class="Hazel">Hazel</span>
+<span>: 1 claimed Dw' to me btw</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: dep isnt tpow thought</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: no dep is tk</span>
+<span><br>[11]</span>
+<span class="Pepine">Pepine</span>
+<span>: da fuck?</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sanae</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style> by a vote of <color=#66FF66><b>10</b></color> to <color=#FF0000><b>0</b></color>.</span>
+<span><br>[2]</span>
+<span class="Hazel">Hazel</span>
+<span>: and then left</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: 11 ur next on vfa</span>
+<span><br>[11]</span>
+<span class="Pepine">Pepine</span>
+<span>: dep is tk?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There is 1 possible trial remaining today.</span>
+<span><br>[11]</span>
+<span class="Pepine">Pepine</span>
+<span>: since when?</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>no topic</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Letitgo</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="Pepine">Pepine</span>
+<span>: tk</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: since launch</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: TK here</span>
+<span><br>[12]</span>
+<span class="Nami">Nami</span>
+<span>: tpow</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> has been triggered by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> has been triggered by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Divine</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>|N1 - n/a|N2 - trap 3 monarch twice?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Giles Corey</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Divine</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>: ret/necro + amne</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#AE00FF>Dreamweaver</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Divine</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>: LOL IM A DICTATOR</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mark Cuban</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Divine</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>: LOL</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Mark Cuban</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Divine</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style>: r u ret or amne</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#000000>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Divine</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style>: admirer</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pepine</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Divine</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style>: did u prop to mayor</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r32"><b><color=#AE00FF>Medusa</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Divine</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>: 7 has weak admi claim</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style>ed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style>ed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Binya">Binya</span>
+<span>: N2 - <b>Letitgo</b> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style></span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: AYYYY</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Divine</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style>: Nope, didn't think on it</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: hang 7</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: 7 claim</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: claimed admirer to me</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Black-Cat">Black Cat</span>
+<span>: Admirer</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: didnt propose to mayor</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: 7 claimed TS I think</span>
+<span><br>[7]</span>
+<span class="Black-Cat">Black Cat</span>
+<span>: I'll propose tonight</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: just hang him</span>
+<span><br>[8]</span>
+<span class="Binya">Binya</span>
+<span>: double knighted?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: 8 theres ret and amne</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: WHO IS RET</span>
+<span><br>[8]</span>
+<span class="Binya">Binya</span>
+<span>: so many votes</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>A Marshal has declared a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k114"><b><color=#007AFF><b>Tribunal</b></color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[2]</span>
+<span class="Hazel">Hazel</span>
+<span>: RET CLAIM</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Nami">Nami</span>
+<span>: AMNE HERE</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Black Cat</b> was voted up to trial.</span>
+<span><br>[7]</span>
+<span class="Black-Cat">Black Cat</span>
+<span>: ok I die</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[12]</span>
+<span class="Nami">Nami</span>
+<span>: AMNE MON DO NOT UP ME I KNIGHTED <b>Marshal</b></span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: ret claim now</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Letitgo</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: ret claim now</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Letitgo</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Letitgo</b> was voted up to trial.</span>
+<span><br>[14]</span>
+<span class="Letitgo">Letitgo</span>
+<span>: Im tp</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: too late</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: 15 role</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: I am only missing 8 and 12 claims from my notes</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There is 1 possible trial remaining today.</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: I claimed TK yesterday</span>
+<span><br>[8]</span>
+<span class="Binya">Binya</span>
+<span>: Sherrif</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>no topic</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Binya</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Binya</b> was voted up to trial.</span>
+<span><br>[8]</span>
+<span class="Binya">Binya</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <b>Binya</b> Looking for Skooma N1 - <b>Black Cat</b> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style> N2 - <b>Letitgo</b> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style></span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: lets see how we did</span>
+<span><br>[12]</span>
+<span class="Nami">Nami</span>
+<span>: 8 posted early guys</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: 5 which tpow btw</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Letitgo</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Letitgo</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Binya</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Binya</color></link></font></style> left a last will.</span>
+<span><br>[2]</span>
+<span class="Hazel">Hazel</span>
+<span>: BTW, 5 and 12 both claim Amne Monarch, we hang one tmrw</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Black Cat</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Letitgo</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Binya</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#000000>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: NOT BAD</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You are building your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style>.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> is built.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#000000>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Hazel</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r55"><b><color=#06E00C>Marshal</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: oh theres no ret lmao</span>
+<span><br>[12]</span>
+<span class="Nami">Nami</span>
+<span>: 6 fill will</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: 15 which tk are you</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: everyone wills</span>
+<span><br>[12]</span>
+<span class="Nami">Nami</span>
+<span>: full</span>
+<span><br>[12]</span>
+<span class="Nami">Nami</span>
+<span>: will</span>
+<span><br>[12]</span>
+<span class="Nami">Nami</span>
+<span>: 6</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: im trapper confirmed</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: 6 and me are sus</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: 6 is fine</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: im trapper confirmed</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: yeah</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: 6 is conf</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: everyone is conf besides me and 6</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: i told mayor he got double knighted</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: 15 which tk are you</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: Trickster n1: <b>Pepine</b> n2: <b>Binya</b> n3: <b>Nami</b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: i think 5 is necro tbh</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: I didn't have 8 and 12 claims (my fault, fast chat)</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sanae</b> was voted up to trial.</span>
+<span><br>[5]</span>
+<span class="Sanae">Sanae</span>
+<span>: yeah I am its okay</span>
+<span><br>[5]</span>
+<span class="Sanae">Sanae</span>
+<span>: my plan was to claim amne mon</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Divine</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>: 15 tricked medusa n1</span>
+<span><br>[5]</span>
+<span class="Sanae">Sanae</span>
+<span>: but then there was an actual amne mon</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Divine</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style>: and is alive</span>
+<span><br>[5]</span>
+<span class="Sanae">Sanae</span>
+<span>: all my coven threw and disconnected too</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: guilty</span>
+<span><br>[5]</span>
+<span class="Sanae">Sanae</span>
+<span>: well not 11</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: 12</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: DO NOT KNGITH 15</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: if game doesnt end kill 15 tomorrow</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: 15 is evil too</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sanae</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style> to death by a vote of <color=#FF0000><b>7</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: 15 "tricked" medusa n1 in his will</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: "n1 - 11"</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: 11 is medusa</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: 15 should be dead</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: unless this is cl</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: wait no lol</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r33"><b><color=#AE00FF>Necromancer</color></b></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: no its necro</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: pray 15 is jester</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Sanae</color></link></font></style> left a last will.</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: yeah brainfuc</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: tonight you all die</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style>ed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Divine</color></link></font></style>.</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>A <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k9"><b><color=#007AFF><b>Plague</b></color></b></link></font></style> has consumed the Town, transforming the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><b><color=#FF0000>Plaguebearer</color></b></link></font></style> into <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r252"><b><color=#FF0000>Pestilence</color></b></link></font></style>, Horseman of the Apocalypse!</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: 15 are you just sc?</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: oh ur pb</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: well 6 and 12 are conf so</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: yeah I am Plaguebearer, this game was so fast that I stood no chance</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: marshal and leavers made it super fast</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: ngl from that message i thought youre arso</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: the only way u won that is if you were arso</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: ye</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: ye I trolled haha</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: because i trapped mayor last night</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: wanted to spice up the game XD</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>no topic</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Marshal</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>no topic</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>no topic</b> was voted up to trial.</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: Don't guilty me if Henrcy Cavill is sexy</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: sorry <b>Binya</b> for lynching you</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>no topic</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>no topic</color></link></font></style> to death by a vote of <color=#FF0000><b>7</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: i tried u guys to vote 15 over 8 in the tribunal</span>
+<span><br>[15]</span>
+<span class="no-topic">no topic</span>
+<span>: I guess Henrcy Cavill is not sexy..... wow</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: ngl 5 kinda outed themselves by using shroud instead of just attacking</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: if we did vote 15 we wouldve killed all 3 neuts</span>
+<span><br>[6]</span>
+<span class="Divine">Divine</span>
+<span>: lol</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>no topic</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>no topic</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r252"><b><color=#FF0000>Pestilence</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>no topic</color></link></font></style> left a last will.</span>
+<span><br>[3]</span>
+<span class="Marshal">Marshal</span>
+<span>: gg</span>
+</body>
+</html>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HtmlAnalyzer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a05498015802bf327ced96ad7fd0d9f801e97877")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d210438909480d1f8db591bf9b265fc389f4c45c")]
 [assembly: System.Reflection.AssemblyProductAttribute("HtmlAnalyzer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HtmlAnalyzer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

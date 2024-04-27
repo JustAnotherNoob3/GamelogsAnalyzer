@@ -1,0 +1,968 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Marshal sucks - </span><span style="color:#06E00C"> Cleric </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br><br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Twinsen)</i></span>
+<style>span.Marshal-sucks{color: #06E00C;}</style>
+<span><br>[2] Shiver Me Timbers - </span><span style="color:#06E00C"> Seer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> <br><br>n1- 1 and 14 in jail?<br><br>n2 15 and 4 friends<br><br>n3 -  8 and 5 are friendly with each other</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Propanedd)</i></span>
+<style>span.Shiver-Me-Timbers{color: #06E00C;}</style>
+<span><br>[3] Spanky - </span><span style="color:#FF0000"> Berserker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">N1_ Cleaning mah gun, N2_ idk who to shoot, N3_ <br><br>2 seer<br>3 Me, Vigi<br>4 crus<br>5 jailor?<br>7 Trickster<br>8<br>9 mayor<br>14 monarch?</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: defeatable)</i></span>
+<style>span.Spanky{color: #FF0000;}</style>
+<span><br>[4] Faith - </span><span style="color:#06E00C"> Crusader </span>
+<span style="color:#a0a0a0"><i>(Username: Hazel)</i></span>
+<style>span.Faith{color: #06E00C;}</style>
+<span><br>[5] Fat Dookie - </span><span style="color:#06E00C"> Jailor </span>
+<span style="color:#a0a0a0"><i>(Username: SilentCoyote)</i></span>
+<style>span.Fat-Dookie{color: #06E00C;}</style>
+<span><br>[6] Hollow - </span><span style="color:#06E00C"> Sheriff </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">n1: searching 1, 1 was in jail<br>n2: searching 10, not sus<br>n3 searching 4, town losing</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Alex04)</i></span>
+<style>span.Hollow{color: #06E00C;}</style>
+<span><br>[7] Mega Jesus - </span><span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style> was jailed</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: dunkmatic)</i></span>
+<style>span.Mega-Jesus{color: #06E00C;}</style>
+<span><br>[8] Ireala - </span><span style="color:#06E00C"> Retributionist </span>
+<span style="color:#a0a0a0"><i>(Username: Reawa)</i></span>
+<style>span.Ireala{color: #06E00C;}</style>
+<span><br>[9] Samuel Sewall - </span><span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: goggi203)</i></span>
+<style>span.Samuel-Sewall{color: #06E00C;}</style>
+<span><br>[10] mad cause bad - </span><span style="color:#06E00C"> Socialite </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r54"><b><color=#06E00C>Socialite</color></b></link></font></style> <br>N2 PARTY</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: GoldenPath)</i></span>
+<style>span.mad-cause-bad{color: #06E00C;}</style>
+<span><br>[11] Melting Love - </span><span style="color:#06E00C"> Vigilante </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Maybe I should not have listened<br><br><br>I keep disconnecting</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Raqio)</i></span>
+<style>span.Melting-Love{color: #06E00C;}</style>
+<span><br>[12] Instant Confirms - </span><span style="color:#06E00C"> Trapper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">n1: build trap<br>n2;</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: QuantumEnno)</i></span>
+<style>span.Instant-Confirms{color: #06E00C;}</style>
+<span><br>[13] SonicisDbZ - </span><span style="color:#06E00C"> Monarch </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>SonicisDbZ</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> <br> N1 Dying<br> N2 Dying</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: SKULLer)</i></span>
+<style>span.SonicisDbZ{color: #06E00C;}</style>
+<span><br>[14] I must tell no lies - </span><span style="color:#06E00C"> Monarch </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span style="color:#a0a0a0"><i>(Username: whitegolum)</i></span>
+<style>span.I-must-tell-no-lies{color: #06E00C;}</style>
+<span><br>[15] Hope Eradicated - </span><span style="color:#06E00C"> Lookout </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style><br>|N1 - 4 vb N/A<br>|N2 - 13<br>|N3 -<br>|1 -<br>|2 -<br>|3 -<br>|4 -<br>|5 -<br>|6 -<br>|7 -<br>|8 -<br>|9 -<br>|10 -<br>|11 -<br>|12 -<br>|13 -<br>|14 -<br>|15 -</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Hope-Eradicated{color: #06E00C;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[10]</span>
+<span class="mad-cause-bad">mad cause bad</span>
+<span>: haha</span>
+<span><br>[1]</span>
+<span class="Marshal-sucks">Marshal sucks</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r55"><b><color=#06E00C>Marshal</color></b></link></font></style> ruins the game</span>
+<span><br>[10]</span>
+<span class="mad-cause-bad">mad cause bad</span>
+<span>: bad role</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Melting Love</color></link></font></style> has disconnected from life.</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: i never get marshal :(</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Melting Love</color></link></font></style> has reconnected to life.</span>
+<span><br>[10]</span>
+<span class="mad-cause-bad">mad cause bad</span>
+<span>: who asked</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: Yikes 11</span>
+<span><br>[10]</span>
+<span class="mad-cause-bad">mad cause bad</span>
+<span>: haha</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i am drinking hot chocolate</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: :3</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: SC on 11</span>
+<span><br>[11]</span>
+<span class="Melting-Love">Melting Love</span>
+<span>: Everyone is at 1s house</span>
+<span><br>[13]</span>
+<span class="SonicisDbZ">SonicisDbZ</span>
+<span>: l</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: 11 reconnected</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: lol</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k57"><b><color=#007AFF><b>Watch</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Faith</color></link></font></style> tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>No one visited your target last night.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: No dead</span>
+<span><br>[1]</span>
+<span class="Marshal-sucks">Marshal sucks</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r55"><b><color=#06E00C>Marshal</color></b></link></font></style> ruins the game</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: wow no kill</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> n1- 1 and 14 in jail?</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: coven asleep?</span>
+<span><br>[7]</span>
+<span class="Mega-Jesus">Mega Jesus</span>
+<span>: 1 was jailed</span>
+<span><br>[1]</span>
+<span class="Marshal-sucks">Marshal sucks</span>
+<span>: yep</span>
+<span><br>[13]</span>
+<span class="SonicisDbZ">SonicisDbZ</span>
+<span>: Who is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style></span>
+<span><br>[13]</span>
+<span class="SonicisDbZ">SonicisDbZ</span>
+<span>: xd</span>
+<span><br>[10]</span>
+<span class="mad-cause-bad">mad cause bad</span>
+<span>: 1 was jailed and no coven kills</span>
+<span><br>[9]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: ok get 13</span>
+<span><br>[13]</span>
+<span class="SonicisDbZ">SonicisDbZ</span>
+<span>: I'm not jailor!!!</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: mighty sus</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: 13 lol</span>
+<span><br>[10]</span>
+<span class="mad-cause-bad">mad cause bad</span>
+<span>: he late claimed jailed too</span>
+<span><br>[12]</span>
+<span class="Instant-Confirms">Instant Confirms</span>
+<span>: why do you hate marshal</span>
+<span><br>[12]</span>
+<span class="Instant-Confirms">Instant Confirms</span>
+<span>: socialite is bigger issue</span>
+<span><br>[1]</span>
+<span class="Marshal-sucks">Marshal sucks</span>
+<span>: because it kills the game</span>
+<span><br>[12]</span>
+<span class="Instant-Confirms">Instant Confirms</span>
+<span>: easy to confirm</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>mad cause bad</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Mega Jesus</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Marshal-sucks">Marshal sucks</span>
+<span>: socialte is a fun role, marshal kills the game instantly</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>SonicisDbZ</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Samuel Sewall</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>SonicisDbZ</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Faith</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Melting Love</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Instant Confirms</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Fat Dookie</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style> was voted up to trial.</span>
+<span><br>[1]</span>
+<span class="Marshal-sucks">Marshal sucks</span>
+<span>: prosecutor needs to be nerfed</span>
+<span><br>[1]</span>
+<span class="Marshal-sucks">Marshal sucks</span>
+<span>: but marshal is beyond ridicilous</span>
+<span><br>[1]</span>
+<span class="Marshal-sucks">Marshal sucks</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style></span>
+<span><br>[10]</span>
+<span class="mad-cause-bad">mad cause bad</span>
+<span>: haha no , <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k46"><b><color=#007AFF><b>Guilty</b></color></b></link></font></style></span>
+<span><br>[12]</span>
+<span class="Instant-Confirms">Instant Confirms</span>
+<span>: socialite disables evil chat for 2 years</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: is this big brain jester play</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: 2 years XD</span>
+<span><br>[9]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: inno</span>
+<span><br>[13]</span>
+<span class="SonicisDbZ">SonicisDbZ</span>
+<span>: I am so jailor</span>
+<span><br>[13]</span>
+<span class="SonicisDbZ">SonicisDbZ</span>
+<span>: Realllll</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Shiver Me Timbers</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Spanky</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Faith</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Fat Dookie</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Hollow</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Mega Jesus</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Ireala</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Samuel Sewall</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>mad cause bad</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Melting Love</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Instant Confirms</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>SonicisDbZ</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>I must tell no lies</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Marshal sucks</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Marshal sucks</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[1]</span>
+<span class="Marshal-sucks">Marshal sucks</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r55"><b><color=#06E00C>Marshal</color></b></link></font></style> killed this game.</span>
+<span><br>[10]</span>
+<span class="mad-cause-bad">mad cause bad</span>
+<span>: no reason to inno</span>
+<span><br>[12]</span>
+<span class="Instant-Confirms">Instant Confirms</span>
+<span>: marshal is cool lmao</span>
+<span><br>[11]</span>
+<span class="Melting-Love">Melting Love</span>
+<span>: My reason to inno was because i didnt feel like guiltying</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Marshal sucks</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Marshal sucks</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: marshal haters when btos2 comes out: :O</span>
+<span><br>[13]</span>
+<span class="SonicisDbZ">SonicisDbZ</span>
+<span>: <b>Marshal sucks</b> really <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r55"><b><color=#06E00C>Marshal</color></b></link></font></style>'d their way out</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Marshal sucks</b> left a last will.</span>
+<span><br>[9]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: brain dead town</span>
+<span><br>[9]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: again</span>
+<span><br>[9]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: afk</span>
+<span><br>[13]</span>
+<span class="SonicisDbZ">SonicisDbZ</span>
+<span>: oh yessss</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>A Socialite is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k113"><b><color=#007AFF><b>Entertain</b></color></b></link></font></style>ing the town. Feel free to socialize!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span><br>[10]</span>
+<span class="mad-cause-bad">mad cause bad</span>
+<span>: guess 8 as berserker</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: LOL</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: PARTYWOO</span>
+<span><br>[8]</span>
+<span class="Ireala">Ireala</span>
+<span>: lmao 10</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: LOL 10</span>
+<span><br>[11]</span>
+<span class="Melting-Love">Melting Love</span>
+<span>: Hi 10</span>
+<span><br>[10]</span>
+<span class="mad-cause-bad">mad cause bad</span>
+<span>: oops</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: whut</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 10 IS JESTER</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 10 IS JEST</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: VIGI ON 10</span>
+<span><br>[10]</span>
+<span class="mad-cause-bad">mad cause bad</span>
+<span>: haha</span>
+<span><br>[12]</span>
+<span class="Instant-Confirms">Instant Confirms</span>
+<span>: see</span>
+<span><br>[12]</span>
+<span class="Instant-Confirms">Instant Confirms</span>
+<span>: soc</span>
+<span><br>[12]</span>
+<span class="Instant-Confirms">Instant Confirms</span>
+<span>: more op</span>
+<span><br>[12]</span>
+<span class="Instant-Confirms">Instant Confirms</span>
+<span>: than marshall</span>
+<span><br>[9]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: 10 has necro 15 is other cov</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: ok</span>
+<span><br>[15]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: no</span>
+<span><br>[10]</span>
+<span class="mad-cause-bad">mad cause bad</span>
+<span>: jailor cant talk btw</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k57"><b><color=#007AFF><b>Watch</b></color></b></link></font></style> <b>SonicisDbZ</b> tonight.</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: really?</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: that sucks</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your ability failed because your target was in <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">mad-cause-bad</span>
+<span style="color:#689194">: haha</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>mad cause bad</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: 13 why did jailor execute you</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">mad-cause-bad</span>
+<span style="color:#689194">: vigi really shot me</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: IDK</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>mad cause bad</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r54"><b><color=#06E00C>Socialite</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: I CLAIMED <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style></i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: LOOK</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Instant Confirms</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Melting Love</b> is whispering to <b>Faith</b>.</color></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: REEEEEEE</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Instant Confirms</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Faith</b> is whispering to <b>Melting Love</b>.</color></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: <b>mad cause bad</b></i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Melting Love</b> is whispering to <b>Faith</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: YOU JUST GOT JAILOR TO EXECUTE ME</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#00FFFF><b>Faith</b> is whispering to <b>Melting Love</b>.</color></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: WHYYYYYYYYYYYYYYYYY</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>SonicisDbZ</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were executed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>SonicisDbZ</b> left a last will.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">mad-cause-bad</span>
+<span style="color:#689194">: what why</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: why</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Melting Love</b> has disconnected from life.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br><b>Melting Love</b> has reconnected to life.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: IF YOU DIDNT ENTERTAIN</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: I WOULDNT HAVE DIED</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: REEE</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Hope Eradicated</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Hope Eradicated</b> left a last will.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">mad-cause-bad</span>
+<span style="color:#689194">: town took L</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">mad-cause-bad</span>
+<span style="color:#689194">: lol</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: Now <b>Samuel Sewall</b> looks madsus</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: for pushing me</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Melting Love</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>For crimes against the town, the hangman has executed them.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: Ofcourse</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Melting Love</b> left a last will.</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: Top tier plays by <b>mad cause bad</b> lmao</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: we are so screwed</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: why jailor exec TPOW...? :/</span>
+<span><br>[14]</span>
+<span class="I-must-tell-no-lies">I must tell no lies</span>
+<span>: what a slaughter</span>
+<span><br>[6]</span>
+<span class="Hollow">Hollow</span>
+<span>: jailor jail me</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: town slaughter</span>
+<span><br>[5]</span>
+<span class="Fat-Dookie">Fat Dookie</span>
+<span>: Because the brain dead socialite used their ability, so I couldn't ask questions</span>
+<span><br>[5]</span>
+<span class="Fat-Dookie">Fat Dookie</span>
+<span>: So I guessed</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: Jailor cant Jail anymore</span>
+<span><br>[5]</span>
+<span class="Fat-Dookie">Fat Dookie</span>
+<span>: Thanks socialite, you moron</span>
+<span><br>[14]</span>
+<span class="I-must-tell-no-lies">I must tell no lies</span>
+<span>: he can't</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: SEE</i></span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> n1- 1 and 14 in jail? n2 15 and 4 friends</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: <b>mad cause bad</b></i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">mad-cause-bad</span>
+<span style="color:#689194">: what lol</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: IT WAS BECAUSED OF YOU</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: AAAAAAAAAAAAAAAAAA</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">mad-cause-bad</span>
+<span style="color:#689194">: jailor can speak in jail,</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Melting-Love</span>
+<span style="color:#689194">: I thought I would be the one to blame</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Faith</b> voted against <b>Spanky</b>.</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: i dont even know</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: 3 role</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mega Jesus</b> voted against <b>Fat Dookie</b>.</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: TK</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Fat Dookie</b> voted against <b>Mega Jesus</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Faith</b> changed their vote to <b>Hollow</b>.</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: sorry was reading log</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: 6 role</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel Sewall</b> voted against <b>Mega Jesus</b>.</span>
+<span><br>[6]</span>
+<span class="Hollow">Hollow</span>
+<span>: im tp</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Faith</b> changed their vote to <b>Mega Jesus</b>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">mad-cause-bad</span>
+<span style="color:#689194">: exing a monarch claim what their fault</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Spanky</b> voted against <b>Mega Jesus</b>.</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: 7?</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Shiver Me Timbers</b> voted against <b>Mega Jesus</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mega Jesus</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: <b>mad cause bad</b></i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: Because of all the chaos</i></span>
+<span><br>[7]</span>
+<span class="Mega-Jesus">Mega Jesus</span>
+<span>: i fucking hate <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style> didnt see my claim</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">SonicisDbZ</span>
+<span style="color:#689194">: and took my begging as a red flag</i></span>
+<span><br>[7]</span>
+<span class="Mega-Jesus">Mega Jesus</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> N1 <b>Marshal sucks</b> was jailed</span>
+<span><br>[5]</span>
+<span class="Fat-Dookie">Fat Dookie</span>
+<span>: Who cares anymore, I'm guiltying everything. Game's over anyway.</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: jailor cucked my ability</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: no wait</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">mad-cause-bad</span>
+<span style="color:#689194">: still his fault</i></span>
+<span><br>[9]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: 5 is bers</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: Honestly I'd let it live</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">mad-cause-bad</span>
+<span style="color:#689194">: for not seeing</i></span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: dont listen to coven</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: Go off</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: dude</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Shiver Me Timbers</b> voted <b>Mega Jesus</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Spanky</b> voted <b>Mega Jesus</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Faith</b> voted <b>Mega Jesus</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Fat Dookie</b> voted <b>Mega Jesus</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Hollow</b> voted <b>Mega Jesus</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ireala</b> voted <b>Mega Jesus</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel Sewall</b> voted <b>Mega Jesus</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>I must tell no lies</b> <b><style="AbstainColor>abstained</style></b> on <b>Mega Jesus</b>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mega Jesus</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: inno</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: Do your silly things</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: 5 is Jailor</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Faith</b> voted against <b>Ireala</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mega Jesus</b> voted against <b>Fat Dookie</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel Sewall</b> voted against <b>Fat Dookie</b>.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Hollow</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>. They were also destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Hollow</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style>ed <b>Fat Dookie</b>.</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: Excuse me 6???? You were Sheriff?????</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: what in the world</span>
+<span><br>[7]</span>
+<span class="Mega-Jesus">Mega Jesus</span>
+<span>: 6 you've not said anything</span>
+<span><br>[5]</span>
+<span class="Fat-Dookie">Fat Dookie</span>
+<span>: Wait a minute, <b>Shiver Me Timbers</b>, how did I "cuck you"?</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: 2 post your N3</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: so necro has the book?</span>
+<span><br>[5]</span>
+<span class="Fat-Dookie">Fat Dookie</span>
+<span>: I never jailed you</span>
+<span><br>[7]</span>
+<span class="Mega-Jesus">Mega Jesus</span>
+<span>: i meant <b>Fat Dookie</b></span>
+<span><br>[7]</span>
+<span class="Mega-Jesus">Mega Jesus</span>
+<span>: ahhhhhhhh</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: i couldnt read 14 because you jailed 1</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> n1- 1 and 14 in jail? n2 15 and 4 friends n3 - 8 and 5 are friendly with each other</span>
+<span><br>[9]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: get č</span>
+<span><br>[9]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: 2</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: So real, I say we hang 9 or 14 imo</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Faith</b> voted against <b>Samuel Sewall</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ireala</b> voted against <b>Samuel Sewall</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Spanky</b> voted against <b>Samuel Sewall</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Shiver Me Timbers</b> voted against <b>Samuel Sewall</b>.</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>Samuel Sewall</b> has revealed themself as the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Fat Dookie</b> voted against <b>Shiver Me Timbers</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Faith</b> changed their vote to <b>I must tell no lies</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Spanky</b> changed their vote to <b>I must tell no lies</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel Sewall</b> voted against <b>Faith</b>.</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: Get 14 then</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Shiver Me Timbers</b> changed their vote to <b>I must tell no lies</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ireala</b> changed their vote to <b>I must tell no lies</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mega Jesus</b> voted against <b>Faith</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>I must tell no lies</b> voted against <b>Faith</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Faith</b> was voted up to trial.</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: 9</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: I'm the confirmed Crusader</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: I stabbed 12</span>
+<span><br>[7]</span>
+<span class="Mega-Jesus">Mega Jesus</span>
+<span>: who confirmed?</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: faith is clear what are we doing?</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: that news to me</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> n1- 1 and 14 in jail? n2 15 and 4 friends n3 - 8 and 5 are friendly with each other</span>
+<span><br>[14]</span>
+<span class="I-must-tell-no-lies">I must tell no lies</span>
+<span>: Don't vote me cuz I'm Monarch</span>
+<span><br>[8]</span>
+<span class="Ireala">Ireala</span>
+<span>: well 12 dieed from crus</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: Up 14</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: inno</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: get 14 bro</span>
+<span><br>[5]</span>
+<span class="Fat-Dookie">Fat Dookie</span>
+<span>: I don't trust <b>Shiver Me Timbers</b> at all</span>
+<span><br>[8]</span>
+<span class="Ireala">Ireala</span>
+<span>: inno this</span>
+<span><br>[14]</span>
+<span class="I-must-tell-no-lies">I must tell no lies</span>
+<span>: i'm monarch</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Shiver Me Timbers</b> voted <b>Faith</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Spanky</b> voted <b>Faith</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Fat Dookie</b> <b><style="AbstainColor>abstained</style></b> on <b>Faith</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mega Jesus</b> voted <b>Faith</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ireala</b> voted <b>Faith</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel Sewall</b> voted <b>Faith</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>I must tell no lies</b> voted <b>Faith</b> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Faith</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <b>Faith</b> by a vote of <color=#66FF66><b>5</b></color> to <color=#FF0000><b>3</b></color>.</span>
+<span><br>[14]</span>
+<span class="I-must-tell-no-lies">I must tell no lies</span>
+<span>: I crowned 5</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: Okay 12 is Monarch apparently</span>
+<span><br>[9]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: ok afk</span>
+<span><br>[9]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: gl</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: Up 8 then</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Fat Dookie</b> voted against <b>Shiver Me Timbers</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Faith</b> voted against <b>Ireala</b>.</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: amne turned into monarch??</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: how would i know that 1 was in jail? lol before it happened</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: dude</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Shiver Me Timbers</b> voted against <b>I must tell no lies</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>I must tell no lies</b> voted against <b>Shiver Me Timbers</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mega Jesus</b> voted against <b>Shiver Me Timbers</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ireala</b> voted against <b>Shiver Me Timbers</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Shiver Me Timbers</b> was voted up to trial.</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: this town is cooked anyway</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: ggs afk coven</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: or beserker</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: Bro, is there even coven this game?</span>
+<span><br>[8]</span>
+<span class="Ireala">Ireala</span>
+<span>: solo bers game ?</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: Does a Ret just have a gun</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: there is necro</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: or ret?</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> n1- 1 and 14 in jail? n2 15 and 4 friends n3 - 8 and 5 are friendly with each other</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Spanky</b> <b><style="AbstainColor>abstained</style></b> on <b>Shiver Me Timbers</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Faith</b> <b><style="AbstainColor>abstained</style></b> on <b>Shiver Me Timbers</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Fat Dookie</b> voted <b>Shiver Me Timbers</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Mega Jesus</b> voted <b>Shiver Me Timbers</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Ireala</b> voted <b>Shiver Me Timbers</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel Sewall</b> <b><style="AbstainColor>abstained</style></b> on <b>Shiver Me Timbers</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>I must tell no lies</b> voted <b>Shiver Me Timbers</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Shiver Me Timbers</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <b>Shiver Me Timbers</b> to death by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: thats all the info i have to offer</span>
+<span><br>[2]</span>
+<span class="Shiver-Me-Timbers">Shiver Me Timbers</span>
+<span>: nope</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: If 2 is real, the last evil is most likely just 3 or 7</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Shiver-Me-Timbers</span>
+<span style="color:#689194">: afk ber</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Shiver Me Timbers</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Shiver Me Timbers</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: 3 or 7 is bers</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: I'm shooting 7</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Shiver Me Timbers</b> left a last will.</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: Go off</span>
+<span><br>[9]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: get met so i can leave</span>
+<span><br>[4]</span>
+<span class="Faith">Faith</span>
+<span>: 3 has a glock</span>
+<span><br>[3]</span>
+<span class="Spanky">Spanky</span>
+<span>: 7 you ded</span>
+<span><br>[9]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: this brain dog iq game</span>
+<span><br>[7]</span>
+<span class="Mega-Jesus">Mega Jesus</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#00BBFA; color:#FFFFFF"><br>There is a full moon out tonight.</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Shiver-Me-Timbers</span>
+<span style="color:#689194">: they killed more townies than the beserker did lol</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: is it just 1 bers 14 town</i></span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Shiver-Me-Timbers</span>
+<span style="color:#689194">: idk</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Spanky</span>
+<span style="color:#689194">: yikes</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Spanky</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Shiver-Me-Timbers</span>
+<span style="color:#689194">: maybe 2 coven but they havent killed all game</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Spanky</b> left a last will.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: WAS 3 THE ONLY EVIL</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: WATCH THE GAME END</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: I THINK IT WAS 1 BERS AND 14 TOWN</i></span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Shiver-Me-Timbers</span>
+<span style="color:#689194">: wow</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: UNIRONICALLY</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Mega-Jesus</span>
+<span style="color:#689194">: eat mirror <b>Spanky</b></i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Spanky</span>
+<span style="color:#689194">: who killed someone with dead vigi then</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Mega Jesus</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Shiver-Me-Timbers</span>
+<span style="color:#689194">: lol imagine</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Mega Jesus</b> left a last will.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: 8 DID I THINK</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: WHOS RET</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Spanky</span>
+<span style="color:#689194">: 8 either ret or necro</i></span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Shiver-Me-Timbers</span>
+<span style="color:#689194">: we should win if he was ber</i></span>
+</body>
+</html>

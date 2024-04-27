@@ -1,0 +1,971 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] lynch me - </span><span style="color:#AE00FF"> Voodoo Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">i will shut up annoying players for you<br>N2. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Potion Enjoyer</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ohbrother4)</i></span>
+<style>span.lynch-me{color: #AE00FF;}</style>
+<span><br>[2] Town - </span><span style="color:#777777"> Executioner </span>
+<span style="color:#a0a0a0"><i>(Username: CoolPug401)</i></span>
+<style>span.Town{color: #777777;}</style>
+<span><br>[3] meh - </span><span style="color:#777777"> Executioner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">12 is target</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MehItsMidnight)</i></span>
+<style>span.meh{color: #777777;}</style>
+<span><br>[4] Samuel Sewall - </span><span style="color:#AE00FF"> Hex Master </span>
+<span style="color:#a0a0a0"><i>(Username: Zyniltz)</i></span>
+<style>span.Samuel-Sewall{color: #AE00FF;}</style>
+<span><br>[5] EdP - </span><span style="color:#777777"> Executioner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">EdP the Sheriff<br><br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Samuel Sewall</color></link></font></style> ns<br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Velvet</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TinySpoon)</i></span>
+<style>span.EdP{color: #777777;}</style>
+<span><br>[6] Rex - </span><span style="color:#FF0000"> Baker </span>
+<span style="color:#a0a0a0"><i>(Username: Rex11000)</i></span>
+<style>span.Rex{color: #FF0000;}</style>
+<span><br>[7] Cubefied - </span><span style="color:#AE00FF"> Poisoner </span>
+<span style="color:#a0a0a0"><i>(Username: ZeusGod)</i></span>
+<style>span.Cubefied{color: #AE00FF;}</style>
+<span><br>[8] Alice Young - </span><span style="color:#AE00FF"> Dreamweaver </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> <br><br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Potion Enjoyer</color></link></font></style> (enemies)<br>N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Man Kisser</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Samuel Sewall</color></link></font></style> (friends)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Gaminggod69420)</i></span>
+<style>span.Alice-Young{color: #AE00FF;}</style>
+<span><br>[9] Sir Gideon Ofnir - </span><span style="color:#00CC99"> Doomsayer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Cleric<br>N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Town</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: NRDoesStuff)</i></span>
+<style>span.Sir-Gideon-Ofnir{color: #00CC99;}</style>
+<span><br>[10] Velvet - </span><span style="color:#FF0000"> Soul Collector </span>
+<span style="color:#a0a0a0"><i>(Username: Jinq)</i></span>
+<style>span.Velvet{color: #FF0000;}</style>
+<span><br>[11] hyacinth - </span><span style="color:#06E00C"> Lookout </span>
+<span style="color:#a0a0a0"><i>(Username: witchflower)</i></span>
+<style>span.hyacinth{color: #06E00C;}</style>
+<span><br>[12] Moist Bread - </span><span style="color:#06E00C"> Socialite </span>
+<span style="color:#a0a0a0"><i>(Username: LePyckleBoi)</i></span>
+<style>span.Moist-Bread{color: #06E00C;}</style>
+<span><br>[13] Potion Enjoyer - </span><span style="color:#06E00C"> Marshal </span>
+<span style="color:#a0a0a0"><i>(Username: Ecu)</i></span>
+<style>span.Potion-Enjoyer{color: #06E00C;}</style>
+<span><br>[14] Hope Eradicated - </span><span style="color:#06E00C"> Veteran </span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Hope-Eradicated{color: #06E00C;}</style>
+<span><br>[15] Man Kisser - </span><span style="color:#06E00C"> Bodyguard </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> shit<br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>hyacinth</color></link></font></style> <br>N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Potion Enjoyer</color></link></font></style> <br>N3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>hyacinth</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: CaptainNoShirt)</i></span>
+<style>span.Man-Kisser{color: #06E00C;}</style>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: good morning</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#AE00FF>Ritualist</color></b></link></font></style> claim D1</span>
+<span><br>[1]</span>
+<span class="lynch-me">lynch me</span>
+<span>: if theres a player whos annoying you</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: nobody is gonna disconect? nice</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style> is the most fuckable bitch</span>
+<span><br>[4]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#AE00FF>Ritualist</color></b></link></font></style> claim D1</span>
+<span><br>[1]</span>
+<span class="lynch-me">lynch me</span>
+<span>: whisper me during day</span>
+<span><br>[15]</span>
+<span class="Man-Kisser">Man Kisser</span>
+<span>: anyone wanna love me?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Cubefied</color></link></font></style> has disconnected from life.</span>
+<span><br>[8]</span>
+<span class="Alice-Young">Alice Young</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Potion Enjoyer</color></link></font></style> (enemies)</span>
+<span><br>[5]</span>
+<span class="EdP">EdP</span>
+<span>: EdP the SheriffN1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Samuel Sewall</color></link></font></style> ns</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: oh</span>
+<span><br>[2]</span>
+<span class="Town">Town</span>
+<span>: Town the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> n1: Bug <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r241"><b><color=#9C9A9A>Hidden</color></b></link></font></style> -</span>
+<span><br>[11]</span>
+<span class="hyacinth">hyacinth</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Hope Eradicated</color></link></font></style> vb no one</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: I am tpow get 5</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: yo guys <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#AE00FF>Potion Master</color></b></link></font></style> claim D2 (real not clickbait)</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 5 role</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style></span>
+<span><br>[5]</span>
+<span class="EdP">EdP</span>
+<span>: im sheriff</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: bye <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Cubefied</color></link></font></style> , it was a honour</span>
+<span><br>[8]</span>
+<span class="Alice-Young">Alice Young</span>
+<span>: 5 claims sheriff</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> is a cupcake enjoyer</span>
+<span><br>[5]</span>
+<span class="EdP">EdP</span>
+<span>: i am indeed</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: okay 5 hangs, do vfa first</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Potion Enjoyer</color></link></font></style> claim?</span>
+<span><br>[5]</span>
+<span class="EdP">EdP</span>
+<span>: a cupcake enjoyer</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: tpow</span>
+<span><br>[9]</span>
+<span class="Sir-Gideon-Ofnir">Sir Gideon Ofnir</span>
+<span>: why 5?</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: also i was attacked and barriered</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: lol</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 1 3 4</span>
+<span><br>[1]</span>
+<span class="lynch-me">lynch me</span>
+<span>: im</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: claims</span>
+<span><br>[1]</span>
+<span class="lynch-me">lynch me</span>
+<span>: ts</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: oh nevermind, 13 claimed</span>
+<span><br>[1]</span>
+<span class="lynch-me">lynch me</span>
+<span>: rea</span>
+<span><br>[1]</span>
+<span class="lynch-me">lynch me</span>
+<span>: ffs</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[15]</span>
+<span class="Man-Kisser">Man Kisser</span>
+<span>: tp</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Velvet</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>lynch me</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Town</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Man Kisser</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Alice Young</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sir Gideon Ofnir</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Potion Enjoyer</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>hyacinth</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> was voted up to trial.</span>
+<span><br>[5]</span>
+<span class="EdP">EdP</span>
+<span>: brothers im sheriff i swear</span>
+<span><br>[5]</span>
+<span class="EdP">EdP</span>
+<span>: well aybe a bit of an exe</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Potion Enjoyer</color></link></font></style> is tpow, so for now i vote guilty</span>
+<span><br>[5]</span>
+<span class="EdP">EdP</span>
+<span>: but I will help the town</span>
+<span><br>[9]</span>
+<span class="Sir-Gideon-Ofnir">Sir Gideon Ofnir</span>
+<span>: jester moment</span>
+<span><br>[5]</span>
+<span class="EdP">EdP</span>
+<span>: i promise</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>meh</color></link></font></style> claim</span>
+<span><br>[1]</span>
+<span class="lynch-me">lynch me</span>
+<span>: i kinda dont care if you actually are sheriff ngl</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: ino get vfa</span>
+<span><br>[3]</span>
+<span class="meh">meh</span>
+<span>: exe</span>
+<span><br>[1]</span>
+<span class="lynch-me">lynch me</span>
+<span>: or exe or that matter</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: mf said exe</span>
+<span><br>[2]</span>
+<span class="Town">Town</span>
+<span>: Oh</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: okay 3 just claimed ne</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>lynch me</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Town</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>meh</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Samuel Sewall</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Rex</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Cubefied</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Alice Young</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sir Gideon Ofnir</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Velvet</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>hyacinth</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Moist Bread</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Potion Enjoyer</color></link></font></style> voted <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style> <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Man Kisser</color></link></font></style> <b><style="AbstainColor>abstained</style></b> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>EdP</color></link></font></style>!</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>EdP</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[5]</span>
+<span class="EdP">EdP</span>
+<span>: gss</span>
+<span><br>[5]</span>
+<span class="EdP">EdP</span>
+<span>: ggs</span>
+<span><br>[5]</span>
+<span class="EdP">EdP</span>
+<span>: unlucky</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: <b>Samuel Sewall</b> claim</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: TP ON ME</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>EdP</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>EdP</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: well, there goes our day</span>
+<span><br>[15]</span>
+<span class="Man-Kisser">Man Kisser</span>
+<span>: oh ok</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>EdP</b> left a last will.</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: <b>Samuel Sewall</b> claim?</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: is 4 silenced?</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: TP ON ME</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: idk</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>A Socialite is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k113"><b><color=#007AFF><b>Entertain</b></color></b></link></font></style>ing the town. Feel free to socialize!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to go on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k69"><b><color=#007AFF><b>Alert</b></color></b></link></font></style> tonight.</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: hello</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: PARTY TIME PARTY TIME</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: tp on me</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 4 were u silenced?</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: 4 role</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: hello guys</span>
+<span><br>[15]</span>
+<span class="Man-Kisser">Man Kisser</span>
+<span>: YAHOO</span>
+<span><br>[4]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: yeah</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: <b>Samuel Sewall</b> claim now</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: its a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#AE00FF>Poisoner</color></b></link></font></style> game</span>
+<span><br>[4]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: silenced</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style></span>
+<span><br>[15]</span>
+<span class="Man-Kisser">Man Kisser</span>
+<span>: LETS GO</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: ok</span>
+<span><br>[4]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: TK</span>
+<span><br>[9]</span>
+<span class="Sir-Gideon-Ofnir">Sir Gideon Ofnir</span>
+<span>: Hey guys im doomsayer who is coven</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: 6 role</span>
+<span><br>[3]</span>
+<span class="meh">meh</span>
+<span>: idk</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: <b>Rex</b></span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: ok <b>Samuel Sewall</b> claimed tk</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: claim</span>
+<span><br>[15]</span>
+<span class="Man-Kisser">Man Kisser</span>
+<span>: *DANCE*</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: im tp</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: CLAIM</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: EVERYONE CLAIM</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: 6 on me</span>
+<span><br>[15]</span>
+<span class="Man-Kisser">Man Kisser</span>
+<span>: tp</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: nonclaimers die</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: ok</span>
+<span><br>[1]</span>
+<span class="lynch-me">lynch me</span>
+<span>: i hate this lobby</span>
+<span><br>[11]</span>
+<span class="hyacinth">hyacinth</span>
+<span>: lmfaoo</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: if i ded 6 fake</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Cubefied</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Town</b> is whispering to <b>Alice Young</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sir Gideon Ofnir</b> has disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Cubefied</b> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Alice Young</b> is whispering to <b>Town</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Town</b> is whispering to <b>Alice Young</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#AE00FF>Poisoner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Town</b> is whispering to <b>Alice Young</b>.</color></span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> N1 nothing attacked RBed and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style>ed (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#AE00FF>Poisoner</color></b></link></font></style> game) N2 nothing</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: bye <b>Sir Gideon Ofnir</b></span>
+<span><br>[11]</span>
+<span class="hyacinth">hyacinth</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> n1 - <b>Hope Eradicated</b> vb no one n2 - <b>Potion Enjoyer</b> vb 1, 4, 6, 8, and 15</span>
+<span><br>[2]</span>
+<span class="Town">Town</span>
+<span>: N2: Bug <b>meh</b> - Target cleaned gasoline off themsevles!</span>
+<span><br>[11]</span>
+<span class="hyacinth">hyacinth</span>
+<span>: jesus</span>
+<span><br>[1]</span>
+<span class="lynch-me">lynch me</span>
+<span>: yeah</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: holy SHIT</span>
+<span><br>[2]</span>
+<span class="Town">Town</span>
+<span>: 3 CLEANED GAS</span>
+<span><br>[8]</span>
+<span class="Alice-Young">Alice Young</span>
+<span>: N2 <b>Man Kisser</b> <b>meh</b> (friend)</span>
+<span><br>[2]</span>
+<span class="Town">Town</span>
+<span>: N2: Bug <b>meh</b> - Target cleaned gasoline off themsevles!</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: <b>Potion Enjoyer</b> had a party bro</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Man Kisser</b> is whispering to <b>Potion Enjoyer</b>.</color></span>
+<span><br>[3]</span>
+<span class="meh">meh</span>
+<span>: im exe 12 is target</span>
+<span><br>[15]</span>
+<span class="Man-Kisser">Man Kisser</span>
+<span>: tp</span>
+<span><br>[2]</span>
+<span class="Town">Town</span>
+<span>: Nah your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#FF8900>Arsonist</color></b></link></font></style></span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: im ts</span>
+<span><br>[1]</span>
+<span class="lynch-me">lynch me</span>
+<span>: i went to 13</span>
+<span><br>[4]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: wiw</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: either way vote 3</span>
+<span><br>[2]</span>
+<span class="Town">Town</span>
+<span>: HANG 3 BEFORE HE IGNITES</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: just kill 3</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: wait, how exe is friend with someone</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: anyways</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: yeah, get <b>meh</b></span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: hes not</span>
+<span><br>[3]</span>
+<span class="meh">meh</span>
+<span>: not arso but ok</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Rex</b> voted against <b>meh</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Velvet</b> voted against <b>meh</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Town</b> voted against <b>meh</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Moist Bread</b> voted against <b>meh</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>meh</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel Sewall</b> voted against <b>meh</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Man Kisser</b> voted against <b>meh</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>meh</b> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="meh">meh</span>
+<span>: im exe 12 is target</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: seer said 3 was friends with 15? btw...</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: well I dont like being target so please go away</span>
+<span><br>[2]</span>
+<span class="Town">Town</span>
+<span>: No you are <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#FF8900>Arsonist</color></b></link></font></style> I got a rare message</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: so...according to <b>Alice Young</b> , whatever this is, <b>Man Kisser</b> is on his side</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted <b>meh</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[8]</span>
+<span class="Alice-Young">Alice Young</span>
+<span>: oh wait i meant <b>Samuel Sewall</b> friends with <b>Man Kisser</b></span>
+<span><br>[3]</span>
+<span class="meh">meh</span>
+<span>: 2 must be arso</span>
+<span><br>[8]</span>
+<span class="Alice-Young">Alice Young</span>
+<span>: not 3</span>
+<span><br>[15]</span>
+<span class="Man-Kisser">Man Kisser</span>
+<span>: im tp</span>
+<span><br>[8]</span>
+<span class="Alice-Young">Alice Young</span>
+<span>: typo</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: lmao <b>Alice Young</b></span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 15 is 2nd arso if this flips arso</span>
+<span><br>[2]</span>
+<span class="Town">Town</span>
+<span>: Guilty this <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#FF8900>Arsonist</color></b></link></font></style></span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: maybe 3 and 15 arsonist</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>lynch me</b> voted <b>meh</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Town</b> voted <b>meh</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel Sewall</b> <b><style="AbstainColor>abstained</style></b> on <b>meh</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Rex</b> voted <b>meh</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Alice Young</b> voted <b>meh</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Sir Gideon Ofnir</b> <b><style="AbstainColor>abstained</style></b> on <b>meh</b>!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Velvet</b> voted <b>meh</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>hyacinth</b> voted <b>meh</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Moist Bread</b> voted <b>meh</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Potion Enjoyer</b> voted <b>meh</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Man Kisser</b> voted <b>meh</b> <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>meh</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span><br>[3]</span>
+<span class="meh">meh</span>
+<span>: 2 must be arso</span>
+<span><br>[2]</span>
+<span class="Town">Town</span>
+<span>: HAHAHAHAHAHA AHAHAHAHA</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: na hes exe</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 13 which tpow r u</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: yeah I had a feeling</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>meh</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>meh</b> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: since arso game</span>
+<span><br>[2]</span>
+<span class="Town">Town</span>
+<span>: wow 3 exes</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: <b>Alice Young</b> make sure to check it right, if not <b>Man Kisser</b> is gonna die by nothing</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: exe on exe violence</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>meh</b> left a last will.</span>
+<span><br>[2]</span>
+<span class="Town">Town</span>
+<span>: AHAHAHAH HAHHA</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i think 2 is 3rd exe</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: tbh</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Hope Eradicated</b> is whispering to <b>Town</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000>To <b>Town</b>: TOWN OF EXECUTIONERS</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style> has successfully gotten their target hanged!</span>
+<span style="background-color:#000000; color:#FF7F66"><br><b>Town</b> has accomplished their goal as <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style> and left town.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Alice Young</b> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were tormented by an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Alice Young</b> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#AE00FF>Dreamweaver</color></b></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: what the fuck is that graveyard...</span>
+<span><br>[15]</span>
+<span class="Man-Kisser">Man Kisser</span>
+<span>: ok i thought they were lying lol</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: indeed, 3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style> game,and what a beitufil graveyard</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k51"><b><color=#007AFF><b>Autopsy</b></color></b></link></font></style> <b>Cubefied</b> (Died to McDonald's WiFi)</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: pretty graveyard</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to go on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k69"><b><color=#007AFF><b>Alert</b></color></b></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>lynch me</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>lynch me</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Hope Eradicated</b> is whispering to <b>Rex</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000>To <b>Rex</b>: r u cleric?</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#AE00FF>Voodoo Master</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Rex</b> is whispering to <b>Hope Eradicated</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000>From <b>Rex</b>: are you <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#AE00FF>Ritualist</color></b></link></font></style> ?</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Sir Gideon Ofnir</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Sir Gideon Ofnir</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Hope Eradicated</b> is whispering to <b>Rex</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000>To <b>Rex</b>: no 10 said he was healed n1</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Hope Eradicated</b> is whispering to <b>Rex</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000>To <b>Rex</b>: ur only tp</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r43"><b><color=#00CC99>Doomsayer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Hope Eradicated</b> is whispering to <b>Rex</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000>To <b>Rex</b>: if ur not cleric 10 is fake</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Rex</b> is whispering to <b>Hope Eradicated</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000>From <b>Rex</b>: that wasnt me</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><b>Man Kisser</b> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died while defending their target.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><b>Man Kisser</b> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Rex</b> is whispering to <b>Hope Eradicated</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000>From <b>Rex</b>: oh wait, <b>Velvet</b> ?</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Potion Enjoyer</b> is whispering to <b>Rex</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Hope Eradicated</b> is whispering to <b>Rex</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000>To <b>Rex</b>: yes</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Potion Enjoyer</b> is whispering to <b>Rex</b>.</color></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Potion Enjoyer</b> is whispering to <b>hyacinth</b>.</color></span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> N1 nothing attacked RBed and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style>ed (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#AE00FF>Poisoner</color></b></link></font></style> game) N2 nothing N3 nothing</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 13 prove which tpow</span>
+<span><br>[11]</span>
+<span class="hyacinth">hyacinth</span>
+<span>: n3 - <b>Potion Enjoyer</b> vb <b>lynch me</b> and <b>Man Kisser</b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Rex</b> is whispering to <b>Hope Eradicated</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000>From <b>Rex</b>: oh yeah i healed him</color></span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: N2 : silence and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k89"><b><color=#007AFF><b>Dreamweave</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Rex</b> is whispering to <b>Hope Eradicated</b>.</color></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000>From <b>Rex</b>: i throught you saied 11</color></span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 13 which tpow</span>
+<span><br>[11]</span>
+<span class="hyacinth">hyacinth</span>
+<span>: why did 15 say they were on me if they were on 13</span>
+<span><br>[11]</span>
+<span class="hyacinth">hyacinth</span>
+<span>: awk</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: <b>hyacinth</b> there is a problem</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: 13 which tpow are u</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: dreamweaver is dead</span>
+<span><br>[11]</span>
+<span class="hyacinth">hyacinth</span>
+<span>: im aware</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: ur not insane</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: U will see</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: ok</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 4 which TK</span>
+<span><br>[4]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: vet</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: ah marshal</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: what is 6</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#AE00FF>Voodoo Master</color></b></link></font></style> was on me again</span>
+<span><br>[4]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: i was silenced</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: im tp</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 6 is cleric</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: so <b>hyacinth</b> there is a problem</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: will?</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: im coroner</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 10 cinfs 6</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: im staying on <b>Potion Enjoyer</b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 10 confs 6</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> N1 nothing attacked RBed and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style>ed (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#AE00FF>Poisoner</color></b></link></font></style> game) N2 nothing N3 nothing</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Samuel Sewall</b>.</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: ok</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: 6 is weird</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: get vet out</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: imo</span>
+<span><br>[4]</span>
+<span class="Samuel-Sewall">Samuel Sewall</span>
+<span>: i was silenced</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: wasnt on 13 last night</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: lol</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>A Marshal has declared a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k114"><b><color=#007AFF><b>Tribunal</b></color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>You voted against <b>Samuel Sewall</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Samuel Sewall</b> voted against <b>Rex</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Potion Enjoyer</b> voted against <b>Samuel Sewall</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Velvet</b> voted against <b>Samuel Sewall</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Samuel Sewall</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><color=#0FF000><b>Moist Bread</b> is whispering to <b>Potion Enjoyer</b>.</color></span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: wdym i wasnt on <b>Potion Enjoyer</b> last night</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: I AM SOCIALITE DO NOT VOTE ME</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: might be wildling</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 12 socialite</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: yes</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: dont vote 12</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Velvet</b> voted against <b>hyacinth</b>.</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: <b>Moist Bread</b> is good</span>
+<span><br>[11]</span>
+<span class="hyacinth">hyacinth</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> n1 - <b>Hope Eradicated</b> vb no one n2 - <b>Potion Enjoyer</b> vb 1, 4, 6, 8, and 15 n3 - <b>Potion Enjoyer</b> vb <b>lynch me</b> and <b>Man Kisser</b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Potion Enjoyer</b> voted against <b>hyacinth</b>.</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 11 is LO</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: dont vote</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: wildling</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Potion Enjoyer</b> cancelled their vote.</span>
+<span><br>[11]</span>
+<span class="hyacinth">hyacinth</span>
+<span>: bruh</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style> N1. on <b>Velvet</b> (target attacked) N2. on <b>Potion Enjoyer</b> N3. on <b>Potion Enjoyer</b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Velvet</b> cancelled their vote.</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: LIKE</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: well</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Potion Enjoyer</b> voted against <b>Rex</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Moist Bread</b> voted against <b>Rex</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Velvet</b> voted against <b>Rex</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Rex</b> was voted up to trial.</span>
+<span><br>[6]</span>
+<span class="Rex">Rex</span>
+<span>: bye town!!!</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: bye</span>
+<span><br>[11]</span>
+<span class="hyacinth">hyacinth</span>
+<span>: o/</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i think 4 was last evil</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: dont vote anymore</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: like 11 I was VM</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There is 1 possible trial remaining today.</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: dont vote anymore</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: So heh</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 12 13 conf town</span>
+<span><br>[11]</span>
+<span class="hyacinth">hyacinth</span>
+<span>: ur confusing me brah</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: we dont need to vote anymore</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: no</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: wait</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: game wouldve ended</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: well 11 isnt coven</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: <b>hyacinth</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#AE00FF>Voodoo Master</color></b></link></font></style> visit me</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Velvet</b> voted against <b>hyacinth</b>.</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: no it wouldnt</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: 11 is wildling</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: ye</span>
+<span><br>[12]</span>
+<span class="Moist-Bread">Moist Bread</span>
+<span>: 11 got protected by bg against coven</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: it would</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: it wouldnt end until day ends</span>
+<span><br>[11]</span>
+<span class="hyacinth">hyacinth</span>
+<span>: im not but alr</span>
+<span><br>[10]</span>
+<span class="Velvet">Velvet</span>
+<span>: i know it</span>
+<span><br>[14]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: it wouldnt</span>
+<span><br>[13]</span>
+<span class="Potion-Enjoyer">Potion Enjoyer</span>
+<span>: impossible</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Moist Bread</b> voted against <b>Velvet</b>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br><b>Potion Enjoyer</b> voted against <b>Velvet</b>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Velvet</b> was voted up to trial.</span>
+</body>
+</html>

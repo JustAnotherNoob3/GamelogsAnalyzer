@@ -1,0 +1,675 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style ="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] SwedishWelfareSys - </span><span style="color:#FF0000"> Baker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <br>n1 - jailed<br>n2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k42"><b><color=#007AFF><b>Not Sus</b></color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Krzysiek1257)</i></span>
+<style>span.SwedishWelfareSys{color: #FF0000;}</style>
+<span><br>[2] diana - </span><span style="color:#06E00C"> Jailor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">jailor<br><br>n1. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>SwedishWelfareSys</color></link></font></style> claims sheriff<br><br>n2. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Hathorne</color></link></font></style></span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">ok jailor</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: diana)</i></span>
+<style>span.diana{color: #06E00C;}</style>
+<span><br>[3] Jester uWu - </span><span style="color:#06E00C"> Investigator </span>
+<span style="color:#a0a0a0"><i>(Username: DanDanBro)</i></span>
+<style>span.Jester-uWu{color: #06E00C;}</style>
+<span><br>[4] Edward - </span><span style="color:#AE00FF"> Illusionist </span>
+<span style="color:#a0a0a0"><i>(Username: Rochopper189)</i></span>
+<style>span.Edward{color: #AE00FF;}</style>
+<span><br>[5] Gunn Mann - </span><span style="color:#FFB0DF"> Jester </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Edward</color></link></font></style> [ <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Hope Eradicated</color></link></font></style> ]<br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Hope Eradicated</color></link></font></style> [<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>rook</color></link></font></style> ]</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: DialRforRad)</i></span>
+<style>span.Gunn-Mann{color: #FFB0DF;}</style>
+<span><br>[6] Edward Bishop - </span><span style="color:#AE00FF"> Voodoo Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> <br><br>n1 sILENCED<br>n2</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Hvedrung)</i></span>
+<style>span.Edward-Bishop{color: #AE00FF;}</style>
+<span><br>[7] John Hathorne - </span><span style="color:#06E00C"> Psychic </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Hathorne</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <br>I lied I'm not <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r54"><b><color=#06E00C>Socialite</color></b></link></font></style> <br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k40"><b><color=#007AFF><b>Evil</b></color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>rook</color></link></font></style>) <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gunn Mann</color></link></font></style></span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">YESSSSSSSSSSSSSSSSSSSSSSS
+I WILL FIND YOU [[@9]] ! I WILL FIND YOU! 
+
+YOU WILL NOT DEFEAT ME
+
+
+
+
+RAHHHHHHHHHHHHHHHHHHHHHHHHHH</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Asecretslavbirb)</i></span>
+<style>span.John-Hathorne{color: #06E00C;}</style>
+<span><br>[8] Hope Eradicated - </span><span style="color:#AE00FF"> Conjurer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">meow</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Hope-Eradicated{color: #AE00FF;}</style>
+<span><br>[9] Kokkoro - </span><span style="color:#06E00C"> Marshal </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">ok jailor</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Contemptuous)</i></span>
+<style>span.Kokkoro{color: #06E00C;}</style>
+<span><br>[10] Arsonist - </span><span style="color:#FFF300"> Pirate </span>
+<span style="color:#a0a0a0"><i>(Username: Tropicrl)</i></span>
+<style>span.Arsonist{color: #FFF300;}</style>
+<span><br>[11] byebye - </span><span style="color:#06E00C"> Vigilante </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">hope voodoo isnt immune</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Icycolt)</i></span>
+<style>span.byebye{color: #06E00C;}</style>
+<span><br>[12] Mary Eastey - </span><span style="color:#06E00C"> Seer </span>
+<span style="color:#a0a0a0"><i>(Username: beautifulbella)</i></span>
+<style>span.Mary-Eastey{color: #06E00C;}</style>
+<span><br>[13] rook - </span><span style="color:#AE00FF"> Medusa </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">BG<br>n1-2<br>n2-6<br>n3-</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: PadrePio00)</i></span>
+<style>span.rook{color: #AE00FF;}</style>
+<span><br>[14] Godlike - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: Brillindc)</i></span>
+<style>span.Godlike{color: #06E00C;}</style>
+<span><br>[15] Greybeard - </span><span style="color:#06E00C"> Prosecutor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">fuck you <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> your getting reported</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Royal)</i></span>
+<style>span.Greybeard{color: #06E00C;}</style>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Hope Eradicated</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: gee golly, this is not a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r55"><b><color=#06E00C>Marshal</color></b></link></font></style> moment</span>
+<span><br>[7]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r54"><b><color=#06E00C>Socialite</color></b></link></font></style></span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: lets goo</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Edward</color></link></font></style> is being <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k13"><b><color=#007AFF><b>Duel</b></color></b></link></font></style>ed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style>!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Jester uWu</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>rook</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Jester uWu</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Jester uWu</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Jester uWu</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>).</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Edward</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style>. They also disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Edward</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r30"><b><color=#AE00FF>Illusionist</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: I lied I'm not <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r54"><b><color=#06E00C>Socialite</color></b></link></font></style></span>
+<span><br>[5]</span>
+<span class="Gunn-Mann">Gunn Mann</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Edward</color></link></font></style> [ <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Hope Eradicated</color></link></font></style> ]</span>
+<span><br>[1]</span>
+<span class="SwedishWelfareSys">SwedishWelfareSys</span>
+<span>: I got jailed</span>
+<span><br>[10]</span>
+<span class="Arsonist">Arsonist</span>
+<span>: JESUS I ALMOST PIRATED 3 AND NOT 4 PHEWy</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: tk</span>
+<span><br>[10]</span>
+<span class="Arsonist">Arsonist</span>
+<span>: pls someone leave</span>
+<span><br>[10]</span>
+<span class="Arsonist">Arsonist</span>
+<span>: i beg of you</span>
+<span><br>[10]</span>
+<span class="Arsonist">Arsonist</span>
+<span>: please</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: hey can all the ppl in the psy ill claim</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: will</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 4 is dead illusionist</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: perfect</span>
+<span><br>[15]</span>
+<span class="Greybeard">Greybeard</span>
+<span>: 6 claim</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: my point stands</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>diana</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Greybeard</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Arsonist">Arsonist</span>
+<span>: 6/8 can still be evil</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>diana</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Godlike</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>diana</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Gunn-Mann">Gunn Mann</span>
+<span>: i mean evil can be all of them</span>
+<span><br>[2]</span>
+<span class="diana">diana</span>
+<span>: jailor</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i claimed already</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to conjure a meteor targeting <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>diana</color></link></font></style> today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>diana</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#AE00FF>Conjurer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>diana</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[13]</span>
+<span class="rook">rook</span>
+<span>: gee golly</span>
+<span><br>[5]</span>
+<span class="Gunn-Mann">Gunn Mann</span>
+<span>: who tf open claims d2?</span>
+<span><br>[11]</span>
+<span class="byebye">byebye</span>
+<span>: 13 role?</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: I WAS EXPECTIGN THAT TO BE A CORO</span>
+<span><br>[10]</span>
+<span class="Arsonist">Arsonist</span>
+<span>: get 6 no claim (bro 2 is so stupid fullclaiming as tpow</span>
+<span><br>[15]</span>
+<span class="Greybeard">Greybeard</span>
+<span>: 6 claim</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>rook</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="rook">rook</span>
+<span>: tp</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Greybeard</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Arsonist">Arsonist</span>
+<span>: get 6</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gunn Mann</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: erm</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Arsonist">Arsonist</span>
+<span>: no claim</span>
+<span><br>[7]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: I have to go</span>
+<span><br>[7]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: is that okay</span>
+<span><br>[7]</span>
+<span class="John-Hathorne">John Hathorne</span>
+<span>: if I leave</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: thats fine</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Hathorne</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style> was voted up to trial.</span>
+<span><br>[6]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Godlike</color></link></font></style> has disconnected from life.</span>
+<span><br>[5]</span>
+<span class="Gunn-Mann">Gunn Mann</span>
+<span>: inno for now</span>
+<span><br>[13]</span>
+<span class="rook">rook</span>
+<span>: inno continue vfa</span>
+<span><br>[10]</span>
+<span class="Arsonist">Arsonist</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Hathorne</color></link></font></style> THANK YOU SO MUCH I CAN WIN NOW</span>
+<span><br>[10]</span>
+<span class="Arsonist">Arsonist</span>
+<span>: LETS GOOOOOOOOOOOOOOOOOO</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: NAH GUYS VOTE 10</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: DONT LET HIM WIN</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Edward Bishop</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style> by a vote of <color=#66FF66><b>8</b></color> to <color=#FF0000><b>0</b></color>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Eastey</color></link></font></style> has disconnected from life.</span>
+<span><br>[10]</span>
+<span class="Arsonist">Arsonist</span>
+<span>: <b>Kokkoro</b> i will find you</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 9 holy based</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: DO IT</span>
+<span><br>[10]</span>
+<span class="Arsonist">Arsonist</span>
+<span>: HOW MANY LEAVES??</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gunn Mann</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Hope Eradicated</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>rook</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gunn Mann</color></link></font></style> cancelled their vote.</span>
+<span><br>[10]</span>
+<span class="Arsonist">Arsonist</span>
+<span>: YESSSSSS</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>SwedishWelfareSys</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>rook</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>SwedishWelfareSys</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style> decided to use a voodoo doll on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Greybeard</color></link></font></style> tonight.</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i have an odd feeling 1 is going to be immune</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i can feel it in my bones</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your target's defense was too high to kill!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Hathorne</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style>. They also disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>John Hathorne</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style>: goodbye pirate</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FF7F66"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Arsonist</color></link></font></style> has accomplished their goal as <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style> and left town.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Eastey</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Eastey</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Godlike</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Godlike</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Gunn-Mann">Gunn Mann</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1: <b>Edward</b> [ <b>Edward Bishop</b>, <b>Hope Eradicated</b> ] N2: <b>Hope Eradicated</b> [<b>rook</b> ]</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: okay</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: be honest</span>
+<span><br>[11]</span>
+<span class="byebye">byebye</span>
+<span>: 1 role</span>
+<span><br>[1]</span>
+<span class="SwedishWelfareSys">SwedishWelfareSys</span>
+<span>: n2 - <b>Kokkoro</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k42"><b><color=#007AFF><b>Not Sus</b></color></b></link></font></style></span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: okay hold on 5</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: why did you use me</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: so its vm medusa and conj</span>
+<span><br>[11]</span>
+<span class="byebye">byebye</span>
+<span>: 1 is evikl</span>
+<span><br>[1]</span>
+<span class="SwedishWelfareSys">SwedishWelfareSys</span>
+<span>: ?</span>
+<span><br>[11]</span>
+<span class="byebye">byebye</span>
+<span>: 1 is evil</span>
+<span><br>[11]</span>
+<span class="byebye">byebye</span>
+<span>: i shot hit</span>
+<span><br>[1]</span>
+<span class="SwedishWelfareSys">SwedishWelfareSys</span>
+<span>: what?</span>
+<span><br>[11]</span>
+<span class="byebye">byebye</span>
+<span>: !</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: fk this</span>
+<span><br>[13]</span>
+<span class="rook">rook</span>
+<span>: up 1</span>
+<span><br>[1]</span>
+<span class="SwedishWelfareSys">SwedishWelfareSys</span>
+<span>: exe play</span>
+<span><br>[11]</span>
+<span class="byebye">byebye</span>
+<span>: didnt claim attacked</span>
+<span><br>[5]</span>
+<span class="Gunn-Mann">Gunn Mann</span>
+<span>: why not</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: coven lead this</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: ALL COVEN</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: but u had pirate?</span>
+<span><br>[1]</span>
+<span class="SwedishWelfareSys">SwedishWelfareSys</span>
+<span>: I wasn't attacked this is exe</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: I WANT YOU TO LEAD</span>
+<span><br>[11]</span>
+<span class="byebye">byebye</span>
+<span>: 1 is lying</span>
+<span><br>[11]</span>
+<span class="byebye">byebye</span>
+<span>: kill 1</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>A Marshal has declared a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k114"><b><color=#007AFF><b>Tribunal</b></color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[1]</span>
+<span class="SwedishWelfareSys">SwedishWelfareSys</span>
+<span>: 11 is exe</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>SwedishWelfareSys</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="rook">rook</span>
+<span>: BG n1-2 n2-6</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: I WANT 3 TOWNIES</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: DEAD</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gunn Mann</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>SwedishWelfareSys</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>SwedishWelfareSys</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>rook</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>SwedishWelfareSys</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>SwedishWelfareSys</b> was voted up to trial.</span>
+<span><br>[1]</span>
+<span class="SwedishWelfareSys">SwedishWelfareSys</span>
+<span>: guess I'll die</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: COVEN KEEP PUSHING OUT TOWN</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: JUST VOTE</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[13]</span>
+<span class="rook">rook</span>
+<span>: whast 15</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gunn Mann</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 5 is psy whos not using confirmed evil in vision</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gunn Mann</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gunn Mann</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gunn Mann</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Gunn Mann</b> was voted up to trial.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style> will get their revenge from the grave!</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: ALL DIE</span>
+<span><br>[13]</span>
+<span class="rook">rook</span>
+<span>: get 15 non claimer</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: EVEN BETTER</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There is 1 possible trial remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>rook</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Greybeard</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: NEXT</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 11 is fake vigi btw shot 1 and no cov kill</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Greybeard</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: get 11</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Greybeard</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Greybeard</b> was voted up to trial.</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: i hope thats 2 towns and the jester</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>SwedishWelfareSys</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>SwedishWelfareSys</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gunn Mann</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gunn Mann</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Greybeard</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Greybeard</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>SwedishWelfareSys</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gunn Mann</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Greybeard</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF0000>Baker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="rook">rook</span>
+<span>: close enough</span>
+<span><br>[9]</span>
+<span class="Kokkoro">Kokkoro</span>
+<span>: YES</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> tonight.</span>
+<span><br>[6]</span>
+<span class="Edward-Bishop">Edward Bishop</span>
+<span>: GOOD</span>
+<span><br>[13]</span>
+<span class="rook">rook</span>
+<span>: clean</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: lol</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>rook</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style> decided to use a voodoo doll on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style> tonight.</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 11 is probably real vig</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: also I TOLD YOU</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: 1 was gonna be immune</span>
+<span><br>[13]</span>
+<span class="rook">rook</span>
+<span>: yeah lol</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style>: r u doom?</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were haunted by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Edward Bishop</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style>: oh what the fuck how did 13 die</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#AE00FF>Voodoo Master</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style>: did u shoot 13</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Kokkoro</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Hope Eradicated</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style>: oh right voodoo master</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r55"><b><color=#06E00C>Marshal</color></b></link></font></style>).</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>rook</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>rook</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r32"><b><color=#AE00FF>Medusa</color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Rapid mode has been activated.</span>
+<span><br>[8]</span>
+<span class="Hope-Eradicated">Hope Eradicated</span>
+<span>: i dont think we thought this out well enough</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>!</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Gunn-Mann</span>
+<span style="color:#689194">: MEXICAN STANDOFF BABY</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Arsonist</span>
+<span style="color:#689194">: fr</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Kokkoro</span>
+<span style="color:#689194">: YOOO</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Arsonist</span>
+<span style="color:#689194">: town dc'd</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Kokkoro</span>
+<span style="color:#689194">: NO ONE WINS</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Arsonist</span>
+<span style="color:#689194">: YO</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Hope Eradicated</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">byebye</span>
+<span style="color:#689194">: !</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Hope Eradicated</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">byebye</span>
+<span style="color:#689194">: byebye</i></span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Edward-Bishop</span>
+<span style="color:#689194">: GG</i></span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: i didnt think that through</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Gunn-Mann</span>
+<span style="color:#689194">: MEXICAN STANDOFF</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Kokkoro</span>
+<span style="color:#689194">: BRO WASNT COOKING</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Arsonist</span>
+<span style="color:#689194">: PIRATE + JESTER ONLY WIN LETS GOOOOOOOOOOOOO</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#AE00FF>Conjurer</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">rook</span>
+<span style="color:#689194">: 8 we should have killed the vig</i></span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: we shouldve</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Kokkoro</span>
+<span style="color:#689194">: MARSHAL HONARARY COVEN</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">byebye</span>
+<span style="color:#689194">: he thought i was doom</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="color:#689194"><br><i>[8]</span>
+<span style="color:#689194">Hope-Eradicated</span>
+<span style="color:#689194">: my brain turned off</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>byebye</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Arsonist</span>
+<span style="color:#689194">: PIRATE + JESTER ONLY WIN LETS GOOOOOOOOOOOOO!!! <b>Gunn Mann</b> MY FRIEND WE WON! NO ONE ELSE!</i></span>
+</body>
+</html>
